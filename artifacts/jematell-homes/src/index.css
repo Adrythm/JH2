@@ -2902,6 +2902,19 @@ a.contact-info-card:hover {
 .page-process-body p { color: var(--color-text-muted); font-size: 15px; line-height: 1.65; }
 @media (max-width: 1024px) { .page-process-list { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 540px) { .page-process-list { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  /* The component applies desktop-only nowrap sizing inline. Override it on
+     phones so long titles cannot widen and horizontally displace the page. */
+  .page-process .page-section-head .heading-lg,
+  .page-process-featured .page-section-head .heading-lg,
+  .page-services .page-section-head .heading-lg {
+    max-width: 100%;
+    font-size: clamp(30px, 9vw, 40px) !important;
+    line-height: 1.08;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+}
 
 /* Floor plan tier cards */
 .page-tiers-grid {
