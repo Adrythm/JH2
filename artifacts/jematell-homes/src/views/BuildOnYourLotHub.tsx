@@ -117,26 +117,38 @@ export function BuildOnYourLotHub() {
 
   return (
     <>
-      <section className="dt-section" style={{ paddingTop: 0 }}>
-        <div className="container container-narrow">
-          <div className="dt-prose" data-testid="byol-answer">
-            <h2>How building on your own lot works</h2>
-            <p>
+      <section id="how-it-works" className="dt-section byol-overview-section">
+        <div className="container">
+          <div className="byol-overview" data-testid="byol-answer">
+            <header className="byol-overview-heading">
+              <span className="eyebrow">Build on your lot</span>
+              <h2>How building on your own lot works</h2>
+              <span className="byol-overview-rule" aria-hidden="true" />
+            </header>
+            <div className="byol-overview-body">
+              <p className="byol-overview-lead">
               Building on your own lot means you own the land, or are buying it, and hire us to design and build the home on it, rather
               than buying a home inside a builder&apos;s subdivision. It gives you the most say over location, lot character and how the
               home sits on the ground. It also means the land decides most of what comes next.
-            </p>
-            <p>
+              </p>
+              <p>
               Before a floor plan matters, a lot has to answer a set of questions: what the zoning and setbacks allow, whether access is
               legal and recorded, whether water comes from the city, a well or a hauled-water tank, whether sewer is available or a septic
               system is needed, where power is and what it costs to bring in, what the soil is made of, and whether any of the lot sits in
               a floodplain. Which city or county issues the permit changes the answers, so we start there.
-            </p>
-            <p>
+              </p>
+              <div className="byol-overview-scope" aria-label="What we evaluate">
+                <span>Land &amp; access</span>
+                <span>Water &amp; utilities</span>
+                <span>Soil &amp; drainage</span>
+                <span>Permits &amp; budget</span>
+              </div>
+              <p>
               That is the work Jematell Homes takes on with you: site evaluation and feasibility, floor plan selection and customization,
               permits and approvals, and budget planning and financing, from the first walk of the lot to move-in day. The sections below
               are the questions we get asked most, answered from our own library.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
       </section>
