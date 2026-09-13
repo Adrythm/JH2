@@ -28,7 +28,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const path = `/gallery/${slug}`;
-  if (slug === "crist") {
+  if (slug === "skinner-custom") {
     return pageMetadata({
       title: "Skinner Custom",
       description: "A 2026 custom home in Rio Verde, AZ — captured in 56 professional photographs showing every detail of this signature Jematell Homes build.",
@@ -55,7 +55,7 @@ export default async function GalleryDetailPage({
   const { slug } = await params;
   const path = `/gallery/${slug}`;
 
-  if (slug === "crist") {
+  if (slug === "skinner-custom") {
     return (
       <>
         <JsonLd
@@ -65,7 +65,7 @@ export default async function GalleryDetailPage({
             { name: "Skinner Custom", url: path },
           ])}
         />
-        <GalleryDetail slug="crist" />
+        <GalleryDetail slug="skinner-custom" />
       </>
     );
   }
