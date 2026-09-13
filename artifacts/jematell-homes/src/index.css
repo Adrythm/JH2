@@ -1986,7 +1986,7 @@ picture {
   .gallery-detail-stats-inner {
     flex: 1;
     justify-content: center;
-    gap: 8px;
+    gap: 12px;
     flex-wrap: nowrap;
     min-width: 0;
   }
@@ -2003,7 +2003,11 @@ picture {
     letter-spacing: 0.08em;
     white-space: nowrap;
   }
-  .gallery-detail-stat-divider { display: none; }
+  .gallery-detail-stat-divider {
+    display: block;
+    width: 1px;
+    height: 30px;
+  }
 }
 
 /* ============================================
