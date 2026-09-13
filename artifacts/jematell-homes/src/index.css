@@ -1985,7 +1985,8 @@ picture {
   }
   .gallery-detail-stats-inner {
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
     flex-wrap: nowrap;
     min-width: 0;
   }
