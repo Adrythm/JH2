@@ -321,6 +321,8 @@ function PageHero({
     ? "Floor Plans"
     : slug === "custom-homes"
     ? "Custom Homes"
+    : slug === "where-we-build"
+    ? "Where We Build"
     : citySlug
     ? rawTitle.replace(/^Custom Home Builder in /i, "").replace(/, AZ.*$/i, "")
     : rawTitle;
