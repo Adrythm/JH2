@@ -153,7 +153,7 @@ export function BuildOnYourLotHub() {
         </div>
       </section>
       <section className="dt-section" style={{ paddingTop: 0 }}>
-        <div className="container container-narrow">
+        <div className="container byol-resources-container">
           <Interlink sections={sections} title="Your lot, answered" testid="byol-interlink" />
           <div className="dt-back-row" style={{ marginTop: "clamp(20px, 3vw, 32px)" }}>
             <Link href="/faq/topics/buying-land-to-build" className="dt-back" data-testid="byol-topic-link">

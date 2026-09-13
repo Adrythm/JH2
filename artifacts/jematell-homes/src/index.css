@@ -1909,6 +1909,9 @@ picture {
   padding-bottom: clamp(64px, 8vw, 112px);
   background: var(--color-bg);
 }
+.byol-resources-container {
+  max-width: 1160px;
+}
 .byol-overview {
   display: grid;
   grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
