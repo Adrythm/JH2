@@ -319,6 +319,8 @@ function PageHero({
   const rawTitle = cleanTitle(data.title);
   const title = slug === "floorplans"
     ? "Floor Plans"
+    : slug === "custom-homes"
+    ? "Custom Homes"
     : citySlug
     ? rawTitle.replace(/^Custom Home Builder in /i, "").replace(/, AZ.*$/i, "")
     : rawTitle;
