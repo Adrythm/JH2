@@ -165,8 +165,54 @@ const TOWNS: Record<string, Town> = {
       },
       {
         title: "County codes and inspections",
-        body: "Unincorporated Maricopa County builds to the 2018 codes and inspects at set points from foundation to final. We schedule and attend every inspection.",
+        body: "Unincorporated Maricopa County builds to the 2018 codes and inspects at set points from foundation to final. We handle the permit and schedule the inspections.",
         href: "/faq/what-building-codes-apply-in-rio-verde-foothills-arizona",
+      },
+    ],
+  },
+  phoenix: {
+    galleryLocations: ["Phoenix"],
+    heading: "Building a custom home in Phoenix",
+    lead:
+      "Inside Phoenix city limits the City of Phoenix reviews the plans, issues the permit and inspects the build. Phoenix moved to its 2024 Building Construction Code on August 1, 2025, and zoning runs from small R1-6 lots to one-acre RE-43 lots, so the lot's district sets the size and shape of the house before design starts.",
+    points: [
+      {
+        title: "The 2024 codes, since August 2025",
+        body: "Phoenix adopted the 2024 International Residential and Building codes and the 2023 National Electrical Code, with local amendments, effective August 1, 2025.",
+        href: `${REF}/phoenix-adopted-building-codes`,
+      },
+      {
+        title: "Zoning from R1-6 to RE-43",
+        body: "An R1-6 lot allows a 15 foot front and 10 foot side yard; an RE-43 acre lot needs a 40 foot front and 30 foot sides, both with a height limit near 30 feet.",
+        href: `${REF}/phoenix-residential-zoning-and-setbacks`,
+      },
+      {
+        title: "Impact fees depend on where the lot is",
+        body: "Most Phoenix impact fees apply only in the city's designated growth areas, not the built-out core, so two lots across town can carry very different fees.",
+        href: `${REF}/phoenix-building-permit-and-impact-fees`,
+      },
+    ],
+  },
+  "apache-junction": {
+    galleryLocations: ["Apache Junction"],
+    heading: "Building a new home in Apache Junction",
+    lead:
+      "We build new custom homes in Apache Junction and the Pinal County land around it. Inside city limits the City of Apache Junction permits and inspects the build; just outside, Pinal County does, with its own process. We confirm which applies, and what the ground is like, before anything is designed.",
+    points: [
+      {
+        title: "City limits or county land",
+        body: "A parcel just outside the city line falls under Pinal County Community Development, with a different application, fees and code edition.",
+        href: "/faq/how-permitting-works-in-pinal-county",
+      },
+      {
+        title: "Zoning from RS-GR to RS-5",
+        body: "An RS-GR lot of 1.25 acres needs a 40 foot front yard, 20 foot sides and a 40 foot rear yard; an RS-7 lot needs 20 foot front and rear yards and 7 foot sides.",
+        href: `${REF}/apache-junction-residential-zoning-and-setbacks`,
+      },
+      {
+        title: "Earth fissures and subsidence",
+        body: "Parts of Pinal County have mapped earth fissures and sinking ground, which can change where a house sits on the lot and what foundation it needs. We check before design.",
+        href: "/faq/earth-fissures-and-land-subsidence-in-pinal-county",
       },
     ],
   },
