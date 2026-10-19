@@ -3739,7 +3739,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-to-verify-an-arizona-contractor-license-with-the-roc",
       question: "How do I verify an Arizona contractor's license with the ROC?",
-      seoTitle: "How to Verify an Arizona Contractor License (ROC)",
+      seoTitle: "Arizona Contractor License Lookup: How to Check the ROC",
       answerHtml: `<p>To verify an Arizona contractor's license, use the free <strong>license search</strong> run by the <strong>Arizona Registrar of Contractors (ROC)</strong> at roc.az.gov. The ROC is the state agency that licenses and disciplines contractors. Search by the contractor's name, license number, business name, or ZIP code. When the record opens, confirm four things: the <strong>status</strong> reads "Active," the <strong>license class</strong> matches your project, the <strong>bond</strong> is current, and the contractor has no open or repeated <strong>complaints</strong>. This check is free, takes a few minutes, and protects your money before you sign or pay anything.</p>
 <p>Why it matters in Arizona is concrete. The state's <strong>Residential Contractors' Recovery Fund</strong> only pays homeowners back for damage caused by a <strong>licensed</strong> contractor. A.R.S. 32-1132 ties the fund to a "residential contractor" with a license. If you hire someone who is not licensed, that backstop is gone. So the license check is not paperwork. It is the thing that keeps a state safety net available if the build goes wrong.</p>
 <h2>How to run the ROC license search</h2>
@@ -3759,7 +3759,7 @@ export const faqSeed: FaqSeed = {
 <p>The bigger cost is to you. With a licensed builder, three protections kick in. You can file an <strong>ROC complaint</strong> and the agency can order repairs or discipline the license. You can claim against the contractor's <strong>license bond</strong>. And as a last resort, you can claim from the <strong>Residential Contractors' Recovery Fund</strong>, which pays up to $30,000 in actual damages under A.R.S. 32-1132 and related sections. An unlicensed worker erases all three. For the full path on filing a complaint and claiming the fund, see our guide on <a href="/faq/how-to-file-an-roc-complaint-and-recovery-fund-arizona">how to file an ROC complaint and recovery fund claim in Arizona</a>.</p>
 <p>One Arizona wrinkle is the <strong>owner-builder exemption</strong>. A.R.S. 32-1121 lets you build or improve your own home, for your own use, without a contractor license, as long as you are not building it to sell or rent within a year. That exemption is for owners doing their own work, not a loophole that lets you hire an unlicensed crew. If you are paying someone to build your home, they need the license, and you should verify it. The takeaway is to run the free ROC search first, confirm Active status and a class B license, and keep a screenshot of the record with your contract.</p>
 <h2>The Jematell Homes approach</h2>
-<p>Transparency, a real license, and a written scope are how we work. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<p>Transparency, a real license, and a written scope are how we work. Jematell Homes is licensed by the ROC as ROC# 339367, so you can run this same check on us. See how a <a href="/custom-homes">custom home build</a> works with us, or <a href="/contact">reach out</a> and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://roc.az.gov/search" target="_blank" rel="noopener noreferrer">Arizona Registrar of Contractors (ROC) license search</a></li>
@@ -3768,7 +3768,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/32/01132.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1132 (Recovery Fund covers damage by a licensed residential contractor)</a></li>
 </ul>`,
       shortAnswer: "Search the contractor by name, license number, or business at the Arizona Registrar of Contractors (ROC) license search on roc.az.gov. Confirm the status reads Active, the class fits your job (B is General Residential Contractor), the bond is current, and check for complaints before you sign or pay.",
-      metaDescription: "Check any Arizona contractor free at roc.az.gov: license status, the right class for a home build, and the bond. Step by step, with what to watch for.",
+      metaDescription: "Look up any Arizona contractor free on the ROC license search: status, license class, bond and complaints, step by step, before you sign or pay a deposit.",
       categorySlug: "choosing-a-builder",
       topicSlugs: ["choosing-a-custom-home-builder"],
       tags: ["builder", "research-phase"],
