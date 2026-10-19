@@ -135,7 +135,7 @@ export default function GalleryDetail({ slug, title = "", ogImage, images = [] }
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
 
   // Compute the normalised image list up-front (always, to satisfy Rules of Hooks)
-  const isCrist = slug === "crist";
+  const isCrist = slug === "skinner-custom";
   const cristImgs = isCrist ? cristImages() : [];
 
   const normalized: NormalizedImage[] = isCrist

@@ -1902,6 +1902,132 @@ picture {
   text-transform: uppercase;
 }
 
+/* Build-on-your-lot overview — a wider editorial introduction that turns the
+   page's dense opening copy into a clear heading, reading column, and scope. */
+.byol-overview-section {
+  padding-top: clamp(64px, 8vw, 112px);
+  padding-bottom: clamp(64px, 8vw, 112px);
+  background: var(--color-bg);
+}
+.byol-resources-container {
+  max-width: 1160px;
+}
+.byol-overview {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(52px, 8vw, 128px);
+  align-items: start;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.byol-overview-heading {
+  position: sticky;
+  top: 112px;
+}
+.byol-overview-heading .eyebrow {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--color-accent);
+}
+.byol-overview-heading h2 {
+  max-width: 480px;
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(38px, 4.6vw, 66px);
+  font-weight: 300;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  color: var(--color-dark);
+}
+.byol-overview-rule {
+  display: block;
+  width: 72px;
+  height: 2px;
+  margin-top: 30px;
+  background: var(--color-accent);
+}
+.byol-overview-body {
+  color: var(--color-text);
+}
+.byol-overview-body p {
+  max-width: 660px;
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 1.72;
+}
+.byol-overview-body .byol-overview-lead {
+  margin-bottom: 28px;
+  font-family: var(--font-heading);
+  font-size: clamp(22px, 2.3vw, 30px);
+  font-weight: 300;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  color: var(--color-dark);
+}
+.byol-overview-scope {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 34px 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.byol-overview-scope span {
+  position: relative;
+  padding: 16px 16px 16px 24px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: var(--color-dark);
+}
+.byol-overview-scope span::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--color-accent);
+  transform: translateY(-50%) rotate(45deg);
+}
+.byol-overview-scope span:nth-child(odd) {
+  border-right: 1px solid var(--color-border);
+}
+.byol-overview-scope span:nth-child(-n + 2) {
+  border-bottom: 1px solid var(--color-border);
+}
+@media (max-width: 760px) {
+  .byol-overview {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .byol-overview-heading {
+    position: static;
+  }
+  .byol-overview-heading h2 {
+    max-width: 560px;
+    font-size: clamp(38px, 11vw, 52px);
+  }
+  .byol-overview-rule {
+    margin-top: 24px;
+  }
+  .byol-overview-body .byol-overview-lead {
+    font-size: 23px;
+  }
+}
+@media (max-width: 420px) {
+  .byol-overview-scope {
+    grid-template-columns: 1fr;
+  }
+  .byol-overview-scope span:nth-child(odd) {
+    border-right: 0;
+  }
+  .byol-overview-scope span:not(:last-child) {
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
 /* Stats bar — Crist */
 .gallery-detail-stats {
   background: var(--color-cream);
@@ -1957,9 +2083,57 @@ picture {
   flex-shrink: 0;
 }
 @media (max-width: 600px) {
-  .gallery-detail-stat { padding: 8px 20px; }
-  .gallery-detail-stat-divider { display: none; }
-  .gallery-detail-stats-inner { gap: 0; }
+  .gallery-detail-stats {
+    padding: 22px 0;
+  }
+  .gallery-detail-stats .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .gallery-detail-stats-layout {
+    gap: 8px;
+  }
+  .gallery-detail-stats-nav {
+    flex: 0 0 auto;
+  }
+  .gallery-detail-stats-nav:last-child {
+    display: none;
+  }
+  .gallery-detail-stats-back {
+    display: inline-flex;
+    gap: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .gallery-detail-stats-back svg {
+    width: 12px;
+    height: 12px;
+  }
+  .gallery-detail-stats-inner {
+    flex: 1;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+  .gallery-detail-stat {
+    min-width: 0;
+    padding: 0 3px;
+  }
+  .gallery-detail-stat-value {
+    font-size: clamp(15px, 4.5vw, 19px);
+    white-space: nowrap;
+  }
+  .gallery-detail-stat-label {
+    font-size: 7px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+  .gallery-detail-stat-divider {
+    display: block;
+    width: 1px;
+    height: 30px;
+  }
 }
 
 /* ============================================
@@ -2728,6 +2902,19 @@ a.contact-info-card:hover {
 .page-process-body p { color: var(--color-text-muted); font-size: 15px; line-height: 1.65; }
 @media (max-width: 1024px) { .page-process-list { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 540px) { .page-process-list { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  /* The component applies desktop-only nowrap sizing inline. Override it on
+     phones so long titles cannot widen and horizontally displace the page. */
+  .page-process .page-section-head .heading-lg,
+  .page-process-featured .page-section-head .heading-lg,
+  .page-services .page-section-head .heading-lg {
+    max-width: 100%;
+    font-size: clamp(30px, 9vw, 40px) !important;
+    line-height: 1.08;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+}
 
 /* Floor plan tier cards */
 .page-tiers-grid {

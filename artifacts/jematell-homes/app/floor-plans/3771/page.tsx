@@ -49,7 +49,7 @@ export default function Page() {
           heading: "See the Finished Home",
           subtext: "The 3771 floor plan, built as our Skinner Custom home in Surprise, AZ.",
           images: GALLERY,
-          linkHref: "/gallery/crist",
+          linkHref: "/gallery/skinner-custom",
           linkLabel: "View Full Gallery",
         }}
       />
