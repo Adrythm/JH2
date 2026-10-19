@@ -33,7 +33,7 @@ const FEATURED_PROJECT_IMAGES: Record<
   string,
   { name: string; widths: number[]; width: number; height: number }
 > = {
-  crist: {
+  "skinner-custom": {
     name: "gallery/crist/10-DSC05808",
     widths: [768, 1280, 1920, 2500],
     width: 6188,
@@ -58,7 +58,7 @@ const FEATURED_PROJECT_IMAGES: Record<
 const FEATURED_PROJECT_SIZES =
   "(min-width: 1440px) 421px, (min-width: 901px) 30vw, (min-width: 601px) 45vw, 90vw";
 
-const FEATURED_PROJECT_SLUGS = ["crist", "modern-farmhouse", "rio-verde-farmhouse"];
+const FEATURED_PROJECT_SLUGS = ["skinner-custom", "modern-farmhouse", "rio-verde-farmhouse"];
 
 export function FeaturedProjects() {
   const projects = FEATURED_PROJECT_SLUGS.map((slug) => {

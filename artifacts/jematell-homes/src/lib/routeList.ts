@@ -27,9 +27,9 @@ export function blogSlugs(): string[] {
   return Object.keys(blogs).filter(isRealPost);
 }
 
-/** Gallery detail slugs: the hand-built crist page + every scraped gallery_ page. */
+/** Gallery detail slugs: the hand-built Skinner Custom page + every scraped gallery_ page. */
 export function gallerySlugs(): string[] {
-  const slugs = new Set<string>(["crist"]);
+  const slugs = new Set<string>(["skinner-custom"]);
   for (const key of Object.keys(pages)) {
     if (key.startsWith("gallery_")) slugs.add(key.slice("gallery_".length));
   }

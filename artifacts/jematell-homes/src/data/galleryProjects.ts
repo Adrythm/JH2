@@ -9,7 +9,7 @@ export interface GalleryProject {
 }
 
 export const GALLERY_PROJECTS: GalleryProject[] = [
-  { slug: "crist",               title: "Skinner Custom",      meta: "Surprise, AZ · Custom Home",  thumb: "/images/gallery/crist/kitchen-hero.png", buildType: "Custom", location: "Surprise", completed: "2026" },
+  { slug: "skinner-custom",      title: "Skinner Custom",      meta: "Surprise, AZ · Custom Home",  thumb: "/images/gallery/crist/kitchen-hero.png", buildType: "Custom", location: "Surprise", completed: "2026" },
   { slug: "modern-farmhouse",    title: "Modern Farmhouse",    meta: "Rio Verde · Custom Home",      buildType: "Custom", location: "Rio Verde", completed: "2024" },
   { slug: "rio-verde-farmhouse", title: "Rio Verde Farmhouse", meta: "Rio Verde · Custom Home",      buildType: "Custom", location: "Rio Verde", completed: "2026" },
   { slug: "cave-creek",          title: "Cave Creek Spec",     meta: "Cave Creek · Spec Home",       buildType: "Spec",   location: "Cave Creek", completed: "2026" },
