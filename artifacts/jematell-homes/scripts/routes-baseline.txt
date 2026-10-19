@@ -43,7 +43,7 @@
 /where-we-build/casa-grande
 /where-we-build/apache-junction
 /where-we-build/surprise
-/gallery/crist
+/gallery/skinner-custom
 /gallery/az-city-custom
 /gallery/cave-creek
 /gallery/cozy-comfort
