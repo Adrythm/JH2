@@ -3,6 +3,7 @@ import { pageMetadata } from "@/seo/metadata";
 import { contentPageMeta, contentPageJsonLd } from "@/lib/contentPageMeta";
 import { JsonLd } from "@/seo/JsonLd";
 import { pages } from "@/data/pages";
+import { CustomHomesHub } from "@/views/CustomHomesHub";
 
 export const metadata = pageMetadata(contentPageMeta({ pageKey: "custom-homes" }));
 
@@ -11,7 +12,7 @@ export default function CustomHomes() {
   return (
     <>
       {jsonLd.length ? <JsonLd data={jsonLd} /> : null}
-      <ContentPage pageKey="custom-homes" data={pages["custom-homes"]} />
+      <ContentPage pageKey="custom-homes" data={pages["custom-homes"]} hubSlot={<CustomHomesHub />} />
     </>
   );
 }

@@ -161,9 +161,16 @@ export default function CasitasPage() {
             </p>
             <p>
               Jematell Homes designs and builds detached casitas and guest houses as part of a new custom home or on a lot you already own,
-              across Scottsdale, Phoenix, Cave Creek, Rio Verde and the rest of our service area. Expect about $200 to $400 per square foot
-              in 2026: a typical 400 to 800 square foot detached casita runs roughly $100,000 to $280,000, and a guest house with no kitchen
-              costs less than a full rentable casita. We are a licensed Arizona general contractor, {siteConfig.contact.roc}.
+              across Scottsdale, Phoenix, Cave Creek, Rio Verde and the rest of our service area. The cost depends on the size, whether it
+              has a kitchen, the utilities your lot needs and what your city requires, so we price it from your plans and confirm the
+              number before work starts; the guides below explain what moves the price. We are a licensed Arizona general contractor,{" "}
+              {siteConfig.contact.roc}.
+            </p>
+            <p>
+              Not sure where to start? Tell us about your lot and what you want the space for, and we will tell you which kind of building
+              your city allows. <Link href="/contact">Contact us</Link> or call {siteConfig.contact.phone.display}. Building a whole new
+              home with a guest space included? See our <Link href="/custom-homes">custom homes</Link>, or start with{" "}
+              <Link href="/build-on-your-lot">building on your own lot</Link>.
             </p>
           </div>
           <div className="dt-back-row" style={{ marginTop: "clamp(20px, 3vw, 32px)" }}>
