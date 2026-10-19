@@ -55,8 +55,9 @@ const BY_CATEGORY: Record<string, Step> = {
   },
 };
 
-function pick(slug: string, categorySlug: string): Step | null {
-  if (/(^|-)(adu|adus|casita|casitas|guest-house|guest-suite|jadu)(-|$)/.test(slug))
+/** Slug-level matches that beat any category: ADUs, warranty, financing. */
+function bySlug(slug: string): Step | null {
+  if (/(^|-)(adu|adus|casita|casitas|guest-house|guest-houses|guest-suite|jadu)(-|$)/.test(slug))
     return {
       lead: "Want a casita, guest house or ADU built?",
       linkLabel: "See our casita and guest house builds",
@@ -70,12 +71,60 @@ function pick(slug: string, categorySlug: string): Step | null {
       linkLabel: "See how construction financing works with us",
       href: "/financing",
     };
-  return BY_CATEGORY[categorySlug] ?? null;
+  return null;
 }
 
-export function FaqNextStep({ slug, categorySlug }: { slug: string; categorySlug: string }) {
-  const step = pick(slug, categorySlug);
-  if (!step) return null;
+function pick(slug: string, categorySlug: string): Step | null {
+  return bySlug(slug) ?? BY_CATEGORY[categorySlug] ?? null;
+}
+
+const BUILD_ON_YOUR_LOT = BY_CATEGORY["land-and-due-diligence"];
+const CUSTOM_BUILD = BY_CATEGORY["building-in-the-desert"];
+const PERMITS = BY_CATEGORY["permits-and-codes"];
+const BUILDER = BY_CATEGORY["choosing-a-builder"];
+
+/** Glossary categories, as glossary.json spells them. */
+const BY_GLOSSARY_CATEGORY: Record<string, Step> = {
+  "Site & Land": BUILD_ON_YOUR_LOT,
+  "Zoning & Lot": BUILD_ON_YOUR_LOT,
+  "Site & Utilities": BY_CATEGORY["water-septic-utilities"],
+  "Site & Soil": BUILD_ON_YOUR_LOT,
+  "Permits & Codes": PERMITS,
+  "Codes & Permits": PERMITS,
+  "Permits & Inspections": PERMITS,
+  "Contracts & Cost": {
+    lead: "Comparing builders and contracts?",
+    linkLabel: "See how we price and run a build",
+    href: "/custom-homes",
+  },
+};
+
+/**
+ * Glossary entries whose definitions already end with a hand-written link to
+ * the build pages (JH2 #14, 2026-10-18); a second block would repeat it.
+ */
+const GLOSSARY_SKIP = new Set(["weep-screed", "roc", "build-on-your-lot"]);
+
+/** Guides that are not city guides, by slug. City guides go to their town page. */
+const BY_GUIDE: Record<string, Step> = {
+  "building-a-custom-home-on-rural-arizona-land": BUILD_ON_YOUR_LOT,
+  "choosing-a-custom-home-builder-in-arizona-complete-guide": BUILDER,
+  "custom-home-design-guide-arizona": CUSTOM_BUILD,
+  "how-to-build-a-custom-home-in-arizona": CUSTOM_BUILD,
+  "the-pre-construction-permit-layer-in-arizona": PERMITS,
+};
+
+/** Town pages under /where-we-build, by city name as guides.json spells it. */
+function townStep(city: string, townSlug: string | null): Step {
+  if (!townSlug) return { ...CUSTOM_BUILD, lead: `Planning a custom home in ${city}?` };
+  return {
+    lead: `Planning to build in ${city}?`,
+    linkLabel: `See how we build in ${city}`,
+    href: `/where-we-build/${townSlug}`,
+  };
+}
+
+function NextStepAside({ step }: { step: Step }) {
   return (
     <aside className="dt-answer-card" data-testid="faq-next-step" aria-label="Next step">
       <span className="dt-answer-card-label">Planning to build?</span>
@@ -93,4 +142,20 @@ export function FaqNextStep({ slug, categorySlug }: { slug: string; categorySlug
       </p>
     </aside>
   );
+}
+
+export function GuideNextStep({ slug, city, townSlug }: { slug: string; city?: string; townSlug?: string | null }) {
+  const step = city ? townStep(city, townSlug ?? null) : bySlug(slug) ?? BY_GUIDE[slug] ?? null;
+  return step ? <NextStepAside step={step} /> : null;
+}
+
+export function GlossaryNextStep({ slug, category }: { slug: string; category?: string }) {
+  if (GLOSSARY_SKIP.has(slug)) return null;
+  const step = bySlug(slug) ?? BY_GLOSSARY_CATEGORY[category ?? ""] ?? CUSTOM_BUILD;
+  return <NextStepAside step={step} />;
+}
+
+export function FaqNextStep({ slug, categorySlug }: { slug: string; categorySlug: string }) {
+  const step = pick(slug, categorySlug);
+  return step ? <NextStepAside step={step} /> : null;
 }
