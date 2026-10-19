@@ -8,6 +8,7 @@ import { locations } from "@/config/siteConfig";
 import { pages } from "@/data/pages";
 import { relationsForRegion } from "@/lib/interlink";
 import { buildInterlinkSections } from "@/lib/interlink.config";
+import { RegionHub } from "@/views/RegionHub";
 
 export const dynamicParams = false;
 
@@ -41,7 +42,13 @@ export default async function RegionPage({
   return (
     <>
       {jsonLd.length ? <JsonLd data={jsonLd} /> : null}
-      <ContentPage isRegion region={region} data={pages[region]} interlinks={interlinks} />
+      <ContentPage
+        isRegion
+        region={region}
+        data={pages[region]}
+        interlinks={interlinks}
+        hubSlot={<RegionHub region={region} cityName={cityName} />}
+      />
     </>
   );
 }
