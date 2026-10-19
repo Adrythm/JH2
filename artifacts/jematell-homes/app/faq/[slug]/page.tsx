@@ -15,6 +15,7 @@ import { Interlink } from "@/components/Interlink";
 import { relationsForFaq } from "@/lib/interlink";
 import { buildInterlinkSections } from "@/lib/interlink.config";
 import { CTA } from "@/cta";
+import { FaqNextStep } from "@/components/FaqNextStep";
 
 export const dynamicParams = false;
 
@@ -141,6 +142,7 @@ export default async function FaqDetailPage({
               paragraphs.map((p, i) => <p key={i}>{p}</p>)
             )}
           </div>
+          <FaqNextStep slug={detail.slug} categorySlug={detail.categorySlug} />
           <Interlink sections={interlinks} testid="faq-interlink" />
           <Link href="/faq" className="dt-back" data-testid="faq-detail-all">
             All questions <ArrowRight size={14} aria-hidden="true" />
