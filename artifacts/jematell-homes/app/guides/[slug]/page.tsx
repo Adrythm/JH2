@@ -15,6 +15,8 @@ import { enrichGuideBody } from "@/lib/guideEnrich";
 import { DetailShell } from "@/components/DetailShell";
 import { DetailDisclaimer } from "@/components/DetailParts";
 import { Interlink } from "@/components/Interlink";
+import { GuideNextStep } from "@/components/FaqNextStep";
+import { locations } from "@/config/siteConfig";
 import { relationsForGuide } from "@/lib/interlink";
 import { buildInterlinkSections } from "@/lib/interlink.config";
 import { ContactCta } from "@/components/ContactCta";
@@ -81,6 +83,8 @@ export default async function GuideDetailPage({
     .slice(0, 6);
 
   const path = `/guides/${guide.slug}`;
+  // "Rio Verde Foothills" belongs on the Rio Verde page; a city with no town page gets none.
+  const townSlug = guide.city ? locations.find((l) => guide.city!.startsWith(l.name))?.slug ?? null : null;
   const crumbs = [
     { name: "Home", url: "/" },
     { name: "Guides", url: "/guides" },
@@ -134,6 +138,7 @@ export default async function GuideDetailPage({
             </Link>
           </div>
           <div className="dt-prose" data-testid="guide-body" dangerouslySetInnerHTML={{ __html: article.html }} />
+          <GuideNextStep slug={guide.slug} city={guide.city || undefined} townSlug={townSlug} />
           <Interlink sections={interlinks} testid="guide-interlink" />
           <Link href="/guides" className="dt-back" data-testid="guide-detail-all">
             All guides <ArrowRight size={14} aria-hidden="true" />

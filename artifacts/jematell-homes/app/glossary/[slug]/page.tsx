@@ -11,6 +11,7 @@ import { JsonLd } from "@/seo/JsonLd";
 import { annotateHeadings, readingTime } from "@/lib/detail";
 import { DetailDisclaimer } from "@/components/DetailParts";
 import { Interlink } from "@/components/Interlink";
+import { GlossaryNextStep } from "@/components/FaqNextStep";
 import { relationsForGlossary } from "@/lib/interlink";
 import { buildInterlinkSections } from "@/lib/interlink.config";
 import { CTA } from "@/cta";
@@ -99,6 +100,7 @@ export default async function GlossaryDetailPage({
               ) : null}
 
               <div className="dt-prose" data-testid="glossary-definition" dangerouslySetInnerHTML={{ __html: article.html }} />
+              <GlossaryNextStep slug={term.slug} category={term.category} />
 
               <Interlink sections={interlinks} testid="glossary-interlink" />
 
