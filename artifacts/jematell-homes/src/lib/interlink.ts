@@ -354,8 +354,7 @@ const CITY_JURISDICTIONS: Record<string, string[]> = {
   "apache-junction": ["apache-junction", "pinal-county"],
   "rio-verde": ["maricopa-county"],
   "paradise-valley": ["paradise-valley"],
-  // Surprise has its own building department and no hub yet, so it maps to
-  // nothing rather than to the unincorporated-county rules.
+  surprise: ["surprise"],
 };
 
 /** Jurisdiction slug -> city page slugs where those rules apply. */
