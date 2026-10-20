@@ -110,6 +110,7 @@ const BY_GUIDE: Record<string, Step> = {
   "building-a-custom-home-on-rural-arizona-land": BUILD_ON_YOUR_LOT,
   "choosing-a-custom-home-builder-in-arizona-complete-guide": BUILDER,
   "custom-home-design-guide-arizona": CUSTOM_BUILD,
+  "arizona-home-styles-guide": CUSTOM_BUILD,
   "how-to-build-a-custom-home-in-arizona": CUSTOM_BUILD,
   "the-pre-construction-permit-layer-in-arizona": PERMITS,
 };
