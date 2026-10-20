@@ -9154,6 +9154,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "arizona-adu-requirements",
       question: "What are Arizona's ADU requirements for setbacks, size, and utilities?",
+      seoTitle: "Arizona ADU Requirements: Lot Size and Setbacks",
       answerHtml: `<p>Arizona's <strong>ADU</strong> (accessory dwelling unit) requirements set a clear floor that cities and counties cannot drop below. The state caps <strong>rear and side setbacks at five feet</strong> from the lot line, sizes an ADU at <strong>75% of the main home's floor area or 1,000 square feet, whichever is less</strong>, and forbids cities from requiring <strong>extra parking</strong>. Every ADU still needs its own <strong>sleeping and bathroom space</strong> and a working hookup to <strong>water, sewer or septic, and electricity</strong>. These rules come from <strong>A.R.S. 9-461.18</strong> for cities over 75,000 people and <strong>A.R.S. 11-810.01</strong> for counties. Your specific city can add detail, but it cannot undercut the state minimums.</p>
 <p>The requirements split into a few buckets: setbacks and placement, size, utilities, parking, and rental rules. Below is what each one means for a real Arizona ADU, and where Phoenix and Scottsdale add their own fine print.</p>
 <h2>Setback and placement requirements</h2>
@@ -10043,6 +10044,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-an-adu-arizona",
       question: "What is an ADU in Arizona and what are the rules?",
+      seoTitle: "What Is an ADU? Accessory Dwelling Units in AZ",
       answerHtml: `<p>An <strong>ADU</strong>, short for <strong>accessory dwelling unit</strong>, is a small, self-contained second home built on the same lot as a single-family house. It has its own place to sleep and its own bathroom, and it usually has its own kitchen. State law in <strong>A.R.S. 9-461.18</strong> defines it as a living unit on the same lot as a larger single-family home, with its own sleeping and sanitation facilities. As of 2025, Arizona cities with more than <strong>75,000 people</strong> must allow at least <strong>one attached and one detached ADU</strong> on any lot where a single-family home is allowed. People in Arizona often call an ADU a <strong>casita</strong>, a <strong>guest house</strong>, or a <strong>granny flat</strong>.</p>
 <p>The rules changed fast. A new state law forced big cities like Phoenix and Scottsdale to open their backyards to ADUs, and counties followed in 2026. Below is what an ADU is, what the law now requires, and how it differs from a plain casita or guest house.</p>
 <h2>What counts as an ADU in Arizona</h2>
