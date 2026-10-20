@@ -48,6 +48,11 @@ export interface AdRhythmLead {
   landing_page?: string;
   request_action?: string;
   request_topic?: string;
+  /**
+   * The order id the form pushed to Tag Manager with the conversion. Adrythm
+   * reads it to find the Google Ads conversion when a lead is marked junk.
+   */
+  transaction_id?: string;
 }
 
 const sleep = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));

@@ -24,6 +24,8 @@ export interface ContactSubmission {
   phone: string;
   message: string;
   selection?: ContactSelection;
+  /** The order-number id also pushed to Tag Manager as `lead.transaction_id`. */
+  transaction_id: string;
   tracking: TrackingData;
 }
 

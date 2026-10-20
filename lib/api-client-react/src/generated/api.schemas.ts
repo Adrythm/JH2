@@ -103,6 +103,12 @@ export interface ContactRequest {
   phone: string;
   message: string;
   selection?: ContactSelection;
+  /**
+     * The order-number id the form also pushes to Tag Manager as lead.transaction_id, forwarded to Adrythm so a junk form lead's Google Ads conversion can be found and withdrawn. Optional so a page cached before it existed still submits.
+     * @maxLength 64
+     * @pattern ^[A-Za-z0-9-]+$
+     */
+  transaction_id?: string;
   tracking: ContactTracking;
 }
 
