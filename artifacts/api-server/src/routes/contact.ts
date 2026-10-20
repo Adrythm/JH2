@@ -628,6 +628,7 @@ router.post("/contact", async (req: Request, res: Response): Promise<void> => {
     landing_page: t.landing_page,
     request_action: data.selection?.action,
     request_topic: data.selection?.topic,
+    transaction_id: data.transaction_id,
   })
     .then((adrythm) => {
       req.log.info({ adrythm }, "AdRhythm lead forwarding finished");

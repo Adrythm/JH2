@@ -103,6 +103,10 @@ export const GetFaqResponse = zod.object({
  * @summary Submit a contact form lead
  */
 
+export const submitContactBodyTransactionIdMax = 64;
+
+
+export const submitContactBodyTransactionIdRegExp = new RegExp('^[A-Za-z0-9-]+$');
 
 
 export const SubmitContactBody = zod.object({
@@ -116,6 +120,7 @@ export const SubmitContactBody = zod.object({
   "otherTopic": zod.string().describe('Free text typed when `topic` is \"other\".'),
   "question": zod.string().describe('Free text typed when the action is \"ask a question\".')
 }).optional().describe('The structured choices behind a sentence-builder message. The composed sentence is still sent as `message`; this reports which chips produced it so the reply can be tailored without re-parsing prose. Absent when the visitor typed their own message.'),
+  "transaction_id": zod.string().max(submitContactBodyTransactionIdMax).regex(submitContactBodyTransactionIdRegExp).optional().describe('The order-number id the form also pushes to Tag Manager as lead.transaction_id, forwarded to Adrythm so a junk form lead\'s Google Ads conversion can be found and withdrawn. Optional so a page cached before it existed still submits.'),
   "tracking": zod.object({
   "gclid": zod.string(),
   "msclkid": zod.string().optional().describe('Microsoft Advertising click id (auto-tagging).'),

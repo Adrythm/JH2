@@ -3,7 +3,7 @@ import { useEffect, useRef, useCallback, useState } from "react";
 import { createPortal } from "react-dom";
 import { m, AnimatePresence, useReducedMotion } from "framer-motion";
 import { Check, Phone, ArrowRight, ChevronLeft, Send, X } from "lucide-react";
-import { loadGTM, reportConversion, getTrackingData } from "./analytics";
+import { loadGTM, reportConversion, getTrackingData, newTransactionId } from "./analytics";
 import { submitContactForm } from "./submit";
 import { siteConfig } from "./siteConfig";
 import { useSafeTimeouts } from "./useSafeTimeouts";
@@ -388,6 +388,10 @@ export default function ContactForm({ onClose, variant = "modal" }: ContactFormP
           question: actionValue === "ask a question" ? questionValue.trim() : "",
         };
 
+    // Made once per submission and shared by the post and the conversion
+    // push, so the portal holds the same order id Google Ads recorded.
+    const transactionId = newTransactionId();
+
     try {
       const result = await submitContactForm({
         name: formData.name,
@@ -395,6 +399,7 @@ export default function ContactForm({ onClose, variant = "modal" }: ContactFormP
         phone: formData.phone,
         message: msg,
         selection,
+        transaction_id: transactionId,
         tracking,
       });
       if (result.success) {
@@ -404,6 +409,7 @@ export default function ContactForm({ onClose, variant = "modal" }: ContactFormP
           "contact_submission",
           true,
           siteConfig.conversionValue.newContact,
+          transactionId,
         );
       } else {
         console.error("Form submission error:", result.error);
