@@ -938,7 +938,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/content/IRC2021P2/chapter-4-foundations" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Chapter 4 (Foundations), Section R403 (ICC)</a></li>
 <li><a href="https://azgs.arizona.edu/geohazards/problem-soils" target="_blank" rel="noopener noreferrer">Arizona Geological Survey: Problem Soils (expansive and collapsing soils)</a></li>
 <li><a href="https://www.post-tensioning.org/education/ptapplications/slab-on-ground.aspx" target="_blank" rel="noopener noreferrer">Post-Tensioning Institute: Post-Tensioned Slab-on-Ground Foundations</a></li>
-<li><a href="https://www.huduser.gov/Portal/periodicals/cityscape/vol25num1/ch10.pdf" target="_blank" rel="noopener noreferrer">HUD PD&amp;R Cityscape: Residential House Foundations on Expansive Soils</a></li>
+<li><a href="https://www.huduser.gov/portal/periodicals/cityscape/vol25num1/index.html" target="_blank" rel="noopener noreferrer">HUD PD&amp;R Cityscape, Volume 25 Number 1 (includes Residential House Foundations on Expansive Soils)</a></li>
 </ul>`,
       shortAnswer: "Builders start with a soil test that measures how much the clay swells, then design the foundation to that number. On expansive soil, that usually means a post-tension slab, a stiffened slab with deep beams, or piers, plus drainage that keeps water away from the clay.",
       metaDescription: "Foundation design for expansive soil in Arizona starts with a soil test, then a post-tension or stiffened slab engineered to the clay's swell, plus drainage.",
@@ -3035,7 +3035,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.post-tensioning.org/education/ptapplications/slab-on-ground.aspx" target="_blank" rel="noopener noreferrer">Post-Tensioning Institute: Post-Tensioned Slab-on-Ground Foundations</a></li>
 <li><a href="https://azgs.arizona.edu/geohazards/problem-soils" target="_blank" rel="noopener noreferrer">Arizona Geological Survey: Problem Soils (expansive and collapsing soils)</a></li>
 <li><a href="https://codes.iccsafe.org/content/IRC2024P1/chapter-5-floors" target="_blank" rel="noopener noreferrer">2024 International Residential Code, Chapter 5 (Floors), Section R506 (ICC)</a></li>
-<li><a href="https://www.huduser.gov/Portal/periodicals/cityscape/vol25num1/ch10.pdf" target="_blank" rel="noopener noreferrer">HUD PD&amp;R Cityscape: Residential House Foundations on Expansive Soils</a></li>
+<li><a href="https://www.huduser.gov/portal/periodicals/cityscape/vol25num1/index.html" target="_blank" rel="noopener noreferrer">HUD PD&amp;R Cityscape, Volume 25 Number 1 (includes Residential House Foundations on Expansive Soils)</a></li>
 </ul>`,
       shortAnswer: "Post-tension slabs are common in Arizona because much of the soil is expansive clay that swells when wet and shrinks when dry. Steel cables tensioned inside the concrete keep the slab stiff and crack-free as the ground moves under it through the year.",
       metaDescription: "Post-tension slabs suit Arizona because expansive clay soils swell and shrink. Tensioned steel cables keep the slab stiff and crack-free as the ground moves.",
@@ -3549,7 +3549,7 @@ export const faqSeed: FaqSeed = {
 <p>We are a licensed, family-owned Arizona custom home builder. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (all builders must hold an Arizona contractor's license; registered AZ architect required)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (all builders must hold an Arizona contractor's license; registered AZ architect required)</a></li>
 <li><a href="https://visioncommunitymanagement.com/media/vcmdocs/1534049.pdf" target="_blank" rel="noopener noreferrer">FireRock Design Guidelines (contractors must be licensed and bonded in Arizona)</a></li>
 <li><a href="https://gothoa.com/wp-content/uploads/CFR_Design.pdf" target="_blank" rel="noopener noreferrer">Carefree Ranch Owners Association Design Guidelines (Builders Bond required before start)</a></li>
 <li><a href="https://roc.az.gov/" target="_blank" rel="noopener noreferrer">Arizona Registrar of Contractors (verify a contractor's license)</a></li>
@@ -5638,11 +5638,11 @@ export const faqSeed: FaqSeed = {
 <p>We build the budget line by line so the number you sign is the number you build to. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.iii.org/article/insurance-for-remodeling-your-home" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance for remodeling your home (builders risk during construction)</a></li>
+<li><a href="https://www.thehartford.com/resources/construction/builders-risk-insurance" target="_blank" rel="noopener noreferrer">The Hartford: Builder's Risk Insurance (coverage during construction)</a></li>
 <li><a href="https://content.naic.org/insurance-topics/homeowners-insurance" target="_blank" rel="noopener noreferrer">NAIC: Homeowners Insurance (what a standard HO policy covers)</a></li>
 <li><a href="https://www.iii.org/article/which-disasters-are-covered-by-homeowners-insurance" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Which disasters are covered by homeowners insurance (named perils)</a></li>
 <li><a href="https://difi.az.gov/home-insurance" target="_blank" rel="noopener noreferrer">Arizona Department of Insurance and Financial Institutions: Homeowners Insurance consumer information</a></li>
-<li><a href="https://www.iii.org/press-release/a-vacant-home-still-needs-insurance-dont-be-caught-without-coverage-111909" target="_blank" rel="noopener noreferrer">Insurance Information Institute: A vacant home still needs insurance (vacant property coverage)</a></li>
+<li><a href="https://cluballiance.aaa.com/the-extra-mile/advice/budget/homeowners-insurance-for-renovations" target="_blank" rel="noopener noreferrer">AAA: Homeowners insurance for renovations (vacant property limits)</a></li>
 </ul>`,
       shortAnswer: "During construction you need builders risk insurance, not a standard homeowners policy. Builders risk covers the home while it is being built. A homeowners policy takes over once the house is finished and you move in. Your lender requires coverage the whole time, so the two policies hand off without a gap.",
       metaDescription: "During an Arizona build you need builders risk insurance, then homeowners coverage at move-in. See how the two policies hand off and what your lender requires.",
@@ -5683,7 +5683,7 @@ export const faqSeed: FaqSeed = {
 <p>We build the budget line by line so the number you sign is the number you build to. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.iii.org/press-release/a-vacant-home-still-needs-insurance-dont-be-caught-without-coverage-111909" target="_blank" rel="noopener noreferrer">Insurance Information Institute: A vacant home still needs insurance (vacancy and liability exposure)</a></li>
+<li><a href="https://cluballiance.aaa.com/the-extra-mile/advice/budget/homeowners-insurance-for-renovations" target="_blank" rel="noopener noreferrer">AAA: Homeowners insurance for renovations (vacancy limits while a home is unoccupied)</a></li>
 <li><a href="https://www.iii.org/article/insurance-for-wildfires" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance for wildfires (standard homeowners covers fire including wildfire)</a></li>
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/what-is-owners-title-insurance-en-164/" target="_blank" rel="noopener noreferrer">CFPB: What is owner's title insurance? (title risks on land you buy)</a></li>
 <li><a href="https://difi.az.gov/home-insurance" target="_blank" rel="noopener noreferrer">Arizona Department of Insurance and Financial Institutions: Homeowners Insurance consumer information</a></li>
@@ -6568,7 +6568,7 @@ export const faqSeed: FaqSeed = {
 <p>We build the budget line by line so the number you sign is the number you build to. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.scottsdaleaz.gov/docs/default-source/scottsdaleaz/planning---develpment/fees-fy25-26/permit-fee-schedule---sfr.pdf?sfvrsn=d3518d61_8" target="_blank" rel="noopener noreferrer">City of Scottsdale Permit Fee Schedule, Single Family Residential (FY2025-26, Resolution 13391)</a></li>
+<li><a href="https://www.scottsdaleaz.gov/planning-development/fees" target="_blank" rel="noopener noreferrer">City of Scottsdale: Planning and Development Fees (current permit fee schedules)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/eslo" target="_blank" rel="noopener noreferrer">City of Scottsdale Environmentally Sensitive Lands Overlay (ESL)</a></li>
 <li><a href="https://www.nahb.org/blog/2025/10/square-foot-prices" target="_blank" rel="noopener noreferrer">NAHB: How Do Median Square-Foot Prices Differ by Region?</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">Arizona Revised Statutes 33-1817 (Design, architectural committees; review)</a></li>
@@ -7680,8 +7680,8 @@ export const faqSeed: FaqSeed = {
 <p>We build the budget line by line so the number you sign is the number you build to. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.iii.org/article/insurance-for-remodeling-your-home" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance for remodeling your home (builders risk / course of construction)</a></li>
-<li><a href="https://www.iii.org/publications/insuring-your-business-small-business-owners-guide-to-insurance/insurance-for-specific-businesses/construction-contractors" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance coverage for construction contractors (builders risk valuation)</a></li>
+<li><a href="https://www.thehartford.com/resources/construction/builders-risk-insurance" target="_blank" rel="noopener noreferrer">The Hartford: Builder's Risk Insurance (course of construction coverage)</a></li>
+<li><a href="https://www.thehartford.com/resources/construction/builders-risk-insurance" target="_blank" rel="noopener noreferrer">The Hartford: Builder's Risk Insurance (what it covers and how it is valued)</a></li>
 <li><a href="https://www.iii.org/article/which-disasters-are-covered-by-homeowners-insurance" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Which disasters are covered by homeowners insurance (named perils, flood/earthquake excluded)</a></li>
 <li><a href="https://difi.az.gov/home-insurance" target="_blank" rel="noopener noreferrer">Arizona Department of Insurance and Financial Institutions: Homeowners Insurance consumer information</a></li>
 </ul>`,
@@ -7890,8 +7890,8 @@ export const faqSeed: FaqSeed = {
 <p>Clear allowances and an honest cost breakdown are how we start every custom home. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.iii.org/article/insurance-for-remodeling-your-home" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance for remodeling your home (builders risk / course of construction)</a></li>
-<li><a href="https://www.iii.org/publications/insuring-your-business-small-business-owners-guide-to-insurance/insurance-for-specific-businesses/construction-contractors" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Insurance coverage for construction contractors (builders risk and liability)</a></li>
+<li><a href="https://www.thehartford.com/resources/construction/builders-risk-insurance" target="_blank" rel="noopener noreferrer">The Hartford: Builder's Risk Insurance (course of construction coverage)</a></li>
+<li><a href="https://www.thehartford.com/resources/construction/builders-risk-insurance" target="_blank" rel="noopener noreferrer">The Hartford: Builder's Risk Insurance (property coverage, separate from liability)</a></li>
 <li><a href="https://www.iii.org/article/which-disasters-are-covered-by-homeowners-insurance" target="_blank" rel="noopener noreferrer">Insurance Information Institute: Which disasters are covered by homeowners insurance (flood/earthquake excluded)</a></li>
 <li><a href="https://difi.az.gov/home-insurance" target="_blank" rel="noopener noreferrer">Arizona Department of Insurance and Financial Institutions: Homeowners Insurance consumer information</a></li>
 </ul>`,
@@ -10826,7 +10826,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1817 (Design review; deposit in trust account; final approval meeting)</a></li>
 <li><a href="https://gothoa.com/wp-content/uploads/CFR_Design.pdf" target="_blank" rel="noopener noreferrer">Carefree Ranch Owners Association Design Guidelines (Design Review Fee Schedule)</a></li>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (review fee, refundable deposit, fines)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (review fee, refundable deposit, fines)</a></li>
 <li><a href="https://visioncommunitymanagement.com/media/vcmdocs/1534049.pdf" target="_blank" rel="noopener noreferrer">FireRock Design Guidelines (refundable deposit returned at final inspections)</a></li>
 </ul>`,
       shortAnswer: "HOA design review fees for a custom home in Arizona usually run a few hundred to a few thousand dollars in plan fees, plus a larger refundable construction deposit. Carefree Ranch, for example, charges $1,500 for plans and $500 for the building envelope. The deposit must sit in a trust account under A.R.S. 33-1817.",
@@ -10956,7 +10956,7 @@ export const faqSeed: FaqSeed = {
 <p>We run the land due diligence before you commit to a lot. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards and Procedures (LRV 14-40 body color rule)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards and Procedures (LRV 14-40 body color rule)</a></li>
 <li><a href="https://visioncommunitymanagement.com/media/vcmdocs/1534049.pdf" target="_blank" rel="noopener noreferrer">FireRock Design Guidelines (LRV 50% paint cap; roof reflectance)</a></li>
 <li><a href="https://www.sherwin-williams.com/architects-specifiers-designers/education/project-profiles/sw-article-pro-worthyofreflect" target="_blank" rel="noopener noreferrer">Sherwin-Williams: Worthy of Reflection (Light Reflectance Value, 0-100 scale)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/eslo" target="_blank" rel="noopener noreferrer">City of Scottsdale: Environmentally Sensitive Lands Overlay (ESL)</a></li>
@@ -11048,7 +11048,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/eslo" target="_blank" rel="noopener noreferrer">City of Scottsdale: Environmentally Sensitive Lands Overlay (ESL); NAOS requirement</a></li>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (Building Envelope; recorded Natural Area Easement)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (Building Envelope; recorded Natural Area Easement)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/foothills-overlay" target="_blank" rel="noopener noreferrer">City of Scottsdale: Foothills Overlay District (natural desert preservation)</a></li>
 </ul>`,
       shortAnswer: "A building envelope is the part of your lot where you are allowed to build. A NAOS (Natural Area Open Space) easement is the rest, recorded against the lot to stay undisturbed desert forever. In North Scottsdale, the city ESL ordinance and community design rules set both, so much of a large lot may be off-limits to construction.",
@@ -11399,7 +11399,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://visioncommunitymanagement.com/media/vcmdocs/1534049.pdf" target="_blank" rel="noopener noreferrer">FireRock Design Guidelines (5/12 max slope, 50% reflectance cap, no Mexican/barrel tile)</a></li>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (tan flat roofs, SRI minimum of 64)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (tan flat roofs, SRI minimum of 64)</a></li>
 <li><a href="https://basc.pnnl.gov/resource-guides/cool-roofs-and-walls-reduce-heat-gain" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Cool Roofs and Walls to Reduce Heat Gain</a></li>
 </ul>`,
       shortAnswer: "Luxury Arizona communities favor low-slope and flat desert roofs and cap how reflective the surface can be. FireRock limits pitched roofs to a 5/12 slope and roof material reflectance to 50% or less, and bans red Mexican or barrel tile. Troon North requires tan flat roofs with a Solar Reflectance Index of at least 64.",
@@ -11444,7 +11444,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://visioncommunitymanagement.com/media/vcmdocs/1534049.pdf" target="_blank" rel="noopener noreferrer">FireRock Design Guidelines (temporary chain-link construction fencing required; restore disturbed natural area)</a></li>
-<li><a href="https://www.troonnorthhoa.com/ResourceCenter/Download/12801/FullTNAArchitecturalStandardsProceduresAppendicesARCREVISED5_20_25?view=1&amp;docId=1836664" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (disturbance/snow fence where NAOS or native landscape is at risk)</a></li>
+<li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards (disturbance/snow fence where NAOS or native landscape is at risk)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/eslo" target="_blank" rel="noopener noreferrer">City of Scottsdale: Environmentally Sensitive Lands Overlay (NAOS preservation requirement)</a></li>
 </ul>`,
       shortAnswer: "Gated Arizona communities require a construction disturbance fence to keep the build inside its approved limit and protect the Natural Area Open Space (NAOS) and native plants around it. FireRock requires temporary chain-link fencing during construction. Troon North requires a disturbance fence wherever NAOS or native desert is at risk.",
@@ -11528,7 +11528,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.maricopa.gov/1913/Dust-Sources-Control-and-Training" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Sources, Control, and Training (Rule 310 permit threshold)</a></li>
 <li><a href="https://www.maricopa.gov/1875/Do-You-Need-Dust-Control-Training" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Do You Need Dust Control Training? (coordinator and training rules)</a></li>
-<li><a href="https://www.maricopa.gov/DocumentCenter/View/5354/Rule-310---Fugitive-Dust-from-Dust-Generating-Operations-PDF" target="_blank" rel="noopener noreferrer">Maricopa County Rule 310 (Fugitive Dust from Dust-Generating Operations) full text PDF</a></li>
+<li><a href="https://www.maricopa.gov/5352/Dust-Rules" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Rules (Rule 310, Fugitive Dust from Dust-Generating Operations)</a></li>
 <li><a href="https://www.maricopa.gov/DocumentCenter/View/29724/Dust-Control-Field-Guide-PDF" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Control Field Guide for the Construction Industry (Rule 310)</a></li>
 <li><a href="https://www.epa.gov/naaqs/particulate-matter-pm-air-quality-standards" target="_blank" rel="noopener noreferrer">U.S. EPA: Particulate Matter (PM) Air Quality Standards (PM-10 health effects)</a></li>
 </ul>`,
