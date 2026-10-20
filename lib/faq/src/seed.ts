@@ -542,7 +542,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-you-build-a-house-with-a-basement-in-arizona",
       question: "Can you build a house with a basement in Arizona?",
-      seoTitle: "Basements in Arizona: Can You Build One, and the Cost",
+      seoTitle: "Why Don't Arizona Homes Have Basements? Can You Build One?",
       answerHtml: `<p>Nothing in the building code stops you. Basements are fully legal here and the code has rules for them, but they stay rare for practical reasons. Arizona's ground is the main one. Much of central Arizona sits on hard <strong>caliche</strong>, a cement-like layer of soil, and on <strong>expansive clay</strong> that swells and shrinks with water. Both make digging a deep hole slow and expensive. Add a warm climate that does not need a deep, frost-protected foundation, and most builders pour a concrete slab on grade instead. So a basement is a choice you can make, not a default, and it costs real money.</p>
 <p>If you want a basement, plan for the soil and the budget up front. The desert does not stop you, but it does charge you.</p>
 <h2>Why basements are rare in Arizona</h2>
@@ -570,7 +570,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/content/IRC2021P2/chapter-4-foundations" target="_blank" rel="noopener noreferrer">ICC, 2021 International Residential Code (IRC), Chapter 4 Foundations</a></li>
 </ul>`,
       shortAnswer: "Yes, you can build a house with a basement in Arizona. They are legal and code-compliant but uncommon, because hard caliche and expansive clay soils make digging expensive. Only about 17 percent of new U.S. homes have basements, and in hot, slab-friendly Arizona the share is far lower.",
-      metaDescription: "Yes, you can build a basement in Arizona, but caliche and expansive clay make digging costly. What a basement adds to the build cost and how it stays dry.",
+      metaDescription: "Arizona homes rarely have basements because caliche and expansive clay make digging costly. You can still build one: what it takes, and how it stays dry.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
@@ -2375,6 +2375,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-ceiling-height-do-you-need-for-a-car-lift-in-a-garage",
       question: "What ceiling height do you need for a car lift in a garage?",
+      seoTitle: "Car Lift Ceiling Height: How Tall a Garage You Need",
       answerHtml: `<p>Most residential car lifts need a garage ceiling of at least <strong>11 to 12 feet</strong>, and stacking two vehicles or raising a tall truck or SUV pushes the requirement to <strong>12 to 14 feet</strong>. The exact height is not a guess. It is a short calculation: take the lift's <strong>maximum rise</strong>, add the height of the tallest vehicle you will park under or on it, then add about <strong>6 inches</strong> of buffer so nothing scrapes the ceiling. That sum is the clear ceiling height you need.</p>
 <p>The reason ceilings get this tall is stacking. A car lift in a luxury Arizona garage is usually there to park one car above another, doubling the space on a single footprint. That means lifting a car high enough to roll a second one underneath, which eats vertical room fast. A standard 8 or 9-foot garage ceiling will not do it. Below is the math, real lift specs, the code minimums, and how to plan a lift-ready garage from the start. For the floor plan side, see our guide on <a href="/faq/how-deep-should-a-garage-be-for-a-car-collector-in-arizona">how deep a garage should be for a car collector</a>.</p>
 <h2>The ceiling height formula</h2>
@@ -2404,7 +2405,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/s/IRC2021P2/chapter-3-building-planning/IRC2021P2-Pt03-Ch03-SecR305.1" target="_blank" rel="noopener noreferrer">2021 International Residential Code R305 (Ceiling height) (ICC Digital Codes)</a></li>
 </ul>`,
       shortAnswer: "Most four-post and two-post car lifts need a garage ceiling of at least 11 to 12 feet, and stacking two vehicles or lifting a tall SUV pushes that to 12 to 14 feet. The real number is simple math: the lift's maximum rise plus the vehicle's height plus about 6 inches of clearance.",
-      metaDescription: "A car lift usually needs an 11-14 ft garage ceiling. See the rise-plus-vehicle-plus-buffer math, real BendPak lift specs, and how to plan a lift-ready garage.",
+      metaDescription: "Most car lifts need an 11 to 14 foot garage ceiling: lift rise plus vehicle height plus 6 inches. Real lift specs and how to plan a lift-ready garage.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
@@ -6803,7 +6804,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "rv-garage-door-height-and-size-arizona",
       question: "How tall and wide does an RV garage door need to be?",
-      seoTitle: "RV Garage Door Size: Height and Width by RV Class",
+      seoTitle: "RV Garage Door Size: 12, 14 or 16 Ft by RV Class",
       answerHtml: `<p>An RV garage door is sized by height first, and the three common heights are <strong>12, 14, and 16 feet</strong>. A <strong>12 foot door</strong> clears a camper van or a small Class C. A <strong>14 foot door</strong> clears most <strong>Class A motorhomes</strong>, which top out at the <strong>13.5 foot</strong> legal road height including rooftop air conditioners. A <strong>16 foot door</strong> gives you headroom for a taller rig or a future coach. Widths run <strong>12 to 16 feet</strong> so a coach up to <strong>102 inches</strong> (8.5 feet) wide can drive in with room on each side. Pick the height for the tallest RV you might own, because the door is built into the wall and is the hardest thing to change later.</p>
 <p>Below is the door height by RV class, how wide the opening needs to be, and the Arizona zoning limits that cap how tall the whole building can be.</p>
 <h2>RV garage door height by RV class</h2>
@@ -6830,7 +6831,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/building-codes" target="_blank" rel="noopener noreferrer">City of Scottsdale: Building Codes (adopted codes and permit basis)</a></li>
 </ul>`,
       shortAnswer: "Most RV garage doors are 12, 14, or 16 feet tall and 12 to 16 feet wide. A 12 foot door fits a camper van or small Class C. A 14 foot door fits most Class A motorhomes at the 13.5 foot legal height. A 16 foot door adds room for any future rig.",
-      metaDescription: "Plan a 12, 14 or 16 ft door by RV class; 14 ft fits most Class A coaches. Widths, clearances and Arizona height limits, by RV class.",
+      metaDescription: "RV garage doors are usually 12, 14 or 16 ft tall and 12 to 16 ft wide. Which size fits a Class A, B or C rig, plus the clearances and Arizona height limits.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "rv-garages"],
       tags: ["cost", "research-phase"],
@@ -12193,7 +12194,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "building-permit-cost-arizona",
       question: "How much does a building permit cost in Arizona?",
-      seoTitle: "Building Permit Cost in Arizona: $2K to $10K+ (2026)",
+      seoTitle: "How Much Is a Building Permit for a House in AZ? 2026",
       answerHtml: `<p>There is no single statewide permit fee in Arizona. Each city sets its own schedule, so the exact number depends on three things: which city or county issues the permit, how big the home is, and the <strong>valuation</strong> (the dollar value of the labor and materials). Run those variables together and a building permit for a new custom home usually costs between <strong>$2,000 and $10,000 or more</strong>. Some cities, like <strong>Scottsdale</strong>, base the building permit fee on <strong>square footage</strong>. Others base it on the construction value of the project. On top of the building permit, you almost always pay a separate <strong>plan review fee</strong> and, for new construction, <strong>development (impact) fees</strong>. Because these schedules change, confirm the current cost with your city before you budget.</p>
 <h2>What goes into an Arizona building permit cost</h2>
 <p>Your permit cost is rarely one fee. It is a stack of fees, and knowing each one keeps the final invoice from surprising you. For a new home, the main pieces are the building permit fee, the plan review fee, the trade permits, and development fees.</p>
@@ -12223,7 +12224,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.scottsdaleaz.gov/planning-development/plan-review-services" target="_blank" rel="noopener noreferrer">City of Scottsdale: Plan Review Services</a></li>
 </ul>`,
       shortAnswer: "A building permit for a new home in Arizona usually runs $2,000 to $10,000 or more, depending on the city, the home's size, and its valuation. Most cities set permit fees on square footage or on construction value, then add separate plan review and development fees. Always confirm the current figure with your city.",
-      metaDescription: "A new-home building permit in Arizona runs about $2,000 to $10,000+, set by city on square footage or valuation. Plan review and development fees by city.",
+      metaDescription: "A new-home building permit in Arizona usually runs $2,000 to $10,000 or more. How cities set it by square foot or valuation, plus plan review and impact fees.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "research-phase"],
