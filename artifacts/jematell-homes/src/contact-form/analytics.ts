@@ -239,15 +239,30 @@ function splitName(name: string): { first: string; last: string } {
 }
 
 /**
- * Stable id for Google Ads conversion de-duplication. Derived from identity
- * plus a one-minute bucket: a tag that fires twice for one submission collapses
- * to a single conversion, while a genuine second inquiry later still counts.
+ * One transaction id per submission, shaped like an order number:
+ * `ADR-<yyyymmdd>-<10 random letters and digits>`. Made once, before the form
+ * posts, and used twice: posted with the submission (so the portal can find
+ * the Google Ads conversion when a lead is marked junk and withdraw it) and
+ * pushed as `lead.transaction_id` (the Ads tag's order id). Never built from
+ * the email or phone: Google asks that an order id identify no one and not be
+ * a hash (support.google.com/google-ads/answer/6386790).
  */
-function leadId(email: string, phone: string): string {
-  const seed = email + "|" + phone + "|" + Math.floor(Date.now() / 60000);
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
-  return "lead_" + (h >>> 0).toString(36);
+export function newTransactionId(): string {
+  const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  const bytes = new Uint8Array(10);
+  if (typeof crypto !== "undefined" && typeof crypto.getRandomValues === "function") {
+    crypto.getRandomValues(bytes);
+  } else {
+    for (let i = 0; i < bytes.length; i++) bytes[i] = Math.floor(Math.random() * 256);
+  }
+  let random = "";
+  for (const b of bytes) random += alphabet[b % alphabet.length];
+  const d = new Date();
+  const day =
+    String(d.getUTCFullYear()) +
+    String(d.getUTCMonth() + 1).padStart(2, "0") +
+    String(d.getUTCDate()).padStart(2, "0");
+  return `ADR-${day}-${random}`;
 }
 
 interface DataLayerWindow extends Window {
@@ -265,6 +280,7 @@ export function reportConversion(
   eventName: string,
   isNew: boolean,
   value: number,
+  transactionId: string,
 ): void {
   if (typeof window === "undefined") return;
 
@@ -289,7 +305,7 @@ export function reportConversion(
       is_new: isNew,
       value,
       currency: "USD",
-      transaction_id: leadId(email, phone),
+      transaction_id: transactionId,
     },
     // Key names are Google's, not ours: the Code method for enhanced
     // conversions expects exactly `email`, `phone_number`, and a nested

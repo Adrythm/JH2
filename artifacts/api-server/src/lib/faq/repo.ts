@@ -23,6 +23,9 @@ export async function loadDataset(): Promise<Dataset> {
   const items: NormalizedItem[] = itemRows.map((r) => ({
     slug: r.slug,
     question: r.question,
+    // The faq_items table has no search-title column; the site's pages read
+    // their titles from the seed.
+    seoTitle: null,
     shortAnswer: r.shortAnswer,
     categorySlug: r.categorySlug,
     categoryTitle:
