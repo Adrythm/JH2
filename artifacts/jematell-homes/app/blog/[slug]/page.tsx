@@ -12,6 +12,8 @@ import { BlogPostBody } from "@/views/BlogPostBody";
 
 export const dynamicParams = false;
 
+type Callout = { href: string; kicker: string; title: string; body: string; cta: string };
+
 /**
  * Posts that carry a service's search ranking link up to the service page.
  * The BYOL post ranks 7.9 for "build on your lot arizona" while the service
@@ -19,7 +21,7 @@ export const dynamicParams = false;
  * scottsdale" queries before the casita page existed. The posts keep their
  * content; this adds the way through to the page that converts.
  */
-const SERVICE_CALLOUTS: Record<string, { href: string; kicker: string; title: string; body: string; cta: string }> = {
+const SERVICE_CALLOUTS: Record<string, Callout> = {
   "building-on-your-own-lot-arizona": {
     href: "/build-on-your-lot",
     kicker: "Build on your lot",
@@ -63,6 +65,88 @@ const SERVICE_CALLOUTS: Record<string, { href: string; kicker: string; title: st
     cta: "See our RV garage page",
   },
 };
+
+/**
+ * Every other post gets a topic-matched way through to the page that
+ * converts. Until 2026-10 the other 41 posts had no link out of their body
+ * at all (the scraped text mentions "our Custom Homes page" as plain words),
+ * so a reader who finished an article had nowhere to go but the footer.
+ * First matching rule wins; the copy says only what the business does.
+ */
+const TOPIC_CALLOUTS: { test: RegExp; callout: Callout }[] = [
+  {
+    test: /rio-verde/,
+    callout: {
+      href: "/where-we-build/rio-verde",
+      kicker: "Rio Verde",
+      title: "Building in Rio Verde?",
+      body: "See the homes we have built in Rio Verde and the local rules that shape a build there, from county permits and inspections to the lot, water and septic questions to settle before design starts.",
+      cta: "See our Rio Verde page",
+    },
+  },
+  {
+    test: /spec-home/,
+    callout: {
+      href: "/spec-homes",
+      kicker: "Spec homes",
+      title: "Looking at a spec home?",
+      body: "See the spec homes Jematell Homes builds in the Phoenix area, with their floor plans, and how a spec home compares with a custom build on your own lot.",
+      cta: "See our spec homes",
+    },
+  },
+  {
+    test: /financ/,
+    callout: {
+      href: "/financing",
+      kicker: "Financing",
+      title: "Planning to finance a new build?",
+      body: "How construction financing works when you build with Jematell Homes, and the draw schedule you get at the start, so you know when each payment comes due.",
+      cta: "See how financing works with us",
+    },
+  },
+  {
+    test: /floor-plan/,
+    callout: {
+      href: "/floor-plans",
+      kicker: "Floor plans",
+      title: "Starting from a plan?",
+      body: "Browse our in-house floor plans. On our own plans we can quote a flat-rate build cost up front, and any plan can be changed to fit your lot.",
+      cta: "Browse our floor plans",
+    },
+  },
+  {
+    test: /(^|-)(lot|land|outside-the-city)(-|$)/,
+    callout: {
+      href: "/build-on-your-lot",
+      kicker: "Build on your lot",
+      title: "Own a lot, or looking for one?",
+      body: "Jematell Homes builds on private lots across the Phoenix metro and Pinal County, and the licensed real estate agents on our staff can help you find the right one.",
+      cta: "See how we build on your lot",
+    },
+  },
+  {
+    test: /budget|allowance/,
+    callout: {
+      href: "/custom-homes",
+      kicker: "Custom homes",
+      title: "Working out a budget for your build?",
+      body: "On our cost-plus builds you get an itemized cost estimate before we break ground and see the actual subcontractor bids, so you know what every part of your home costs.",
+      cta: "See how we price and run a build",
+    },
+  },
+];
+
+const DEFAULT_CALLOUT: Callout = {
+  href: "/custom-homes",
+  kicker: "Custom homes",
+  title: "Planning a custom home?",
+  body: "Jematell Homes is a family-owned custom home builder for Scottsdale and the Phoenix metro: itemized estimates with the actual subcontractor bids on cost-plus builds, a written update every week of construction, and Arizona ROC license 339367.",
+  cta: "See how we build custom homes",
+};
+
+function calloutFor(slug: string): Callout {
+  return SERVICE_CALLOUTS[slug] ?? TOPIC_CALLOUTS.find((t) => t.test.test(slug))?.callout ?? DEFAULT_CALLOUT;
+}
 
 /** Same real-post filter the old prerender used (blogSlugs wraps it). */
 export function generateStaticParams() {
@@ -117,7 +201,7 @@ export default async function BlogPostPage({
   };
 
   const relatedFaqs = faqCrossLinks.filter((f) => f.pillarBlogSlug === slug);
-  const callout = SERVICE_CALLOUTS[slug];
+  const callout = calloutFor(slug);
 
   const title = cleanTitle(data.title);
   const heroImg = heroImage(data);
