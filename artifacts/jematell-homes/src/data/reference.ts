@@ -122,6 +122,7 @@ export const BUILDING_CODE_JURISDICTIONS: JurisdictionMeta[] = [
   { slug: "cave-creek", name: "Cave Creek", county: "Maricopa County", blurb: "Adopted codes, residential permits, inspections, zoning setbacks, and fees for a custom home in the Town of Cave Creek." },
   { slug: "carefree", name: "Carefree", county: "Maricopa County", blurb: "Adopted codes, permits, inspections, zoning setbacks, and fees for building in the Town of Carefree." },
   { slug: "mesa", name: "Mesa", county: "Maricopa County", blurb: "Adopted codes, permits, inspections, zoning setbacks, and permit and impact fees for a custom home in the City of Mesa." },
+  { slug: "surprise", name: "Surprise", county: "Maricopa County", blurb: "Adopted codes, residential permit requirements and fees, and zoning setbacks for building a custom home in the City of Surprise." },
   { slug: "apache-junction", name: "Apache Junction", county: "Pinal County", blurb: "Adopted codes, residential permits, inspections, zoning setbacks, and fees for building in the City of Apache Junction." },
   { slug: "casa-grande", name: "Casa Grande", county: "Pinal County", blurb: "Adopted codes, permits, inspections, zoning setbacks, and fees for a custom home in the City of Casa Grande." },
   { slug: "maricopa-county", name: "Maricopa County", county: "Unincorporated", blurb: "Adopted codes, permits, inspections, septic and well rules, zoning setbacks, and fees for building in unincorporated Maricopa County, including the Rio Verde Foothills." },

@@ -216,6 +216,29 @@ const TOWNS: Record<string, Town> = {
       },
     ],
   },
+  surprise: {
+    galleryLocations: ["Surprise"],
+    heading: "Building a custom home in Surprise",
+    lead:
+      "Inside Surprise city limits the City of Surprise reviews the plans, issues the permit and inspects the build. Surprise moved to the 2024 International Codes on January 1, 2026, and its single-family zoning sorts lots into categories by size, from small R-1 lots to one-acre rural homesites, so the lot's category and any Planned Area Development it sits in shape the house before design starts.",
+    points: [
+      {
+        title: "The 2024 codes, since January 2026",
+        body: "Surprise adopted the 2024 International Residential and Building codes and the 2023 National Electrical Code, with local amendments, by Ordinance 2025-14. Custom home plans submitted on or after January 1, 2026 must meet them.",
+        href: `${REF}/surprise-adopted-building-codes`,
+      },
+      {
+        title: "Lot size sets the yards",
+        body: "An R-1 Category B lot of 8,000 to 11,999 square feet needs a 12 foot front, 20 foot rear and 5 and 10 foot side yards; a one-acre lot needs 30 foot front and rear yards and 20 foot sides. R-1 homes top out at 35 feet.",
+        href: `${REF}/surprise-residential-zoning-and-setbacks`,
+      },
+      {
+        title: "A complete package, then city review",
+        body: "Surprise takes applications online and reviews plans in ProjectDox. The package needs a soils report and structural calculations, and a home with no fire hydrant within 400 feet, or too little water flow, needs fire sprinklers. We handle the permit for you.",
+        href: `${REF}/surprise-residential-building-permit-requirements`,
+      },
+    ],
+  },
 };
 
 export function hasRegionHub(region: string): boolean {
