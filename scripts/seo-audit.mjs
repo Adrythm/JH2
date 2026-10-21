@@ -18,7 +18,10 @@
  * --strict), so a build script or a CI step can fail on it. --json prints
  * the findings as JSON for a tool to read; --all lists every address, not
  * the first 20 per check; --ignore <regex> skips matching paths; --origin
- * <https://host> says which host canonicals should name in --dir mode.
+ * <https://host> says which host canonicals should name: needed in --dir
+ * mode, and in --url mode when the address is a local copy of the site
+ * (--url http://localhost:3000 --origin https://adrythm.com), whose pages
+ * name the live host and would otherwise all read as canonical elsewhere.
  *
  * The same checks run in the portal as seo_tech_audit against the live site
  * with Search Console and PageSpeed beside them (lib/seo/tech); this is the
@@ -36,6 +39,9 @@ if (args.help || (!args.dir && !args.url)) {
 const LIMIT = args.all ? Infinity : 20;
 const THIN_WORDS = 120;
 const ignore = args.ignore ? new RegExp(args.ignore) : null;
+/** The host canonicals should name, from --origin; null means the crawled address. */
+const canonicalOrigin = args.origin ? new URL(args.origin).origin : null;
+const bareHost = (h) => h.replace(/^www\./, "");
 
 /* ----------------------------------------------------------------- html */
 
@@ -131,7 +137,9 @@ async function pagesFromUrl(origin) {
   const queue = ["/"];
   const seen = new Set(["/"]);
   let inFlight = 0;
-  const internal = (href, from) => { try { const u = new URL(href, new URL(from, base).href); if (u.hostname.replace(/^www\./, "") !== base.hostname.replace(/^www\./, "")) return null; return u.pathname + u.search; } catch { return null; } };
+  // A local copy's sitemap and absolute links name the live host: those are this site's pages too.
+  const ownHosts = new Set([bareHost(base.hostname), ...(canonicalOrigin ? [bareHost(new URL(canonicalOrigin).hostname)] : [])]);
+  const internal = (href, from) => { try { const u = new URL(href, new URL(from, base).href); if (!ownHosts.has(bareHost(u.hostname))) return null; return u.pathname + u.search; } catch { return null; } };
   for (const u of await readSitemap(args.sitemap ?? new URL("/sitemap.xml", base).href, true)) { const p = internal(u, "/"); if (p && !seen.has(normPath(p))) { seen.add(normPath(p)); queue.push(normPath(p)); } }
   const worker = async () => {
     while (queue.length && pages.size + inFlight < max) {
@@ -184,7 +192,9 @@ async function audit() {
   const add = (id, level, title, rows, hint = "") => { if (rows.length) findings.push({ id, level, title, count: rows.length, rows: rows.slice(0, LIMIT), hint }); };
   const pages = [...site.pages.values()].filter((p) => !p.read.noindex || sitemapPaths.has(normPath(p.path)));
   const indexable = pages.filter((p) => !p.read.noindex);
-  const isSelfCanonical = (p) => { if (!p.read.canonical) return false; try { const c = new URL(p.read.canonical, site.origin ?? "https://x.invalid"); return samePage(c.pathname, p.path) && (!site.origin || c.origin === site.origin); } catch { return false; } };
+  const canonOrigin = canonicalOrigin ?? site.origin;
+  const ownHosts = new Set([site.origin, canonicalOrigin].filter(Boolean).map((o) => bareHost(new URL(o).hostname)));
+  const isSelfCanonical = (p) => { if (!p.read.canonical) return false; try { const c = new URL(p.read.canonical, canonOrigin ?? "https://x.invalid"); return samePage(c.pathname, p.path) && (!canonOrigin || c.origin === canonOrigin); } catch { return false; } };
   const own = indexable.filter((p) => !p.read.canonical || isSelfCanonical(p));
 
   add("title-missing", "error", "Pages with no title", indexable.filter((p) => !p.read.title).map((p) => ({ path: p.path })));
@@ -212,7 +222,7 @@ async function audit() {
   for (const p of pages) {
     for (const href of p.read.links) {
       let target;
-      try { const u = new URL(href, site.origin ?? `https://x.invalid${p.path}`); if (site.origin && u.hostname.replace(/^www\./, "") !== new URL(site.origin).hostname.replace(/^www\./, "")) continue; if (!site.origin && /^[a-z]+:\/\//i.test(href)) continue; target = u.pathname + u.search; } catch { continue; }
+      try { const u = new URL(href, site.origin ?? `https://x.invalid${p.path}`); if (site.origin && !ownHosts.has(bareHost(u.hostname))) continue; if (!site.origin && /^[a-z]+:\/\//i.test(href)) continue; target = u.pathname + u.search; } catch { continue; }
       if (ignore?.test(target)) continue;
       if (/\.(xml|txt|pdf|jpe?g|png|gif|svg|webp|ico|css|js|mp4|zip)$/i.test(target) && args.dir) { if (!(await site.resolve(target))) broken.push({ path: p.path, href: target }); continue; }
       let r = checked.get(target);
@@ -243,7 +253,7 @@ async function audit() {
   } else if (sitemapWhere) findings.push({ id: "sitemap-none", level: "warn", title: `No sitemap read at ${sitemapWhere}`, count: 1, rows: [], hint: "" });
 
   function isSelfCanonicalOrNone(p) { return !p.read.canonical || isSelfCanonical(p); }
-  return { mode: site.mode, origin: site.origin, pages: site.pages.size, sitemapEntries: sitemapPaths.size, truncated: site.truncated ?? false, findings };
+  return { mode: site.mode, origin: site.origin, canonicalOrigin: canonOrigin, pages: site.pages.size, sitemapEntries: sitemapPaths.size, truncated: site.truncated ?? false, findings };
 }
 
 function group(items, by) { const m = new Map(); for (const i of items) { const k = by(i); m.set(k, [...(m.get(k) ?? []), i]); } return m; }
@@ -268,7 +278,7 @@ const warns = result.findings.filter((f) => f.level === "warn");
 if (args.json) {
   console.log(JSON.stringify({ ...result, ok: errors.length === 0 && (!args.strict || warns.length === 0) }, null, 1));
 } else {
-  console.log(`seo-audit: ${result.pages} pages (${result.mode}${result.origin ? `, ${result.origin}` : ""}), ${result.sitemapEntries} sitemap entries${result.truncated ? ", page limit reached" : ""}`);
+  console.log(`seo-audit: ${result.pages} pages (${result.mode}${result.origin ? `, ${result.origin}` : ""}${result.canonicalOrigin && result.canonicalOrigin !== result.origin ? `, canonicals on ${result.canonicalOrigin}` : ""}), ${result.sitemapEntries} sitemap entries${result.truncated ? ", page limit reached" : ""}`);
   for (const f of [...errors, ...warns]) {
     console.log(`\n${f.level === "error" ? "ERROR" : "warn "} ${f.id}: ${f.title} (${f.count})${f.hint ? `\n      ${f.hint}` : ""}`);
     for (const r of f.rows) console.log(`      ${r.path}${Object.entries(r).filter(([k]) => k !== "path").map(([k, v]) => ` ${k}=${Array.isArray(v) ? v.join(",") : v}`).join("")}`);
