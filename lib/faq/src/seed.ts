@@ -3415,8 +3415,8 @@ export const faqSeed: FaqSeed = {
 <p>If you want or need an HOA neighborhood, do this before you sign:</p>
 <ul><li><strong>Read the actual CC&amp;Rs.</strong> Get the full recorded declaration and the current rules, not a summary. Look for the words "recreational vehicle," "boat," "trailer," and "commercial vehicle," and note any time limits and screening requirements.</li><li><strong>Ask about enclosed storage.</strong> Many HOAs that ban a visible RV allow one parked inside a permitted garage. Confirm whether a tall <a href="/faq/cost-to-build-an-rv-garage-in-arizona">RV garage</a> is permitted and what design review requires.</li><li><strong>Check the lot and zoning, too.</strong> Even with no HOA, county or city height and setback rules govern a detached RV garage. Confirm both layers before you design.</li><li><strong>Get it in writing.</strong> A verbal "sure, people park RVs here" from an agent is not the CC&amp;Rs. Rely on the recorded document.</li></ul>
 <p>The bottom line for an Arizona buyer is that the RV question is really a lot-selection question. Confirm the declaration's RV rules, the zoning, and any enclosed-storage option before you commit, since a home you cannot keep your RV at is a costly surprise after closing.</p>
-<h2>The Jematell Homes approach</h2>
-<p>We are a licensed, family-owned Arizona custom home builder. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building an RV garage with Jematell Homes</h2>
+<p>We are a licensed, family-owned Arizona custom home builder, and we design and build <a href="/rv-garages">RV garages</a> as part of a new home or on a lot you already own. Door height, ceiling, slab and hookups are planned with the house, inside the lot's setbacks and any HOA design review, so the motorhome has a home before you move in. If you are weighing land with no HOA, see how we approach <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the lot and the RV you need to fit.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/33/01802.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1802 (Planned communities; definitions; declaration and CC&amp;Rs)</a></li>
@@ -3430,7 +3430,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["choosing-a-custom-home-builder"],
       tags: ["builder", "research-phase"],
       relatedFaqSlugs: ["how-does-hoa-design-review-affect-building-a-custom-home", "cost-to-build-an-rv-garage-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["rv-garages", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 175,
@@ -4373,8 +4373,10 @@ export const faqSeed: FaqSeed = {
 <p>To use your warranty, report defects in writing, keep records, and act before the time limit runs. Builders in Arizona must be licensed, and that license is what gives the state power to enforce quality. Under A.R.S. 32-1151, it is unlawful to act as a contractor without a license in good standing, so confirm your builder holds an active license before and during the build.</p>
 <p>If a builder will not honor a valid claim, Arizona gives you a backstop. The <strong>Arizona Registrar of Contractors</strong>, the state agency that licenses and disciplines contractors, can investigate a complaint that a licensee failed "to perform work in a professional and workmanlike manner or in accordance with any applicable building codes," a ground spelled out in A.R.S. 32-1154. There is a deadline. Under A.R.S. 32-1162, a complaint about a new home must be filed in writing <strong>within two years</strong> after the earlier of the close of escrow or actual occupancy. Miss that window and the agency loses authority to act, so calendar it the day you move in.</p>
 <p>The practical takeaway is to treat your warranty as an active document, not a drawer filler. Log every issue with dates and photos, send claims in writing so there is a record, and know that the implied warranty and the two-year ROC deadline stand behind the written terms. A short, smart move is to do a quick walkthrough near the end of your first year and submit a single written punch list of every workmanship item before that broad year-one tier expires.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Transparency, a real license, and a written scope are how we work. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Comparing builders on warranty</h2>
+<p>If you are choosing a builder, ask each one for its written warranty before you sign, not after, and read it beside the contract: what it covers, for how long, how a claim is made and who answers it. Check the builder's license with the Registrar of Contractors too, since the implied warranty and any ROC complaint only help you against a licensed contractor. You can <a href="/faq/how-to-verify-an-arizona-contractor-license-with-the-roc">verify an Arizona contractor license with the ROC</a> in a few minutes.</p>
+<h2>Warranty with Jematell Homes</h2>
+<p>Jematell Homes is a licensed Arizona builder (ROC# 339367). We put the scope in writing before construction and send a written update every week while your home is built, so what was built and when is on record if a warranty question comes up later. After move-in, claims come straight to us: see our <a href="/warranty">warranty page</a> for how to reach us. If you are planning a <a href="/custom-homes">custom home</a> or <a href="/build-on-your-lot">building on a lot you own</a>, <a href="/contact">contact us</a> and we will walk you through our warranty and contract before you commit.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2008/CV-07-0416-91274.PDF" target="_blank" rel="noopener noreferrer">The Lofts at Fillmore Condominium Assn v. Reliance Commercial Construction (Ariz. 2008), restating the implied warranty of workmanship and habitability</a></li>
@@ -4388,7 +4390,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["choosing-a-custom-home-builder", "warranty-and-defects"],
       tags: ["builder", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 197,
@@ -7589,7 +7591,7 @@ export const faqSeed: FaqSeed = {
 <ul><li><strong>Match the home to the neighborhood.</strong> A heavily upgraded custom home on a street of modest houses is the classic recipe for a low appraisal, because comps cap the value.</li><li><strong>Keep a cash cushion.</strong> Plan for the chance that you fund part of the cost yourself. A reserve also covers cost overruns, which are common on custom builds.</li><li><strong>Ask your lender about the as-completed appraisal up front.</strong> Know the LTV cap and how the lender handles a shortfall before you are deep into the project.</li><li><strong>Build with a clear, well-documented plan.</strong> A complete plan set and spec list give the appraiser better information, which supports an accurate value.</li></ul>
 <p>An appraisal gap is a financing problem, not a building problem, and it is manageable when you see it coming. Run the comps, know your lender's LTV cap, and keep cash in reserve. Because appraisal rules, LTV limits, and how lenders treat a shortfall vary by lender and program and change over time, confirm the specifics with your lender and a qualified appraiser before you rely on them.</p>
 <h2>Building with Jematell Homes</h2>
-<p>We build the budget line by line so the number you sign is the number you build to. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<p>An appraisal gap is easier to avoid when the budget is clear before the loan is. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, and you get the full draw schedule at the start, so your lender and appraiser work from real numbers. See our <a href="/financing">financing</a> page for how the construction loan fits, read how we approach <a href="/build-on-your-lot">building on your own lot</a> if you already own the land, or <a href="/contact">contact us</a> to talk through your plan.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/" target="_blank" rel="noopener noreferrer">CFPB: My appraisal is less than the sale price. What does that mean for me?</a></li>
@@ -7604,7 +7606,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 271,
@@ -14485,7 +14487,7 @@ export const faqSeed: FaqSeed = {
 <p>That physical limit drives a practical design point. Homes on a shared well almost always pull from a <strong>storage tank</strong>, not straight off the pump, so the well can refill the tank between heavy uses. The agreement should say who owns and maintains that tank and pump, since they fail more often than the well itself. ADWR also limits stacking wells: under A.R.S. 45-454, adding a second exempt well at the same location is only allowed under narrow conditions, including combined withdrawals staying under five acre-feet per year and, for wells drilled after January 1, 2000, county health approval. So you usually cannot just drill a backup well to dodge a shared-well problem. Size the one well, and the agreement around it, to the homes it must serve.</p>
 <p>If you are buying rural land served by a shared well, read the recorded agreement before you close, and have a real estate attorney review it if the terms are vague. If you are drilling a well others will share, put the agreement in place before the first neighbor connects. For how water reaches rural homes more broadly, see our guides on <a href="/faq/how-to-get-water-to-a-home-in-rio-verde-foothills">getting water to a home in Rio Verde Foothills</a> and <a href="/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona">building on rural land in Rio Verde</a>. A shared well can be a smart way to cut drilling cost on rural land, as long as the recorded paperwork is as solid as the well itself and every owner has signed it.</p>
 <h2>Where Jematell Homes comes in</h2>
-<p>Wells, septic, and hauled-water setups are routine on the rural lots we build. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<p>Wells, septic, and hauled-water setups are routine on the rural lots we build, especially in the <a href="/where-we-build/rio-verde">Rio Verde Foothills</a> and around <a href="/where-we-build/cave-creek">Cave Creek</a>. If the lot you own or are buying shares a well, send us the recorded agreement early: the water source has to be settled before a lender funds the build and before the house is designed around it. Read how we approach <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> to talk through your parcel's water.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azwater.gov/permitting-wells/frequently-asked-questions" target="_blank" rel="noopener noreferrer">Arizona Department of Water Resources: Permitting and Wells FAQ</a></li>
@@ -15065,7 +15067,7 @@ export const faqSeed: FaqSeed = {
 <h2>Why the district matters before you buy</h2>
 <p>Two rural lots that look identical can carry different rights depending on their zoning district and overlays. Confirm the district, the minimum lot size, the setbacks, the animal privileges, and whether any floodplain or hillside overlay applies before you make an offer, because those rules drive where the house can sit, how big it can be, and whether your horses are welcome. Remember too that unincorporated lots usually rely on a well and septic, so water and onsite wastewater feasibility belong in the same due-diligence pass.</p>
 <h2>How Jematell Homes helps</h2>
-<p>We build custom homes throughout unincorporated Maricopa County and design each one to its parcel's rural zoning, working the setbacks, height, lot coverage, accessory buildings, and any animal facilities into the site plan from the start. Because Maricopa County updates its zoning ordinance and applies districts and overlays parcel by parcel, confirm the current zoning, setbacks, and animal rules with Maricopa County Planning and Development, and any applicable HOA, for your specific lot before you finalize a design.</p>`,
+<p>We build custom homes throughout unincorporated Maricopa County and design each one to its parcel's rural zoning, working the setbacks, height, lot coverage, accessory buildings, and any animal facilities into the site plan from the start. If you already own an RU-43 parcel, see how we approach <a href="/build-on-your-lot">building on your own lot</a>; if you are still looking, our licensed agents can help you <a href="/buy-a-lot-with-us">find and check a lot</a> before you make an offer. Rural acreage in the <a href="/where-we-build/rio-verde">Rio Verde Foothills</a> is typical of the county land we build on. <a href="/contact">Send us the parcel</a> and we will tell you what its district allows. Because Maricopa County updates its zoning ordinance and applies districts and overlays parcel by parcel, confirm the current zoning, setbacks, and animal rules with Maricopa County Planning and Development, and any applicable HOA, for your specific lot before you finalize a design.</p>`,
       shortAnswer: "In unincorporated Maricopa County, low-density home sites usually sit in a rural district like RU-43, which sets a one-acre minimum lot, allows a single-family home plus horses and other animals, and uses larger setbacks. The county, not a city, is the permitting authority, and exact rules are set per district.",
       metaDescription: "RU-43 rural zoning in Maricopa County: one-acre minimum lots, a single-family home, animal privileges, and larger setbacks, administered by the county.",
       categorySlug: "design-zoning-adus",
