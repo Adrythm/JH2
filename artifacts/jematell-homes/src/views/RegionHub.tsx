@@ -274,6 +274,26 @@ const TOWNS: Record<string, Town> = {
         href: `${REF}/phoenix-building-permit-and-impact-fees`,
       },
     ],
+    beyond: {
+      heading: "Teardown lots, casitas and ADUs in Phoenix",
+      points: [
+        {
+          title: "Infill and teardown lots",
+          body: "Many Phoenix custom homes go up where an older house stands today. The demolition is its own permit, and on a house built before the 1980s an asbestos survey and any abatement come first, so they are an early line in the plan. An infill lot almost always has city water and sewer at the street, confirmed with a will-serve letter.",
+          href: "/guides/building-a-custom-home-in-phoenix-complete-guide",
+        },
+        {
+          title: "Two ADUs on a single-family lot",
+          body: "Under Phoenix Zoning Ordinance Section 706, a single-family lot can hold two accessory dwelling units. On a lot up to 10,000 square feet each one is capped at 1,000 square feet, a detached unit in a required yard is held to 15 feet, and the city cannot require extra parking. An ADU may be leased long term but not run as a short-term rental.",
+          href: "/faq/adu-and-casita-rules-in-phoenix-arizona",
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses as part of a new custom home or on a lot you already own, placed and sized to the lot's yards and the city's ADU rules.",
+          href: "/casitas-and-guest-houses",
+        },
+      ],
+    },
   },
   "apache-junction": {
     galleryLocations: ["Apache Junction"],
