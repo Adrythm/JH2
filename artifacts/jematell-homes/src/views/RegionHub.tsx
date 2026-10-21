@@ -229,6 +229,29 @@ const TOWNS: Record<string, Town> = {
       },
     ],
   },
+  "paradise-valley": {
+    galleryLocations: ["Paradise Valley"],
+    heading: "Building a custom home in Paradise Valley",
+    lead:
+      "In Paradise Valley the Town reviews the plans, issues the permit and inspects the build. It is an estate town: the base R-43 district needs a full acre per home, the house may cover only a quarter of the lot, and on sloped ground the Town's hillside rules limit how much of the land can be graded. Those rules set the size and shape of the house before a floor plan is drawn.",
+    points: [
+      {
+        title: "One acre, a 25% floor-area cap, 24 feet",
+        body: "An R-43 lot needs 40 foot front and rear yards and 20 foot sides (40 feet for a second story), total floor area is capped at 25% of the lot, and a lot under three acres is held to 24 feet of height.",
+        href: `${REF}/paradise-valley-residential-zoning-and-setbacks`,
+      },
+      {
+        title: "Hillside lots",
+        body: "On a building site with a slope of 10% or more, Article XXII caps the share of the land you may disturb, from 60% at a 10% slope to about 13% at 25%, and a Hillside Building Committee reviews the plans.",
+        href: `${REF}/paradise-valley-hillside-development-requirements`,
+      },
+      {
+        title: "The 2015 codes, a cycle behind",
+        body: "The Town enforces the 2015 International Residential Code with the 2014 electrical code and the 2021 fire code, so a plan set drawn for a newer-code city needs reworking before it is submitted.",
+        href: `${REF}/paradise-valley-adopted-building-codes`,
+      },
+    ],
+  },
   phoenix: {
     galleryLocations: ["Phoenix"],
     heading: "Building a custom home in Phoenix",

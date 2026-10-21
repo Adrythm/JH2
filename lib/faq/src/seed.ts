@@ -6430,9 +6430,9 @@ export const faqSeed: FaqSeed = {
 <p>So budget the valuation-based permit, the 65 percent review, and then your well and septic as separate, real costs. For the fee detail, see Paradise Valley building permit and impact fees.</p>
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Take every number here as a 2026 planning range, not a quote. Construction prices shift with material costs, labor, and interest rates, and your per-foot range leans heavily on your finish level, your home's size, and your specific lot. A flat one-acre lot near town and a steep hillside estate parcel can produce very different all-in numbers for the same square footage.</p>
-<p>For a real budget, confirm the lot's slope and hillside classification, the zoning district and its FAR and height limits, the current permit and review fees with the Paradise Valley Building Department, and the well and septic costs for your parcel. Then have a builder price the actual site work and structure. Jematell Homes builds custom and build-on-your-lot homes in the Paradise Valley area and can turn the broad $500 to $1,000-plus per square foot range into a hard number once the lot and plan are known. Confirm current costs with a builder for your specific lot before you commit, since estate land, well and septic, and construction prices can all shift within a single building season.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Clear allowances and an honest cost breakdown are how we start every custom home. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<p>For a real budget, confirm the lot's slope and hillside classification, the zoning district and its FAR and height limits, the current permit and review fees with the Paradise Valley Building Department, and the well and septic costs for your parcel. Then have a builder price the actual site work and structure. Jematell Homes builds <a href="/where-we-build/paradise-valley">custom and build-on-your-lot homes in Paradise Valley</a> and can turn the broad $500 to $1,000-plus per square foot range into a hard number once the lot and plan are known. Confirm current costs with a builder for your specific lot before you commit, since estate land, well and septic, and construction prices can all shift within a single building season.</p>
+<h2>Building in Paradise Valley with Jematell Homes</h2>
+<p>We start a Paradise Valley build with the lot: its zoning district and floor-area cap, its slope and any hillside review, and whether it needs a well and septic. On a cost-plus build you then get an itemized estimate before we break ground and see the actual subcontractor bids, so the per-foot range above turns into a number for your home. See how we work in the town on our <a href="/where-we-build/paradise-valley">Paradise Valley custom home builder</a> page, read <a href="/build-on-your-lot">building on your own lot</a> if you already own the land, or <a href="/contact">contact us</a> to talk about your parcel.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.paradisevalleyaz.gov/198/Fee-Schedule-PDF" target="_blank" rel="noopener noreferrer">Town of Paradise Valley Master Fee Schedule (Building Safety)</a></li>
@@ -6446,7 +6446,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "paradise-valley", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/paradise-valley", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 245,

@@ -20,7 +20,7 @@ const BASELINE = join(here, "routes-baseline.txt");
 // Must match BUILDING_CODE_JURISDICTIONS in src/data/reference.ts (display order).
 const JURISDICTIONS = [
   "scottsdale", "phoenix", "paradise-valley", "fountain-hills", "cave-creek",
-  "carefree", "mesa", "apache-junction", "casa-grande", "maricopa-county", "pinal-county",
+  "carefree", "mesa", "surprise", "apache-junction", "casa-grande", "maricopa-county", "pinal-county",
 ];
 const STATEWIDE = "statewide";
 const PER_CITY_MODULES = new Set(["building-codes"]);

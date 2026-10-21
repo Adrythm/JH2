@@ -35,6 +35,7 @@
 /financing
 /resources
 /where-we-build/scottsdale
+/where-we-build/paradise-valley
 /where-we-build/rio-verde
 /where-we-build/phoenix
 /where-we-build/cave-creek
@@ -608,6 +609,7 @@
 /reference-library/building-codes/cave-creek
 /reference-library/building-codes/carefree
 /reference-library/building-codes/mesa
+/reference-library/building-codes/surprise
 /reference-library/building-codes/apache-junction
 /reference-library/building-codes/casa-grande
 /reference-library/building-codes/maricopa-county
@@ -858,6 +860,9 @@
 /reference-library/code-library/irc-r609-exterior-windows-and-doors
 /reference-library/code-library/irc-r903-roof-weather-protection
 /reference-library/code-library/irc-r908-reroofing
+/reference-library/building-codes/surprise-adopted-building-codes
+/reference-library/building-codes/surprise-residential-building-permit-requirements
+/reference-library/building-codes/surprise-residential-zoning-and-setbacks
 /guides
 /guides/adus-casitas-and-guest-houses-in-arizona-complete-guide
 /guides/building-a-custom-home-in-apache-junction-complete-guide
@@ -1011,3 +1016,9 @@
 /financing/estimate/800k-home-in-surprise-with-20-percent-down
 /financing/estimate/800k-home-in-surprise-with-25-percent-down
 /financing/estimate/800k-home-in-surprise-with-30-percent-down
+  /glossary/hold-down
+  /glossary/kerf-door-jamb
+  /glossary/shear-wall
+  /glossary/under-cabinet-outlet
+  /guides/arizona-home-styles-guide
+  /guides/luxury-home-construction-arizona

@@ -21,6 +21,7 @@ export interface ServiceItem {
 /** The regions Jematell builds in, in display order. */
 export const locations: LocationItem[] = [
   { slug: "scottsdale", name: "Scottsdale", tagline: "Foothill estates & golf-course living" },
+  { slug: "paradise-valley", name: "Paradise Valley", tagline: "Acre estates below Camelback" },
   { slug: "rio-verde", name: "Rio Verde", tagline: "Open desert skies & gated calm" },
   { slug: "phoenix", name: "Phoenix", tagline: "Modern homes at the valley's heart" },
   { slug: "cave-creek", name: "Cave Creek", tagline: "Rugged Sonoran charm & big views" },
