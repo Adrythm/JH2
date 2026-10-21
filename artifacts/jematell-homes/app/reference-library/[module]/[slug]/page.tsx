@@ -48,8 +48,8 @@ export async function generateMetadata({
   const moduleMeta = getReferenceModule(moduleSlug);
   if (jurisdiction && moduleMeta) {
     return pageMetadata({
-      title: `${jurisdiction.name} Building Codes`,
-      description: jurisdiction.blurb,
+      title: jurisdiction.seoTitle ?? `${jurisdiction.name} Building Codes`,
+      description: jurisdiction.metaDescription ?? jurisdiction.blurb,
       canonical: `/reference-library/${moduleSlug}/${slug}`,
     });
   }

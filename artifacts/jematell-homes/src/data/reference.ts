@@ -111,11 +111,14 @@ export interface JurisdictionMeta {
   name: string;
   county: string;
   blurb: string;
+  /** Optional search title and description for the city hub; the hub falls back to "<name> Building Codes" and the blurb. */
+  seoTitle?: string;
+  metaDescription?: string;
 }
 
 /** Jurisdictions in display order (service-area prominence). */
 export const BUILDING_CODE_JURISDICTIONS: JurisdictionMeta[] = [
-  { slug: "scottsdale", name: "Scottsdale", county: "Maricopa County", blurb: "Adopted I-code editions, residential permit and inspection steps, hillside and Environmentally Sensitive Lands rules, zoning setbacks, green building, and fees for a custom home in Scottsdale." },
+  { slug: "scottsdale", name: "Scottsdale", county: "Maricopa County", blurb: "Adopted I-code editions, residential permit and inspection steps, hillside and Environmentally Sensitive Lands rules, zoning setbacks, green building, and fees for a custom home in Scottsdale.", seoTitle: "Scottsdale Building Codes: Permits, Zoning, ESL", metaDescription: "Scottsdale building codes for a new home: the 2021 I-codes and 2020 NEC, permits and inspections, ESL and hillside rules, zoning setbacks and fees." },
   { slug: "phoenix", name: "Phoenix", county: "Maricopa County", blurb: "Adopted codes, residential permit requirements, the inspection sequence, zoning setbacks, and permit and impact fees for building in the City of Phoenix." },
   { slug: "paradise-valley", name: "Paradise Valley", county: "Maricopa County", blurb: "Adopted codes, permits, inspections, hillside development rules, zoning setbacks, and fees for a custom home in the Town of Paradise Valley." },
   { slug: "fountain-hills", name: "Fountain Hills", county: "Maricopa County", blurb: "Adopted codes, permits, inspections, the residential fire sprinkler requirement, zoning setbacks, and fees for building in the Town of Fountain Hills." },

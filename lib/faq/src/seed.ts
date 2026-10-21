@@ -8888,7 +8888,8 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://btr.az.gov/applicants/architect-applicants" target="_blank" rel="noopener noreferrer">Arizona State Board of Technical Registration (architect applicants)</a></li>
 </ul>`,
       shortAnswer: "Custom house plans in Arizona usually cost 5 to 15 percent of construction cost. On a $700,000 build that is about $35,000 to $105,000 for a registered architect. A home designer paired with a stamping engineer runs less, often $8,000 to $40,000 for plans.",
-      metaDescription: "Custom house plans in Arizona cost about 5 to 15 percent of construction cost for an architect. Home designers cost less. See architect vs designer fees.",
+      seoTitle: "Architect Fees for a Custom Home in Arizona",
+      metaDescription: "Architect fees for a custom home in Arizona run about 5 to 15 percent of construction cost; home designers charge less. What each covers and how to choose.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["design", "research-phase"],
@@ -12579,7 +12580,8 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.iccsafe.org/products-and-services/i-codes/the-i-codes/" target="_blank" rel="noopener noreferrer">ICC: The International Codes (I-Codes), updated every three years</a></li>
 </ul>`,
       shortAnswer: "Scottsdale builds to the 2021 International Residential Code, the 2021 International Building, Energy, Plumbing, Mechanical, and Fuel Gas codes, and the 2020 National Electrical Code, plus local amendments. The building and fire codes took effect January 1, 2023, and Scottsdale enforces them inside city limits.",
-      metaDescription: "Scottsdale, Arizona uses the 2021 I-codes (IRC, IBC, IECC, IPC, IMC, IFGC) and the 2020 NEC, effective 2023, plus local amendments. The exact code list.",
+      seoTitle: "Scottsdale Building Code Editions: 2021 IRC",
+      metaDescription: "Scottsdale builds to the 2021 I-codes (IRC, IBC, IECC, IPC, IMC, IFGC) and the 2020 NEC, in effect since 2023, with local amendments. The list for a new home.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "scottsdale", "research-phase"],
