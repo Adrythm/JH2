@@ -6954,7 +6954,7 @@ export const faqSeed: FaqSeed = {
 <h2>Arizona-specific rules and the owner-builder option</h2>
 <p>In Arizona, <strong>who builds the home changes your requirements</strong>. If you hire a licensed B-class contractor, the lender deals with a known party and the process is standard. If you want to act as your own builder, the rules shift, and so does the loan.</p>
 <p>Arizona law lets you build your own home without a contractor license under the <strong>owner-builder exemption</strong> in <strong>A.R.S. 32-1121</strong>. The statute exempts owners who build a structure "intended for occupancy solely by the owner" and "not intended for sale or for rent." There is a catch built into the law: if you sell or rent the home <strong>within one year</strong> of completion or the certificate of occupancy, that is treated as "prima facie evidence" the project was built to sell, which voids the exemption. So the owner-builder path is for a home you plan to live in, not a flip.</p>
-<p>Owner-builder construction loans are harder to get and a smaller pool of lenders offer them, because the lender loses the safety net of a vetted professional builder. Expect a <strong>larger down payment</strong>, more scrutiny of your construction experience, and sometimes a required construction manager.</p>
+<p><a href="/faq/owner-builder-construction-loan-arizona">Owner-builder construction loans</a> are harder to get and a smaller pool of lenders offer them, because the lender loses the safety net of a vetted professional builder. Expect a <strong>larger down payment</strong>, more scrutiny of your construction experience, and sometimes a required construction manager.</p>
 <p>Two more local points. First, the lender you use must be <strong>licensed to lend in Arizona</strong>, which the Arizona Department of Insurance and Financial Institutions (DIFI) oversees through the NMLS system. Second, your plans must meet the <strong>building code of the city or county where you build</strong>, and editions vary: Scottsdale uses the 2021 I-codes, Phoenix moved to the 2024 Phoenix Building Construction Code, and unincorporated Maricopa County (which covers Rio Verde) uses the 2018 I-codes. The lender will not fund a project that cannot get permitted, so confirm your plans match local code before you apply.</p>
 <p>Construction loan terms, rates, and credit overlays change often and vary by lender. Confirm the current rates, down payment, and exact requirements with an Arizona-licensed lender before you commit to a budget.</p>
 <h2>The Jematell Homes approach</h2>
@@ -6972,7 +6972,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["owner-builder-construction-loan-arizona", "construction-to-permanent-loan-arizona", "land-and-construction-loan-arizona"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -7043,7 +7043,7 @@ export const faqSeed: FaqSeed = {
 <p><strong>VA</strong> sets no minimum score at all. The Department of Veterans Affairs offers single-close construction-to-permanent loans for eligible Veterans and service members, with <strong>no down payment</strong> and funds released through periodic draws under a VA-registered builder. Because the VA does not publish a minimum score, the individual lender sets one, and those lender minimums on construction files tend to run higher than on a standard VA purchase.</p>
 <p><strong>USDA</strong> guaranteed loans, for eligible rural areas common in Pinal County and the Valley's edges, offer up to 100 percent financing. USDA's automated underwriting generally clears applicants around <strong>640</strong> without extra documentation; below that, a lender can still approve through manual underwriting with more paperwork.</p>
 <p>A key caveat: even on a no-minimum program like VA, the <strong>lender's overlay still applies</strong>. The agency sets the floor; the lender can stack a higher one on top. Always ask the lender what its construction-loan score floor is, not just the program's.</p>
-<p>One more Arizona wrinkle raises the credit bar: building as an <strong>owner-builder</strong>. Arizona law lets you build your own home without a contractor license under the owner-builder exemption, but lenders treat that path as riskier because there is no vetted professional builder to finish the job if it stalls. On owner-builder construction loans, expect a smaller pool of lenders, a larger down payment, and often a higher score expectation than the same lender would set for a build run by a licensed general contractor. If your score is borderline, hiring a licensed Arizona builder can widen your lender options.</p>
+<p>One more Arizona wrinkle raises the credit bar: building as an <strong>owner-builder</strong>. Arizona law lets you build your own home without a contractor license under the owner-builder exemption, but lenders treat that path as riskier because there is no vetted professional builder to finish the job if it stalls. On <a href="/faq/owner-builder-construction-loan-arizona">owner-builder construction loans</a>, expect a smaller pool of lenders, a larger down payment, and often a higher score expectation than the same lender would set for a build run by a licensed general contractor. If your score is borderline, hiring a licensed Arizona builder can widen your lender options.</p>
 <h2>How your score affects your rate, and how to raise it before you apply</h2>
 <p>Your credit score moves your <strong>interest rate</strong>, and on a construction loan that swing is real money. Construction loans already carry higher rates than permanent mortgages, and a lower score pushes your rate higher still. Because rates move with the wider market, check a current benchmark such as the Federal Reserve's <strong>H.15 Selected Interest Rates</strong> release and confirm your actual rate with the lender before you set a budget. Never assume a rate you saw last quarter still holds.</p>
 <p>If your score is close to a lender's floor, a few targeted moves can lift it before you apply:</p>
@@ -7065,7 +7065,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["owner-builder-construction-loan-arizona", "construction-loan-requirements-arizona", "what-credit-score-and-down-payment-do-you-need-for-a-construction-loan-in-arizona"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -7318,7 +7318,7 @@ export const faqSeed: FaqSeed = {
 <p>A construction-to-permanent loan fits when you are <strong>building a home you will keep and live in</strong>, and you want certainty on cost and rate from day one. It is the standard choice for custom builds in Scottsdale, Cave Creek, Rio Verde, and across the Valley, because it locks your financing before a single shovel hits the ground.</p>
 <p>It works best when your project is well defined. You need finished plans, a fixed or guaranteed-price builder contract, and a realistic budget, because the lender appraises the <strong>finished home</strong> and lends against that future value. If your plans or budget are still loose, the appraisal can come in low and stall the loan. Your builder also has to clear the lender's review. In Arizona that means an active <strong>B-class General Residential Contractor</strong> license with the Registrar of Contractors, plus a track record the lender can verify.</p>
 <p>Plan for the timeline too. A custom build in metro Phoenix often takes <strong>8 to 14 months</strong> from groundbreaking to certificate of occupancy, and your interest-only payments run for that whole stretch before the loan converts. A longer build means more months of interest, so build a realistic schedule and a contingency line of 5 to 10 percent into the budget. Most single-close lenders also cap how long the construction phase can run, commonly 12 months, with extensions available for a fee if weather or supply delays push you past it.</p>
-<p>There are a few cases where it fits less well. If you plan to build and <strong>sell within a year</strong>, this is the wrong loan, and the owner-builder route hits a legal wall under Arizona's one-year rule. If you expect rates to drop sharply during a long build and you want to shop the permanent mortgage at the end, a two-close may save more. And if you are acting as your own builder, expect a smaller lender pool and tougher terms.</p>
+<p>There are a few cases where it fits less well. If you plan to build and <strong>sell within a year</strong>, this is the wrong loan, and the <a href="/faq/owner-builder-construction-loan-arizona">owner-builder route</a> hits a legal wall under Arizona's one-year rule. If you expect rates to drop sharply during a long build and you want to shop the permanent mortgage at the end, a two-close may save more. And if you are acting as your own builder, expect a smaller lender pool and tougher terms.</p>
 <p>Construction-to-permanent rates, down payments, and program limits change often and vary by lender and loan type. Confirm the current terms, rate-lock options, and your eligibility for VA, FHA, or USDA financing with an Arizona-licensed lender before you commit.</p>
 <h2>Where Jematell Homes comes in</h2>
 <p>Clear allowances and an honest cost breakdown are how we start every custom home. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
@@ -7335,7 +7335,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["owner-builder-construction-loan-arizona", "construction-loan-requirements-arizona", "single-close-vs-two-close-construction-loan-in-arizona"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -7407,7 +7407,7 @@ export const faqSeed: FaqSeed = {
 <h2>When a lot-plus-build loan makes sense</h2>
 <p>A land-and-construction loan fits when you have <strong>found the lot but do not own it yet</strong>, and you want to lock in financing for the land and the home in one step. It saves you a second closing and a second loan approval, and it protects you from having to qualify again for the mortgage after the build.</p>
 <p>It works best when the <strong>lot is clean and buildable</strong>: zoned correctly, with legal access, and with a realistic path to water, septic, and power. The more questions hang over the land, the more the loan can stall, because the lender lends against the finished home on a buildable lot. Do your homework on the parcel before you apply. A soils report, a water feasibility check, and a zoning confirmation up front save weeks later.</p>
-<p>Two cases where it fits less well. If you already <strong>own your land free and clear</strong>, you may not need to roll it in at all; a standard construction loan using your land as the down payment is often simpler. And if you plan to build and <strong>sell within a year</strong>, the owner-builder route is blocked by Arizona's one-year rule, and most lenders will treat the project as a higher-risk investment build.</p>
+<p>Two cases where it fits less well. If you already <strong>own your land free and clear</strong>, you may not need to roll it in at all; a standard construction loan using your land as the down payment is often simpler. And if you plan to build and <strong>sell within a year</strong>, the <a href="/faq/owner-builder-construction-loan-arizona">owner-builder route</a> is blocked by Arizona's one-year rule, and most lenders will treat the project as a higher-risk investment build.</p>
 <p>Land-and-construction loan terms, down payments, rates, and rural eligibility maps change often and vary by lender and program. Confirm the current terms, your USDA or VA eligibility, and whether your specific lot qualifies with an Arizona-licensed lender before you make an offer on the land.</p>
 <h2>Building with Jematell Homes</h2>
 <p>We build the budget line by line so the number you sign is the number you build to. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
@@ -7424,7 +7424,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["owner-builder-construction-loan-arizona", "construction-loan-requirements-arizona", "what-is-a-lot-loan-or-land-loan-and-how-is-it-different-from-a-construction-loan-in-arizona"],
       relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -7770,7 +7770,7 @@ export const faqSeed: FaqSeed = {
 <h2>Which one is right for your Arizona build</h2>
 <p>Choose a <strong>single-close</strong> if you are building a home you will live in and you want certainty on rate and approval from day one. It is the standard path for custom builds across Scottsdale, Cave Creek, Rio Verde, Fountain Hills, and the wider Phoenix metro, because it locks your financing before the first shovel hits the ground and removes the re-qualification risk entirely. The savings are concrete: closing costs often run 2 to 5 percent of the loan, so skipping a second closing on a $700,000 home can save you well over $10,000.</p>
 <p>Choose a <strong>two-close</strong> in narrower cases. It can pay off if you expect rates to fall sharply during a long build and you want to shop the permanent mortgage at the end. It is also the required structure when the construction period will exceed the single-close caps of 12 months for any one period or 18 months total, which can happen on a large estate or a phased project. And some borrowers with a strong, stable financial picture accept the re-qualification risk in exchange for end-of-build rate flexibility.</p>
-<p>A few Arizona-specific factors tilt the decision. If you build as an <strong>owner-builder</strong> under Arizona's owner-builder exemption, expect a smaller lender pool and tougher terms on either structure, because lenders see a self-managed build as higher risk. If you already <strong>own your lot free and clear</strong>, your land equity can serve as much of your down payment on a single-close, which strengthens the case for it. And because metro Phoenix builds usually finish well inside the 18-month single-close window, the period caps rarely force a two-close on a normal custom home.</p>
+<p>A few Arizona-specific factors tilt the decision. If you build as an <a href="/faq/owner-builder-construction-loan-arizona"><strong>owner-builder</strong></a> under Arizona's owner-builder exemption, expect a smaller lender pool and tougher terms on either structure, because lenders see a self-managed build as higher risk. If you already <strong>own your lot free and clear</strong>, your land equity can serve as much of your down payment on a single-close, which strengthens the case for it. And because metro Phoenix builds usually finish well inside the 18-month single-close window, the period caps rarely force a two-close on a normal custom home.</p>
 <p>Single-close and two-close terms, rates, closing costs, and qualifying rules change often and vary by lender and loan program. Confirm the current pricing and specs (as of 2026) with an Arizona-licensed lender, including which structure they offer, your rate-lock and float-down options, and the construction-period limits that apply to your build, before you commit.</p>
 <h2>Where Jematell Homes comes in</h2>
 <p>We build the budget line by line so the number you sign is the number you build to. Reach out and we will talk through how this applies to your specific lot and plan.</p>
@@ -7786,7 +7786,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "construction-financing"],
       tags: ["cost", "research-phase"],
-      relatedFaqSlugs: ["do-i-pay-interest-during-the-construction-phase-of-a-loan-in-arizona", "construction-to-permanent-loan-arizona", "what-is-an-appraisal-gap-on-a-construction-loan"],
+      relatedFaqSlugs: ["owner-builder-construction-loan-arizona", "do-i-pay-interest-during-the-construction-phase-of-a-loan-in-arizona", "construction-to-permanent-loan-arizona", "what-is-an-appraisal-gap-on-a-construction-loan"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -8352,8 +8352,9 @@ export const faqSeed: FaqSeed = {
 <p>Fountain Hills and Carefree both allow <strong>guest houses</strong>, but neither lets you rent the guest house on its own. The difference from a true ADU is the rental line. In Fountain Hills, the zoning ordinance defines a <strong>guest house</strong> as "living or sleeping quarters within an accessory building for the sole use of occupants of the premises, guests of such occupants or persons employed on the premises." It then adds that "such quarters shall not be rented, and/or otherwise used for income producing purposes." A guest house there is also not counted as a principal building. Only one single-family dwelling is allowed per lot of record. So the guest house is treated as part of your home, not as a second household you can lease out.</p>
 <p>Carefree draws the same line a different way. Its town code allows guest houses and accessory buildings. But it states that accessory buildings "may not be leased, subleased, or rented separate and apart from the main building." It also bars renting the main building apart from its accessory building. In other words, the two have to be leased together as one property or not at all. Carefree also caps accessory-structure height. The code allows "no part of any accessory structure" to "rise more than sixteen (16) feet above its design grade." That 16-foot limit is lower than the height a true ADU could reach in Phoenix or Scottsdale, which keeps Carefree guest houses modest in scale. So a Carefree guest house can house family and visitors, but it cannot become a stand-alone rental.</p>
 <p>The bottom line for both towns is consistent. You can build a casita or guest house for your own use and your guests, and it can have a bedroom and bath. It can hold visiting family, an aging parent, or a home office. What you cannot do is treat it as an income unit leased to a separate tenant who has no tie to your household. That is the exact freedom the state ADU law grants in the larger covered cities, and it is the exact freedom these smaller exempt towns have chosen to withhold from owners. If rental income is your goal, confirm the current rule directly with the Town of Fountain Hills or the Town of Carefree, since a town can choose to loosen its code over time. For the rules in the larger cities nearby, see <a href="/faq/adu-and-casita-rules-in-phoenix-arizona">the ADU and casita rules in Phoenix</a> and <a href="/faq/adu-and-casita-rules-in-scottsdale-arizona">the ADU and casita rules in Scottsdale</a>.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Building a casita in Cave Creek, Fountain Hills or Carefree</h2>
+<p>Jematell Homes designs and builds detached casitas and guest houses in all three towns, as part of a new custom home or on a lot you already own. The first step is always the lot, not the floor plan: in Cave Creek we confirm the parcel is in a Desert Rural zone before anything is drawn, and in Fountain Hills and Carefree we design the guest house as part of your household, to the town's height limit and yards. If your goal is rental income, we will tell you plainly whether the town allows it before you spend money on plans.</p>
+<p>See how each town reviews and inspects a build on our <a href="/where-we-build/cave-creek">Cave Creek</a>, <a href="/where-we-build/fountain-hills">Fountain Hills</a> and <a href="/where-we-build/carefree">Carefree</a> pages, and what goes into a guest space on our <a href="/casitas-and-guest-houses">casitas and guest houses</a> page. To talk about your lot, <a href="/contact">contact us</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.cavecreekaz.gov/336/Ordinances-Guidelines" target="_blank" rel="noopener noreferrer">Town of Cave Creek: Ordinances and Guidelines (Zoning Ordinance, Chapter 2 Residential Zones)</a></li>
@@ -8368,7 +8369,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "cave-creek", "fountain-hills", "research-phase"],
       relatedFaqSlugs: ["which-arizona-cities-are-required-to-allow-adus", "adu-and-casita-rules-in-phoenix-arizona", "adu-and-casita-rules-in-scottsdale-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["casitas", "where-we-build/cave-creek", "where-we-build/fountain-hills", "where-we-build/carefree"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 289,
