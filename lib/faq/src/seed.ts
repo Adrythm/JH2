@@ -6476,8 +6476,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Every number here is a 2026 planning range, not a quote. Material costs, labor, and interest rates keep moving the price, and your per-foot figure depends on your finish level and your specific lot. A flat infill lot in the core and an edge subdivision lot that pays the full impact-fee stack can produce very different all-in numbers for the same floor plan.</p>
 <p>For a real budget, find out your lot's service area to know whether the growth-area impact fees apply, get the water and wastewater fee total for your meter size, price any demolition and abatement on a teardown, and have a builder bid the actual site work and structure. Jematell Homes builds custom and build-on-your-lot homes across the Phoenix area, including infill and teardown rebuilds, and can turn the broad $275 to $550 per square foot range into a hard number once the lot and plan are known. Confirm current costs with a builder for your specific lot before you commit, since the Phoenix market can shift within a single building season.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Clear allowances and an honest cost breakdown are how we start every custom home. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Building a custom home in Phoenix with Jematell Homes</h2>
+<p>On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Phoenix figures above turn into line items for your lot. See how we <a href="/where-we-build/phoenix">build a custom home in Phoenix</a>, from the city's 2024 codes to infill and teardown lots. If you already own the land, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address and the home you have in mind.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/fee-schedules-by-land-use.pdf" target="_blank" rel="noopener noreferrer">City of Phoenix 2025 Development Impact Fee Schedule by Land Use (Ordinance G-7375)</a></li>
@@ -6491,7 +6491,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "phoenix", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-tear-down-and-rebuild-a-house-in-arizona", "how-much-does-asbestos-abatement-cost-on-an-arizona-teardown-or-remodel", "can-i-tear-down-an-existing-house-and-rebuild-on-the-same-lot-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/phoenix", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 246,
@@ -9268,8 +9268,8 @@ export const faqSeed: FaqSeed = {
 <p>Phoenix <strong>cannot require extra parking</strong> for an ADU, but it <strong>does ban short-term rentals</strong> of the unit. The no-parking rule comes straight from state law, which says a city may not require additional parking to accommodate an ADU. That removes a barrier that used to kill many backyard projects on lots with no room for another parking pad.</p>
 <p>The rental rule is the part Phoenix owners miss most. You can rent a Phoenix ADU as <strong>long-term housing</strong> to any tenant, with no requirement that you live on the property and no required relationship between you and the tenant. What you cannot do is run the ADU as a <strong>short-term rental</strong> on platforms like Airbnb. The city's ADU guide is direct that ADUs may not operate as short-term rentals, even though the main home on the same lot is not held to that limit. So the income model for a Phoenix casita is a long-term lease, not a nightly rental.</p>
 <p>This makes Phoenix different from some nearby cities. Scottsdale, for example, allows an ADU as a short-term rental only if the owner lives on site, while Phoenix simply blocks ADU short-term rentals outright. The state law itself protects long-term renting, barring a city from any rule that would "prohibit the use or advertisement of either the single-family dwelling or any accessory dwelling unit located on the same lot or parcel as separately leased long-term rental housing." That is the income path Phoenix leaves open. If nightly-rental income is your goal, confirm the current rule with the Phoenix Planning and Development Department before you build, because short-term rental policy is the most likely piece to change. For the statewide baseline these city rules build on, see our pages on <a href="/faq/arizona-adu-requirements">Arizona's ADU requirements for setbacks, size, and utilities</a> and <a href="/faq/which-arizona-cities-are-required-to-allow-adus">which Arizona cities are required to allow ADUs</a>.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building a casita or ADU in Phoenix with Jematell Homes</h2>
+<p>We design and build <a href="/casitas-and-guest-houses">casitas and guest houses</a> as part of a new custom home or on a lot you already own, and Section 706 shapes the plan from the first sketch: which yard the unit sits in, how tall it can be, and how big the lot lets it get. For a new home and a casita on the same Phoenix lot, see how we <a href="/where-we-build/phoenix">build custom homes in Phoenix</a>, or <a href="/contact">contact us</a> with the lot size and what the unit is for.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://phoenix.municipal.codes/ZO/706" target="_blank" rel="noopener noreferrer">Phoenix Zoning Ordinance Section 706 (Accessory Uses and Structures)</a></li>
@@ -9283,7 +9283,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "phoenix", "research-phase"],
       relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["casitas", "where-we-build/phoenix", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 310,
@@ -12484,8 +12484,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Phoenix's <strong>2024 I-codes and the 2023 NEC</strong>, with the city amendments applied. That single sentence prevents the most common and most expensive plan-review correction, which is a sheet drawn to the wrong edition. In practice, that means the structural engineer details framing and foundations to the 2024 IRC, the energy consultant runs insulation and duct numbers to the 2024 IECC, and the electrician wires to the 2023 NEC.</p>
 <p>When you compare contractor bids, confirm each one is quoting current-code work. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. Jematell Homes builds in Phoenix and designs every plan to the city's current adopted edition, so the codes are handled before a single footing is poured. For how these codes get checked at the counter, see Phoenix Residential Building Permit Requirements, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Permitting and code compliance are part of our full-service project management. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building in Phoenix with Jematell Homes</h2>
+<p>We are a licensed Arizona general contractor, ROC# 339367, and we run the Phoenix permit for you: the plan set drawn to the adopted edition, plan review, then the staged inspections through the Certificate of Occupancy. See how we <a href="/where-we-build/phoenix">build custom homes in Phoenix</a>, or <a href="/contact">contact us</a> with your lot and plans.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.phoenix.gov/administration/departments/pdd/tools-resources/codes-ordinance/building-code.html" target="_blank" rel="noopener noreferrer">City of Phoenix Building Construction Codes</a></li>
@@ -12498,7 +12498,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "phoenix", "research-phase"],
       relatedFaqSlugs: ["what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/phoenix", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 383,
