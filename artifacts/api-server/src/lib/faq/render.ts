@@ -21,6 +21,10 @@ const SERVICE_LINKS: Record<string, { title: string; href: string }> = {
   "where-we-build": { title: "Where We Build", href: "/where-we-build" },
   "build-on-your-lot": { title: "Build on Your Lot", href: "/build-on-your-lot" },
   "buy-a-lot-with-us": { title: "Buy a Lot With Us", href: "/buy-a-lot-with-us" },
+  casitas: { title: "Casitas and Guest Houses", href: "/casitas-and-guest-houses" },
+  "where-we-build/cave-creek": { title: "Custom Homes in Cave Creek", href: "/where-we-build/cave-creek" },
+  "where-we-build/fountain-hills": { title: "Custom Homes in Fountain Hills", href: "/where-we-build/fountain-hills" },
+  "where-we-build/carefree": { title: "Custom Homes in Carefree", href: "/where-we-build/carefree" },
 };
 
 function questionListItem(item: FaqSummary): string {
