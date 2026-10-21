@@ -27,7 +27,16 @@ interface Town {
   heading: string;
   lead: string;
   points: Point[];
+  /**
+   * Optional: what else the town allows on a lot (casitas, guest houses,
+   * garages), for the "casita builder <town>" searches the page is shown for.
+   * Rules come from the site's sourced casita FAQ; what we build comes from
+   * the casita and RV garage service pages.
+   */
+  beyond?: { heading: string; points: Point[] };
 }
+
+const CASITA_TOWNS_FAQ = "/faq/do-cave-creek-fountain-hills-and-carefree-allow-casitas-and-adus";
 
 const REF = "/reference-library/building-codes";
 
@@ -77,6 +86,26 @@ const TOWNS: Record<string, Town> = {
         href: "/faq/desert-and-dark-sky-design-rules-cave-creek-carefree",
       },
     ],
+    beyond: {
+      heading: "Casitas, guest houses and garages on a Cave Creek lot",
+      points: [
+        {
+          title: "Detached living quarters on Desert Rural lots",
+          body: "Cave Creek allows a detached casita or guest house only in its Desert Rural zones, as space for your own household and guests. On a Single Residence lot the code does not allow detached living quarters, so the zone decides the question before any design.",
+          href: CASITA_TOWNS_FAQ,
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses as part of a new custom home or on a lot you already own, inside the same yards, 25 foot height cap and native habitat corridor as the house.",
+          href: "/casitas-and-guest-houses",
+        },
+        {
+          title: "RV garages",
+          body: "A large desert lot has room for an RV garage. Door height, ceiling, slab and hookups are planned with the house, inside the same yards and lot coverage limits.",
+          href: "/rv-garages",
+        },
+      ],
+    },
   },
   "casa-grande": {
     galleryLocations: ["Casa Grande", "Arizona City"],
@@ -123,6 +152,21 @@ const TOWNS: Record<string, Town> = {
         href: "/faq/desert-and-dark-sky-design-rules-cave-creek-carefree",
       },
     ],
+    beyond: {
+      heading: "Casitas and guest houses on a Carefree lot",
+      points: [
+        {
+          title: "Guest houses, leased only with the home",
+          body: "Carefree allows guest houses and accessory buildings, but they may not be rented apart from the main house, and no part of an accessory structure may rise more than 16 feet above its design grade.",
+          href: CASITA_TOWNS_FAQ,
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses as part of a new custom home or on a lot you already own, sized and placed to the town's height limit and yards.",
+          href: "/casitas-and-guest-houses",
+        },
+      ],
+    },
   },
   "fountain-hills": {
     galleryLocations: ["Fountain Hills"],
@@ -146,6 +190,21 @@ const TOWNS: Record<string, Town> = {
         href: "/reference-library/community-design-guidelines/firerock-fountain-hills-design-guidelines",
       },
     ],
+    beyond: {
+      heading: "Casitas and guest houses in Fountain Hills",
+      points: [
+        {
+          title: "Guest houses for your household, not rentals",
+          body: "Fountain Hills allows a guest house for the people who live on the lot, their guests and household staff, and its zoning bars renting it or using it to earn income. One single-family home is allowed per lot.",
+          href: CASITA_TOWNS_FAQ,
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses as part of a new custom home or on a lot you already own, to the town's yards, height cap and any community design review.",
+          href: "/casitas-and-guest-houses",
+        },
+      ],
+    },
   },
   "rio-verde": {
     galleryLocations: ["Rio Verde"],
@@ -274,6 +333,18 @@ export function RegionHub({ region, cityName }: { region: string; cityName: stri
                 </li>
               ))}
             </ul>
+            {town.beyond ? (
+              <>
+                <h3>{town.beyond.heading}</h3>
+                <ul>
+                  {town.beyond.points.map((pt) => (
+                    <li key={pt.href}>
+                      <strong>{pt.title}.</strong> {pt.body} <Link href={pt.href}>Read more</Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
             {built.length > 0 ? (
               <>
                 <h3>Homes we have built in and around {cityName}</h3>
