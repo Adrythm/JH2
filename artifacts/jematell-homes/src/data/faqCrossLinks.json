@@ -13,7 +13,8 @@
       "process",
       "research-phase"
     ],
-    "pillarBlogSlug": "what-to-expect-when-building-a-custom-home-in-the-phoenix-metro-area"
+    "pillarBlogSlug": "what-to-expect-when-building-a-custom-home-in-the-phoenix-metro-area",
+    "href": "/reference-library/building-codes/maricopa-county-residential-building-permit-requirements"
   },
   {
     "slug": "how-to-choose-a-custom-home-builder-in-arizona",
@@ -30,11 +31,12 @@
       "hiring",
       "research-phase"
     ],
-    "pillarBlogSlug": "choosing-the-best-home-builder-in-scottsdale-key-considerations-for-2026"
+    "pillarBlogSlug": "choosing-the-best-home-builder-in-scottsdale-key-considerations-for-2026",
+    "href": "/guides/choosing-a-custom-home-builder-in-arizona-complete-guide"
   },
   {
-    "slug": "designing-an-energy-efficient-home-for-the-arizona-desert",
-    "question": "How do you design an energy-efficient home for the Arizona desert?",
+    "slug": "how-to-design-a-custom-home-to-stay-cool-in-the-arizona-heat",
+    "question": "How do you design a custom home to stay cool in the Arizona heat?",
     "categorySlug": "building-in-the-desert",
     "categoryTitle": "Building in the Desert",
     "topicSlugs": [
@@ -80,11 +82,12 @@
       "phoenix-metro",
       "research-phase"
     ],
-    "pillarBlogSlug": "how-to-build-a-custom-home"
+    "pillarBlogSlug": "how-to-build-a-custom-home",
+    "href": "/reference-library/building-codes"
   },
   {
-    "slug": "what-to-ask-a-custom-home-builder-before-hiring",
-    "question": "What should I ask a custom home builder before hiring them?",
+    "slug": "what-questions-should-i-ask-a-custom-home-builder-before-hiring",
+    "question": "What questions should I ask a custom home builder before hiring them?",
     "categorySlug": "choosing-a-builder",
     "categoryTitle": "Choosing & Working With a Builder",
     "topicSlugs": [
@@ -100,8 +103,8 @@
     "pillarBlogSlug": "questions-to-ask-custom-home-builder-arizona"
   },
   {
-    "slug": "how-long-does-permitting-take-in-scottsdale",
-    "question": "How long does it take to get a building permit in Scottsdale?",
+    "slug": "how-long-does-it-take-to-get-a-building-permit-in-arizona",
+    "question": "How long does it take to get a building permit in Arizona?",
     "categorySlug": "permits-and-codes",
     "categoryTitle": "Permits, Codes & Inspections",
     "topicSlugs": [
@@ -133,8 +136,8 @@
     "pillarBlogSlug": null
   },
   {
-    "slug": "red-flags-when-choosing-a-custom-home-builder",
-    "question": "What are the red flags to watch for when choosing a custom home builder?",
+    "slug": "red-flags-a-custom-home-builder-is-not-legitimate-arizona",
+    "question": "What are the red flags that a custom home builder isn't legitimate?",
     "categorySlug": "choosing-a-builder",
     "categoryTitle": "Choosing & Working With a Builder",
     "topicSlugs": [
@@ -180,7 +183,8 @@
       "land",
       "research-phase"
     ],
-    "pillarBlogSlug": "building-on-your-own-lot-arizona"
+    "pillarBlogSlug": "building-on-your-own-lot-arizona",
+    "href": "/build-on-your-lot"
   },
   {
     "slug": "design-build-vs-design-bid-build",
@@ -214,7 +218,8 @@
       "phoenix-metro",
       "research-phase"
     ],
-    "pillarBlogSlug": "how-to-build-a-custom-home"
+    "pillarBlogSlug": "how-to-build-a-custom-home",
+    "href": "/reference-library/building-codes/arizona-building-code-editions-by-city"
   },
   {
     "slug": "do-i-need-a-permit-in-unincorporated-maricopa-county",
@@ -232,11 +237,12 @@
       "septic",
       "research-phase"
     ],
-    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-what-to-know-before-you-start"
+    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-what-to-know-before-you-start",
+    "href": "/reference-library/building-codes/maricopa-county-residential-building-permit-requirements"
   },
   {
-    "slug": "do-i-need-a-soils-or-geotechnical-report",
-    "question": "Do I need a soils or geotechnical report to build in Arizona?",
+    "slug": "do-i-need-a-soils-or-geotechnical-report-and-what-triggers-special-foundation-requirements-in-arizona",
+    "question": "Do I need a soils or geotechnical report, and what triggers special foundation requirements in Arizona?",
     "categorySlug": "land-and-due-diligence",
     "categoryTitle": "Land & Due Diligence",
     "topicSlugs": [
@@ -251,8 +257,8 @@
     "pillarBlogSlug": "what-to-do-after-buying-land-in-arizona"
   },
   {
-    "slug": "how-to-verify-an-arizona-contractor-license",
-    "question": "How do I verify a builder's Arizona contractor license, and why does it matter?",
+    "slug": "how-to-verify-an-arizona-contractor-license-with-the-roc",
+    "question": "How do I verify an Arizona contractor's license with the ROC?",
     "categorySlug": "choosing-a-builder",
     "categoryTitle": "Choosing & Working With a Builder",
     "topicSlugs": [
@@ -268,8 +274,8 @@
     "pillarBlogSlug": "choosing-the-best-home-builder-in-scottsdale-key-considerations-for-2026"
   },
   {
-    "slug": "how-long-does-it-take-to-build-a-custom-home",
-    "question": "How long does it take to build a custom home in Arizona, phase by phase?",
+    "slug": "how-long-does-it-take-to-build-a-custom-home-in-arizona",
+    "question": "How long does it take to build a custom home in Arizona?",
     "categorySlug": "building-in-the-desert",
     "categoryTitle": "Building in the Desert",
     "topicSlugs": [
@@ -299,7 +305,8 @@
       "rio-verde",
       "research-phase"
     ],
-    "pillarBlogSlug": "rio-verde-arizona-utilities-water-infrastructure"
+    "pillarBlogSlug": "rio-verde-arizona-utilities-water-infrastructure",
+    "href": "/faq/topics/rural-water-and-septic"
   },
   {
     "slug": "how-permitting-works-in-pinal-county",
@@ -337,8 +344,8 @@
     "pillarBlogSlug": null
   },
   {
-    "slug": "best-roofing-and-exterior-materials-for-the-desert",
-    "question": "What are the best roofing and exterior materials for the Arizona desert?",
+    "slug": "tile-vs-foam-vs-shingle-roofing-for-an-arizona-home",
+    "question": "Tile vs foam vs shingle roofing: which is best for an Arizona home?",
     "categorySlug": "building-in-the-desert",
     "categoryTitle": "Building in the Desert",
     "topicSlugs": [
@@ -418,11 +425,12 @@
       "percolation",
       "research-phase"
     ],
-    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss"
+    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss",
+    "href": "/faq/topics/rural-water-and-septic"
   },
   {
-    "slug": "the-custom-home-building-process-step-by-step",
-    "question": "What are the steps to build a custom home, from first meeting to move-in?",
+    "slug": "what-are-the-steps-to-building-a-custom-home-in-arizona",
+    "question": "What are the steps to building a custom home in Arizona?",
     "categorySlug": "choosing-a-builder",
     "categoryTitle": "Choosing & Working With a Builder",
     "topicSlugs": [
@@ -438,8 +446,8 @@
     "pillarBlogSlug": "what-custom-home-builders-need-from-you-before-the-first-design-meeting"
   },
   {
-    "slug": "what-inspections-happen-during-a-custom-home-build",
-    "question": "What inspections happen during a custom-home build, and in what order?",
+    "slug": "what-inspections-are-required-when-building-a-house-in-arizona",
+    "question": "What inspections are required when building a house in Arizona?",
     "categorySlug": "permits-and-codes",
     "categoryTitle": "Permits, Codes & Inspections",
     "topicSlugs": [
@@ -490,8 +498,8 @@
     "pillarBlogSlug": "how-to-avoid-common-mistakes-when-building-a-custom-home-in-arizona"
   },
   {
-    "slug": "what-is-the-dust-control-rule-for-valley-construction-sites",
-    "question": "What dust-control rules apply to a construction site in the Phoenix metro?",
+    "slug": "do-i-need-a-dust-control-permit-to-build-a-custom-home-in-arizona",
+    "question": "Do I need a dust control permit to build a custom home in Arizona?",
     "categorySlug": "permits-and-codes",
     "categoryTitle": "Permits, Codes & Inspections",
     "topicSlugs": [
@@ -508,8 +516,8 @@
     "pillarBlogSlug": "how-to-build-a-custom-home"
   },
   {
-    "slug": "what-is-arizonas-100-year-water-supply-rule",
-    "question": "What is Arizona's 100-year water supply rule and does it affect my lot?",
+    "slug": "assured-vs-adequate-water-supply-and-the-100-year-rule",
+    "question": "What is the difference between assured and adequate water supply, and how does the 100-year rule work?",
     "categorySlug": "water-septic-utilities",
     "categoryTitle": "Water, Septic & Utilities",
     "topicSlugs": [
@@ -538,28 +546,12 @@
       "rural",
       "research-phase"
     ],
-    "pillarBlogSlug": "rio-verde-arizona-utilities-water-infrastructure"
+    "pillarBlogSlug": "rio-verde-arizona-utilities-water-infrastructure",
+    "href": "/reference-library/arizona-building-law/ars-45-454-exempt-domestic-well-arizona"
   },
   {
-    "slug": "how-long-does-permitting-take-across-our-markets",
-    "question": "How long does the building permit process take across the Phoenix metro and your other markets?",
-    "categorySlug": "permits-and-codes",
-    "categoryTitle": "Permits, Codes & Inspections",
-    "topicSlugs": [
-      "building-permits-arizona"
-    ],
-    "tags": [
-      "permits",
-      "permit-timeline",
-      "phoenix-metro",
-      "plan-review",
-      "research-phase"
-    ],
-    "pillarBlogSlug": "how-long-it-takes-to-build-a-custom-home-in-arizona"
-  },
-  {
-    "slug": "how-much-does-it-cost-to-build-a-custom-home",
-    "question": "How much does it cost to build a custom home in Scottsdale or Phoenix?",
+    "slug": "how-much-does-it-cost-to-build-a-custom-home-in-arizona",
+    "question": "How much does it cost to build a custom home in Arizona?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -626,8 +618,8 @@
     "pillarBlogSlug": "what-custom-home-builders-need-from-you-before-the-first-design-meeting"
   },
   {
-    "slug": "how-do-i-check-zoning-before-buying-a-lot",
-    "question": "How do I check a lot's zoning before I buy it?",
+    "slug": "how-do-i-buy-land-to-build-a-house-in-arizona",
+    "question": "How do I buy land to build a house in Arizona?",
     "categorySlug": "land-and-due-diligence",
     "categoryTitle": "Land & Due Diligence",
     "topicSlugs": [
@@ -661,8 +653,8 @@
     "pillarBlogSlug": null
   },
   {
-    "slug": "what-are-allowances-and-change-orders",
-    "question": "What are allowances and change orders, and how do they affect my budget?",
+    "slug": "what-is-a-builder-allowance-and-what-happens-if-you-go-over",
+    "question": "What is a builder allowance and what happens if you go over it?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -707,7 +699,8 @@
       "budget",
       "research-phase"
     ],
-    "pillarBlogSlug": "financing-your-custom-or-semi-home"
+    "pillarBlogSlug": "financing-your-custom-or-semi-home",
+    "href": "/financing"
   },
   {
     "slug": "foundation-types-for-arizona-custom-homes",
@@ -728,8 +721,8 @@
     "pillarBlogSlug": null
   },
   {
-    "slug": "rio-verde-foothills-water-how-lots-get-water-now",
-    "question": "What happened with Rio Verde Foothills water, and how do lots get water there now?",
+    "slug": "how-to-get-water-to-a-home-in-rio-verde-foothills",
+    "question": "How do you get water to a home in Rio Verde Foothills?",
     "categorySlug": "water-septic-utilities",
     "categoryTitle": "Water, Septic & Utilities",
     "topicSlugs": [
@@ -810,7 +803,8 @@
       "title",
       "research-phase"
     ],
-    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss"
+    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss",
+    "href": "/glossary/easement"
   },
   {
     "slug": "what-are-setbacks-lot-coverage-and-naos-rules",
@@ -827,11 +821,12 @@
       "scottsdale",
       "research-phase"
     ],
-    "pillarBlogSlug": "designing-a-custom-home-around-your-lot-why-layout-matters-more-than-square-footage"
+    "pillarBlogSlug": "designing-a-custom-home-around-your-lot-why-layout-matters-more-than-square-footage",
+    "href": "/faq/topics/zoning-setbacks-adus"
   },
   {
-    "slug": "insulation-options-for-an-arizona-home",
-    "question": "What are the best insulation options for an Arizona home (spray foam, batt, blown-in)?",
+    "slug": "spray-foam-vs-batt-insulation-for-an-arizona-home",
+    "question": "Spray foam vs batt insulation: which is better for an Arizona home?",
     "categorySlug": "building-in-the-desert",
     "categoryTitle": "Building in the Desert",
     "topicSlugs": [
@@ -848,8 +843,8 @@
     "pillarBlogSlug": "arizona-home-design-trends-for-2026"
   },
   {
-    "slug": "what-do-permit-and-development-fees-cost-to-build",
-    "question": "What do permit, impact, and development fees add to the cost of a build?",
+    "slug": "building-permit-cost-arizona",
+    "question": "How much does a building permit cost in Arizona?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -863,23 +858,6 @@
       "research-phase"
     ],
     "pillarBlogSlug": "establish-a-realistic-budget-before-designing-your-custom-home"
-  },
-  {
-    "slug": "assured-vs-adequate-water-supply-and-the-100-year-rule",
-    "question": "What is the difference between assured and adequate water supply, and how does the 100-year rule work?",
-    "categorySlug": "water-septic-utilities",
-    "categoryTitle": "Water, Septic & Utilities",
-    "topicSlugs": [
-      "rural-water-and-septic"
-    ],
-    "tags": [
-      "assured-water-supply",
-      "adequate-water-supply",
-      "adwr",
-      "100-year-rule",
-      "research-phase"
-    ],
-    "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-what-to-know-before-you-start"
   },
   {
     "slug": "can-i-build-a-casita-or-adu",
@@ -896,7 +874,8 @@
       "hb-2720",
       "research-phase"
     ],
-    "pillarBlogSlug": "guest-house-amp-adu-essentials-building-casitas-in-phoenix-under-new-laws"
+    "pillarBlogSlug": "guest-house-amp-adu-essentials-building-casitas-in-phoenix-under-new-laws",
+    "href": "/casitas-and-guest-houses"
   },
   {
     "slug": "how-do-i-confirm-legal-access-to-a-rural-lot",
@@ -916,8 +895,8 @@
     "pillarBlogSlug": "what-to-do-after-buying-land-in-arizona"
   },
   {
-    "slug": "how-does-a-one-time-close-construction-loan-work",
-    "question": "How does a construction-to-permanent (one-time-close) loan work?",
+    "slug": "single-close-vs-two-close-construction-loan-in-arizona",
+    "question": "What is the difference between a single-close and two-close construction loan?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -933,8 +912,8 @@
     "pillarBlogSlug": "financing-your-custom-or-semi-home"
   },
   {
-    "slug": "how-a-custom-home-reaches-net-zero-energy",
-    "question": "How does a custom home reach net-zero energy in Arizona?",
+    "slug": "is-solar-worth-it-on-a-new-construction-home-in-arizona",
+    "question": "Is solar worth it on a new construction home in Arizona?",
     "categorySlug": "building-in-the-desert",
     "categoryTitle": "Building in the Desert",
     "topicSlugs": [
@@ -951,8 +930,8 @@
     "pillarBlogSlug": "a-comprehensive-guide-to-home-building-with-passive-solar-design"
   },
   {
-    "slug": "how-much-does-it-cost-to-drill-a-well-in-arizona",
-    "question": "How much does it cost to drill a well in Arizona?",
+    "slug": "how-deep-do-you-have-to-drill-a-well-in-arizona",
+    "question": "How deep do you have to drill a well in Arizona?",
     "categorySlug": "water-septic-utilities",
     "categoryTitle": "Water, Septic & Utilities",
     "topicSlugs": [
@@ -985,8 +964,8 @@
     "pillarBlogSlug": "guest-house-casita-adu-scottsdale"
   },
   {
-    "slug": "what-drives-custom-home-cost-per-square-foot",
-    "question": "What drives custom-home cost per square foot in our markets?",
+    "slug": "cost-to-build-a-house-per-square-foot-in-arizona",
+    "question": "What is the cost per square foot to build a house in Arizona?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -1002,8 +981,8 @@
     "pillarBlogSlug": "establish-a-realistic-budget-before-designing-your-custom-home"
   },
   {
-    "slug": "what-is-a-shared-well-agreement",
-    "question": "What is a shared well agreement, and what should I check before relying on one?",
+    "slug": "what-is-a-shared-well-agreement-in-arizona",
+    "question": "What is a shared well agreement and do I need one in Arizona?",
     "categorySlug": "water-septic-utilities",
     "categoryTitle": "Water, Septic & Utilities",
     "topicSlugs": [
@@ -1019,8 +998,8 @@
     "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss"
   },
   {
-    "slug": "getting-power-and-utilities-to-a-rural-lot",
-    "question": "How do I get power, propane, and internet to a rural lot?",
+    "slug": "how-much-does-it-cost-to-extend-power-or-utilities-to-a-rural-arizona-lot",
+    "question": "How much does it cost to extend power to a rural Arizona lot?",
     "categorySlug": "water-septic-utilities",
     "categoryTitle": "Water, Septic & Utilities",
     "topicSlugs": [
@@ -1051,7 +1030,8 @@
       "hillside",
       "research-phase"
     ],
-    "pillarBlogSlug": "designing-a-custom-home-around-your-lot-why-layout-matters-more-than-square-footage"
+    "pillarBlogSlug": "designing-a-custom-home-around-your-lot-why-layout-matters-more-than-square-footage",
+    "href": "/reference-library/building-codes/scottsdale-environmentally-sensitive-lands-ordinance"
   },
   {
     "slug": "how-much-should-i-budget-for-site-work",
@@ -1086,11 +1066,12 @@
       "slope",
       "research-phase"
     ],
-    "pillarBlogSlug": "building-on-your-own-lot-arizona"
+    "pillarBlogSlug": "building-on-your-own-lot-arizona",
+    "href": "/reference-library/building-codes/fountain-hills"
   },
   {
-    "slug": "fixed-price-vs-cost-plus-building-contracts",
-    "question": "What is the difference between a fixed-price and a cost-plus building contract?",
+    "slug": "cost-plus-vs-fixed-price-home-contract",
+    "question": "Cost-plus vs fixed-price custom home contract: which is better?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -1122,7 +1103,8 @@
       "budget",
       "research-phase"
     ],
-    "pillarBlogSlug": "financing-your-custom-or-semi-home"
+    "pillarBlogSlug": "financing-your-custom-or-semi-home",
+    "href": "/faq/topics/budgeting-a-custom-home"
   },
   {
     "slug": "desert-and-dark-sky-design-rules-cave-creek-carefree",
@@ -1156,7 +1138,8 @@
       "site-work",
       "research-phase"
     ],
-    "pillarBlogSlug": "establish-a-realistic-budget-before-designing-your-custom-home"
+    "pillarBlogSlug": "establish-a-realistic-budget-before-designing-your-custom-home",
+    "href": "/faq/topics/budgeting-a-custom-home"
   },
   {
     "slug": "what-an-hoa-architectural-committee-can-require",
@@ -1176,8 +1159,8 @@
     "pillarBlogSlug": null
   },
   {
-    "slug": "can-i-rent-out-a-casita-or-run-a-short-term-rental",
-    "question": "Can I rent out a casita or run a short-term rental on my property?",
+    "slug": "can-i-rent-out-my-casita-or-adu-in-scottsdale-arizona",
+    "question": "Can I rent out my casita or ADU in Scottsdale, Arizona?",
     "categorySlug": "design-zoning-adus",
     "categoryTitle": "Design, Zoning & ADUs",
     "topicSlugs": [
@@ -1193,8 +1176,8 @@
     "pillarBlogSlug": "modern-casita-and-guest-house-design-trends"
   },
   {
-    "slug": "whats-in-a-custom-home-construction-contract",
-    "question": "What should be in a custom home construction contract?",
+    "slug": "what-to-include-in-custom-home-contract",
+    "question": "What should be included in a custom home builder contract?",
     "categorySlug": "costs-and-budget",
     "categoryTitle": "Costs & Budget",
     "topicSlugs": [
@@ -1244,8 +1227,8 @@
     "pillarBlogSlug": "building-a-custom-home-in-rio-verde-az-lot-considerations-most-buyers-miss"
   },
   {
-    "slug": "room-sizes-ceiling-heights-and-bedroom-egress",
-    "question": "What are the code-required room sizes, ceiling heights, and bedroom egress rules?",
+    "slug": "do-i-need-a-window-in-a-bedroom-home-office-or-pantry-by-code-in-arizona",
+    "question": "Do I need a window in a bedroom, home office, or pantry by code in Arizona?",
     "categorySlug": "design-zoning-adus",
     "categoryTitle": "Design, Zoning & ADUs",
     "topicSlugs": [

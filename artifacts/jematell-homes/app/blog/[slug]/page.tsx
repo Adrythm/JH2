@@ -265,7 +265,7 @@ export default async function BlogPostPage({
             <ul className="post-faq-list" data-testid="post-related-faqs">
               {relatedFaqs.map((f) => (
                 <li key={f.slug}>
-                  <a href={`/faq/${f.slug}`} data-testid={`post-faq-${f.slug}`}>
+                  <a href={"href" in f ? f.href : `/faq/${f.slug}`} data-testid={`post-faq-${f.slug}`}>
                     {f.question.replace(/^\[PLACEHOLDER\]\s*/, "")}
                     <ArrowRight size={16} />
                   </a>
