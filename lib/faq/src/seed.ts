@@ -346,8 +346,8 @@ export const faqSeed: FaqSeed = {
 <h2>What it really takes to build one legally in Arizona</h2>
 <p>Building a legal container home in Arizona means the same path as any custom home, plus engineering for the steel, so plan for stamped plans, a real foundation, desert insulation, and full inspections. The container is the starting point, not a shortcut around the process. Here is the honest checklist.</p>
 <p>You need engineered, stamped plans for the modified containers and their connections. You need a foundation sized for the soil. Arizona's expansive clay and caliche often require a soils report and an engineered slab under any home. You need a real insulation and air-sealing plan, since bare steel conducts heat and a Phoenix summer runs over 100 degrees for months. Spray foam is common. You pull a building permit, then pass the same inspections any home does: foundation, framing, electrical, plumbing, and final. Then you earn a certificate of occupancy. On rural land with no city water or sewer, add a well or hauled-water system and a septic system, each with its own approvals. A container home is legal in Arizona, and it can be a striking, durable house. It just has to be built like a real home, with the steel engineered to the same code as the stick-built house next door. Confirm your zoning and adopted code edition with your city or county before you design.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Desert-smart design and systems are standard on every home we build. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Comparing a container home with a custom build</h2>
+<p>Whether you build with containers or with a conventional frame, the first questions are the same: what the lot's zoning allows, a stamped plan set that passes plan review, and a lender and appraiser who will stand behind the house. We are a licensed, family-owned Arizona custom home builder, ROC# 339367, and we start every project on a client's land with what the lot allows. See how we approach <a href="/build-on-your-lot">building on your own lot</a>, browse our <a href="/floor-plans">floor plans</a> for sizes from under 2,000 square feet, or <a href="/contact">contact us</a> with the parcel and the home you have in mind.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning" target="_blank" rel="noopener noreferrer">ICC, 2021 International Residential Code (IRC), Chapter 3 Building Planning (R301)</a></li>
@@ -361,7 +361,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["build-on-your-lot", "custom-homes", "floor-plans"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 102,
@@ -2858,8 +2858,8 @@ export const faqSeed: FaqSeed = {
 <p>The monsoon is the one stretch where doing nothing can push you the other way. A run of humid days, a long shower, a pot boiling, or a <a href="/faq/how-much-does-a-home-steam-shower-cost-to-add-in-an-arizona-custom-home">steam shower</a> all add moisture. In a tight home, that moisture lingers. If indoor RH climbs past 60 percent and stays there, you risk condensation and mold on cooler surfaces, exactly what the EPA warns against. The fix is moisture removal, whether from the air conditioner working harder or a dedicated dehumidifier.</p>
 <p>The simple rule for a desert home: plan to add moisture for most of the year and remove it for a few weeks. A home set up only to cool, with no humidity plan, will spend long stretches drier than is good for people or for fine wood.</p>
 <p>The takeaway for an Arizona home is to aim for 30 to 50 percent RH, stay under 60 percent to keep mold and condensation away, and plan for both directions. You will likely add moisture in spring and remove it during monsoon, so build a system that can do each. Confirm the humidifier, dehumidifier, and ventilation plan with your builder while the <a href="/faq/what-hvac-system-is-best-for-an-arizona-custom-home">HVAC system</a> is being designed, and see the SEER glossary entry for how cooling efficiency factors in.</p>
-<h2>The Jematell Homes approach</h2>
-<p>We build for the Sonoran Desert, not a generic climate. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building a home that holds the range</h2>
+<p>In a new home, humidity is settled in the design: the envelope, the ventilation and a cooling system sized for the house, not added later. See <a href="/faq/what-hvac-system-is-best-for-an-arizona-custom-home">which HVAC system is best for an Arizona custom home</a> for the choices. We build <a href="/custom-homes">custom homes</a> for the Sonoran Desert across Scottsdale, Rio Verde and the Phoenix metro, with a written update every week of construction. If you already own a lot, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer">EPA: A Brief Guide to Mold, Moisture and Your Home (keep indoor humidity 30-50%, below 60%)</a></li>
@@ -2872,7 +2872,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
       relatedFaqSlugs: ["how-much-does-a-wine-room-or-wine-cellar-cost-in-arizona", "how-much-does-a-home-steam-shower-cost-to-add-in-an-arizona-custom-home", "what-hvac-system-is-best-for-an-arizona-custom-home"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 162,
@@ -5897,8 +5897,8 @@ export const faqSeed: FaqSeed = {
 <p>The cap is suspended and the LPV is recomputed when a property is new, built on, split, or changed in use, under <strong>Rule B</strong>. A.R.S. 42-13302 covers these cases, and the Department of Revenue states the LPV is then "established at a level or percentage of FCV that is comparable to that of other properties of the same or similar use or classification." So a new home, a casita, an addition, or a lot split breaks the 5% link for one year and resets the LPV to the comparable ratio, rather than carrying the old capped value forward.</p>
 <p>This is why a new build behaves so differently from a home that simply rose in market value. A home you have owned for years keeps its low, capped LPV even as its FCV climbs. A newly built home gets its LPV set fresh under Rule B, in line with comparable finished homes. For the full mechanics, see our pages on <a href="/faq/what-is-a-rule-b-reset-on-arizona-property-taxes">what a Rule B reset is</a>, <a href="/faq/how-much-will-my-property-taxes-go-up-after-building-new-construction-in-arizona">how much your taxes go up after new construction</a>, and <a href="/faq/does-adding-a-casita-or-addition-raise-my-property-taxes-in-arizona">whether a casita or addition raises your taxes</a>.</p>
 <p>The takeaway for any Arizona owner: read both lines on your Notice of Value. The FCV is the market estimate and the value you appeal. The LPV is the capped figure you are taxed on. The rules, ratios, and rates here are detailed, vary by county and tax year, and can change. Confirm your current figures and any appeal deadline with the Arizona Department of Revenue and your county assessor before you act on a specific number.</p>
-<h2>The Jematell Homes approach</h2>
-<p>We build the budget line by line so the number you sign is the number you build to. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Planning a new home around the tax reset</h2>
+<p>Because a new home resets both values, the tax bill on the finished house belongs in the budget beside the build and the loan. See <a href="/faq/how-much-will-my-property-taxes-go-up-after-building-new-construction-in-arizona">how much property taxes go up after building in Arizona</a> for how the reset is figured. On a cost-plus build with Jematell Homes you get an itemized estimate before we break ground and see the actual subcontractor bids, and our <a href="/financing">construction financing</a> page walks through the loan. If you own the land already, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the parcel.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/42/13301.htm" target="_blank" rel="noopener noreferrer">A.R.S. 42-13301 (Limited property value; Rule A 5% increase)</a></li>
@@ -5911,7 +5911,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
       relatedFaqSlugs: ["what-is-a-rule-b-reset-on-arizona-property-taxes", "how-much-will-my-property-taxes-go-up-after-building-new-construction-in-arizona", "does-adding-a-casita-or-addition-raise-my-property-taxes-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["financing", "build-on-your-lot", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 233,
@@ -6784,7 +6784,7 @@ export const faqSeed: FaqSeed = {
 <p>What you can and cannot appeal is specific. You can contest the <strong>Full Cash Value</strong> and the property classification, because the LPV is calculated from them. You generally cannot argue the LPV directly, since it is the product of the statutory Rule A or Rule B formula. So the lever is the market value: if the assessor's FCV overstates what your home is worth, a successful appeal lowers the FCV, which can pull down the LPV the formula produces.</p>
 <p>Property tax rules, ratios, rates, and deadlines are detailed, they vary by county and tax year, and the law and rates can change. The mechanics above are accurate as of this writing, but your exact reset value, assessment ratio, local rates, and appeal deadline live on your own Notice of Value. Before you rely on a number or file an appeal, confirm the current figures and dates with the Arizona Department of Revenue and your county assessor, who can give you the values specific to your parcel.</p>
 <h2>Building with Jematell Homes</h2>
-<p>Clear allowances and an honest cost breakdown are how we start every custom home. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<p>The first tax bill on a new home is easier to plan for when the rest of the budget is clear. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, and the full draw schedule at the start, so you know what the home costs and when each payment falls. Our <a href="/financing">construction financing</a> page covers the loan, and <a href="/faq/full-cash-value-vs-limited-property-value-in-arizona">Full Cash Value vs Limited Property Value</a> explains the two numbers on your notice. Planning a home on land you own? Start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://azdor.gov/sites/default/files/2023-03/PROPERTY_LimitedPropertyValue.pdf" target="_blank" rel="noopener noreferrer">Arizona Department of Revenue: Limited Property Value (assessment procedures)</a></li>
@@ -6798,7 +6798,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["financing", "build-on-your-lot", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 253,
@@ -11745,8 +11745,8 @@ export const faqSeed: FaqSeed = {
 <p>A permit exemption is not a zoning exemption, so <strong>setbacks</strong> apply to your ramada either way. Your structure has to sit a minimum distance from your property lines. In unincorporated Maricopa County, a detached accessory structure "shall not be nearer than three feet to any side or rear lot line." It also cannot occupy more than <strong>30 percent</strong> of a required yard, and it cannot sit in the required front yard. Cities set their own setback, height, and lot-coverage limits. Some require <strong>planning approval</strong> even for a permit-exempt structure.</p>
 <p>Where you build decides who to ask. Inside <strong>Scottsdale</strong>, <strong>Phoenix</strong>, <strong>Cave Creek</strong>, <strong>Fountain Hills</strong>, <strong>Carefree</strong>, <strong>Casa Grande</strong>, or <strong>Apache Junction</strong>, contact that city's permit office. In <strong>unincorporated</strong> areas like <strong>Rio Verde Foothills</strong>, ask <strong>Maricopa County</strong> Planning and Development. Even where the building permit is waived, ask specifically about <strong>setbacks</strong>, <strong>height limits</strong>, and whether <strong>zoning approval</strong> is still required, since those rules survive the permit exemption. If your lot is in an <strong>HOA</strong>, the CC&amp;Rs may require design review before you build, and the HOA can be stricter than the city on size, placement, and appearance.</p>
 <p>A small, open ramada with no power is usually a weekend project you can start without a permit. Anything bigger, wired, plumbed, attached, or enclosed is a permitted structure, and treating it that way from the start keeps you clear of a costly do-over. For detached structures in general, see <a href="/faq/do-i-need-a-permit-to-build-a-shed-or-detached-structure-in-arizona">do I need a permit to build a shed or detached structure in Arizona</a>, and if you plan to close the space in, <a href="/faq/do-i-need-a-permit-to-enclose-a-patio-in-arizona">do I need a permit to enclose a patio in Arizona</a>.</p>
-<h2>Building with Jematell Homes</h2>
-<p>Permitting and code compliance are part of our full-service project management. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Planning a ramada with a new home</h2>
+<p>If you are building a new home, a ramada, a patio cover or a casita is simpler to plan with the house than after it: the yards, setbacks and lot coverage are worked out once, and anything that needs a permit goes in with the home's plan set. We are a licensed Arizona general contractor, ROC# 339367, and we run the permit and inspections on the <a href="/custom-homes">custom homes</a> we build. We also design and build <a href="/casitas-and-guest-houses">casitas and guest houses</a>, and if you own the land already, start with <a href="/build-on-your-lot">building on your own lot</a> or <a href="/contact">contact us</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://codes.iccsafe.org/s/IRC2018P7/chapter-1-scope-and-administration/IRC2018P7-Pt01-Ch01-SecR105.2" target="_blank" rel="noopener noreferrer">2018 IRC R105.2 (Work exempt from permit)</a></li>
@@ -11760,7 +11760,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "research-phase"],
       relatedFaqSlugs: ["do-i-need-a-permit-to-build-a-shed-or-detached-structure-in-arizona", "do-i-need-a-permit-to-enclose-a-patio-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["custom-homes", "casitas", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 366,
