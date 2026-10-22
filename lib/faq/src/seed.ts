@@ -1954,6 +1954,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "post-tension-slab-vs-rebar-slab",
       question: "Post-tension slab vs conventional rebar slab: which is better for an Arizona home?",
+      seoTitle: "Post-Tension Slab vs Rebar Slab in Arizona",
       answerHtml: `<p>For most homes in the Phoenix and Scottsdale metro, a <strong>post-tension slab</strong> is the better foundation, because so much of the local ground is <strong>expansive clay</strong> that swells and shrinks. A post-tension slab uses steel cables pulled tight after the concrete cures, which keeps the floor stiff and resists the cracking that soil movement causes. A <strong>conventional rebar slab</strong> uses steel bars cast into the concrete to control cracks, and it is a fine choice on stable, low-movement soil. The honest answer comes down to your soil report. On high-movement clay, post-tension usually wins on stiffness and price. On stable dirt, a well-built rebar slab does the job for less.</p>
 <p>Below is how the two systems differ, what each costs, and how to tell which one your lot actually needs.</p>
 <h2>How the two slabs work</h2>
@@ -9419,6 +9420,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-flex-room-and-how-do-you-plan-one",
       question: "What is a flex room and how do you plan one?",
+      seoTitle: "What Is a Flex Room? How to Plan One",
       answerHtml: `<p>Today it is a home office, in a few years it is a nursery, then a workout room, then a guest room or a teen hangout. That shifting use is the point of a <strong>flex room</strong>: a space built with no single fixed purpose, designed to change jobs as your life changes. The whole idea is to plan one room that adapts instead of building three rooms you use one at a time. To plan a flex room well, place it where it can serve many roles, rough in extra electrical and data so it supports any of them, and build in a closet and an <strong>egress window</strong> so it can legally become a bedroom later. A size of about <strong>12 by 12 feet</strong> or larger keeps the options open.</p>
 <p>Flex rooms are popular in Arizona custom homes because families change and a smart plan future-proofs the square footage. Below is what a flex room is, where to place it, how to rough it in for any future use, and how to plan it so it can become a real bedroom down the road.</p>
 <h2>What a flex room is and why it pays off</h2>
@@ -13655,7 +13657,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-much-does-it-cost-to-tear-down-and-rebuild-a-house-in-arizona",
       question: "How much does it cost to tear down and rebuild a house in Arizona?",
-      seoTitle: "Tear Down and Rebuild Cost in Arizona (2026)",
+      seoTitle: "Teardown and Rebuild Cost in Arizona (2026)",
       answerHtml: `<p>Tearing down and rebuilding a house in Arizona has two cost halves. The <strong>demolition</strong> itself usually runs about <strong>$8,000 to $25,000</strong> in 2026 for a typical single-family home, plus separate charges for <strong>asbestos abatement</strong>, <strong>well or septic abandonment</strong>, and <strong>debris hauling</strong>. The <strong>rebuild</strong> then costs the same as any new home, roughly <strong>$350 to $600 or more per square foot</strong> for a custom home in the Phoenix and Scottsdale metro. So a scrape and rebuild is mostly a new-construction budget with a demolition line on top. These are 2026 planning ranges, not quotes. Demolition and material prices move, so confirm the current figures with your builder before you set a budget.</p>
 <h2>What demolition itself costs</h2>
 <p>The demolition line on a scrape and rebuild usually lands between <strong>$8,000 and $25,000</strong> for a standard Arizona house, and the number is driven by size, structure, and what the crew finds. A small slab-on-grade ranch comes down fast and cheap. A larger two-story home, a home with a basement, or one built with block and tile takes longer and costs more. Demolition pricing tends to scale with square footage and the volume of debris hauled to the landfill, which is why a 1,200 square foot teardown costs a fraction of a 3,500 square foot one.</p>
@@ -14258,7 +14260,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-deep-do-you-have-to-drill-a-well-in-arizona",
       question: "How deep do you have to drill a well in Arizona?",
-      seoTitle: "How Deep Are Wells in Arizona? Depth by Region",
+      seoTitle: "How Deep to Drill a Well in Arizona",
       answerHtml: `<p>The <strong>aquifer</strong> (the underground layer of rock and sand that holds water) and the <strong>water table</strong> (the depth at which the ground is saturated) beneath your land set how deep a well has to go, not a code minimum. Arizona has no required depth for a water well. A well is drilled only as deep as it has to go to reach enough water. Most domestic wells in the state land somewhere between <strong>100 and 800 feet</strong>, and in deep desert basins, some go past <strong>1,000 feet</strong>. Two homes a mile apart can need very different depths. Because water levels shift over time and vary lot by lot, confirm the likely depth for your specific parcel with a <strong>licensed well driller</strong> before you budget. These are general ranges, not a guarantee for your land.</p>
 <h2>Why there is no single answer to well depth</h2>
 <p>Well depth has no fixed number because you are chasing water, not a code requirement. The drill goes down until it hits a water-bearing layer that can supply the home, then a bit further to set the pump below the water level. How deep that is comes down to geology. In a valley with a high water table, you might hit good water at 150 feet. On a ridge or in a deep basin, the same water might sit 600 or 800 feet down. The land sets the depth, not a rule.</p>
