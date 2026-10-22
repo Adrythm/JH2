@@ -6252,8 +6252,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Every figure here is a 2026 planning range, not a quote. Construction prices swing with material costs, labor, and interest rates, and your per-foot number depends on your finish level, your lot, and your community's rules. A flat lot outside an HOA and a steep Carefree Ranch lot with design review can produce very different all-in numbers for the same floor plan.</p>
 <p>For a real budget, confirm the lot's water and septic situation, review nearby well records for drilling depth, get your community's current DRC fee schedule and guidelines, confirm the town permit fee for your valuation, and have a builder price the actual site work and structure. Jematell Homes builds custom and build-on-your-lot homes in the Carefree area and can fold the well, septic, design review, and site work into one number. Confirm current costs with a builder for your specific lot before you commit, since well-drilling, design-review, and construction prices can all change within a single building season.</p>
-<h2>Building with Jematell Homes</h2>
-<p>We build the budget line by line so the number you sign is the number you build to. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building a custom home in Carefree with Jematell Homes</h2>
+<p>On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Carefree cost drivers above, from deep yards and the 24 foot height cap to a private well and septic, become line items for your lot. See how we <a href="/where-we-build/carefree">build custom homes in Carefree</a>. If you already own the land, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address and the home you have in mind.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://codelibrary.amlegal.com/codes/carefree/latest/carefree_az/0-0-0-1298" target="_blank" rel="noopener noreferrer">Town of Carefree Town Code Section 10-1-2 (Building Code Amendments and Permit Fees)</a></li>
@@ -6267,7 +6267,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "carefree", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-deep-do-you-have-to-drill-a-well-in-arizona", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/carefree", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 241,
@@ -6343,8 +6343,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Read every figure here as a 2026 planning range, not a quote. Material costs, labor, and interest rates all move the price, and your per-foot number turns on your finish level and the specific lot. A serviced lot near town and a raw hillside desert parcel that needs a deep well and a long driveway can produce very different all-in numbers for the same floor plan.</p>
 <p>For a real budget, check the lot's water and septic situation first, review nearby well records for drilling depth, confirm the current town permit fees with Cave Creek Development Services, and have a builder price the actual site work and structure on your parcel. Jematell Homes builds custom and build-on-your-lot homes in the Cave Creek area and can fold the well, septic, and desert site work into one number. Confirm current costs with a builder for your specific lot before you commit, since well, septic, and construction prices can move within a single building season.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>Clear allowances and an honest cost breakdown are how we start every custom home. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Building a custom home in Cave Creek with Jematell Homes</h2>
+<p>A Cave Creek budget turns on the lot: the Desert Rural yards, the well or hauled water, the septic system and the town's dark-sky rules. On a cost-plus build we give you an itemized estimate before we break ground and share the actual subcontractor bids. See how we <a href="/where-we-build/cave-creek">build custom homes in Cave Creek</a>, or if you already own a parcel, start with <a href="/build-on-your-lot">building on your own lot</a>. You can also <a href="/contact">contact us</a> with the lot's address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.cavecreekaz.gov/723/Development-Services" target="_blank" rel="noopener noreferrer">Town of Cave Creek Development Services (permit fees and valuation schedule)</a></li>
@@ -6358,7 +6358,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "cave-creek", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-close-can-a-well-be-to-a-septic-system-in-arizona", "how-deep-do-you-have-to-drill-a-well-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/cave-creek", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 243,
@@ -6389,8 +6389,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Use every number here as a 2026 planning range, not a quote. Prices ride on material costs, labor, and interest rates, and your per-foot figure depends on your finish level and your specific lot. A flat lot and a steep hillside lot in a guard-gated community can produce very different all-in numbers for the same floor plan, even before the sprinkler and impact-fee costs.</p>
 <p>For a real budget, confirm the lot's slope and any hillside or design-review constraints, price the sprinkler system with a fire-protection contractor, confirm the current per-square-foot permit and the $8,816 impact fee with Fountain Hills Development Services, and have a builder bid the actual site work and structure. Jematell Homes builds custom and build-on-your-lot homes in the Fountain Hills area and can fold the sprinklers, hillside site work, and town fees into one number. Confirm current costs with a builder for your specific lot before you commit, since sprinkler, fee, and construction prices can change within a single building season.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>Clear allowances and an honest cost breakdown are how we start every custom home. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building a custom home in Fountain Hills with Jematell Homes</h2>
+<p>In Fountain Hills the required fire sprinklers, hillside grading and any community design review all belong in the budget from the first estimate. On a cost-plus build you see an itemized estimate before we break ground and the actual subcontractor bids behind it. See how we <a href="/where-we-build/fountain-hills">build custom homes in Fountain Hills</a>. If the lot is already yours, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> to talk through your plan.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www4.citizenserve.com/Documents/382/NewImpactFeesLettertoDevelopersfinal.pdf" target="_blank" rel="noopener noreferrer">Town of Fountain Hills New Development Impact Fees letter (Resolution 2026-01)</a></li>
@@ -6404,7 +6404,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "fountain-hills", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "do-i-need-fire-sprinklers-in-a-new-home-in-fountain-hills-arizona", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/fountain-hills", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 244,
@@ -6524,8 +6524,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Treat every number here as a 2026 planning range, not a quote, because construction prices, well-drilling costs, and the EPCOR rate and hookup fee all move, and the raw-land costs depend entirely on your specific parcel. A lot with an existing well and tank is worth far more than a bare lot that needs everything, even at the same listed price.</p>
 <p>For a real budget, confirm the lot's water path in writing, review nearby well records for drilling depth, get the current EPCOR rate and hookup fee, price the septic and power extension for your parcel, and have a builder bid the full site work and structure. Jematell Homes builds on Rio Verde Foothills lots and folds the well or tank, the septic, the power, and the county permit into one plan so the costs are settled before move-in. Confirm current costs with a builder for your specific lot before you commit, since both construction and water prices can shift within a single building season.</p>
-<h2>How Jematell Homes helps</h2>
-<p>We build the budget line by line so the number you sign is the number you build to. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building a custom home in Rio Verde with Jematell Homes</h2>
+<p>Most of the homes in our gallery are in Rio Verde, so the well or hauled water, the septic system and the county permit are familiar line items for us. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>. If you already own a parcel, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.epcor.com/us/en/az/account/start-service/rio-verde-foothills-water-fill-station.html" target="_blank" rel="noopener noreferrer">EPCOR: Rio Verde Foothills Water Fill Station (start service)</a></li>
@@ -6539,7 +6539,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "rio-verde-water", "per-city-cost"],
       tags: ["cost", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-to-get-water-to-a-home-in-rio-verde-foothills", "how-much-does-it-cost-to-haul-water-in-rio-verde-foothills", "how-big-a-water-storage-tank-do-i-need-for-a-hauled-water-home-in-arizona", "building-in-rio-verde-foothills-water-rules"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 247,
@@ -11010,8 +11010,8 @@ export const faqSeed: FaqSeed = {
 <p>Zoning sets the limits. Common rural zoning in the area includes <strong>Rural-43</strong>, one home per acre (43,560 square feet), and <strong>Rural-190</strong>, one home per 4.36 acres (190,000 square feet). Confirm your lot's zoning, setbacks, and minimum lot size with the county before you design, because they fix where and how big the house can be.</p>
 <p>Sequence the approvals so they do not collide. The well, the septic, and the building permit each run on their own track, and the county wants to see them work together on one site plan. Many people start the well and the perc test first, since both can take weeks and both feed the home design. A builder who knows the Maricopa County offices can run these in parallel and keep one slow approval from stalling the rest.</p>
 <p>Building in Rio Verde is very doable, and the payoff is space, views, and a custom home with no subdivision rules. The work is in the homework: line up water, septic, power, access, and the county permit as one plan. A build-on-your-lot builder like Jematell Homes works in Rio Verde and can walk a lot with you, flag the site costs, and run the permit so the rural part does not stall your build. Done right, the well, the septic, and the permit fall into place and you get the desert home you came for.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Vetting whether a parcel is truly buildable is where we start every project. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Building on rural land in Rio Verde with Jematell Homes</h2>
+<p>Before anything is designed we check that a Rio Verde parcel is buildable: the water source, the septic system and the county zoning. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>, where the county reviews the plans and inspects the build. If you already own the land, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the parcel's address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azwater.gov/permitting-wells/well-drilling-arizona" target="_blank" rel="noopener noreferrer">Arizona Department of Water Resources: Well Drilling in Arizona</a></li>
@@ -11026,7 +11026,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["buying-land-to-build", "rio-verde-water"],
       tags: ["land", "rio-verde", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 349,
@@ -12056,8 +12056,8 @@ export const faqSeed: FaqSeed = {
 <p>The sprinkler plan is part of your building permit submittal, and the system gets its own inspection before you can move in. Fountain Hills reviews residential plans through its online permit portal, and a fire-sprinkler plan is a required sheet for a new home, not an optional add-on. If the sheet is missing or drawn to the wrong standard, plan review stalls and the correction round adds time. Our reference entry on Fountain Hills residential building permit requirements lists the full submittal package.</p>
 <p>Sequence the sprinkler work like any other inspected trade. The design goes in with the permit set, the rough-in is installed and inspected with the home's other systems, and the finished system is tested before final approval and the certificate of occupancy. Because the system ties into your water service, coordinate it with the plumbing scope so the supply line and meter are sized once, not reworked later. Getting this right the first time keeps the sprinkler requirement from becoming a schedule problem at the end of the build.</p>
 <p>If you are building in Fountain Hills, start with sprinklers in the plan, size the water service for them, and get the fire-sprinkler sheet into your first permit submittal. That single step prevents the most common and expensive correction, which is a plan set drawn as if the lot were in a city with no mandate. Confirm the current requirement and any updated interpretations with the Town of Fountain Hills before you rely on them, since codes and amendments change.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Permitting and code compliance are part of our full-service project management. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Building in Fountain Hills with Jematell Homes</h2>
+<p>We plan the sprinkler system with the house, so the water service, the sprinkler plan and the Town permit move together. See how we <a href="/where-we-build/fountain-hills">build custom homes in Fountain Hills</a>, from hillside lots to community design review. If you own the lot already, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> and we will walk through the permit steps for your parcel.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://fountainhills.town.codes/TC/7-1-2" target="_blank" rel="noopener noreferrer">Fountain Hills Town Code 7-1-2 (Building code amendments)</a></li>
@@ -12070,7 +12070,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "fountain-hills", "research-phase"],
       relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/fountain-hills", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 373,
@@ -12358,8 +12358,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Carefree's <strong>2018 I-codes and the 2017 NEC</strong>, with the Town's amendments applied, and use the <strong>2018 IPC</strong> for plumbing. That single sentence prevents the most common and most expensive plan-review correction, which is a sheet drawn to the wrong edition or to a neighboring town's newer code. In practice, the structural engineer details framing to the 2018 IRC, the plumber works to the 2018 IPC, the energy consultant runs numbers to the 2018 IECC, and the electrician wires to the 2017 NEC.</p>
 <p>When you compare contractor bids, confirm each one is quoting work for the right jurisdiction. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. Jematell Homes builds in Carefree and designs every plan to the town's current adopted editions, so the codes are handled before a single footing is poured. For how these codes get checked at the counter, see Carefree Residential Building Permit Requirements, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>Building with Jematell Homes</h2>
-<p>Permitting and code compliance are part of our full-service project management. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Building in Carefree with Jematell Homes</h2>
+<p>We design to the code edition the Town of Carefree enforces, the 24 foot height cap and the deep yards on its rural lots, and we handle the submittal and inspections. See how we <a href="/where-we-build/carefree">build custom homes in Carefree</a>. If you already own the land, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the lot's address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://codelibrary.amlegal.com/codes/carefree/latest/carefree_az/0-0-0-1298" target="_blank" rel="noopener noreferrer">Carefree Town Code Section 10-1-2 (Building Code Amendments)</a></li>
@@ -12372,7 +12372,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "carefree", "research-phase"],
       relatedFaqSlugs: ["what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/carefree", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 380,
@@ -12401,8 +12401,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Cave Creek's <strong>2024 I-codes and the 2023 NEC</strong>, with the Town's amendments applied, and use the <strong>2018 residential energy code</strong> for a house. That single sentence prevents the most common and most expensive plan-review correction, which is a sheet drawn to the wrong edition or to a neighboring jurisdiction's code. In practice, the structural engineer details framing to the 2024 IRC, the plumber works to the 2025 IPC, the electrician wires to the 2023 NEC, and the energy sheet follows the 2018 residential numbers.</p>
 <p>When you compare contractor bids, confirm each one is quoting current-code work for the right jurisdiction. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. Jematell Homes builds in Cave Creek and designs every plan to the town's current adopted editions, so the codes are handled before a single footing is poured. For how these codes get checked at the counter, see Cave Creek Residential Building Permit Requirements, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>We handle jurisdiction, submittals, and inspections as part of every build. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building in Cave Creek with Jematell Homes</h2>
+<p>Cave Creek moved to the 2024 codes on January 1, 2026, and we draw every plan to the edition the Town enforces, then handle the submittal and inspections. See how we <a href="/where-we-build/cave-creek">build custom homes in Cave Creek</a>, from Desert Rural yards to dark-sky lighting. If the parcel is already yours, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> to talk through your plan.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.cavecreekaz.gov/577/Building-Fire-Code-Compliance" target="_blank" rel="noopener noreferrer">Town of Cave Creek Building and Fire Code Compliance</a></li>
@@ -12415,7 +12415,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "cave-creek", "research-phase"],
       relatedFaqSlugs: ["what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/cave-creek", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 381,
@@ -12445,8 +12445,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Fountain Hills' <strong>2024 I-codes and the 2023 NEC</strong>, with the Town's amendments applied, and plan for a <strong>residential fire-sprinkler system</strong>. That single sentence prevents the most common and most expensive plan-review correction, which is a sheet drawn to the wrong edition or to a neighboring jurisdiction's code. In practice, the structural engineer details framing to the 2024 IRC with Appendix G, the energy consultant runs numbers to the 2024 IECC, the electrician wires to the 2023 NEC, and the plans include the sprinkler design.</p>
 <p>When you compare contractor bids, confirm each one is quoting current-code work and the sprinkler system, because a bid that leaves it out is not comparable. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. Jematell Homes builds in Fountain Hills and designs every plan to the town's current adopted editions, so the codes and the sprinkler rule are handled before a single footing is poured. For how these codes get checked at the counter, see Fountain Hills Residential Building Permit Requirements, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>How Jematell Homes helps</h2>
-<p>We handle jurisdiction, submittals, and inspections as part of every build. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building in Fountain Hills with Jematell Homes</h2>
+<p>Fountain Hills permits and inspects new homes itself, and we design to its current codes, its sprinkler rule and any community design review first. See how we <a href="/where-we-build/fountain-hills">build custom homes in Fountain Hills</a>. If you already own a lot, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address and the home you have in mind.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.fountainhillsaz.gov/208/Adopted-Codes" target="_blank" rel="noopener noreferrer">Town of Fountain Hills Adopted Codes</a></li>
@@ -12459,7 +12459,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "fountain-hills", "research-phase"],
       relatedFaqSlugs: ["what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/fountain-hills", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 382,
@@ -12533,8 +12533,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Maricopa County's <strong>2018 I-codes and the 2017 NEC</strong>, with the county's Local Additions and Addenda applied, and treat the energy code as voluntary unless you choose to follow it. That single sentence prevents the most common rural-build mistake, which is using a nearby city's newer code on a county lot. In practice, the structural engineer details framing to the 2018 IRC, the plumber works to the 2018 IPC, and the electrician wires to the 2017 NEC.</p>
 <p>When you compare contractor bids, confirm each one is quoting county-code work, not a city's newer edition. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. A rural lot also adds well, septic, and power questions a city lot does not, so the code is one piece of a larger plan. Jematell Homes builds in Rio Verde and designs every plan to the county's current adopted edition, so the codes are handled before a single footing is poured. For the rural-specific work, see <a href="/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona">what you need to build on rural land in Rio Verde</a>, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>How Jematell Homes helps</h2>
-<p>We handle jurisdiction, submittals, and inspections as part of every build. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building in the Rio Verde Foothills with Jematell Homes</h2>
+<p>In the Foothills the county reviews the plans and inspects the build, and we handle the permit and schedule each inspection. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>, where most of the homes in our gallery stand. If you already own a parcel, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with its address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.maricopa.gov/2753/Adopted-Regulations" target="_blank" rel="noopener noreferrer">Maricopa County Adopted Regulations (Local Additions and Addenda)</a></li>
@@ -12547,7 +12547,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona", "rio-verde-water"],
       tags: ["permits", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona", "what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 384,
@@ -13892,8 +13892,8 @@ export const faqSeed: FaqSeed = {
 <ul><li><strong>Is the lot in the EPCOR standpipe service area?</strong> Only homes inside the designated area can open an EPCOR account and haul from the new fill station. A parcel just outside the line has a harder water path.</li><li><strong>What is the well outlook?</strong> Look at ADWR well records for nearby parcels to see typical depth and yield. A neighbor's 600-foot well is a warning sign for your drilling budget.</li><li><strong>Does the lot already have a tank or well?</strong> An existing, working tank or well is real value. A bare lot means you carry the full cost of one of them.</li><li><strong>What is the split history?</strong> A parcel created by a recent five-or-fewer lot split may face extra ADWR or county scrutiny on water adequacy before a permit issues.</li></ul>
 <p>Get those answers before closing, since fixing a water gap after you own the land is far more expensive than walking away from a bad lot.</p>
 <p>Building in Rio Verde Foothills is back to being a normal rural build, with water as the first box to check instead of an open question. For the rest of the rural checklist (well, septic, power, access, and the county permit), see our guide on <a href="/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona">what you need to build on rural land in Rio Verde</a>, and our walkthrough of <a href="/faq/how-to-get-water-to-a-home-in-rio-verde-foothills">how to get water to a home in Rio Verde Foothills</a>. A build-on-your-lot builder like Jematell Homes works in the Foothills and can confirm your water plan, the tank or well details, and the county permit so the water question is settled before the first inspection.</p>
-<h2>How Jematell Homes helps</h2>
-<p>We plan water and wastewater early so they never stall your permit. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Planning water for a Rio Verde Foothills home</h2>
+<p>We settle the water source and the wastewater plan before design, so neither stalls the county permit. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>, from the well or hauled-water tank to the inspections. If you are buying or already own a Foothills lot, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the parcel's address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.epcor.com/us/en/az/account/start-service/rio-verde-foothills-water-fill-station.html" target="_blank" rel="noopener noreferrer">EPCOR: Rio Verde Foothills Water Fill Station (start service)</a></li>
@@ -13908,7 +13908,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona", "how-to-get-water-to-a-home-in-rio-verde-foothills"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 416,
@@ -13937,8 +13937,8 @@ export const faqSeed: FaqSeed = {
 <p>Three practical points protect the value of a home built without city water:</p>
 <ol><li><strong>Document the water source.</strong> Keep the well registration and completion report, or the tank specs and EPCOR account, with the home's records. A future buyer's lender and appraiser will ask.</li><li><strong>Confirm insurability.</strong> Most insurers treat a well or a tank home like any rural home, but ask your carrier about water-system coverage and fire-flow expectations on a remote lot, since stored water can factor into fire protection.</li><li><strong>Match the system to your buyer pool.</strong> A well home appeals to the widest set of future buyers because it finances most easily. A tank home is fine, but its resale leans toward cash buyers and portfolio lenders, which is worth knowing going in.</li></ol>
 <p>Building in Rio Verde Foothills without city water is normal and very doable, but the water source drives the financing, the appraisal, and the resale, so settle it first. For the wider rural checklist, see <a href="/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona">what you need to build on rural land in Rio Verde</a>, and for the full background on the area's water rules, <a href="/faq/building-in-rio-verde-foothills-water-rules">building in Rio Verde Foothills under the water rules</a>. Because rates, lender rules, and parcel water status all change, confirm the current water service and financing for your specific parcel before you buy. Jematell Homes builds on Foothills lots and can help line up the water source and the loan so they fit together from the start.</p>
-<h2>Building with Jematell Homes</h2>
-<p>Wells, septic, and hauled-water setups are routine on the rural lots we build. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building in the Rio Verde Foothills with Jematell Homes</h2>
+<p>Wells, septic and hauled-water setups are routine on the rural lots we build, and we plan the water source and the financing together. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>. If you already own land in the Foothills, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> and we will look at your parcel.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://archives.hud.gov/offices/hsg/sfh/ref/sfh1-21b.cfm" target="_blank" rel="noopener noreferrer">HUD: Individual Water Systems (HOC Reference Guide, cisterns and FHA financing)</a></li>
@@ -13952,7 +13952,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["how-to-get-water-to-a-home-in-rio-verde-foothills", "how-big-a-water-storage-tank-do-i-need-for-a-hauled-water-home-in-arizona", "how-much-does-it-cost-to-haul-water-in-rio-verde-foothills", "what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona", "building-in-rio-verde-foothills-water-rules"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 417,
@@ -14154,8 +14154,8 @@ export const faqSeed: FaqSeed = {
 <p>The honest counterweight is drilling risk. A well costs money up front and can come in deep, low-yield, or, rarely, dry, and that risk is yours. So check the area's well records first, and treat the depth of nearby wells as your best estimate of cost. If the outlook is good, a well is usually the better long-term move than committing the home to hauled water forever, both for your own use and for the day you sell.</p>
 <p>If a well is not feasible, hauled water is still a workable way to live in Rio Verde Foothills, especially now that the <strong>EPCOR fill station</strong> opened on January 1, 2026 and gives the area a permanent, regulated supplier. Just go in knowing the financing and resale limits, and budget for cash or portfolio buyers when you sell a new hauled-water home. For the full water picture, see <a href="/faq/can-you-build-a-custom-home-in-rio-verde-foothills-without-city-water">can you build a custom home in Rio Verde Foothills without city water</a> and <a href="/faq/what-is-a-wildcat-lot-split-in-arizona-and-how-does-it-affect-water-and-permits">what a wildcat lot split means for water and permits</a>.</p>
 <p>Jematell Homes builds on lots across Rio Verde Foothills and can help you weigh a well against hauled water before you design the home, including the well outlook for your parcel, the cistern and tank details if you go that route, and how each choice will read to a future lender. Lender rules and FHA policy can change, so confirm the current financing requirements with your lender and HUD before you commit.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Wells, septic, and hauled-water setups are routine on the rural lots we build. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building on a well or hauled water with Jematell Homes</h2>
+<p>Because the water source affects which loans and appraisals work, we plan the water and the financing together. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>, where most of the homes in our gallery are. If you own a Foothills lot already, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the parcel's address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://archives.hud.gov/offices/hsg/sfh/ref/sfh1-21b.cfm" target="_blank" rel="noopener noreferrer">HUD HOC Reference Guide: Individual Water Systems (cisterns/hauled water not acceptable; no waiver for new construction)</a></li>
@@ -14169,7 +14169,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["building-in-rio-verde-foothills-water-rules", "how-to-get-water-to-a-home-in-rio-verde-foothills", "can-you-build-a-custom-home-in-rio-verde-foothills-without-city-water", "what-is-a-wildcat-lot-split-in-arizona-and-how-does-it-affect-water-and-permits"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 422,
@@ -14322,8 +14322,8 @@ export const faqSeed: FaqSeed = {
 <p>A well home adds the wellhead, its own setbacks, and often the same tank. ADWR and county rules set how far a well must sit from the <strong>septic</strong> system, the house, and washes, so the well, the septic, and the home all have to fit on the lot at once. On a tight or sloped parcel, those setbacks can decide where the house even goes.</p>
 <p>Either way, plan for power. The pressure pump and any well pump need electricity, and a long grid extension or a solar-and-battery setup is its own line item. Get the water layout right on paper, because moving a tank or redrilling a well after the slab is poured is the expensive way to learn this.</p>
 <p>Choosing comes down to your lot and your tolerance for upfront risk. A bare lot with poor well records points toward hauled EPCOR water, where the cost is monthly and predictable. A lot with strong nearby well yields can justify the drilling gamble for long-term savings. A parcel already tied to a sound shared well may need only a tank and a pump. Confirm your specific parcel's water status with EPCOR, ADWR, and Maricopa County before you close, since the water plan shapes your whole build. For the rest of the rural checklist, see our guide on <a href="/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona">building on rural land in Rio Verde</a>, and our overview of <a href="/faq/building-in-rio-verde-foothills-water-rules">building in Rio Verde Foothills under the water rules</a>. Jematell Homes builds on Foothills lots and can size the tank, confirm the well or EPCOR account, and fold the water system into your permit so it is settled before move-in.</p>
-<h2>Building with Jematell Homes</h2>
-<p>We plan water and wastewater early so they never stall your permit. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Getting water to your Rio Verde home</h2>
+<p>We put the well or hauled-water tank on the site plan from day one, so the water system fits the house, the permit and the budget. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>. If you already own land in the Foothills, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> and we will talk through the water options for your parcel.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.epcor.com/us/en/az/account/start-service/rio-verde-foothills-water-fill-station.html" target="_blank" rel="noopener noreferrer">EPCOR: Rio Verde Foothills Water Fill Station (start service)</a></li>
@@ -14338,7 +14338,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["what-is-a-shared-well-agreement-in-arizona", "what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona", "building-in-rio-verde-foothills-water-rules"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 426,
@@ -14407,8 +14407,8 @@ export const faqSeed: FaqSeed = {
 <ul><li><strong>Size the storage tank to your use.</strong> A bigger tank means fewer delivery trips and fewer per-load fees, and it gives you a cushion if a truck is delayed in monsoon mud. Many Foothills homes run tanks from 2,500 gallons up to 10,000 gallons. See our guide on <a href="/faq/how-big-a-water-storage-tank-do-i-need-for-a-hauled-water-home-in-arizona">how big a water storage tank you need for a hauled-water home in Arizona</a>.</li><li><strong>Pick the right EPCOR account.</strong> If you haul every month, Full Service usually pencils out. If you haul rarely, Standby Service avoids paying the higher monthly fee for water you do not take. You can switch account types, but only on EPCOR's schedule, so choose with your real pattern in mind.</li><li><strong>Compare haulers.</strong> Get per-gallon and per-load quotes from two or three providers and ask about trip charges for your road.</li><li><strong>Cut outdoor water.</strong> Desert landscaping and drip irrigation, instead of turf, keep the gallons, and the bill, down in a climate where water is the constraint.</li></ul>
 <ul><li><strong>Fill the tank, do not chase it.</strong> Scheduling a delivery when the tank is low, rather than topping off a nearly full tank, lets the hauler drop a full load each trip and spreads any trip charge across more gallons. Fewer, fuller deliveries usually cost less per gallon than frequent small ones.</li></ul>
 <p>Hauled water is a real, recurring utility cost, but it is a known one. Once your tank is sized and your account is set, the monthly bill becomes predictable, which is exactly what you want before you build. For the full picture of getting water to a Foothills lot, including wells and shared wells, see our guide on <a href="/faq/how-to-get-water-to-a-home-in-rio-verde-foothills">how to get water to a home in Rio Verde Foothills</a>. Jematell Homes builds on Foothills lots and folds the tank, the pump, and the EPCOR account into the plan so the water cost is settled before move-in.</p>
-<h2>How Jematell Homes helps</h2>
-<p>Wells, septic, and hauled-water setups are routine on the rural lots we build. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Planning a hauled-water home in Rio Verde</h2>
+<p>On a hauled-water home the tank, its storage and the delivery access belong on the site plan, and we put them there from day one. See how we <a href="/where-we-build/rio-verde">build custom homes in Rio Verde</a>, from the water plan to the county inspections. If you already own a Foothills parcel, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with its address.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.epcor.com/us/en/az/account/start-service/rio-verde-foothills-water-fill-station.html" target="_blank" rel="noopener noreferrer">EPCOR: Rio Verde Foothills Water Fill Station (start service)</a></li>
@@ -14422,7 +14422,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
       relatedFaqSlugs: ["how-big-a-water-storage-tank-do-i-need-for-a-hauled-water-home-in-arizona", "how-to-get-water-to-a-home-in-rio-verde-foothills"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/rio-verde", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 428,
@@ -15038,14 +15038,15 @@ export const faqSeed: FaqSeed = {
 <h2>A note on ADUs</h2>
 <p>Both Cave Creek and Carefree fall under the 75,000-resident threshold in Arizona's statewide ADU law (HB 2720, A.R.S. 9-461.18), so that mandate does not apply here and any casita or guest house follows the town's own zoning. If a second unit is part of your plan, confirm the town's specific rules early.</p>
 <h2>How Jematell Homes helps</h2>
-<p>We design homes that read as part of the desert rather than imposed on it, building the dark-sky lighting plan, native-plant preservation, restrained grading, and desert-appropriate materials into the design and carrying them through each town's review. Because Cave Creek and Carefree update their ordinances on their own schedules and apply them parcel by parcel, we confirm the current zoning, lighting, and building standards with the town, and any applicable HOA, for your specific lot before finalizing a plan.</p>`,
+<p>We design homes that read as part of the desert rather than imposed on it, building the dark-sky lighting plan, native-plant preservation, restrained grading, and desert-appropriate materials into the design and carrying them through each town's review. Because Cave Creek and Carefree update their ordinances on their own schedules and apply them parcel by parcel, we confirm the current zoning, lighting, and building standards with the town, and any applicable HOA, for your specific lot before finalizing a plan.</p>
+<p>See how we <a href="/where-we-build/cave-creek">build custom homes in Cave Creek</a> and <a href="/where-we-build/carefree">build custom homes in Carefree</a>. If you already own a desert lot, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address.</p>`,
       shortAnswer: "Cave Creek and Carefree protect their desert and night sky through local zoning and building ordinances: shielded, downward dark-sky lighting, native-plant preservation, restrained grading, and desert-appropriate materials, all run through town development review. Each town is its own AHJ, so the rules differ from Scottsdale's.",
       metaDescription: "What desert and dark-sky design rules apply in Cave Creek and Carefree? Shielded outdoor lighting, native-plant preservation, grading limits, and town development review.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["dark-sky", "cave-creek", "carefree", "desert-design", "research-phase"],
       relatedFaqSlugs: ["what-hb-2720-changed-for-adus-in-arizona"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/cave-creek", "where-we-build/carefree", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: "designing-your-custom-home-in-arizona-maximizing-view-light-and-comfort",
       featured: false,
       sortOrder: 17,
