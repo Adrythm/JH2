@@ -65,6 +65,8 @@ export const siteConfig = {
       postalCode: "85260",
       country: "US",
     },
+    /** Office hours, as the Google Business Profile shows them. */
+    hours: "Mon to Fri, 8am to 5pm",
     roc: "ROC# 339367",
   },
   social: {
