@@ -2698,6 +2698,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/11/00810-01.htm" target="_blank" rel="noopener noreferrer">A.R.S. 11-810.01 (County accessory dwelling units)</a></li>
 </ul>`,
       shortAnswer: "A multigenerational or next-gen home holds two or more adult generations under one roof, usually with a private suite that has its own bedroom, bathroom, living area, and often a separate entrance and small kitchen. You design one by giving each generation privacy while sharing the main home, and by planning the suite for aging in place.",
+      seoTitle: "What Is a Next-Gen Home? How to Design One",
       metaDescription: "A multigenerational or next-gen home houses two or more adult generations. See how to design the private suite, entrance, and kitchen, plus Arizona ADU rules.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
@@ -4931,6 +4932,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.law.cornell.edu/wex/statute_of_repose" target="_blank" rel="noopener noreferrer">Statute of Repose (Cornell Legal Information Institute)</a></li>
 </ul>`,
       shortAnswer: "Arizona's construction statute of repose is A.R.S. 12-552. It bars most defect lawsuits more than eight years after a home is substantially complete, stretched to nine years if the defect first appears in year eight. The clock runs from completion, not from when you find the problem.",
+      seoTitle: "Arizona Statute of Repose: A.R.S. 12-552",
       metaDescription: "Arizona's statute of repose for construction defects is A.R.S. 12-552: 8 years from substantial completion, 9 at most. How it differs from a limitations period.",
       categorySlug: "choosing-a-builder",
       topicSlugs: ["choosing-a-custom-home-builder", "warranty-and-defects"],
