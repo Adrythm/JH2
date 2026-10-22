@@ -6570,8 +6570,8 @@ export const faqSeed: FaqSeed = {
 <h2>Confirm current costs with a builder for your lot</h2>
 <p>Treat every number here as a 2026 planning range, not a quote, because construction prices move with material costs, labor, and interest rates, and the per-foot range depends heavily on your finish level and your specific lot. A boulder hillside lot in a guard-gated community and a flatter lot in a non-ESL pocket of south Scottsdale can produce very different all-in numbers for the same floor plan.</p>
 <p>For a real budget, get the lot's ESL and slope, confirm the current city permit and development fees with Scottsdale Planning and Development, get your community's DRC fee schedule, and have a builder price the actual site work and structure on your specific parcel. Jematell Homes builds custom and build-on-your-lot homes across the Scottsdale area and can turn the broad $350 to $700 per square foot range into a hard number once the lot and plan are known. Confirm current costs with a builder for your specific lot before you commit, since the Scottsdale market can shift within a single building season.</p>
-<h2>How Jematell Homes helps</h2>
-<p>We build the budget line by line so the number you sign is the number you build to. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Building a custom home in Scottsdale with Jematell Homes</h2>
+<p>Our office is in Scottsdale. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Scottsdale cost drivers above turn into line items for your lot. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, from ESL desert lots to the city permit and inspections. If you already own the land, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address and the home you have in mind.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/planning-development/fees" target="_blank" rel="noopener noreferrer">City of Scottsdale: Planning and Development Fees (current permit fee schedules)</a></li>
@@ -6585,7 +6585,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 248,
@@ -8194,8 +8194,8 @@ export const faqSeed: FaqSeed = {
 <p>Follow this order:</p>
 <ol><li><strong>Read the CC&amp;Rs and design guidelines first.</strong> Design to them, so your paint color, roof, and materials are already inside the rules before you submit.</li><li><strong>Submit a complete application to the design committee.</strong> Include elevations, colors, materials, and a site plan. Incomplete submittals are the top cause of delay.</li><li><strong>Get written approval before you start.</strong> A.R.S. 33-1817 has the HOA give written acknowledgement of approval. Keep it. Some communities void HOA approval if you begin exterior work before the city permit is issued, so line them up.</li><li><strong>Pull your city permit.</strong> The City of Scottsdale requires a permit to move walls or add electrical or plumbing, whether or not the HOA is involved. HOA approval is not a city permit, and a city permit is not HOA approval.</li></ol>
 <p>The practical takeaway: interior remodels in a Scottsdale HOA usually just need your city permit, while exterior remodels need architectural review approval under A.R.S. 33-1817 first. Read your CC&amp;Rs, submit complete plans, get written HOA approval before you touch the exterior, and pull your city permit in parallel. Do that and a remodel in a gated community moves as smoothly as one outside it.</p>
-<h2>Building with Jematell Homes</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<h2>Building a new home in a Scottsdale community with Jematell Homes</h2>
+<p>When a new custom home goes up inside a Scottsdale HOA or gated community, we plan the community's design review alongside the city permit from the first sketch, so neither approval waits on the other. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or <a href="/contact">contact us</a> with your community and lot.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1817 (Declaration amendment; design, architectural committees; review)</a></li>
@@ -8209,7 +8209,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["design", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["how-does-hoa-design-review-affect-building-a-custom-home", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona", "what-are-lrv-paint-color-rules-in-north-scottsdale-luxury-communities", "can-an-hoa-stop-me-from-putting-solar-on-my-house-in-arizona", "what-is-plant-salvage-or-cactus-boxing-before-grading-on-a-scottsdale-esl-lot"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 285,
@@ -8235,8 +8235,8 @@ export const faqSeed: FaqSeed = {
 <p>The one thing that can override your state-law rental rights is your HOA, so check the CC&amp;Rs before you count on rental income. State law makes a point of leaving private agreements alone. A.R.S. 9-461.18 says it "does not prohibit restrictive covenants concerning accessory dwelling units entered into between private parties." That means the city must allow your ADU and its long-term rental, but your HOA's recorded covenants can still restrict it.</p>
 <p>In practice, many Scottsdale HOAs limit rentals. Common CC&amp;R rules include a minimum lease term, often six months or a year, a cap on the number of homes that can be rented at once, a ban on short-term or vacation rentals, or a requirement to register a tenant with the association. These are enforceable private contracts. The city cannot waive them for you, and a buyer who skips reading them can be caught off guard.</p>
 <p>Before you build a casita to rent, or buy a home planning to, do two things. First, pull and read the full CC&amp;Rs, not just the summary, and look specifically for rental and leasing rules. Second, confirm with the HOA whether short-term rentals are allowed at all, since many ban stays under 30 days even though the city permits them. For the deeper interaction between city ADU mandates and HOA authority, see <a href="/faq/can-my-hoa-block-an-adu-if-the-city-allows-it-in-arizona">can my HOA block an ADU if the city allows it in Arizona</a>. Rental rules are high-stakes money decisions, so confirm both the Scottsdale license requirements and your HOA's current covenants before you sign a lease or list the unit.</p>
-<h2>The Jematell Homes approach</h2>
-<p>We design to your lot's zoning envelope from the first sketch. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Building a casita in Scottsdale with Jematell Homes</h2>
+<p>We design and build <a href="/casitas-and-guest-houses">casitas and guest houses</a> as part of a new custom home or on a lot you already own. Whether you plan to rent the unit decides whether it is built as an ADU or as a guest house, so we settle that before anything is drawn. See how we <a href="/where-we-build/scottsdale">build in Scottsdale</a>, or <a href="/contact">contact us</a> with your lot and what the unit is for.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/9/00461-18.htm" target="_blank" rel="noopener noreferrer">A.R.S. 9-461.18 (Accessory dwelling units; municipalities; long-term rental)</a></li>
@@ -8249,7 +8249,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus", "casita-vs-guest-house-vs-adu-arizona", "can-my-hoa-block-an-adu-if-the-city-allows-it-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["casitas", "where-we-build/scottsdale", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 286,
@@ -9312,8 +9312,8 @@ export const faqSeed: FaqSeed = {
 <p>Scottsdale lets you rent an ADU, but if you rent it, <strong>you must live on the property</strong>. This is the rule that separates Scottsdale from neighbors like Phoenix and Mesa. The city's standard is direct: "the property owner must reside on the premise for any ADU that is rented, leased, offered for rent or lease, or occupied as a Vacation Rental or Short-term Rental." So an off-site investor cannot buy a Scottsdale home purely to lease out a backyard casita while living elsewhere.</p>
 <p>This owner-occupancy condition reaches both <strong>long-term and short-term rentals</strong> in Scottsdale's wording. That is stricter than the state floor. State law protects long-term renting and bars a city from requiring a relationship between the owner and the ADU tenant. Scottsdale's answer was to attach the rule to the owner living on site rather than ban renting outright. The practical result is clear. A Scottsdale ADU works well as a unit you rent while you live in the main home. It does not work as a hands-off rental for an owner who lives elsewhere. If you plan to move out later and lease the whole property, the casita rental has to stop unless a new owner-occupant lives there.</p>
 <p>Because rental and short-term-rental rules shift over time and can be sensitive to enforcement, confirm the current ADU rental terms with the City of Scottsdale before you count on rental income. For the statewide baseline these city rules sit on top of, see our pages on <a href="/faq/arizona-adu-requirements">Arizona's ADU requirements</a> and <a href="/faq/which-arizona-cities-are-required-to-allow-adus">which Arizona cities are required to allow ADUs</a>.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Building an ADU or casita in Scottsdale with Jematell Homes</h2>
+<p>We design and build <a href="/casitas-and-guest-houses">casitas and guest houses</a> as part of a new custom home or on a lot you already own, and Ordinance 4687 shapes the plan from the first sketch: where a detached unit can sit, how big it can be, and whether it is an ADU or a guest house. For a new home and a casita on the same lot, see how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or <a href="/contact">contact us</a> with the lot size and what the unit is for.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/accessory-dwelling-units" target="_blank" rel="noopener noreferrer">City of Scottsdale: Accessory Dwelling Units (ADUs)</a></li>
@@ -9327,7 +9327,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["casitas", "where-we-build/scottsdale", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 311,
@@ -10965,8 +10965,8 @@ export const faqSeed: FaqSeed = {
 <p>A short process that works:</p>
 <ul><li><strong>Get the community's design guidelines and approved-color list first.</strong> Both Troon North and FireRock publish or keep an approved palette. Start inside it.</li><li><strong>Read the body-color LRV rule exactly.</strong> A two-sided band like Troon North's 14 to 40 means you can fail by going too light or too dark. A one-sided cap like FireRock's 50 or less only fails on the bright side.</li><li><strong>Pull the LRV for the specific color and sheen</strong> from the paint maker's spec sheet, not from a phone photo or a small chip in the store light.</li><li><strong>Submit the full color package</strong>: manufacturer, color name and number, body and trim, often with a physical sample, for committee approval before you buy in bulk.</li><li><strong>Paint a test patch on the actual wall</strong> once approved, and view it in full Arizona sun, since the same LRV can look different on a large surface in bright light.</li></ul>
 <p>A builder who works in these communities, like Jematell Homes, handles the color submittal as part of design review: confirming the LRV, matching the approved palette, and getting the committee's written sign-off so the painters are never guessing. The LRV cap sounds technical, but it comes down to one habit. Know your community's number, pull the matching number from the paint, and confirm both with the committee before the first coat. For the wider approval process these caps live inside, see <a href="/faq/how-does-hoa-design-review-affect-building-a-custom-home">how HOA design review affects building a custom home</a> and our CC&amp;Rs glossary entry.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>We run the land due diligence before you commit to a lot. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Building in north Scottsdale with Jematell Homes</h2>
+<p>Our office is in Scottsdale, and on a north Scottsdale lot the community's color and design rules go into the plan before the first review submittal. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or <a href="/contact">contact us</a> with your community and lot.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.troonnorthhoa.com/" target="_blank" rel="noopener noreferrer">Troon North Association Architectural Standards and Procedures (LRV 14-40 body color rule)</a></li>
@@ -10980,7 +10980,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["buying-land-to-build"],
       tags: ["land", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["how-does-hoa-design-review-affect-building-a-custom-home", "how-to-design-a-custom-home-to-stay-cool-in-the-arizona-heat"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 348,
@@ -11275,8 +11275,8 @@ export const faqSeed: FaqSeed = {
 <p>A practical approach:</p>
 <ul><li><strong>Pull your recorded NAOS area and the ESL requirement for the parcel</strong> before design, so you know how much desert is locked and where.</li><li><strong>Treat the NAOS as off-limits to grading and ordinary landscaping.</strong> It is not yard space.</li><li><strong>Salvage plants before you disturb anything.</strong> Boxed natives feed the planting program and the rest of the lot's planting.</li><li><strong>Keep revegetation to its real role</strong>, restoring a limited disturbed area to native desert under an approved plan, capped at 30 percent of required NAOS.</li><li><strong>Submit the planting program with species, quantities, and density</strong> that the city can approve in one pass.</li></ul>
 <p>One caution on money. A NAOS plan can come with a financial-assurance or guarantee requirement from the city, to make sure the revegetation actually takes. The specific instrument and any dollar amount vary and are set by the city at approval, so do not assume a figure. Confirm the current revegetation cap, the planting-program requirements, and any assurance obligation with Scottsdale Planning and Development Services before you finalize your site plan. ESL provisions are updated over time. A builder who works inside the ESL overlay, like Jematell Homes, designs the home to fit the buildable area and reads the NAOS rules at the start. That way the open space is protected by design, not fixed after a failed review.</p>
-<h2>The Jematell Homes approach</h2>
-<p>We run the land due diligence before you commit to a lot. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Planning a Scottsdale ESL lot with Jematell Homes</h2>
+<p>We run the land due diligence before you commit to a lot, and on a Scottsdale ESL lot that starts with how much open space the slope requires and where the house can sit. Our licensed real estate agents can help you find a lot. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or start with <a href="/build-on-your-lot">building on your own lot</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://library.municode.com/az/scottsdale/codes/code_of_ordinances?nodeId=VOLII_APXBBAZOOR_ARTVISUDI_S6.1060OPSPRE" target="_blank" rel="noopener noreferrer">City of Scottsdale Code of Ordinances Sec. 6.1060 Open Space Requirements (Municode)</a></li>
@@ -11289,7 +11289,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["buying-land-to-build", "pre-construction-permits", "luxury-features"],
       tags: ["land", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["what-is-a-building-envelope-or-naos-easement-on-an-arizona-custom-lot"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "build-on-your-lot", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 355,
@@ -11318,8 +11318,8 @@ export const faqSeed: FaqSeed = {
 <p>To plan it well on an ESL lot:</p>
 <ul><li><strong>Inventory protected plants before design is final.</strong> Knowing where the saguaros and trees stand can shape where the home and driveway sit.</li><li><strong>Get the native plant program approved and pass the pre-site inspection before grading.</strong> This is the legal gate, not a formality.</li><li><strong>Salvage and hold the plants, then reuse them.</strong> Replant salvaged specimens in the yard and in any revegetated NAOS.</li><li><strong>Coordinate salvage with the wider ESL review.</strong> The native plant program sits inside the broader Scottsdale ESL ordinance and design review process.</li></ul>
 <p>The protected-species list, size thresholds, and program steps are set by the city and updated over time. So confirm the current Native Plant Ordinance requirements with <strong>Scottsdale Planning and Development Services</strong> before you finalize your site plan. A builder who works inside the ESL overlay, like <strong>Jematell Homes</strong>, runs the plant inventory early. We get the native plant program approved and sequence salvage ahead of grading. That way protected plants are saved and reused, not lost to the dozer.</p>
-<h2>Building with Jematell Homes</h2>
-<p>We run the land due diligence before you commit to a lot. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building on a Scottsdale ESL lot with Jematell Homes</h2>
+<p>We run the land due diligence before you commit to a lot, and the native plant inventory and salvage plan are part of planning a Scottsdale desert build. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or start with <a href="/build-on-your-lot">building on your own lot</a> if you already own the land.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/native-plant" target="_blank" rel="noopener noreferrer">City of Scottsdale: Native Plant Ordinance Information (Ord. No. 2262, Sec. 7.500; protection and transplanting of major native plant specimens; applies to entire city)</a></li>
@@ -11332,7 +11332,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["buying-land-to-build"],
       tags: ["land", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["what-is-naos-revegetation-and-how-much-of-my-open-space-can-i-revegetate-in-scottsdale", "what-is-a-building-envelope-or-naos-easement-on-an-arizona-custom-lot"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "build-on-your-lot", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 356,
@@ -12577,8 +12577,8 @@ export const faqSeed: FaqSeed = {
 <h2>What a builder must design to</h2>
 <p>Give your designer, structural engineer, and trades one clear instruction: build to Scottsdale's <strong>2021 I-codes and the 2020 NEC</strong>, with the city amendments applied. That single sentence prevents the most common and most expensive plan-review correction, which is a sheet drawn to the wrong edition. In practice, that means the structural engineer details framing and foundations to the 2021 IRC, the energy consultant runs insulation and duct numbers to the 2021 IECC, and the electrician wires to the 2020 NEC.</p>
 <p>When you compare contractor bids, confirm each one is quoting current-code work. Fixing a wall or a panel after a failed inspection costs far more than building it right the first time. Jematell Homes builds in Scottsdale and designs every plan to the city's current adopted edition, so the codes are handled before a single footing is poured. For how these codes get checked at the counter, see Scottsdale Residential Building Permit Requirements, and for the whole project arc, see <a href="/faq/what-are-the-steps-to-building-a-custom-home-in-arizona">the steps to building a custom home in Arizona</a>.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>Permitting and code compliance are part of our full-service project management. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<h2>Building to Scottsdale's codes with Jematell Homes</h2>
+<p>Permitting and code compliance are part of our full-service project management. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, from plan review through the staged inspections, or <a href="/contact">contact us</a> with your lot and plans.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/building-codes" target="_blank" rel="noopener noreferrer">City of Scottsdale Building Code Information</a></li>
@@ -12592,7 +12592,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["what-are-the-steps-to-building-a-custom-home-in-arizona"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 385,
@@ -12961,8 +12961,8 @@ export const faqSeed: FaqSeed = {
 <ul><li><strong>Rope off all NAOS per the approved plan.</strong> The protected open space has to be physically marked before the inspector arrives, not after.</li><li><strong>Have the approved native plant inventory ready.</strong> Bring the approved, stamped inventory so the inspector can confirm protected plants are addressed and salvage can begin.</li><li><strong>Bring the approved site plan.</strong> Have the current approved drawings on the lot, with grading, drainage, and setbacks matching field conditions.</li><li><strong>Have the contractor on site.</strong> The city expects the contractor present to walk the plans with the inspector.</li><li><strong>Sequence it first.</strong> Schedule the Pre-Site (42) before any other inspection, since nothing else can be scheduled until it is approved.</li></ul>
 <p>The Pre-Site (42) is the opening move of the ESL build, and it connects to the open space and revegetation rules that govern the rest of the lot. For how much of your lot stays as protected open space and how revegetation works, see <a href="/faq/what-is-naos-revegetation-and-how-much-of-my-open-space-can-i-revegetate-in-scottsdale">what NAOS revegetation is and how much of your open space you can revegetate in Scottsdale</a>. For the broader overlay this all sits inside, see the Scottsdale ESL ordinance and design review explained.</p>
 <p>Scottsdale's inspection numbers, checklist items, and ESL requirements can change as the city updates its procedures. So confirm the current Pre-Site (42) requirements and checklist (as of 2026) with <strong>Scottsdale Planning and Development Services</strong> before you schedule. A builder who works inside the ESL overlay, like <strong>Jematell Homes</strong>, ropes off the NAOS and assembles the approved plans and plant inventory before calling the Pre-Site (42). That way the first inspection passes on the first try, and the build starts on schedule instead of stalling at the gate.</p>
-<h2>Where Jematell Homes comes in</h2>
-<p>We handle jurisdiction, submittals, and inspections as part of every build. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<h2>Scottsdale inspections with Jematell Homes</h2>
+<p>We handle submittals and inspections as part of every build, so the open space, plants and staking are ready before the first inspection is called in. See how we <a href="/where-we-build/scottsdale">build custom homes in Scottsdale</a>, or <a href="/contact">contact us</a> with your lot.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.scottsdaleaz.gov/planning-development/inspection-services/site-inspections" target="_blank" rel="noopener noreferrer">City of Scottsdale: Site Inspections (Pre-Site (42) Inspection purpose, requirement before other inspections, and checklist)</a></li>
@@ -12975,7 +12975,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "scottsdale", "research-phase"],
       relatedFaqSlugs: ["what-is-plant-salvage-or-cactus-boxing-before-grading-on-a-scottsdale-esl-lot", "what-are-lrv-paint-color-rules-in-north-scottsdale-luxury-communities", "what-is-naos-revegetation-and-how-much-of-my-open-space-can-i-revegetate-in-scottsdale"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/scottsdale", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 394,

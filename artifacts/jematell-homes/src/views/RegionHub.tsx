@@ -63,6 +63,26 @@ const TOWNS: Record<string, Town> = {
         href: `${REF}/scottsdale-residential-building-permit-requirements`,
       },
     ],
+    beyond: {
+      heading: "Casitas, guest houses and ADUs in Scottsdale",
+      points: [
+        {
+          title: "One attached and one detached ADU",
+          body: "Under Ordinance 4687, adopted in September 2025, a single-family Scottsdale lot can hold one attached and one detached ADU. The first is capped at 1,000 square feet or 75% of the main home, whichever is less, and a second at 500 square feet. A detached unit in the rear yard can sit five feet from a side or rear lot line and ten feet from the house.",
+          href: "/faq/adu-and-casita-rules-in-scottsdale-arizona",
+        },
+        {
+          title: "Guest house or rentable ADU",
+          body: "Scottsdale keeps a separate guest house category for family and visitors, which cannot be rented on its own. A rented ADU needs the owner living on the property, so what the unit is for is settled before it is designed.",
+          href: "/faq/can-i-rent-out-my-casita-or-adu-in-scottsdale-arizona",
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses as part of a new custom home or on a lot you already own, placed inside the lot's yards and, on a desert lot, outside its protected open space.",
+          href: "/casitas-and-guest-houses",
+        },
+      ],
+    },
   },
   "cave-creek": {
     galleryLocations: ["Cave Creek"],
