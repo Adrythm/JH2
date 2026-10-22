@@ -381,6 +381,8 @@ export function Footer() {
             <span className="footer-bottom-sep" aria-hidden="true">·</span>
             <span>{siteConfig.contact.address.lines[0]}, {siteConfig.contact.address.lines[1]}</span>
             <span className="footer-bottom-sep" aria-hidden="true">·</span>
+            <span>{siteConfig.contact.hours}</span>
+            <span className="footer-bottom-sep" aria-hidden="true">·</span>
             <span>{siteConfig.contact.roc}</span>
           </span>
         </div>

@@ -4,7 +4,7 @@
  * values, a URL absolutizer, and the site-wide JSON-LD graph (emitted once per
  * page). Page-specific JSON-LD lives in jsonld.ts.
  */
-import { siteConfig } from "../config/siteConfig";
+import { siteConfig, locations } from "../config/siteConfig";
 
 /** Production origin used for canonical URLs, OG tags, sitemap, and JSON-LD. */
 export const SITE_URL = "https://jematellhomes.com";
@@ -13,6 +13,14 @@ export const DEFAULT_DESCRIPTION =
   "Jematell Homes is a family-owned Arizona custom home builder serving Scottsdale, Rio Verde, and the greater Phoenix metro: semi-custom and fully custom homes built with passion, integrity, and a personal touch.";
 
 export const DEFAULT_OG_IMAGE = "/opengraph.jpg";
+
+/**
+ * The Google Business Profile, as Google addresses it: the listing's Maps
+ * page by its cid, and the office pin it shows. The hours below are the
+ * listing's (Monday to Friday, 8 to 5). Keep these in step with the listing.
+ */
+export const GOOGLE_MAPS_URL = "https://www.google.com/maps?cid=3907188539355189707";
+export const OFFICE_GEO = { latitude: 33.6189919, longitude: -111.8989709 };
 
 /** Turn a site-relative path (or pass-through absolute URL) into an absolute URL. */
 export function absoluteUrl(pathOrUrl: string): string {
@@ -45,8 +53,10 @@ export function buildSiteJsonLd(): object[] {
   const sameAs = [
     social.instagram,
     social.facebook,
-    // Google Business Profile
+    // Google Business Profile (the share link, and the listing's own Maps
+    // address by its cid, which is what ties this page to the listing)
     "https://maps.app.goo.gl/pSjm2LpxCc5CcTVD8",
+    GOOGLE_MAPS_URL,
     "https://www.houzz.com/pro/jematellhomes",
     "https://www.buildzoom.com/contractor/jematell-homes-llc",
     "https://www.yelp.com/biz/jematell-homes-scottsdale",
@@ -79,6 +89,8 @@ export function buildSiteJsonLd(): object[] {
       "Home building in Arizona",
       "Build on your lot",
       "Semi-custom homes",
+      "Casitas and guest houses",
+      "RV garages",
     ],
     sameAs,
   };
@@ -96,16 +108,27 @@ export function buildSiteJsonLd(): object[] {
     priceRange: "$$$",
     foundingDate: "2022-07-13",
     address: postalAddress,
-    areaServed: [
-      "Scottsdale",
-      "Rio Verde",
-      "Phoenix",
-      "Cave Creek",
-      "Fountain Hills",
-      "Carefree",
-      "Casa Grande",
-      "Apache Junction",
-    ].map((name) => ({ "@type": "City", name })),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: OFFICE_GEO.latitude,
+      longitude: OFFICE_GEO.longitude,
+    },
+    hasMap: GOOGLE_MAPS_URL,
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "08:00",
+        closes: "17:00",
+      },
+    ],
+    // Every town with a page under /where-we-build, so the business's
+    // service area here matches the site's own town pages.
+    areaServed: locations.map((l) => ({
+      "@type": "City",
+      name: l.name,
+      containedInPlace: { "@type": "State", name: "Arizona" },
+    })),
     parentOrganization: { "@id": SITE_URL + "/#organization" },
     sameAs,
   };
