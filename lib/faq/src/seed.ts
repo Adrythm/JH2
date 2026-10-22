@@ -11473,6 +11473,7 @@ export const faqSeed: FaqSeed = {
     }),
     item({
       slug: "deferred-submittal-vs-separate-permit-which-does-my-fire-sprinkler-system-need",
+      seoTitle: "Deferred Submittal vs Fire Sprinkler Permit",
       question: "Deferred submittal vs separate permit: which does my fire sprinkler system need?",
       answerHtml: `<p>For a fire sprinkler system on an Arizona custom home, the answer is usually <strong>both, in sequence</strong>. The two paths do different jobs. The system's design comes in as a <strong>deferred submittal</strong> under your building permit. That is because the sprinkler contractor designs and stamps the hydraulic plans after the main permit is issued, not with the first plan set. The system's installation then routes through the <strong>fire department on a separate fire permit and plan review</strong>. In Phoenix, automatic fire sprinkler plans are handled as deferred submittals and reviewed by the Fire Department. The design is "required to be made by applicants listed on the approved fire protection designers list maintained by the Fire Marshal." So the deferred submittal is how the design gets onto your building permit. The fire permit is the separate track the fire department runs to approve and inspect the system. They are not the same filing, and one does not replace the other.</p>
 <p>This page explains the difference, why a sprinkler system tends to need both, how the Phoenix fire permit works, and how to sequence them so neither stalls your build.</p>
@@ -12161,6 +12162,7 @@ export const faqSeed: FaqSeed = {
     }),
     item({
       slug: "how-long-does-it-take-to-get-a-building-permit-in-arizona",
+      seoTitle: "How Long a Building Permit Takes in Arizona",
       question: "How long does it take to get a building permit in Arizona?",
       answerHtml: `<p>A building permit for a new home in Arizona usually takes <strong>two to eight weeks</strong> of plan review, and the number swings with the city and the quality of your plans. <strong>Scottsdale</strong> targets <strong>15 business days</strong> for the substantive first review of a standard residential plan, plus a few days for the intake check. <strong>Phoenix</strong> can issue some permits same-day over the counter for simple work, and its self-certification path can land a permit within a few business days. The biggest variable is corrections. If your plans come back with comments, each resubmittal adds days or weeks. A clean, complete submittal is the single best way to get a permit fast. Confirm current timelines with your city, since review queues shift with workload.</p>
 <h2>What the timeline looks like for a new home</h2>
