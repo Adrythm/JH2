@@ -74,7 +74,13 @@ if (HOST_REDIRECT_ENABLED && REDIRECT_HOSTS.size > 0) {
     if (!REDIRECT_HOSTS.has(host) || host === CANONICAL_HOST) return next();
     // originalUrl carries path AND query, so a shared estimate link survives:
     // www.../financing/estimate?cost=900000 -> .../financing/estimate?cost=900000
-    res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`);
+    // A trailing slash comes off in the same hop, so www.../casa-grande/ lands
+    // in one redirect rather than two (the static handler would 301 it again).
+    const q = req.originalUrl.indexOf("?");
+    const path = q < 0 ? req.originalUrl : req.originalUrl.slice(0, q);
+    const query = q < 0 ? "" : req.originalUrl.slice(q);
+    const bare = path === "/" ? path : path.replace(/\/+$/, "") || "/";
+    res.redirect(301, `https://${CANONICAL_HOST}${bare}${query}`);
   });
 }
 // CORS belongs to the JSON API and the agent-facing surfaces, which are meant
