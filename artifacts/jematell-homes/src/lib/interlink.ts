@@ -384,6 +384,20 @@ function cityPagesForJurisdiction(jslug: string): LinkItem[] {
   return serviceItems((JURISDICTION_CITIES[jslug] || []).map((c) => `where-we-build/${c}`));
 }
 
+/**
+ * The town page for a building-codes entry whose jurisdiction IS that town
+ * (a Scottsdale setback rule -> /where-we-build/scottsdale). County and
+ * statewide entries return null: their lots span several towns.
+ */
+export function townPageForReference(entry: ReferenceEntry): { name: string; href: string } | null {
+  if (!moduleIsPerCity(entry.module)) return null;
+  const j = jurisdictionSlugOf(entry.slug);
+  if (!(JURISDICTION_CITIES[j] || []).includes(j)) return null;
+  const link = SERVICE_LINKS[`where-we-build/${j}`];
+  const loc = locations.find((l) => l.slug === j);
+  return link && loc ? { name: loc.name, href: link.href } : null;
+}
+
 function hubItem(j: JurisdictionMeta): LinkItem {
   return {
     to: `/reference-library/${BUILDING_CODES}/${j.slug}`,

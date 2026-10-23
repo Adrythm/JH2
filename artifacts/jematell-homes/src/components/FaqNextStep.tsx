@@ -161,3 +161,35 @@ export function FaqNextStep({ slug, categorySlug }: { slug: string; categorySlug
   const step = pick(slug, categorySlug);
   return step ? <NextStepAside step={step} /> : null;
 }
+
+/** Reference Library categories, as reference.json spells them. */
+const BY_REFERENCE_CATEGORY: Record<string, Step> = {
+  "Contractors Law": BUILDER,
+  "Contractors & Licensing": BUILDER,
+  "Construction Defects": { lead: "Want to know how we stand behind our homes?", linkLabel: "Read about our warranty", href: "/warranty" },
+  "Construction Contracts": BY_GLOSSARY_CATEGORY["Contracts & Cost"],
+  "Mechanics Liens": BY_GLOSSARY_CATEGORY["Contracts & Cost"],
+  "Recovery Fund": BUILDER,
+  "Zoning & Setbacks": BUILD_ON_YOUR_LOT,
+  "Land Use & Zoning": BUILD_ON_YOUR_LOT,
+  "Land Use & Permitting": BUILD_ON_YOUR_LOT,
+  "Water Law": BY_CATEGORY["water-septic-utilities"],
+  "Site and Utilities": BY_CATEGORY["water-septic-utilities"],
+  "HOA Law": {
+    lead: "Building in an HOA community?",
+    linkLabel: "See how a custom build works with us",
+    href: "/custom-homes",
+  },
+};
+
+/**
+ * Reference Library entries: a town's own code page goes to that town's page,
+ * anything else by its topic. Codes and permits otherwise lead to the
+ * permit-handling step, the rest to the custom build page.
+ */
+export function ReferenceNextStep({ category, town }: { category?: string; town?: { name: string; href: string } | null }) {
+  const step = town
+    ? { lead: `Planning to build in ${town.name}?`, linkLabel: `See how we build in ${town.name}`, href: town.href }
+    : BY_REFERENCE_CATEGORY[category ?? ""] ?? PERMITS;
+  return <NextStepAside step={step} />;
+}
