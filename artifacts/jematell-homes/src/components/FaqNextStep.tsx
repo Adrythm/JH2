@@ -15,6 +15,8 @@ interface Step {
   lead: string;
   linkLabel: string;
   href: string;
+  /** Words of the lead that also link, to the town page they name. */
+  leadLink?: { text: string; href: string };
 }
 
 const BY_CATEGORY: Record<string, Step> = {
@@ -47,6 +49,7 @@ const BY_CATEGORY: Record<string, Step> = {
     lead: "Comparing builders for a custom home in Scottsdale or the Phoenix area?",
     linkLabel: "See how Jematell Homes builds",
     href: "/custom-homes",
+    leadLink: { text: "custom home in Scottsdale", href: "/where-we-build/scottsdale" },
   },
   "building-in-the-desert": {
     lead: "Planning a custom home in the Arizona desert?",
@@ -126,12 +129,25 @@ function townStep(city: string, townSlug: string | null): Step {
   };
 }
 
+function Lead({ step }: { step: Step }) {
+  const link = step.leadLink;
+  const at = link ? step.lead.indexOf(link.text) : -1;
+  if (!link || at < 0) return <>{step.lead}</>;
+  return (
+    <>
+      {step.lead.slice(0, at)}
+      <Link href={link.href}>{link.text}</Link>
+      {step.lead.slice(at + link.text.length)}
+    </>
+  );
+}
+
 function NextStepAside({ step }: { step: Step }) {
   return (
     <aside className="dt-answer-card" data-testid="faq-next-step" aria-label="Next step">
       <span className="dt-answer-card-label">Planning to build?</span>
       <p>
-        {step.lead}{" "}
+        <Lead step={step} />{" "}
         <Link href={step.href}>
           {step.linkLabel} <ArrowRight size={14} aria-hidden="true" style={{ verticalAlign: "-2px" }} />
         </Link>
