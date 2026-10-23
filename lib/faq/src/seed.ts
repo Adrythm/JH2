@@ -813,7 +813,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.nahb.org/-/media/NAHB/news-and-economics/docs/housing-economics-plus/special-studies/2021/special-study-what-home-buyers-really-want-march-2021.pdf" target="_blank" rel="noopener noreferrer">NAHB: What Home Buyers Really Want (2021 study; garage preferences)</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 </ul>`,
       shortAnswer: "Size a luxury car-collector garage by bay count, not just square footage. Plan at least 12 feet of width and 24 feet of depth per car, a 12-foot or taller ceiling for lifts, and extra room to walk, work, and store. Most collector garages run four to eight-plus bays, well above the two-car norm.",
       metaDescription: "Size a luxury or collector garage by bay count: 12 ft wide and 24 ft deep per car, 12 ft ceilings for lifts. See the Arizona program, code, and climate factors.",
@@ -853,7 +853,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
 <li><a href="https://codes.iccsafe.org/content/IRC2021P1/chapter-3-building-planning" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Chapter 3 Building Planning (ICC Digital Codes)</a></li>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 </ul>`,
       shortAnswer: "A collector garage should be at least 24 feet deep per parking bay, and 30 to 40 feet or more if you want to park cars nose-to-tail or add a lift. For lifts, plan a 12-foot ceiling. In Arizona, climate control and the code-required fire separation between garage and house also matter.",
       metaDescription: "A car collector's garage should run 24 to 40+ feet deep, with 12-foot ceilings for lifts. See Arizona depth, height, climate control, and code requirements.",
@@ -1436,7 +1436,7 @@ export const faqSeed: FaqSeed = {
 <p>We build for the Sonoran Desert, not a generic climate. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://basc.pnnl.gov/resource-guides/air-conditioning" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Conditioning</a></li>
 <li><a href="https://codes.iccsafe.org/content/IRC2021P1/part-viii-electrical" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Part VIII Electrical (ICC Digital Codes)</a></li>
 </ul>`,
@@ -1478,7 +1478,7 @@ export const faqSeed: FaqSeed = {
 <p>Desert-smart design and systems are standard on every home we build. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
 <li><a href="https://afdc.energy.gov/fuels/electricity-charging-home" target="_blank" rel="noopener noreferrer">U.S. DOE Alternative Fuels Data Center: Charging Electric Vehicles at Home</a></li>
 </ul>`,
@@ -1562,7 +1562,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://basc.pnnl.gov/resource-guides/capillary-break-beneath-slab-polyethylene-sheeting-or-rigid-insulation-over" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Capillary Break Beneath Slab</a></li>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://www.energystar.gov/products/res_windows_doors_skylights" target="_blank" rel="noopener noreferrer">ENERGY STAR: Residential Windows, Doors and Skylights</a></li>
 <li><a href="https://basc.pnnl.gov/resource-guides/high-thermal-mass-construction" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: High-Thermal-Mass Construction</a></li>
 </ul>`,
@@ -1768,7 +1768,7 @@ export const faqSeed: FaqSeed = {
 <p>Desert-smart design and systems are standard on every home we build. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Ductless Mini-Split Heat Pumps</a></li>
 <li><a href="https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections/insulation-r-values" target="_blank" rel="noopener noreferrer">ENERGY STAR: Insulation R-Values</a></li>
 </ul>`,
@@ -2234,7 +2234,7 @@ export const faqSeed: FaqSeed = {
 <p>Desert-smart design and systems are standard on every home we build. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://basc.pnnl.gov/information/table-maximum-fenestration-u-factor-requirements-new-homes-listed-2009-2021-iecc-and" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Table of Maximum Fenestration U-Factor Requirements (IECC/IRC envelope)</a></li>
 </ul>`,
       shortAnswer: "Spray foam is usually better for an Arizona home because it air-seals as it insulates, which stops the hot attic air that leaks past batts. Fiberglass batt costs much less and works fine in walls. Many desert homes use closed-cell or open-cell foam at the roofline and batt in the walls.",
@@ -2358,7 +2358,7 @@ export const faqSeed: FaqSeed = {
 <p>Desert-smart design and systems are standard on every home we build. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Ductless Mini-Split Heat Pumps</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
 </ul>`,
@@ -2657,7 +2657,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/s/IRC2021P2/chapter-3-building-planning/IRC2021P2-Pt03-Ch03-SecR305.1" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R305.1 Minimum Ceiling Height (ICC Digital Codes)</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/part-iii-building-planning-and-construction/IRC2021P3-Pt03-Ch03-SecR311.7.10.1" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R311.7.10.1 Stairways to Unfinished Attics and Lofts (ICC Digital Codes)</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 </ul>`,
       shortAnswer: "A garage mezzanine or loft is a raised platform inside a tall garage that adds storage or a room above the cars. Yes, you can build one in Arizona if the garage is tall enough. A loft needs about 7 feet of ceiling above and below it and code-compliant stairs, so plan a 16-foot or taller garage.",
       metaDescription: "A garage mezzanine or loft is a raised platform for storage or a room above the cars. See Arizona IRC ceiling height, stair, and load rules for building one.",
@@ -3424,7 +3424,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/33/01802.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1802 (Planned communities; definitions; declaration and CC&amp;Rs)</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01809.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1809 (Parking; public service and public safety emergency vehicles)</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01818.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1818 (Community authority over public roadways)</a></li>
-<li><a href="https://azre.gov/consumers/hoa" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
+<li><a href="https://azre.gov/consumers/homeowners-association-dispute-information" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
 </ul>`,
       shortAnswer: "Usually no. In Arizona, an HOA can ban RV parking in your driveway if its recorded CC&Rs say so, and most do. No state law forces an HOA to allow it. Your declaration controls. To park an RV at home, you generally need a lot with no HOA or an HOA whose rules permit it.",
       metaDescription: "In Arizona an HOA can ban RV parking in your driveway if its CC&Rs say so, and most do. No state law overrides it. Here is what controls and your options.",
@@ -7601,7 +7601,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/" target="_blank" rel="noopener noreferrer">CFPB: My appraisal is less than the sale price. What does that mean for me?</a></li>
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-to-value-ratio-and-how-does-it-relate-to-my-costs-en-121/" target="_blank" rel="noopener noreferrer">CFPB: What is a loan-to-value ratio and how does it relate to my costs?</a></li>
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/" target="_blank" rel="noopener noreferrer">CFPB: What is a construction loan?</a></li>
-<li><a href="https://www.consumerfinance.gov/about-us/blog/mortgage-borrowers-can-challenge-inaccurate-appraisals-through-the-reconsideration-of-value-process/" target="_blank" rel="noopener noreferrer">CFPB: Borrowers can challenge inaccurate appraisals through reconsideration of value</a></li>
+<li><a href="https://www.consumerfinance.gov/archive/blog/mortgage-borrowers-can-challenge-inaccurate-appraisals-through-the-reconsideration-of-value-process/" target="_blank" rel="noopener noreferrer">CFPB: Borrowers can challenge inaccurate appraisals through reconsideration of value</a></li>
 <li><a href="https://yourhome.fanniemae.com/understanding-home-appraisals" target="_blank" rel="noopener noreferrer">Fannie Mae: Understanding Home Appraisals</a></li>
 </ul>`,
       shortAnswer: "An appraisal gap is the shortfall when a home's appraised value comes in below its cost or contract price. On a construction loan it matters because the lender sizes the loan to the appraised value, not your budget. If it appraises low, you usually cover the gap with extra cash, cut costs, or renegotiate.",
@@ -8201,7 +8201,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1817 (Declaration amendment; design, architectural committees; review)</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01816.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1816 (Solar energy devices; reasonable restrictions)</a></li>
-<li><a href="https://azre.gov/consumers/hoa" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
+<li><a href="https://azre.gov/consumers/homeowners-association-dispute-information" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
 <li><a href="https://www.scottsdaleaz.gov/planning-development/home-improvement" target="_blank" rel="noopener noreferrer">City of Scottsdale: Home Improvement (permits for remodels and additions)</a></li>
 </ul>`,
       shortAnswer: "Yes, but exterior remodels in an Arizona HOA usually need architectural review approval before you start, on top of the city permit. Interior work rarely needs HOA sign-off. Under A.R.S. 33-1817, the design committee reviews changes to exterior colors, materials, roofs, walls, and additions against the community's CC&Rs and guidelines.",
@@ -10410,7 +10410,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/33/01816.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1816 (Solar energy devices; reasonable restrictions; fees and costs)</a></li>
 <li><a href="https://www.azleg.gov/ars/44/01761.htm" target="_blank" rel="noopener noreferrer">A.R.S. 44-1761 (Definition of solar energy device)</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1817 (Design and architectural committees; review)</a></li>
-<li><a href="https://azre.gov/consumers/hoa" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: HOA Dispute Process</a></li>
+<li><a href="https://azre.gov/consumers/homeowners-association-dispute-information" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: HOA Dispute Process</a></li>
 </ul>`,
       shortAnswer: "No. An Arizona HOA cannot stop you from putting solar on your house. Under A.R.S. 33-1816, an association cannot prohibit a solar energy device. It may set reasonable placement rules, but only if those rules do not block the install, hurt how the panels work, or raise their cost.",
       metaDescription: "An Arizona HOA cannot ban rooftop solar. A.R.S. 33-1816 protects your right to install panels and limits HOA placement rules. Here is exactly what the law says.",
@@ -10796,7 +10796,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/33/01817.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1817 (Declaration amendment; design, architectural committees; review)</a></li>
-<li><a href="https://azre.gov/consumers/hoa" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
+<li><a href="https://azre.gov/consumers/homeowners-association-dispute-information" target="_blank" rel="noopener noreferrer">Arizona Department of Real Estate: Homeowners Association Dispute Information</a></li>
 <li><a href="https://www.azleg.gov/ars/33/01816.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1816 (Solar energy devices; reasonable restrictions)</a></li>
 </ul>`,
       shortAnswer: "An HOA architectural review committee must approve your custom home's plans before you build, on top of the city permit. In Arizona, A.R.S. 33-1817 sets the process: a final approval meeting, a refundable deposit held in trust, and at least two on-site reviews during construction. It can add weeks and affect your design choices.",
@@ -11504,7 +11504,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://codes.iccsafe.org/s/IBC2021P1/chapter-1-scope-and-administration/IBC2021P1-Ch01-Sec107.3.4.1" target="_blank" rel="noopener noreferrer">2021 IBC Section 107.3.4 / 107.3.4.1 Deferred submittals (ICC Digital Codes)</a></li>
 <li><a href="https://www.phoenix.gov/administration/departments/fire/safety-prevention/fire-permit-forms.html" target="_blank" rel="noopener noreferrer">City of Phoenix Fire Department: Fire Permit Forms, Applications and Fees (fire permit / plan review)</a></li>
-<li><a href="https://www.phoenix.gov/fire/prevention/sprinkler-ordinance" target="_blank" rel="noopener noreferrer">City of Phoenix: Bret Tarver Sprinkler Ordinance (residential sprinkler requirements)</a></li>
+<li><a href="https://www.phoenix.gov/administration/departments/fire/safety-prevention/bret-tarver-sprinkler-ordinance.html" target="_blank" rel="noopener noreferrer">City of Phoenix: Bret Tarver Sprinkler Ordinance (residential sprinkler requirements)</a></li>
 </ul>`,
       shortAnswer: "Usually both, in sequence. The sprinkler design rides in as a deferred submittal under your building permit, since the sprinkler contractor designs it after permitting. The installation itself routes through the fire department on a separate fire permit. In Phoenix, automatic fire sprinkler plans are deferred submittals reviewed by the Fire Department.",
       metaDescription: "A fire sprinkler system is usually a deferred submittal under your building permit plus a separate Phoenix fire permit. Here is how the two paths differ.",
@@ -11843,7 +11843,7 @@ export const faqSeed: FaqSeed = {
 <p>We handle jurisdiction, submittals, and inspections as part of every build. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.maricopa.gov/Faq.aspx?QID=647" target="_blank" rel="noopener noreferrer">Maricopa County: FAQ on when a building permit is required for a structure</a></li>
+<li><a href="https://www.maricopa.gov/m/faq?cat=32" target="_blank" rel="noopener noreferrer">Maricopa County: Planning and Development permit FAQs</a></li>
 <li><a href="https://www.maricopa.gov/6353/Accessory-Structures-Equipment-and-Setba" target="_blank" rel="noopener noreferrer">Maricopa County: Accessory Structures, Equipment, and Setbacks (DD-3012-01)</a></li>
 <li><a href="https://www.maricopa.gov/1674/Residential-Construction" target="_blank" rel="noopener noreferrer">Maricopa County: Residential Construction</a></li>
 <li><a href="https://www.scottsdaleaz.gov/planning-development/permit-services" target="_blank" rel="noopener noreferrer">City of Scottsdale: Permit Services</a></li>
@@ -13395,7 +13395,7 @@ export const faqSeed: FaqSeed = {
 <p>We take on additions, remodels, and teardown-rebuilds across the Valley. Reach out and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://basc.pnnl.gov/building-components/air-sealinginsulation-1" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
+<li><a href="https://basc.pnnl.gov/building-components/air-sealing-walls" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Air Sealing and Insulation</a></li>
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
 <li><a href="https://www.phoenix.gov/administration/departments/pdd/residential-building/resident-plan-reviews/additions-remodels.html" target="_blank" rel="noopener noreferrer">City of Phoenix: Residential Additions and Remodels</a></li>
 </ul>`,
