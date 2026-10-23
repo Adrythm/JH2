@@ -8787,6 +8787,7 @@ export const faqSeed: FaqSeed = {
 <h2>The third ADU on one-acre lots</h2>
 <p>On a lot of <strong>one acre or larger</strong>, the state lets you add a <strong>third ADU</strong>, but with a condition: at least one unit on the property must be <strong>restricted-affordable</strong>. The statute requires "a minimum of one additional detached accessory dwelling unit" on a lot of "one acre or more in size if at least one accessory dwelling unit on the lot or parcel is a restricted-affordable dwelling unit."</p>
 <p>A <strong>restricted-affordable</strong> unit is one tied to a deed restriction. The restriction caps the rent or sale price so the unit stays affordable to lower-income households for a set number of years. In plain terms, you give up market rent on one unit to earn the right to build a third. So the third unit comes with strings. It fits owners who want maximum density on a large parcel and are willing to commit one unit to affordable housing.</p>
+<p>For counties the condition is the county's choice: A.R.S. 11-810.01 lets a county require one unit to be restricted-affordable rather than requiring it outright. <strong>Maricopa County</strong> has chosen to: its zoning ordinance (Article 602.3.2.B) requires a deed restriction on one unit, recorded before the permit for the extra detached ADU is issued, so a Rio Verde Foothills acre lot works the same way as a large city lot.</p>
 <p>This third-unit rule matters most on Arizona's larger lots. Think acreage in <strong>Cave Creek</strong>, <strong>Carefree</strong>, or the <strong>Rio Verde Foothills</strong>. On a quarter-acre Phoenix lot, the two-ADU floor is what applies, because the lot is well under an acre. Confirm the affordable deed-restriction terms with your city or county before you count on the third unit. The income limits and the length of the restriction are specific, and they bind for years.</p>
 <p>One more point on counting. The three-ADU path requires the third unit to be detached. You cannot reach three by adding a second attached unit. The state floor is one attached plus one detached, then one more detached on a large lot. So a homeowner aiming for three units should plan two free-standing buildings in the yard plus one unit attached to or carved out of the main house.</p>
 <h2>How Phoenix, Scottsdale, and the county count</h2>
@@ -8798,21 +8799,22 @@ export const faqSeed: FaqSeed = {
 <p>Third, a <strong>guest house</strong> is a different category in some cities. A guest house that cannot be rented on its own may not count against your ADU limit. Scottsdale treats a Guest House as a non-rentable structure, separate from an ADU, with its own size rules. So if you only want extra space for visiting family, a guest house can sit alongside your two ADUs without using up a slot.</p>
 <p>So the honest answer for most Arizona homeowners is two ADUs on a standard single-family lot, and up to three on a one-acre lot with an affordable unit. Check your specific city or county code for the size, setback, and affordable-housing details, since those vary, but the count itself is now set by clear statewide law.</p>
 <h2>The Jematell Homes approach</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. Reach out and we will talk through how this applies to your specific lot and plan.</p>
+<p>Setbacks, overlays, and ADU rules shape our design work from day one. See <a href="/casitas-and-guest-houses">the casitas and guest houses we build</a> and how we <a href="/where-we-build/rio-verde">build in Rio Verde</a> on acre lots, or <a href="/contact">reach out</a> and we will talk through how this applies to your specific lot and plan.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.azleg.gov/ars/9/00461-18.htm" target="_blank" rel="noopener noreferrer">A.R.S. 9-461.18 (Accessory dwelling units; municipalities)</a></li>
 <li><a href="https://www.azleg.gov/ars/11/00810-01.htm" target="_blank" rel="noopener noreferrer">A.R.S. 11-810.01 (Accessory dwelling units; counties)</a></li>
 <li><a href="https://phoenix.municipal.codes/ZO/706" target="_blank" rel="noopener noreferrer">Phoenix Zoning Ordinance 706 (Accessory Uses and Structures)</a></li>
 <li><a href="https://www.maricopa.gov/6159/Zoning-Ordinance" target="_blank" rel="noopener noreferrer">Maricopa County Zoning Ordinance Update (ADU provisions)</a></li>
+<li><a href="https://www.maricopa.gov/7848/Restricted-Affordable-Accessory-Dwelling" target="_blank" rel="noopener noreferrer">Maricopa County: Restricted-Affordable Accessory Dwelling Units</a></li>
 </ul>`,
-      shortAnswer: "In most of Arizona you can have at least two ADUs on a single-family lot, one attached and one detached. On a lot of one acre or more, you can add a third detached ADU if at least one unit is deed-restricted affordable housing. State law A.R.S. 9-461.18 sets this floor.",
+      shortAnswer: "In most of Arizona you can have at least two ADUs on a single-family lot, one attached and one detached. On a lot of one acre or more, you can add a third detached ADU if at least one unit is deed-restricted affordable housing. State law sets this floor: A.R.S. 9-461.18 for larger cities and A.R.S. 11-810.01 for county land.",
       metaDescription: "In Arizona you can build two ADUs per single-family lot, plus a third on one-acre lots with an affordable unit. See the state and city limits by property.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["design", "research-phase"],
-      relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedFaqSlugs: ["what-hb-2720-changed-for-adus-in-arizona", "which-arizona-cities-are-required-to-allow-adus"],
+      relatedServiceSlugs: ["casitas-and-guest-houses", "where-we-build/rio-verde", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 299,
@@ -14982,38 +14984,54 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-hb-2720-changed-for-adus-in-arizona",
       question: "What did HB 2720 change for building a casita or ADU in Arizona?",
-      answerHtml: `<p><strong>House Bill 2720, signed in 2024 and codified at A.R.S. 9-461.18, requires Arizona municipalities with a population of at least 75,000 to allow accessory dwelling units (ADUs) on lots zoned for single-family homes, and it caps how restrictive those cities can be.</strong> The live answer on casitas covers the basics of what an ADU is; this one focuses on what the statute actually changed and where it does and does not reach.</p>
+      answerHtml: `<p><strong>House Bill 2720, signed in 2024 and codified at A.R.S. 9-461.18, requires Arizona cities and towns of more than 75,000 people to allow accessory dwelling units (ADUs) on lots where a single-family home is allowed, and it caps how restrictive those cities can be. A 2025 law, HB 2928, added A.R.S. 11-810.01, which puts the same floor on every Arizona county from January 1, 2026, so unincorporated county land, including the Rio Verde Foothills, is now covered too.</strong> The live answer on casitas covers the basics of what an ADU is; this one focuses on what the two statutes changed and where they do and do not reach.</p>
 <h2>What the law requires of larger cities</h2>
-<p>For covered municipalities, the headline is that an outright ban is no longer allowed. A.R.S. 9-461.18 directs these cities to permit ADUs on parcels with an existing or proposed single-family home, and it limits the conditions a city can attach. The guardrails in the statute generally include the following, though each city writes its own implementing ordinance within them:</p>
+<p>For covered cities, an outright ban is no longer allowed. A.R.S. 9-461.18 directs them to permit ADUs on any lot where a single-family home is allowed, and it limits the conditions a city can attach. Each city writes its own ordinance within these guardrails:</p>
 <ul>
-<li><strong>At least one ADU per lot.</strong> Covered cities must allow at least one attached and one detached ADU on a qualifying single-family lot, subject to the size and setback limits below.</li>
-<li><strong>No owner-occupancy requirement.</strong> A city cannot force the property owner to live on site as a condition of having an ADU.</li>
-<li><strong>Limited parking demands.</strong> The statute restricts a city from requiring more than a modest amount of added parking for an ADU.</li>
-<li><strong>Size floors.</strong> A city cannot cap an ADU below the thresholds set in the statute, which protect a meaningful minimum floor area rather than letting a city permit ADUs in name only.</li>
-<li><strong>Setbacks no stricter than the main home.</strong> ADU setbacks generally cannot be made more restrictive than those that apply to the primary dwelling.</li>
-<li><strong>No familial-use limits.</strong> A city cannot require that the ADU be occupied only by family members.</li>
+<li><strong>At least two ADUs per lot.</strong> Covered cities must allow at least one attached and one detached ADU as a permitted use, and one more detached ADU on a lot of one acre or more if one unit on the lot is restricted-affordable housing.</li>
+<li><strong>A size floor.</strong> A city must allow an ADU of 75% of the main home's floor area or 1,000 square feet, whichever is less.</li>
+<li><strong>No added parking.</strong> A city cannot require extra parking for an ADU, or a fee in place of it.</li>
+<li><strong>Setbacks.</strong> ADU rules cannot be stricter than the house's on height, setbacks, lot size or coverage, and side and rear setbacks cannot exceed five feet from the property line.</li>
+<li><strong>Long-term rental and occupants.</strong> A city cannot ban leasing the house or the ADU as separate long-term rentals, and it cannot require the ADU's occupant to be family or an employee.</li>
+<li><strong>No matching design.</strong> A city cannot require the ADU to match the main home's exterior design, roof pitch or finishing materials.</li>
 </ul>
-<p>Cities were directed to bring their ordinances into compliance on the timeline set by the law, so by 2026 the larger Phoenix-metro jurisdictions have adopted implementing rules. Among the markets we build in, Scottsdale and Phoenix clear the 75,000-resident threshold and are covered.</p>
-<h2>What the law does not change</h2>
-<p>HB 2720 sets a floor, not a free pass. Several things still govern whether and how you can build:</p>
+<p>Cities had until January 1, 2025 to adopt compliant rules, so the larger Phoenix-metro cities now have them. Among the markets we build in, Scottsdale and Phoenix clear the 75,000-resident threshold and are covered.</p>
+<h2>What HB 2928 added for county land</h2>
+<p>HB 2928 (Laws 2025, chapter 217, signed May 23, 2025) created A.R.S. 11-810.01, the county version of the rule. Every Arizona county had to adopt ADU rules by January 1, 2026; a county that missed the date must allow ADUs on all residential lots without limits. The county rule tracks the city one, with a few differences that matter on rural land:</p>
 <ul>
-<li><strong>Smaller towns are not covered.</strong> Cave Creek, Carefree, Fountain Hills, and similar towns fall under the 75,000-resident threshold, so the statewide mandate does not apply and their local zoning controls.</li>
-<li><strong>Unincorporated county land is separate.</strong> Parcels governed by Maricopa County or Pinal County, including much of Rio Verde Foothills, follow county zoning rather than a city ADU ordinance.</li>
+<li><strong>Two ADUs, and a third on an acre.</strong> A county must allow one attached and one detached ADU wherever a single-family home is allowed, and at least one more detached ADU on a lot of one acre or more. The county may require one unit on that lot to be restricted-affordable, and Maricopa County does: its zoning ordinance (Article 602.3.2.B) calls for a recorded deed restriction before the permit for the extra unit issues.</li>
+<li><strong>The same size floor, setbacks and parking limits</strong> as the city rule: at least 75% of the home or 1,000 square feet, whichever is less, side and rear setbacks of no more than five feet, and no added parking.</li>
+<li><strong>Septic sized first.</strong> Where the ADU will not be on sewer, the county may require the septic system serving it to be adequately sized before construction.</li>
+<li><strong>Short-term rentals.</strong> A county still cannot ban short-term rentals (A.R.S. 11-269.17), but it may require the owner to live on the property to run one when the lot has an ADU whose certificate of occupancy or final approval was issued on or after September 14, 2024.</li>
+</ul>
+<p>Maricopa County's Board of Supervisors adopted its updated zoning ordinance, with the multiple-ADU rules, on December 10, 2025. That covers unincorporated communities such as Rio Verde and the Rio Verde Foothills, where many lots are an acre or more in the Rural-43 zone.</p>
+<h2>What the laws do not change</h2>
+<p>Both statutes set a floor, not a free pass. Several things still govern whether and how you can build:</p>
+<ul>
+<li><strong>Smaller towns are not covered.</strong> Cave Creek, Carefree, Fountain Hills, and similar towns fall under the 75,000-resident threshold, and as incorporated towns they are not county land either, so their own zoning controls.</li>
 <li><strong>Septic and water capacity still bind.</strong> On a lot served by a well and septic, a second dwelling can require a larger or upgraded onsite wastewater system reviewed under Arizona Department of Environmental Quality standards, regardless of what zoning allows.</li>
-<li><strong>Short-term rental is regulated separately.</strong> The law addresses the right to build an ADU, not the right to operate it as a nightly rental; those rules live in other ordinances and change.</li>
-<li><strong>Overlays still apply.</strong> Hillside, open-space, and design-review rules continue to shape where an ADU can sit even in a covered city.</li>
+<li><strong>Short-term rental is regulated separately.</strong> The laws address the right to build an ADU, not the right to operate it as a nightly rental; those rules live in other statutes and ordinances.</li>
+<li><strong>Overlays and codes still apply.</strong> Building and fire codes, hillside, drainage and flood rules, and design review continue to shape where an ADU can sit, though neither a city nor a county can require an ADU to meet the commercial building code or carry a fire sprinkler.</li>
 </ul>
 <h2>Why the distinction matters for your lot search</h2>
-<p>Two parcels a few miles apart can now carry very different ADU rights purely because one sits in a city above the population threshold and the other in a small town or unincorporated county. If a casita or future rental is part of your plan, the jurisdiction is worth confirming before you make an offer, not after.</p>
+<p>Two parcels a few miles apart can carry different ADU rights because one sits in a city above the population threshold or in unincorporated county land, and the other in a small town. If a casita or future rental is part of your plan, confirm the jurisdiction before you make an offer, not after.</p>
 <h2>How Jematell Homes helps</h2>
-<p>We design custom homes with casitas and ADUs across the metro and tailor each unit to the lot's jurisdiction, zoning, and your goals, whether that is multigenerational living, guests, a home office, or a future rental. Because ADU rules are recent and each covered city implements A.R.S. 9-461.18 differently, and because small towns and county land are outside the statewide mandate, we confirm the current standards with your local AHJ, and any applicable HOA, before finalizing a design.</p>`,
-      shortAnswer: "Arizona's 2024 HB 2720, codified at A.R.S. 9-461.18, requires cities of 75,000 or more residents to allow ADUs on single-family lots and limits owner-occupancy, parking, and size restrictions. Smaller towns and unincorporated county land are not covered, and septic capacity and overlays still apply.",
-      metaDescription: "What did HB 2720 (A.R.S. 9-461.18) change for ADUs in Arizona? Larger cities must allow them on single-family lots, but small towns and county land are exempt.",
+<p>We design custom homes with casitas and ADUs across the metro and tailor each unit to the lot's jurisdiction, zoning, and your goals, whether that is multigenerational living, guests, a home office, or a future rental. Because each covered city and county writes its own rules within the statutes, and small towns sit outside them, we confirm the current standards with your local AHJ, and any applicable HOA, before finalizing a design.</p>
+<p>Most of our gallery homes are in <a href="/where-we-build/rio-verde">Rio Verde</a>, where the county rule now applies. See <a href="/casitas-and-guest-houses">the casitas and guest houses we build</a>, or <a href="/contact">contact us</a> with your lot's address.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.azleg.gov/ars/9/00461-18.htm" target="_blank" rel="noopener noreferrer">A.R.S. 9-461.18 (Accessory dwelling units; municipalities)</a></li>
+<li><a href="https://www.azleg.gov/ars/11/00810-01.htm" target="_blank" rel="noopener noreferrer">A.R.S. 11-810.01 (Accessory dwelling units; counties)</a></li>
+<li><a href="https://www.azleg.gov/legtext/57leg/1r/laws/0217.htm" target="_blank" rel="noopener noreferrer">Laws 2025, chapter 217 (HB 2928)</a></li>
+<li><a href="https://www.maricopa.gov/7848/Restricted-Affordable-Accessory-Dwelling" target="_blank" rel="noopener noreferrer">Maricopa County: Restricted-Affordable Accessory Dwelling Units</a></li>
+</ul>`,
+      shortAnswer: "Arizona's 2024 HB 2720 (A.R.S. 9-461.18) requires cities of more than 75,000 people to allow ADUs on single-family lots and limits parking, size, and setback rules. HB 2928 (A.R.S. 11-810.01) put the same floor on counties from January 1, 2026, so unincorporated land like the Rio Verde Foothills is covered. Small towns are not.",
+      metaDescription: "What HB 2720 and HB 2928 changed for ADUs in Arizona: larger cities and, since 2026, counties must allow them on single-family lots. Small towns are exempt.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
-      tags: ["adu", "casita", "hb-2720", "ars-9-461-18", "research-phase"],
-      relatedFaqSlugs: [],
-      relatedServiceSlugs: ["custom-homes", "floor-plans"],
+      tags: ["adu", "casita", "hb-2720", "hb-2928", "ars-9-461-18", "ars-11-810-01", "research-phase"],
+      relatedFaqSlugs: ["how-many-adus-per-property-arizona", "which-arizona-cities-are-required-to-allow-adus", "rural-residential-zoning-districts-in-maricopa-county"],
+      relatedServiceSlugs: ["casitas-and-guest-houses", "where-we-build/rio-verde", "custom-homes", "floor-plans"],
       pillarBlogSlug: "guest-house-casita-adu-scottsdale",
       featured: false,
       sortOrder: 14,
