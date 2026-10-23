@@ -4,6 +4,7 @@ import { m, useReducedMotion } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { GALLERY_BY_SLUG } from "../data/galleryProjects";
+import { locations, locationHref } from "../config/siteConfig";
 import { cristImages, CRIST_HERO_JPG, CRIST_HERO_WEBP } from "../data/crist";
 
 function isLocalPath(src: string): boolean {
@@ -15,6 +16,32 @@ function webpPath(jpgSrc: string): string {
 }
 
 const isDev = process.env.NODE_ENV !== "production";
+
+/** Where a project's stat leads: its town page, or the page for its build type. */
+function statHref(label: string, value: string): string | undefined {
+  if (label === "Location") {
+    const town = locations.find((l) => l.name === value);
+    return town ? locationHref(town.slug) : undefined;
+  }
+  if (label === "Build Type") {
+    if (value === "Custom") return "/custom-homes";
+    if (value === "Spec") return "/spec-homes";
+  }
+  return undefined;
+}
+
+const statLinkStyle = { color: "inherit", textDecoration: "underline", textUnderlineOffset: "4px" } as const;
+
+function StatValue({ label, value }: { label: string; value: string }) {
+  const href = statHref(label, value);
+  return href ? (
+    <Link href={href} className="gallery-detail-stat-value" style={statLinkStyle}>
+      {value}
+    </Link>
+  ) : (
+    <span className="gallery-detail-stat-value">{value}</span>
+  );
+}
 
 const DevDraggableGallery = isDev
   ? lazy(() =>
@@ -194,12 +221,12 @@ export default function GalleryDetail({ slug, title = "", ogImage, images = [] }
               </div>
               <div className="gallery-detail-stats-inner">
                 <div className="gallery-detail-stat">
-                  <span className="gallery-detail-stat-value">Custom</span>
+                  <StatValue label="Build Type" value="Custom" />
                   <span className="gallery-detail-stat-label">Build Type</span>
                 </div>
                 <div className="gallery-detail-stat-divider" />
                 <div className="gallery-detail-stat">
-                  <span className="gallery-detail-stat-value">Surprise</span>
+                  <StatValue label="Location" value="Surprise" />
                   <span className="gallery-detail-stat-label">Location</span>
                 </div>
                 <div className="gallery-detail-stat-divider" />
@@ -312,7 +339,7 @@ export default function GalleryDetail({ slug, title = "", ogImage, images = [] }
                   <Fragment key={s.label}>
                     {i > 0 && <div className="gallery-detail-stat-divider" />}
                     <div className="gallery-detail-stat">
-                      <span className="gallery-detail-stat-value">{s.value}</span>
+                      <StatValue label={s.label} value={s.value} />
                       <span className="gallery-detail-stat-label">{s.label}</span>
                     </div>
                   </Fragment>
