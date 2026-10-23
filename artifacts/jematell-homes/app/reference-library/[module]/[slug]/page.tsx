@@ -19,7 +19,8 @@ import { JsonLd } from "@/seo/JsonLd";
 import { annotateHeadings, readingTime, formatDate } from "@/lib/detail";
 import { DetailDisclaimer } from "@/components/DetailParts";
 import { Interlink } from "@/components/Interlink";
-import { relationsForReference, relationsForJurisdiction } from "@/lib/interlink";
+import { relationsForReference, relationsForJurisdiction, townPageForReference } from "@/lib/interlink";
+import { ReferenceNextStep } from "@/components/FaqNextStep";
 import { buildInterlinkSections } from "@/lib/interlink.config";
 import { ContactCta } from "@/components/ContactCta";
 import { CTA } from "@/cta";
@@ -192,6 +193,8 @@ export default async function ReferenceDetailPage({
           ) : null}
 
           <div className="dt-prose" data-testid="reference-body" dangerouslySetInnerHTML={{ __html: article.html }} />
+
+          <ReferenceNextStep category={entry.category} town={townPageForReference(entry)} />
 
           <Interlink sections={interlinks} testid="reference-interlink" />
 
