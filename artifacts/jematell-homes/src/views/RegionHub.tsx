@@ -248,6 +248,26 @@ const TOWNS: Record<string, Town> = {
         href: "/faq/what-building-codes-apply-in-rio-verde-foothills-arizona",
       },
     ],
+    beyond: {
+      heading: "Casitas, guest houses and ADUs on a Rio Verde lot",
+      points: [
+        {
+          title: "Two ADUs under the county rule",
+          body: "Since January 2026, state law A.R.S. 11-810.01 requires Maricopa County to allow one attached and one detached ADU wherever a single-family home is allowed. Each can be at least 75% of the main home or 1,000 square feet, whichever is less, and the county cannot ask for side or rear setbacks over five feet or extra parking.",
+          href: "/faq/what-hb-2720-changed-for-adus-in-arizona",
+        },
+        {
+          title: "A third unit on an acre or more",
+          body: "Most Foothills lots are an acre or larger, which allows one more detached ADU. The county requires one unit on the lot to carry a recorded affordable-housing deed restriction before the permit for that extra unit issues.",
+          href: "/faq/how-many-adus-per-property-arizona",
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses with a new custom home or on a lot you already own, with the septic system sized for the second dwelling and the well or hauled-water supply planned to serve both.",
+          href: "/casitas-and-guest-houses",
+        },
+      ],
+    },
   },
   "paradise-valley": {
     galleryLocations: ["Paradise Valley"],
