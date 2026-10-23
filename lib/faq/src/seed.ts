@@ -3955,6 +3955,7 @@ export const faqSeed: FaqSeed = {
     }),
     item({
       slug: "how-long-does-a-builder-warranty-last-arizona",
+      seoTitle: "How Long Builder Warranties Last in Arizona",
       question: "How long does a builder warranty last on a new custom home in Arizona?",
       answerHtml: `<p>A builder warranty on a new custom home in Arizona usually runs on a <strong>1-2-10 schedule</strong>: <strong>one year</strong> for workmanship and finishes, <strong>two years</strong> for systems like plumbing and electrical, and <strong>ten years</strong> for major structural defects. That schedule is the written warranty your builder gives you. Sitting behind it are two legal time limits that matter just as much: Arizona's <strong>implied warranty of workmanship and habitability</strong>, and a statute that bars most lawsuits against a builder <strong>eight years</strong> after the home is finished (nine years if the defect is hidden).</p>
 <p>So "how long" has two answers. One is how long the builder agrees to fix things for free. The other is how long the law lets you force the issue in court. Both clocks start at completion or close of escrow, and they run on different lengths.</p>
@@ -10596,7 +10597,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-close-can-a-well-be-to-a-septic-system-in-arizona",
       question: "How close can a well be to a septic system in Arizona?",
-      seoTitle: "Well to Septic Distance in Arizona: the 100 ft Rule",
+      seoTitle: "Well to Septic Setback in Arizona: 100 Feet",
       answerHtml: `<p>State law is direct: no well may be drilled within <strong>100 feet</strong> of any septic tank or sewage disposal area, unless the <strong>Arizona Department of Water Resources (ADWR)</strong> director approves an exception in writing. That 100 feet is the statewide floor, not a target. Your county health authority can require a larger separation based on soil and site conditions, so confirm the exact setback with the county before you place the well or the septic field. Getting this right on the site plan protects your drinking water and keeps both permits on track.</p>
 <h2>The 100-foot rule and who sets it</h2>
 <p>The core rule is 100 feet between a well and a septic system, set by state water law in <strong>A.A.C. R12-15-818</strong>, the well construction rule. ADWR states it plainly: except for monitoring wells, "no well shall be drilled within 100 feet of any septic tank system, sewage disposal area, landfill, hazardous waste facility, storage area of hazardous materials or petroleum storage areas and tanks, unless authorized in writing by the Director." So a private domestic well and your leach field must keep at least 100 feet apart in every direction. To build closer, you would have to request a written variance from the ADWR director, which is the exception, not the plan.</p>
@@ -11814,7 +11815,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-permit-to-build-a-shed-or-detached-structure-in-arizona",
       question: "Do I need a permit to build a shed or detached structure in Arizona?",
-      seoTitle: "Shed Permit in Arizona: When 200 Sq Ft Is Exempt",
+      seoTitle: "Arizona Shed Permits: The 200 Sq Ft Rule",
       answerHtml: `<p>In most of Arizona, you do <strong>not</strong> need a building permit for a shed that is <strong>200 square feet or smaller</strong>, one story, and has <strong>no electrical, plumbing, or mechanical</strong> hookups. This exemption comes from the <strong>International Residential Code (IRC)</strong>, the model code Arizona cities and counties enforce, in Section <strong>R105.2</strong>, "Work exempt from permit." The exemption covers small detached buildings like tool sheds and storage sheds. The moment your shed crosses 200 square feet, adds a second story, or gets wired for power or plumbed for water, the exemption ends and you need a permit. And even when no permit is required, your shed still has to meet <strong>zoning</strong> rules like setbacks from property lines. Check your specific city, because some lower the size limit.</p>
 <h2>The 200 square foot rule and its exact limits</h2>
 <p>The core rule is a 200 square foot ceiling, and it is the single most useful number for any shed project in Arizona. The IRC exempts "one-story detached accessory structures used as tool and storage sheds, playhouses and similar uses" when the floor area is not greater than <strong>200 square feet</strong>.</p>
