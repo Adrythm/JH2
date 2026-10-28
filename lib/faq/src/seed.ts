@@ -4307,6 +4307,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-to-do-if-your-builder-wont-finish-your-house-in-arizona",
       question: "What can I do if my builder won't finish my house in Arizona?",
+      seoTitle: "Builder Won't Finish Your House in Arizona",
       answerHtml: `<p>If your builder has walked off and will not finish your Arizona home, you have a real path, not just a lawsuit. File a complaint with the <strong>Arizona Registrar of Contractors</strong>, the state agency called the <strong>ROC</strong> that licenses and disciplines home builders. Walking off a job is a named violation under <strong>A.R.S. 32-1154</strong>, which the statute calls "abandonment of a contract." If the ROC sides with you and the builder still does not make it right, and you cannot collect your money, the <strong>Residential Contractors' Recovery Fund</strong> can pay your actual losses up to <strong>$30,000 per claim</strong>. The steps below are in the order that protects you most.</p>
 <h2>File the ROC complaint first, and cite abandonment</h2>
 <p>Start by filing a complaint with the Arizona Registrar of Contractors, because that is the engine that drives everything else. The ROC licenses residential builders, investigates homeowner complaints, and can order the builder to fix the work or lose their license. A builder who took your money and stopped is exposed under <strong>A.R.S. 32-1154</strong>, which lists the acts that let the ROC discipline a license.</p>
@@ -4990,6 +4991,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "arizona-implied-warranty-of-workmanship-and-habitability",
       question: "What is the implied warranty of workmanship and habitability in Arizona?",
+      seoTitle: "Arizona Implied Warranty of Habitability",
       answerHtml: `<p>In Arizona, the <strong>implied warranty of workmanship and habitability</strong> is a legal promise that the law writes into every home construction contract, even when no one puts it in writing. The Arizona Supreme Court has held that "the law implies a warranty of workmanship and habitability into every residential construction contract." In plain terms, the builder warrants two things: the construction was done in a <strong>workmanlike manner</strong>, and the finished home is <strong>habitable</strong>, meaning safe and fit to live in. This warranty is created by Arizona court decisions, not by a single statute. It covers hidden, <strong>latent defects</strong> you could not see at a walkthrough, and it passes to later buyers, not just the first owner. It is the legal floor under any written warranty your builder hands you.</p>
 <p>This protection matters because most serious construction problems do not show up on day one. A footing poured on untested soil, a slab that later cracks, or framing that was never built to standard can stay hidden for years. The implied warranty gives you a claim against the builder when that kind of defect surfaces, on top of whatever the written warranty says.</p>
 <h2>Where the implied warranty comes from</h2>
@@ -8598,6 +8600,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-do-you-design-a-primary-suite-or-owners-retreat-in-a-custom-home",
       question: "How do you design a primary suite or owner's retreat in a custom home?",
+      seoTitle: "Designing a Primary Suite in a Custom Home",
       answerHtml: `<p>The goal is a quiet, self-contained zone that feels separate from the rest of the house, where the owners can sleep, get ready, and unwind without the noise of the living room or the kids' wing. Build the <strong>primary suite</strong>, also called the <strong>owner's retreat</strong>, as a private wing from four parts: the bedroom, a spa-style bathroom, a large walk-in closet, and a private outdoor or sitting area. In an Arizona custom home, the best primary suites also open to their own shaded patio, so the morning coffee and the evening view are part of the retreat.</p>
 <p>Designing one well comes down to placement, flow, and light. Put the suite where it is quiet, plan the path from bed to bath to closet so it works at 6 a.m., and shade the glass so the room stays cool and calm. Below is how to handle the layout, the bathroom and closet, the privacy and outdoor access, and the comfort details.</p>
 <h2>Place the suite for privacy and quiet</h2>
@@ -11037,6 +11040,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-building-envelope-or-naos-easement-on-an-arizona-custom-lot",
       question: "What is a building envelope or NAOS easement on an Arizona custom lot?",
+      seoTitle: "NAOS Easement and Building Envelope Rules",
       answerHtml: `<p>On a North Scottsdale custom lot, two layers of rules split your land into what you can touch and what you cannot: the City of Scottsdale's <strong>Environmentally Sensitive Lands (ESL)</strong> ordinance, which requires a share of every property to be preserved, and the community's own design guidelines, which draw the exact line on your specific lot. The "you can touch this" side is the <strong>building envelope</strong>, the specific area where the home, driveway, pool, and other improvements are allowed to sit. The rest is the <strong>NAOS easement</strong>, short for Natural Area Open Space easement, recorded against the property so it stays undisturbed natural desert and can never be built on. The result surprises many buyers: on a steep, large lot, well over half the land can be off-limits to construction, and the buildable footprint is much smaller than the lot size suggests.</p>
 <p>This page explains what each term means, how they get recorded, how much of a lot they can lock up, and how to check before you buy. For the wider review these rules sit inside, see <a href="/faq/how-does-hoa-design-review-affect-building-a-custom-home">how HOA design review affects building a custom home</a>.</p>
 <h2>What a building envelope and a NAOS easement are</h2>
@@ -12470,6 +12474,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-building-codes-apply-in-phoenix-arizona",
       question: "What building codes apply in Phoenix, Arizona?",
+      seoTitle: "Phoenix Building Codes for a New Home",
       answerHtml: `<p>A home built in Phoenix is checked against the <strong>2024 Phoenix Building Construction Code (PBCC)</strong>, which bundles the <strong>2024 family of International Codes</strong> plus the <strong>2023 National Electrical Code</strong>. The main code for a custom house is the <strong>2024 International Residential Code (IRC)</strong>. The City Council approved the package on June 18, 2025, by <strong>Ordinance G-7397</strong>, with an effective date of <strong>August 1, 2025</strong>. The city, not the state, enforces these codes inside city limits, and each model code carries Phoenix's own amendments.</p>
 <h2>Which codes Phoenix enforces</h2>
 <p>Phoenix enforces the 2024 I-codes for nearly everything and the 2023 electrical code, all bundled as the 2024 PBCC. Here is the working list for a single-family build:</p>
@@ -12732,6 +12737,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-red-tag-or-stop-work-order-on-an-arizona-home-build",
       question: "What is a red tag or stop-work order on an Arizona home build?",
+      seoTitle: "Red Tags and Stop-Work Orders in Arizona",
       answerHtml: `<p>How much your build gets held up depends on which of two notices you receive, and they are not the same thing. A <strong>red tag</strong> most often means an <strong>inspection failed</strong>. The inspector found something not to code at that stage, so that work has to be corrected and re-inspected before the job moves on. A <strong>stop-work order</strong> is stronger. Under <strong>IRC Section R114</strong>, the building official can order that all the cited work <strong>immediately cease</strong> until a violation or unsafe condition is fixed. A failed inspection slows one stage. A stop-work order can freeze the whole site. You clear either one by fixing the problem and getting the official's sign-off, but a stop-work order is the more serious event.</p>
 <h2>What a red tag means</h2>
 <p>A red tag is usually the inspector's way of telling you a specific stage of work did not pass and cannot be covered or continued until it is corrected. The name comes from the colored tag or notice left on site or posted in the permit system. In everyday Arizona jobsite talk, "red tag" most often means a <strong>failed inspection</strong>, the opposite of the green tag that signals a pass.</p>
@@ -12903,6 +12909,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "dust-control-permit-vs-stormwater-swppp-permit-in-arizona",
       question: "What is the difference between a dust control permit and a stormwater SWPPP permit in Arizona?",
+      seoTitle: "Dust Control Permit vs SWPPP in Arizona",
       answerHtml: `<p>A <strong>dust control permit</strong> and a <strong>stormwater SWPPP permit</strong> are two different permits, from two different agencies, with two different size triggers, and a large custom-home lot can need both. The dust control permit comes from <strong>Maricopa County Air Quality</strong> under <strong>Rule 310</strong>, it covers dust blowing into the air, and it applies once you disturb <strong>0.10 acre (4,356 square feet)</strong> or more. The stormwater permit comes from the <strong>Arizona Department of Environmental Quality (ADEQ)</strong> under the <strong>AZPDES Construction General Permit</strong>, it covers dirty water running off the site, and it applies once you disturb <strong>one acre</strong> or more, or your lot is part of a larger common plan that totals an acre. One is an <strong>air</strong> permit. The other is a <strong>water</strong> permit. Pulling one does not satisfy the other.</p>
 <p>This is one of the most common pre-construction traps on an Arizona build. Owners assume "the permit" is a single thing. In reality you may be juggling two environmental permits before your building permit's first inspection.</p>
 <h2>The two permits side by side</h2>
