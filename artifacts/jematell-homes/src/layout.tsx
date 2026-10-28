@@ -327,6 +327,9 @@ export function Footer() {
           <nav className="footer-links" aria-label="Footer navigation">
             <Link href="/contact">Contact</Link>
             <Link href="/spec-homes">Spec Homes</Link>
+            <Link href="/build-on-your-lot">Build on Your Lot</Link>
+            <Link href="/casitas-and-guest-houses">Casitas and Guest Houses</Link>
+            <Link href="/rv-garages">RV Garages</Link>
             <Link href="/resources">Resources</Link>
             <Link href="/faq">FAQ</Link>
             <Link href="/blog">Blog</Link>
