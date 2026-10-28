@@ -31,6 +31,7 @@ import {
   SCENARIO_TERM_YEARS,
   estimateScenarios,
   getEstimateScenario,
+  isIndexedScenario,
   scenarioSlug,
   scenarioTitle,
   type EstimateScenario,
@@ -92,7 +93,7 @@ export async function generateMetadata({
   const s = getEstimateScenario(slug);
   if (!s) return {};
   const est = computeFor(s);
-  return pageMetadata({
+  const meta = pageMetadata({
     title: scenarioTitle(s),
     description:
       `A ${s.price.label} custom home in ${s.location.name}, Arizona with ${s.downPct}% down works out to about ` +
@@ -100,6 +101,9 @@ export async function generateMetadata({
       `Estimate only, not a loan offer.`,
     canonical: `/financing/estimate/${s.slug}`,
   });
+  // Only one down payment per budget and city is indexed; the rest stay for
+  // readers and pass their links on (see isIndexedScenario).
+  return isIndexedScenario(s) ? meta : { ...meta, robots: { index: false, follow: true } };
 }
 
 export default async function EstimateScenarioPage({

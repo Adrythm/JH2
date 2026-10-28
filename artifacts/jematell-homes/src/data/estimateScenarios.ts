@@ -84,6 +84,26 @@ export function estimateScenarioRoutes(): string[] {
   return estimateScenarios.map((s) => `/financing/estimate/${s.slug}`);
 }
 
+/**
+ * The down payment whose pages Google is asked to index: one page per budget
+ * and city. The 25 and 30 percent pages repeat their 20 percent sibling with
+ * one figure changed, and 135 near-identical pages read as scaled content
+ * (Google's spam policies) while taking crawl from the service pages. They
+ * stay published for readers, linked from their sibling, but carry noindex
+ * and leave the sitemap. Reversible: drop the check to index them again.
+ */
+export const INDEXED_DOWN_PCT = 20;
+
+export function isIndexedScenario(s: EstimateScenario): boolean {
+  return s.downPct === INDEXED_DOWN_PCT;
+}
+
+export function noindexEstimateRoutes(): string[] {
+  return estimateScenarios
+    .filter((s) => !isIndexedScenario(s))
+    .map((s) => `/financing/estimate/${s.slug}`);
+}
+
 /** Title used for the page, its metadata, and the links that point at it. */
 export function scenarioTitle(s: EstimateScenario): string {
   return `Monthly payment on a ${s.price.label} home in ${s.location.name}, AZ with ${s.downPct}% down`;
