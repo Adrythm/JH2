@@ -15,7 +15,7 @@ interface Step {
   lead: string;
   linkLabel: string;
   href: string;
-  /** Words of the lead that also link, to the town page they name. */
+  /** Words of the lead that also link, to the town or service page they name. */
   leadLink?: { text: string; href: string };
 }
 
@@ -36,14 +36,16 @@ const BY_CATEGORY: Record<string, Step> = {
     href: "/custom-homes",
   },
   "costs-and-budget": {
-    lead: "Working out a budget for your own home?",
+    lead: "Working out a budget for a home on your own lot?",
     linkLabel: "Talk to us about your project",
     href: "/contact",
+    leadLink: { text: "home on your own lot", href: "/build-on-your-lot" },
   },
   "design-zoning-adus": {
-    lead: "Thinking about a new home or a guest space on your lot?",
+    lead: "Thinking about a new home or a guest house on your lot?",
     linkLabel: "Talk to us about your project",
     href: "/contact",
+    leadLink: { text: "guest house", href: "/casitas-and-guest-houses" },
   },
   "choosing-a-builder": {
     lead: "Comparing builders for a custom home in Scottsdale or the Phoenix area?",
