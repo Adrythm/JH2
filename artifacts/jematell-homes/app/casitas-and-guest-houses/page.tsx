@@ -24,6 +24,7 @@ export const metadata = pageMetadata({
   description:
     "Jematell Homes designs and builds casitas, guest houses and ADUs across Scottsdale, Phoenix and the Valley: what your city allows in 2026, what it costs, and how we build it.",
   canonical: PATH,
+  image: "/images/spec-home.jpg",
 });
 
 const CITY_RULES = [
