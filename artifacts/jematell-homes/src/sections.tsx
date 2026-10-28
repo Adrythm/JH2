@@ -89,7 +89,7 @@ export function About() {
               As a family-owned Arizona home builder, we take pride in creating well-built homes that feel thoughtful, comfortable, and made to last.
             </p>
             <p>
-              From the first conversation to the final walk-through, we focus on honest communication, quality craftsmanship, and the details that make a house feel like home. Whether you’re looking for a custom build or a move-in-ready spec home, we’re here to help bring your vision to life.
+              From the first conversation to the final walk-through, we focus on honest communication, quality craftsmanship, and the details that make a house feel like home. Whether you’re looking for a <Link href="/custom-homes">custom home</Link>, a home <Link href="/build-on-your-lot">built on the lot you already own</Link>, a <Link href="/casitas-and-guest-houses">casita or guest house</Link>, a home with an <Link href="/rv-garages">RV garage</Link>, or a move-in-ready <Link href="/spec-homes">spec home</Link>, we’re here to help bring your vision to life.
             </p>
             <p>
               Welcome to Jematell Homes, where we turn your dream home into a reality.
