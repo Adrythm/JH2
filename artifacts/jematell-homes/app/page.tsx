@@ -7,7 +7,7 @@ import { CTA } from "@/cta";
 export const metadata = pageMetadata({
   title: "Custom Home Builder in Scottsdale & Phoenix, AZ",
   description:
-    "Family-owned custom home builder in Scottsdale, AZ. We build on your lot across Rio Verde, Cave Creek and the Phoenix metro, with upfront pricing and weekly updates.",
+    "Family-owned custom home builder in Scottsdale, AZ, building on your lot in Rio Verde, Cave Creek and the Phoenix metro with upfront pricing and weekly updates.",
   canonical: "/",
 });
 
