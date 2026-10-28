@@ -25,6 +25,7 @@ export const metadata = pageMetadata({
   description:
     "Custom RV garages and RV garage homes across Scottsdale, Rio Verde and the Phoenix metro: door heights by RV class, 2026 costs, zoning height limits, and a build we completed in Rio Verde.",
   canonical: PATH,
+  image: "/images/rv-garage-rio-verde.jpg",
 });
 
 const SIZING = [
