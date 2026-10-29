@@ -14,6 +14,12 @@
  * folder: a file; at an address: a 200 without a redirect). Across the site:
  * every sitemap entry is a live page and every page is in the sitemap.
  *
+ * --expect "<path>|<words>" (repeatable) checks that a page shows a visitor
+ * the words a change added, one sentence each: a page passes every check
+ * above while its new FAQ answers sit in a data file its template never
+ * reads (HQ's 82 town FAQs and G Brothers' 116 service FAQs, 2026-10-28).
+ * A sentence found only in the page's scripts or JSON-LD says so.
+ *
  * Exit code 1 when any error-level problem is found (or any problem with
  * --strict), so a build script or a CI step can fail on it. --json prints
  * the findings as JSON for a tool to read; --all lists every address, not
@@ -32,7 +38,7 @@ import path from "node:path";
 
 const args = parseArgs(process.argv.slice(2));
 if (args.help || (!args.dir && !args.url)) {
-  console.log("Usage: seo-audit.mjs (--dir <built html dir> | --url <origin>) [--pages N] [--sitemap <file|url>] [--origin https://host] [--ignore <regex>] [--json] [--all] [--strict]");
+  console.log("Usage: seo-audit.mjs (--dir <built html dir> | --url <origin>) [--pages N] [--sitemap <file|url>] [--origin https://host] [--ignore <regex>] [--expect '<path>|<words>' ...] [--json] [--all] [--strict]");
   process.exit(args.help ? 0 : 2);
 }
 
@@ -45,7 +51,7 @@ const bareHost = (h) => h.replace(/^www\./, "");
 
 /* ----------------------------------------------------------------- html */
 
-const decode = (s) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)));
+const decode = (s) => s.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, " ").replace(/&rsquo;|&lsquo;/g, "'").replace(/&rdquo;|&ldquo;/g, '"').replace(/&ndash;|&mdash;/g, "-").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&amp;/g, "&");
 const clean = (s) => { const t = decode(String(s ?? "")).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); return t.length ? t : null; };
 const attr = (tag, name) => { const m = new RegExp(`\\s${name}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s>]+))`, "i").exec(tag); return m ? decode(m[2] ?? m[3] ?? m[4] ?? "") : null; };
 const hasAttr = (tag, name) => new RegExp(`\\s${name}(\\s*=|\\s|>|/)`, "i").test(tag);
@@ -82,6 +88,17 @@ export function readHtml(html) {
   return { title, description, noindex, viewport, canonical, lang, h1, jsonLd: { blocks: ldBlocks, errors: ldErrors, types: [...ldTypes] }, links: [...new Set(anchors)], images: { total: imgs.length, withoutAlt: imagesWithoutAlt }, words };
 }
 
+/** Text folded for a contains-check: case, curly quotes, dashes and spaces read alike (lib/seo/tech/html.ts foldText). */
+export const foldText = (s) => String(s).normalize("NFKC").toLowerCase().replace(/[\u2018\u2019\u02bc\u2032]/g, "'").replace(/[\u201c\u201d\u2033]/g, '"').replace(/[\u2010-\u2015\u2212]/g, "-").replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+
+/** What a visitor can read on a page, and everything its markup carries including scripts, both folded. */
+export function pageTexts(html) {
+  const body = /<body[\s>][\s\S]*?<\/body>/i.exec(html)?.[0] ?? html;
+  const visible = foldText(decode(body.replace(/<(script|style|noscript|template)[\s>][\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, "")));
+  const source = foldText(decode(html.replace(/<[^>]+>/g, " ")));
+  return { visible, source };
+}
+
 /* ------------------------------------------------------------ the pages */
 
 const normPath = (p) => { const q = p.replace(/[?#].*$/, ""); return q === "" ? "/" : q; };
@@ -108,7 +125,12 @@ async function pagesFromDir(dir) {
     for (const c of candidates) { try { const st = await fs.stat(path.join(dir, c)); if (st.isFile()) return c.endsWith(".html") ? "page" : "file"; } catch { /* next */ } }
     return null;
   };
-  return { pages: out, resolve: exists, origin: args.origin ?? null, mode: "dir" };
+  const html = async (p) => {
+    const rel = normPath(p).replace(/^\//, "").replace(/\/+$/, "");
+    for (const c of rel === "" ? ["index.html"] : [`${rel}.html`, `${rel}/index.html`, rel]) { try { return await fs.readFile(path.join(dir, c), "utf8"); } catch { /* next */ } }
+    return null;
+  };
+  return { pages: out, resolve: exists, html, origin: args.origin ?? null, mode: "dir" };
 }
 
 async function fetchChain(url, method = "GET") {
@@ -168,7 +190,8 @@ async function pagesFromUrl(origin) {
     if (!s) { const got = await fetchChain(new URL(n, base).href, "HEAD"); status.set(n, { status: got.status, redirected: got.chain.length > 1, finalPath: n }); return got.status === 200 ? (got.chain.length > 1 ? "redirect" : "page") : null; }
     return s.status === 200 ? (s.redirected ? "redirect" : "page") : null;
   };
-  return { pages, resolve, origin: base.origin, mode: "url", truncated: pages.size >= max };
+  const html = async (p) => { const got = await fetchChain(new URL(p, base).href); return got.status === 200 ? got.html : null; };
+  return { pages, resolve, html, origin: base.origin, mode: "url", truncated: pages.size >= max };
 }
 
 async function readSitemap(where, quiet = false) {
@@ -234,6 +257,21 @@ async function audit() {
   add("link-broken", "error", "Internal links to pages that do not exist", broken, args.dir ? "Resolved against the built folder: a path with no .html, index.html or file behind it." : "A 4xx, 5xx or no answer.");
   add("link-redirect", "warn", "Internal links that go through a redirect", toRedirect, "Link to the address the page lands on.");
 
+  // Words a change was meant to put on a page.
+  const expectRows = [];
+  for (const e of [].concat(args.expect ?? [])) {
+    const bar = String(e).indexOf("|");
+    const where = bar > 0 ? normPath(String(e).slice(0, bar).trim()) : "";
+    const words = bar > 0 ? String(e).slice(bar + 1).trim() : "";
+    if (!where || !words) { expectRows.push({ path: String(e).slice(0, 80), says: "not <path>|<words>" }); continue; }
+    const html = await site.html(where);
+    if (html == null) { expectRows.push({ path: where, says: "no page" }); continue; }
+    const t = pageTexts(html);
+    const w = foldText(words);
+    if (!t.visible.includes(w)) expectRows.push({ path: where, text: words.slice(0, 80), says: t.source.includes(w) ? "in scripts or data only" : "not on the page" });
+  }
+  add("text-missing", "error", "Words a change added that a visitor cannot read", expectRows, "Render them from the template; a sentence only in scripts or JSON-LD is in data the page never shows.");
+
   // The sitemap against the pages.
   if (sitemapPaths.size) {
     const missing = [];
@@ -265,6 +303,7 @@ function parseArgs(argv) {
     if (!a.startsWith("--")) continue;
     const k = a.slice(2);
     const flag = ["json", "all", "strict", "help"].includes(k);
+    if (k === "expect") { o.expect = [...(o.expect ?? []), argv[++i]]; continue; }
     o[k] = flag ? true : argv[++i];
   }
   return o;
