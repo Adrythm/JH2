@@ -32,6 +32,37 @@ function statHref(label: string, value: string): string | undefined {
 
 const statLinkStyle = { color: "inherit", textDecoration: "underline", textUnderlineOffset: "4px" } as const;
 
+/**
+ * Many project photos were uploaded with their camera file name as the alt
+ * text ("018_Aerial View (1).jpg", "DJI_20260125135231_0049_D.jpg"). Turn a
+ * file name into words about the photo and the project; leave real alt text as
+ * it is.
+ */
+function photoAlt(raw: string | undefined, slug: string, title: string): string {
+  const proj = GALLERY_BY_SLUG[slug];
+  const kind = proj?.buildType === "Spec" ? "spec home" : "custom home";
+  const where = proj?.location ? ` in ${proj.location}, AZ` : "";
+  const project = title ? `${title}, a Jematell ${kind}${where}` : "";
+  const alt = (raw ?? "").trim();
+  if (!alt) return project;
+  if (!/\.(jpe?g|png|webp|heic)$/i.test(alt)) return alt;
+  const drone = /(^|[^a-z])DJI[_-]/i.test(alt);
+  const words = alt
+    .replace(/\.(jpe?g|png|webp|heic)$/i, "")
+    .replace(/\b(DJI|DSC|IMG)[_-]?[\d_]*[A-Z]?\b/gi, " ")
+    .replace(/\(\d+\)/g, " ")
+    .replace(/[_\-]+/g, " ")
+    .replace(/\b\d+[a-z]?\b/gi, " ")
+    .replace(/\b(I{1,3}|IV|V)\b/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 1 && !w.includes("."))
+    .join(" ");
+  const label = /screenshot/i.test(words) ? "" : words || (drone ? "Aerial view" : "");
+  if (!label) return project;
+  const phrase = label.charAt(0).toUpperCase() + label.slice(1).toLowerCase();
+  return project ? `${phrase} of the ${project}` : phrase;
+}
+
 function StatValue({ label, value }: { label: string; value: string }) {
   const href = statHref(label, value);
   return href ? (
@@ -157,7 +188,8 @@ interface GalleryDetailProps {
   images?: GalleryDetailImage[];
 }
 
-export default function GalleryDetail({ slug, title = "", ogImage, images = [] }: GalleryDetailProps) {
+export default function GalleryDetail({ slug, title = "", ogImage, images: rawImages = [] }: GalleryDetailProps) {
+  const images = rawImages.map((img) => ({ ...img, alt: photoAlt(img.alt, slug, title) }));
   const reduce = useReducedMotion();
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
 
