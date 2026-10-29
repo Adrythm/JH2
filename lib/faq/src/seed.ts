@@ -6314,7 +6314,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "casa-grande", "research-phase"],
-      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "single-story-vs-two-story-custom-home-cost-in-arizona", "how-much-does-it-cost-to-extend-power-or-utilities-to-a-rural-arizona-lot"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "single-story-vs-two-story-custom-home-cost-in-arizona", "how-much-does-it-cost-to-extend-power-or-utilities-to-a-rural-arizona-lot", "how-much-does-it-cost-to-build-a-custom-home-in-surprise"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -6453,7 +6453,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "paradise-valley", "research-phase"],
-      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-surprise"],
       relatedServiceSlugs: ["where-we-build/paradise-valley", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -6592,6 +6592,53 @@ export const faqSeed: FaqSeed = {
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 248,
+    }),
+    item({
+      slug: "how-much-does-it-cost-to-build-a-custom-home-in-surprise",
+      question: "How much does it cost to build a custom home in Surprise?",
+      answerHtml: `<p>A custom home in Surprise usually costs about <strong>$250 to $500 per square foot</strong> to build in 2026, the same band as the rest of metro Phoenix. For a 3,000 square foot custom home, that puts the build at roughly <strong>$750,000 to $1.5 million</strong>, before the lot. Where your home lands in that band depends on the plan, the finishes, and the lot. What is particular to Surprise is the city's permit fee schedule, the 2024 building codes the city adopted for 2026, and a zoning system that sorts every lot by size, and each of those adds cost you can plan for before you design.</p>
+<p>For the statewide picture, start with <a href="/faq/how-much-does-it-cost-to-build-a-custom-home-in-arizona">how much it costs to build a custom home in Arizona</a> and <a href="/faq/cost-to-build-a-house-per-square-foot-in-arizona">the cost per square foot in Arizona</a>. This page covers the costs that are different when you build inside Surprise city limits.</p>
+<h2>What the per-square-foot range covers</h2>
+<p>The $250 to $500 range is for the house itself: the foundation, framing, roof, systems, and finishes. The low end is a simpler single-story plan with standard finishes on a flat, ready lot. The top end is a larger plan with a complex roof, high ceilings, big glass, a pool-ready yard, and upgraded selections. For a national benchmark, the National Association of Home Builders reports that in the Mountain region, which includes Arizona, "Half of the custom SFD homes started here in 2024 had prices of $169 per square foot or higher." That figure is a median across a whole region and a cheaper mix of homes, so treat it as a floor, not a target, for a custom build in the West Valley today.</p>
+<p>Three things move a Surprise budget more than the finish level does: the size of the house, how ready the lot is, and how many times the plans go back and forth with the city.</p>
+<h2>City of Surprise permit fees</h2>
+<p>The City of Surprise sets its building fees in its Citywide Fee Schedule (Resolution 2026-16). For a new home, three charges are tied to the project's valuation:</p>
+<ul>
+<li><strong>Building permit fee:</strong> $100 plus $6 for each $1,000 of valuation, up to $999,999.99 of valuation, then $5 for each $1,000 above $1 million.</li>
+<li><strong>Plan review fee:</strong> 65 percent of the building permit fee.</li>
+<li><strong>Administrative processing fee:</strong> 0.50 percent of valuation up to $1 million, and a smaller 0.052 percent on valuation beyond that.</li>
+</ul>
+<p>As a worked example, a home valued at $500,000 for permit purposes would carry a $3,100 building permit fee, a $2,015 plan review fee, and a $2,500 processing fee, about <strong>$7,615</strong> in all. A home valued at $800,000 would carry roughly <strong>$12,085</strong> under the same formula. Those totals do not include the grading and drainage review, development impact fees, or water and sewer connections, which are separate. Fee schedules change, so confirm the current figures with the city before you set your budget. You can read what the city asks for in our guide to <a href="/reference-library/building-codes/surprise-residential-building-permit-requirements">Surprise residential building permit requirements</a>.</p>
+<h2>Impact fees and utility connections</h2>
+<p>Arizona law lets cities charge development fees on new homes to pay for the roads, parks, water, and public safety a new home needs, under Arizona Revised Statutes 9-463.05. Surprise charges these on new single-family homes, and they are billed apart from the building permit. Water and sewer connections depend on who serves the lot, and parts of Surprise are served by a private water company rather than the city. Ask the city and the utility for the current figures on your exact parcel, because they belong in your budget from the first estimate.</p>
+<h2>The 2024 codes and what they add</h2>
+<p>Surprise adopted the 2024 International Residential and Building Codes and the 2023 National Electrical Code, with local amendments, by Ordinance 2025-14. Custom home plans submitted on or after January 1, 2026 must meet them. Newer codes tend to raise the cost of energy efficiency, electrical work, and some structural details compared with a plan drawn to an older code. If you bought a plan set drawn before 2026, budget for the time and cost to bring it up to the current code. See <a href="/reference-library/building-codes/surprise-adopted-building-codes">the codes Surprise has adopted</a> for the details.</p>
+<p>Two code items can surprise a budget in Surprise. A home with no fire hydrant within 400 feet, or without enough water flow, needs a <strong>fire sprinkler system</strong>. And the permit package needs a soils report and structural calculations, which are design costs you pay before the permit is issued.</p>
+<h2>Zoning, lot size, and site work</h2>
+<p>Surprise's Land Development Ordinance sorts single-family lots into rural and R-1 categories by lot size, and each category sets the yards and how much of the lot the house may cover. An R-1 Category B lot of 8,000 to 11,999 square feet, for example, needs a 12 foot front yard, a 20 foot rear yard, side yards of 5 and 10 feet, and can be covered up to 45 percent. A narrow footprint can push a plan to two stories, which changes the cost per square foot. Our page on <a href="/reference-library/building-codes/surprise-residential-zoning-and-setbacks">Surprise residential zoning and setbacks</a> lists each category.</p>
+<p>Site work is where Surprise lots differ most. A lot in a finished subdivision may already have utilities at the street. A larger rural homesite can need a longer driveway, a utility extension, or a septic system. A lot in a mapped floodplain needs a floodplain permit from the Flood Control District of Maricopa County, and the city reviews the grading and drainage plan on its own track. Each of these is a line item you can price once you know the lot.</p>
+<h2>How long city review takes</h2>
+<p>Time is a cost on a custom home, because the loan, the plans, and your own schedule all wait on the permit. Surprise takes applications online and reviews plans electronically. The city's stated targets are 15 working days for the first review, 8 working days for each review after that, and 2 working days to issue the permit once the plans are approved. A complete, code-ready package is the cheapest way through, because every extra round adds more than a week.</p>
+<h2>Building a custom home in Surprise with Jematell Homes</h2>
+<p>We build custom homes in Surprise. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Surprise fees, codes, and site work above become line items for your lot. See how we <a href="/where-we-build/surprise">build custom homes in Surprise</a>, browse our <a href="/custom-homes">custom homes</a>, or, if you already own land, start with how we <a href="/build-on-your-lot">build on your lot</a>. When you are ready to price a plan, <a href="/contact">contact us</a>.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://content.civicplus.com/api/assets/az-surprise/e0ded4c0-ebde-4fbd-a720-447424c918ba" target="_blank" rel="noopener noreferrer">City of Surprise: Citywide Fee Schedule (Resolution 2026-16)</a></li>
+<li><a href="https://www.surpriseaz.gov/permits-applications" target="_blank" rel="noopener noreferrer">City of Surprise: Permits and Applications</a></li>
+<li><a href="https://content.civicplus.com/api/assets/az-surprise/a431d75a-70cc-4d79-9295-b592276c29fb" target="_blank" rel="noopener noreferrer">City of Surprise: Single-Family Residential Permit Requirements</a></li>
+<li><a href="https://www.nahb.org/blog/2025/10/square-foot-prices" target="_blank" rel="noopener noreferrer">NAHB: How Do Median Square-Foot Prices Differ by Region?</a></li>
+<li><a href="https://www.azleg.gov/ars/9/00463-05.htm" target="_blank" rel="noopener noreferrer">Arizona Revised Statutes 9-463.05 (Municipal development fees)</a></li>
+</ul>`,
+      shortAnswer: "A custom home in Surprise runs about $250 to $500 per square foot to build in 2026, roughly $750,000 to $1.5 million for 3,000 square feet before the lot. On top of that come the city's permit, plan review, and processing fees, development impact fees, utility connections, and site work, which depend on the lot.",
+      metaDescription: "A Surprise custom home costs about $250 to $500 per square foot in 2026. See the city's permit fees, 2024 codes, zoning, and site costs that move the budget.",
+      categorySlug: "costs-and-budget",
+      topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
+      tags: ["cost", "surprise", "research-phase"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix"],
+      relatedServiceSlugs: ["where-we-build/surprise", "custom-homes", "build-on-your-lot"],
+      pillarBlogSlug: null,
+      featured: false,
+      sortOrder: 433,
     }),
     item({
       slug: "how-much-does-it-cost-to-build-a-ramada-or-covered-patio-in-arizona",
