@@ -78,7 +78,7 @@ export default function SpecHomes() {
               <span className="eyebrow">Homes Coming Soon</span>
               <h2 className="heading-lg" style={{ textTransform: "uppercase", fontSize: "clamp(26px, 3.2vw, 44px)" }}>New spec homes in Casa Grande</h2>
               <p className="spec-coming-intro">
-                A new collection of spec homes is underway on N. Roland Drive in Casa Grande. Explore the locations on
+                A new collection of spec homes is underway on N. Roland Drive in <Link href="/where-we-build/casa-grande">Casa Grande</Link>. Explore the locations on
                 the map, then see the two plans we are building across these lots.
               </p>
             </div>
