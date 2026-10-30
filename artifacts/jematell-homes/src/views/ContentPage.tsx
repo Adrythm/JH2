@@ -392,6 +392,33 @@ function PageHero({
   );
 }
 
+/* Intro photos with a generated variant ladder on disk. Until 2026-10-30 these
+ * rendered the 6000px originals (3.3-4.2MB JPGs) on every phone; Lighthouse
+ * measured /build-on-your-lot's LCP at 11s while its 768w webp is 13KB. */
+type IntroImage = {
+  src: string;
+  alt?: string;
+  ladder?: { name: string; widths: number[]; width: number; height: number };
+};
+
+const INTRO_SIZES = "(min-width: 900px) 50vw, 100vw";
+
+function IntroPicture({ image }: { image: IntroImage }) {
+  if (image.ladder) {
+    return (
+      <ResponsiveImage
+        name={image.ladder.name}
+        alt={image.alt || ""}
+        widths={image.ladder.widths}
+        sizes={INTRO_SIZES}
+        width={image.ladder.width}
+        height={image.ladder.height}
+      />
+    );
+  }
+  return <img src={image.src} alt={image.alt || ""} loading="lazy" />;
+}
+
 function IntroSection({
   subtitle,
   intro,
@@ -404,7 +431,7 @@ function IntroSection({
 }: {
   subtitle?: string;
   intro?: string;
-  image?: { src: string; alt?: string };
+  image?: IntroImage;
   centered?: boolean;
   horizontal?: boolean;
   subtitleNowrap?: boolean;
@@ -428,7 +455,7 @@ function IntroSection({
               viewport={{ once: true, amount: 0.15 }}
               transition={{ duration: 0.65 }}
             >
-              <img src={image.src} alt={image.alt || ""} loading="lazy" />
+              <IntroPicture image={image} />
             </m.figure>
             <m.div className="pie-copy" {...FADE_IN}>
               {intro ? <p className="pie-lead">{intro}</p> : null}
@@ -460,7 +487,7 @@ function IntroSection({
                 viewport={{ once: true, amount: 0.15 }}
                 transition={{ duration: 0.65 }}
               >
-                <img src={image.src} alt={image.alt || ""} loading="lazy" />
+                <IntroPicture image={image} />
               </m.figure>
             ) : null}
           </div>
@@ -496,7 +523,7 @@ function IntroSection({
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.55 }}
             >
-              <img src={image.src} alt={image.alt || ""} loading="lazy" />
+              <IntroPicture image={image} />
             </m.figure>
           ) : null}
         </div>
@@ -1153,11 +1180,11 @@ export default function ContentPage({ pageKey, isRegion, region, data, cityImage
             ? intro.replace("Please contact Jematell Homes or call", "Please contact your Jematell Homes contact or call")
             : intro}
           image={key === "where-we-build"
-            ? { src: "/images/where-we-build-interior.jpg", alt: "Luxury primary bathroom in a completed Jematell home in Arizona" }
+            ? { src: "/images/where-we-build-interior.jpg", alt: "Luxury primary bathroom in a completed Jematell home in Arizona", ladder: { name: "where-we-build-interior", widths: [768, 1280, 1920], width: 6185, height: 4121 } }
             : key === "build-on-your-lot"
-            ? { src: "/images/build-on-your-lot-intro.jpg", alt: "Bright white kitchen with quartz island in a completed Jematell home" }
+            ? { src: "/images/build-on-your-lot-intro.jpg", alt: "Bright white kitchen with quartz island in a completed Jematell home", ladder: { name: "build-on-your-lot-intro", widths: [768, 1280, 1920], width: 6237, height: 4157 } }
             : key === "buy-a-lot-with-us"
-            ? { src: "/images/buy-a-lot-with-us-intro.jpg", alt: "Spa-style primary bathroom with walk-in shower and freestanding tub in a completed Jematell home" }
+            ? { src: "/images/buy-a-lot-with-us-intro.jpg", alt: "Spa-style primary bathroom with walk-in shower and freestanding tub in a completed Jematell home", ladder: { name: "buy-a-lot-with-us-intro", widths: [768, 1280, 1920], width: 6000, height: 4000 } }
             : introImg}
           centered={key === "warranty"}
           horizontal={key === "where-we-build"}
