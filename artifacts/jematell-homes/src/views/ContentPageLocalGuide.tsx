@@ -118,6 +118,24 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /Scottsdale Community College/i, href: "https://www.scottsdalecc.edu", external: true },
   // ---- External: Phoenix ----
   { re: /Arizona State University/i, href: "https://www.asu.edu", external: true },
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "scottsdale" },
+  {
+    re: /Environmentally Sensitive Lands Ordinance/i,
+    href: "/reference-library/building-codes/scottsdale-environmentally-sensitive-lands-ordinance",
+    only: "scottsdale",
+  },
+  {
+    re: /Scottsdale zoning and setbacks/i,
+    href: "/reference-library/building-codes/scottsdale-residential-zoning-and-setbacks",
+    only: "scottsdale",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "scottsdale" },
+  { re: /Scottsdale ADU and casita rules/i, href: "/faq/adu-and-casita-rules-in-scottsdale-arizona", only: "scottsdale" },
+  {
+    re: /Scottsdale building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-scottsdale",
+    only: "scottsdale",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
