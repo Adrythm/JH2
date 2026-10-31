@@ -2837,7 +2837,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-the-best-indoor-humidity-level-for-an-arizona-home",
       question: "What is the best indoor humidity level for an Arizona home?",
-      seoTitle: "Best Indoor Humidity for an Arizona Home: 30 to 50%",
+      seoTitle: "Best Indoor Humidity in Arizona: 30 to 50%",
       answerHtml: `<p>The best indoor humidity level for an Arizona home is <strong>30 to 50 percent relative humidity</strong>, and you want to stay below 60 percent at all times. The EPA's guidance for any home is to keep indoor <strong>relative humidity (RH)</strong>, the amount of moisture in the air compared to what the air can hold, between 30 and 50 percent, and to never let it sit above 60 percent. ENERGY STAR uses the same 30 to 50 percent target. What makes Arizona different is not the target, it is the swing. The desert spends most of the year far too dry, then the summer monsoon can push indoor air toward the damp end fast. Hitting 30 to 50 percent here often means humidifying in the dry months and dehumidifying during monsoon.</p>
 <p>Below is why that range matters, why Arizona pulls in both directions, and how a custom home is set up to hold the target year-round.</p>
 <h2>Why 30 to 50 percent is the target</h2>
@@ -3397,6 +3397,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-i-park-an-rv-in-my-driveway-under-an-hoa-in-arizona",
       question: "Can I park an RV in my driveway under an HOA in Arizona?",
+      seoTitle: "Can an Arizona HOA Ban RV Driveway Parking?",
       answerHtml: `<p>In most Arizona HOAs, you cannot park an RV in your driveway, because the <strong>CC&amp;Rs</strong> can ban it and the great majority do. There is no Arizona statute that forces a homeowners association to let you keep a motorhome, travel trailer, or boat at home. The recorded <strong>declaration</strong>, the document people call the CC&amp;Rs, controls what you can park and where. If it prohibits RVs in driveways or in open view, that rule is enforceable, and the HOA can fine you or tow the RV. The reliable way to park an RV at your home in Arizona is to buy a lot with no HOA, like much of rural Rio Verde, Cave Creek, and Apache Junction, or to confirm in writing that the specific HOA's rules allow it before you buy.</p>
 <p>Arizona's HOA laws give associations broad authority over property use and add only a few narrow carve-outs, none of which is a general right to park an RV. Here is what controls, what the law does and does not protect, and how to plan around it.</p>
 <h2>Why the CC&amp;Rs decide, not state law</h2>
@@ -4356,7 +4357,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "new-home-builder-warranty-arizona",
       question: "What does a new home builder warranty cover in Arizona?",
-      seoTitle: "New Home Builder Warranty in Arizona: 1-2-10 Explained",
+      seoTitle: "Arizona New Home Warranty: 1-2-10 Explained",
       answerHtml: `<p>Two layers of protection apply to every Arizona new-home purchase. The first is the <strong>written warranty</strong> your builder hands you at closing. Most builders use a tiered structure: <strong>one year</strong> on workmanship and finishes, <strong>two years</strong> on the systems that run the house (plumbing, electrical wiring, heating, and cooling), and <strong>ten years</strong> on major structural defects. The second layer is the <strong>implied warranty of workmanship and habitability</strong>, a protection that Arizona courts attach to every new home sale whether or not it is written down. Together these cover defects in how the home was built, not normal wear or damage you cause.</p>
 <p>A warranty is a promise about quality. It tells you what the builder will fix, for how long, and at whose cost. Knowing both the written terms and the Arizona legal floor under them helps you hold a builder to real standards instead of guessing.</p>
 <h2>What a typical written builder warranty covers</h2>
@@ -4487,6 +4488,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-happens-if-you-build-without-a-permit-in-arizona",
       question: "What happens if you build without a permit in Arizona?",
+      seoTitle: "Building Without a Permit in Arizona: Fines",
       answerHtml: `<p>The city stops the work, makes you pay extra to legalize it, and can force you to undo finished construction so an inspector can see what is behind the walls. The first hit is a <strong>stop-work order</strong>, which legally halts all work on the site. To fix it, you apply for the permit after the fact and pay a penalty: cities like Phoenix charge <strong>twice the published permit fee</strong> for work started without one. Then the real problem starts. An inspector has to verify hidden work, which can mean cutting open drywall, exposing framing, or digging up a footing. Beyond the city, unpermitted work can stall a home sale, fail an appraisal, and give an insurer a reason to deny a claim.</p>
 <p>The reason is that nearly all construction needs a permit first. Arizona cities adopt the <strong>International Residential Code (IRC)</strong>, and IRC Section R105.1 states that "an owner or owner's authorized agent who intends to construct, enlarge, alter, repair, move, demolish or change the occupancy of a building or structure shall first make application to the building official and obtain the required permit." That word "first" is the whole point. The permit and its inspections are how the city confirms the work is safe before it gets buried in a wall.</p>
 <h2>The immediate enforcement: stop-work orders and penalty fees</h2>
@@ -5884,6 +5886,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "full-cash-value-vs-limited-property-value-in-arizona",
       question: "Full Cash Value vs Limited Property Value: what's the difference?",
+      seoTitle: "FCV vs LPV: Arizona Property Tax Values",
       answerHtml: `<p>Your Arizona property carries two different numbers, and they move differently. <strong>Full Cash Value (FCV)</strong> is the assessor's estimate of what the property is worth on the market. <strong>Limited Property Value (LPV)</strong> is a separate, capped number, and it is the one your property taxes are actually calculated on. The Arizona Department of Revenue defines Full Cash Value as the figure that "is synonymous with market value," so it can rise or fall with the housing market each year. Limited Property Value is held on a leash: under <strong>A.R.S. 42-13301</strong>, it can climb only <strong>5% a year</strong>, and it can never exceed the Full Cash Value. In most years your taxable LPV sits well below your FCV, which is exactly the protection Arizona voters built into the system.</p>
 <p>Every parcel in Arizona carries both numbers on its assessment. Understanding which one you are looking at tells you whether you are seeing a market estimate or the figure that drives your bill. Below is what each value is, why they diverge, how the cap works, and the one event that snaps them back together.</p>
 <h2>Full Cash Value is the market estimate</h2>
@@ -7621,7 +7624,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-an-appraisal-gap-on-a-construction-loan",
       question: "What is an appraisal gap on a construction loan and what happens if the home appraises low?",
-      seoTitle: "Construction Loan Appraisal Gap: What Happens Next",
+      seoTitle: "Appraisal Gap on a Construction Loan",
       answerHtml: `<p>A construction loan gets sized to the appraised value, not to your construction budget, which is exactly why an <strong>appraisal gap</strong> matters so much: it is the difference when a home's appraised value lands below what it costs to build or what you agreed to pay. If the appraisal comes in low, the lender will usually lend less, and you make up the shortfall yourself. Your common options are to bring more cash, cut project costs, challenge the appraisal, or renegotiate the contract. The exact rules depend on your lender and loan program, so confirm your numbers with your lender.</p>
 <h2>How an appraisal gap happens on a construction loan</h2>
 <p>An appraisal gap appears when the appraised value of your finished home is lower than its total cost to build. With a construction loan the appraisal is unusual because the house does not exist yet. The appraiser works from your plans, specifications, and the lot, then estimates what the completed home will be worth based on comparable sales in the area. That estimate is called the "as-completed" or "subject-to" value.</p>
@@ -9304,7 +9307,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "adu-and-casita-rules-in-phoenix-arizona",
       question: "What are the ADU and casita rules in Phoenix, Arizona?",
-      seoTitle: "Phoenix ADU and Casita Rules: Size, Setbacks, Lot",
+      seoTitle: "Phoenix ADU Rules: Size, Setbacks, Casitas",
       answerHtml: `<p>Phoenix lets you build <strong>two accessory dwelling units (ADUs)</strong> on a normal single-family lot, plus a possible third on large lots. The rules live in <strong>Phoenix Zoning Ordinance Section 706</strong>. An <strong>ADU</strong>, often called a <strong>casita</strong> or <strong>guest house</strong> in Arizona, is a small second home with its own kitchen, bathroom, and entrance. On lots up to 10,000 square feet, each ADU is capped at <strong>1,000 square feet</strong>. A detached ADU placed in a required yard can be up to <strong>15 feet</strong> tall. The city cannot make you add parking. The big catch is that a Phoenix ADU cannot be used as a short-term rental, though you can lease it long term.</p>
 <p>These standards came from a state law that forced large Arizona cities to open their backyards to second units. Phoenix wrote that law into Section 706 and added its own size and height details. Below is what each rule means for a real Phoenix build.</p>
 <h2>How many ADUs you can build in Phoenix</h2>
@@ -14534,7 +14537,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-shared-well-agreement-in-arizona",
       question: "What is a shared well agreement and do I need one in Arizona?",
-      seoTitle: "Shared Well Agreements in Arizona: What to Check",
+      seoTitle: "Arizona Shared Well Agreement Checklist",
       answerHtml: `<p>No state agency regulates who pays what when two homes draw from one well, which is exactly why you need a written, recorded contract if your home shares a well with a neighbor's. That contract, called a shared well agreement, divides the cost of <strong>power, repairs, testing, and maintenance</strong>, names who manages the pump, and records the <strong>easements</strong> that let each owner reach the well. Arizona law does not force you to have one. But because the <strong>Arizona Department of Water Resources (ADWR)</strong> stays out of these arrangements, a recorded agreement is the only thing standing between you and a handshake over your drinking water.</p>
 <p>Here is what a shared well agreement does, what it should contain, and why skipping it is a real risk on rural Arizona land.</p>
 <h2>What a shared well agreement actually is</h2>
@@ -15133,7 +15136,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "rural-residential-zoning-districts-in-maricopa-county",
       question: "What do Maricopa County's rural residential zoning districts (like RU-43) allow?",
-      seoTitle: "Maricopa County RU-43 Zoning: What You Can Build",
+      seoTitle: "RU-43 Zoning in Maricopa County Explained",
       answerHtml: `<p><strong>Outside city limits there is no municipal code to answer to. Land in unincorporated Maricopa County, including much of the Rio Verde Foothills, is governed by the county's own zoning ordinance rather than a city code, and most low-density home sites fall in a rural district such as RU-43. These districts pair a single-family home with generous lot sizes, larger setbacks, and the right to keep horses and other animals, which is exactly why so many custom-home buyers seek them out.</strong></p>
 <h2>The county, not a city, is the authority here</h2>
 <p>If your lot is outside an incorporated city or town, Maricopa County Planning and Development administers zoning and issues the building permit. The Maricopa County Zoning Ordinance defines a family of districts; the most common rural-residential one is RU-43, where the "RU" denotes rural and the "43" refers to a minimum lot area of 43,560 square feet, which is one acre. Larger rural and residential districts exist for bigger parcels, and the exact district for any given lot is recorded on the county's zoning map.</p>
