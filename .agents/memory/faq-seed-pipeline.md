@@ -15,6 +15,7 @@ Author rich `answerHtml` only; the plain-text `answer` (used for schema.org acce
 2. `pnpm --filter @workspace/api-server run faq:validate` — must be 0 errors (required fields, valid cat/topic/relatedFaq refs, no duplicate-intent ≥0.6, JSON-LD shapes, breadcrumb, related-services when relatedServiceSlugs set; shortAnswer 25–80 words or WARN).
 3. `pnpm --filter @workspace/api-server run faq:crosslinks` — regenerates `artifacts/jematell-homes/src/data/faqCrossLinks.json` (consumed by `BlogPost.tsx` to show related FAQs). **If you change category/topic/item slugs and skip this, BlogPost's related-FAQ feature shows stale/broken links.**
 4. `pnpm --filter @workspace/api-server run faq:registry` — regenerates root `CONTENT-INTENT-REGISTRY.md`.
+5. `pnpm --filter @workspace/jematell-homes run lastmod` — rewrites `artifacts/jematell-homes/src/data/lastmod.json`, the per-URL `<lastmod>` the sitemap carries, from git history (needs a full clone: `git fetch --unshallow`). Run it after ANY content change (FAQ, glossary, reference, guides, blogs, pages.json, a route's page.tsx or its own view) and commit the file with the change; `lastmod:check` says whether it is current.
 
 **Why:** both generated files derive purely from the seed; they are not edited by hand and go stale silently if not regenerated.
 
