@@ -9,6 +9,8 @@
     "build": "NODE_ENV=production next build && node scripts/precompress.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "audit": "node scripts/audit.mjs",
+    "lastmod": "node scripts/lastmod.mjs",
+    "lastmod:check": "node scripts/lastmod.mjs --check",
     "audit:ci": "NODE_ENV=production pnpm run build && node scripts/audit.mjs && node scripts/content-lint.mjs",
     "lint:content": "node scripts/content-lint.mjs",
     "lint:content:ci": "NODE_ENV=production pnpm run build && node scripts/content-lint.mjs"
