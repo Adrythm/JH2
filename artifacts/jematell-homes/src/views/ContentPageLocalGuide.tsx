@@ -2,7 +2,7 @@
 import type { ReactNode, ComponentType } from "react";
 import Link from "next/link";
 import { m } from "framer-motion";
-import { Compass, GraduationCap, HardHat, Home, MapPin } from "lucide-react";
+import { Compass, Droplets, GraduationCap, HardHat, Home, MapPin } from "lucide-react";
 import type { Block } from "../data/pages";
 
 /**
@@ -50,6 +50,9 @@ export function extractLocalGuide(blocks: Block[]): GuideCard[] {
 // city pages still carry.
 const LOCAL_GUIDE_ICONS: Array<[RegExp, ComponentType<{ size?: number }>]> = [
   [/^building/i, Home],
+  [/^new home/i, Home],
+  [/^water/i, Droplets],
+  [/^buying/i, Home],
   [/^con(s)?tru/i, HardHat],
   [/^activit/i, Compass],
   [/^educat/i, GraduationCap],
@@ -127,6 +130,10 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /regional parks/i, href: "https://casagrandeaz.gov/250/Facilities-Parks-Trails", external: true, only: "casa-grande" },
   { re: /Casa Grande Union High School District/i, href: "https://www.cguhsd.org", external: true },
   { re: /Central Arizona College/i, href: "https://www.centralaz.edu", external: true },
+  { re: /spec homes/i, href: "/spec-homes", only: "casa-grande" },
+  { re: /Designation of Assured Water Supply/i, href: "https://www.azwater.com/news/docs/NR_ADAWS_Designation.pdf", external: true, only: "casa-grande" },
+  { re: /construction financing/i, href: "/financing", only: "casa-grande" },
+  { re: /100-year water rule/i, href: "/faq/assured-vs-adequate-water-supply-and-the-100-year-rule", only: "casa-grande" },
   // ---- External: Apache Junction ----
   { re: /Lost Dutchman State Park/i, href: "https://azstateparks.com/lost-dutchman", external: true },
   { re: /Apache Junction Unified School District/i, href: "https://www.ajusd.org", external: true },
