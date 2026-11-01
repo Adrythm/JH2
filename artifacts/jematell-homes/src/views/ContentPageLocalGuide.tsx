@@ -284,6 +284,58 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/reference-library/building-codes/apache-junction-building-permit-and-impact-fees",
     only: "apache-junction",
   },
+  // ---- Internal: Surprise local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "surprise" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "surprise" },
+  { re: /Skinner Custom home/i, href: "/gallery/skinner-custom", only: "surprise" },
+  {
+    re: /Surprise zoning and setbacks/i,
+    href: "/reference-library/building-codes/surprise-residential-zoning-and-setbacks",
+    only: "surprise",
+  },
+  { re: /HOA may add design review/i, href: "/faq/how-does-hoa-design-review-affect-building-a-custom-home", only: "surprise" },
+  {
+    re: /Surprise adopted building codes/i,
+    href: "/reference-library/building-codes/surprise-adopted-building-codes",
+    only: "surprise",
+  },
+  {
+    re: /Surprise residential permit requirements/i,
+    href: "/reference-library/building-codes/surprise-residential-building-permit-requirements",
+    only: "surprise",
+  },
+  {
+    re: /floodplain use permit/i,
+    href: "/faq/do-i-need-a-floodplain-use-permit-to-build-near-a-wash-in-maricopa-county",
+    only: "surprise",
+  },
+  {
+    re: /a home with no fire hydrant/i,
+    href: "/faq/how-does-a-rural-arizona-home-with-no-fire-hydrant-meet-fire-protection",
+    only: "surprise",
+  },
+  {
+    re: /whether you need a soil test/i,
+    href: "/faq/do-i-need-a-soil-test-to-build-a-house-in-arizona",
+    only: "surprise",
+  },
+  {
+    re: /state ADU law/i,
+    href: "/reference-library/arizona-building-law/ars-9-461-18-municipal-adu-law-arizona",
+    only: "surprise",
+  },
+  {
+    re: /which Arizona cities must allow ADUs/i,
+    href: "/faq/which-arizona-cities-are-required-to-allow-adus",
+    only: "surprise",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "surprise" },
+  { re: /an RV garage/i, href: "/rv-garages", only: "surprise" },
+  {
+    re: /Surprise building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-surprise",
+    only: "surprise",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
