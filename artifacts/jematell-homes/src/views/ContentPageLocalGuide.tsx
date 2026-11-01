@@ -171,6 +171,50 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-fountain-hills",
     only: "fountain-hills",
   },
+  // ---- Internal: Rio Verde local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "rio-verde" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "rio-verde" },
+  {
+    re: /how to get water to a home in Rio Verde Foothills/i,
+    href: "/faq/how-to-get-water-to-a-home-in-rio-verde-foothills",
+    only: "rio-verde",
+  },
+  {
+    re: /building in Rio Verde Foothills without city water/i,
+    href: "/faq/can-you-build-a-custom-home-in-rio-verde-foothills-without-city-water",
+    only: "rio-verde",
+  },
+  {
+    re: /Maricopa County septic and well requirements/i,
+    href: "/reference-library/building-codes/maricopa-county-septic-and-well-requirements",
+    only: "rio-verde",
+  },
+  {
+    re: /building on rural land in Rio Verde/i,
+    href: "/faq/what-do-i-need-to-build-on-rural-land-in-rio-verde-arizona",
+    only: "rio-verde",
+  },
+  {
+    re: /Maricopa County zoning and setbacks/i,
+    href: "/reference-library/building-codes/maricopa-county-residential-zoning-and-setbacks",
+    only: "rio-verde",
+  },
+  {
+    re: /Maricopa County grading and drainage permit/i,
+    href: "/reference-library/building-codes/maricopa-county-grading-and-drainage-permit",
+    only: "rio-verde",
+  },
+  {
+    re: /county ADU law/i,
+    href: "/reference-library/arizona-building-law/ars-11-810-01-county-adu-law-arizona",
+    only: "rio-verde",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "rio-verde" },
+  {
+    re: /Rio Verde building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-rio-verde",
+    only: "rio-verde",
+  },
   // ---- External: Casa Grande ----
   { re: /regional parks/i, href: "https://casagrandeaz.gov/250/Facilities-Parks-Trails", external: true, only: "casa-grande" },
   { re: /Casa Grande Union High School District/i, href: "https://www.cguhsd.org", external: true },
