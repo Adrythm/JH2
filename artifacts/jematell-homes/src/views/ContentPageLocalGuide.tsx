@@ -144,6 +144,33 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /scenic walking trails/i, href: "https://www.fountainhillsaz.gov/295/McDowell-Mountain-Preserve-Trails", external: true, only: "fountain-hills" },
   // fhusd.org serves a mismatched certificate; fhschools.org is the live site.
   { re: /Fountain Hills Unified School District/i, href: "https://www.fhschools.org", external: true },
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "fountain-hills" },
+  {
+    re: /Fountain Hills fire sprinkler requirements/i,
+    href: "/reference-library/building-codes/fountain-hills-fire-sprinkler-requirements",
+    only: "fountain-hills",
+  },
+  {
+    re: /Fountain Hills zoning and setbacks/i,
+    href: "/reference-library/building-codes/fountain-hills-residential-zoning-and-setbacks",
+    only: "fountain-hills",
+  },
+  {
+    re: /FireRock Ridge/i,
+    href: "/reference-library/community-design-guidelines/firerock-fountain-hills-design-guidelines",
+    only: "fountain-hills",
+  },
+  {
+    re: /Fountain Hills guest house rules/i,
+    href: "/faq/do-cave-creek-fountain-hills-and-carefree-allow-casitas-and-adus",
+    only: "fountain-hills",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "fountain-hills" },
+  {
+    re: /Fountain Hills building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-fountain-hills",
+    only: "fountain-hills",
+  },
   // ---- External: Casa Grande ----
   { re: /regional parks/i, href: "https://casagrandeaz.gov/250/Facilities-Parks-Trails", external: true, only: "casa-grande" },
   { re: /Casa Grande Union High School District/i, href: "https://www.cguhsd.org", external: true },
