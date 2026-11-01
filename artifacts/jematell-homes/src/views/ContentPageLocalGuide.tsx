@@ -140,6 +140,11 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "cave-creek" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "cave-creek" },
   {
+    re: /complete guide to building a custom home in Cave Creek/i,
+    href: "/guides/building-a-custom-home-in-cave-creek-complete-guide",
+    only: "cave-creek",
+  },
+  {
     re: /Cave Creek zoning and setbacks/i,
     href: "/reference-library/building-codes/cave-creek-residential-zoning-and-setbacks",
     only: "cave-creek",
