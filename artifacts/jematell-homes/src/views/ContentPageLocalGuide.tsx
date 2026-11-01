@@ -177,6 +177,60 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-cave-creek",
     only: "cave-creek",
   },
+  // ---- Internal: Carefree local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "carefree" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "carefree" },
+  {
+    re: /complete guide to building a custom home in Carefree/i,
+    href: "/guides/building-a-custom-home-in-carefree-complete-guide",
+    only: "carefree",
+  },
+  {
+    re: /Carefree zoning and setbacks/i,
+    href: "/reference-library/building-codes/carefree-residential-zoning-and-setbacks",
+    only: "carefree",
+  },
+  {
+    re: /Carefree adopted building codes/i,
+    href: "/reference-library/building-codes/carefree-adopted-building-codes",
+    only: "carefree",
+  },
+  {
+    re: /Carefree residential permit requirements/i,
+    href: "/reference-library/building-codes/carefree-residential-building-permit-requirements",
+    only: "carefree",
+  },
+  {
+    re: /Carefree building inspections/i,
+    href: "/reference-library/building-codes/carefree-building-inspections-process",
+    only: "carefree",
+  },
+  {
+    re: /desert and dark-sky design rules/i,
+    href: "/faq/desert-and-dark-sky-design-rules-cave-creek-carefree",
+    only: "carefree",
+  },
+  {
+    re: /Carefree Ranch design guidelines/i,
+    href: "/reference-library/community-design-guidelines/carefree-ranch-lone-mountain-design-guidelines",
+    only: "carefree",
+  },
+  {
+    re: /Maricopa County septic and well requirements/i,
+    href: "/reference-library/building-codes/maricopa-county-septic-and-well-requirements",
+    only: "carefree",
+  },
+  {
+    re: /Carefree guest house rules/i,
+    href: "/faq/do-cave-creek-fountain-hills-and-carefree-allow-casitas-and-adus",
+    only: "carefree",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "carefree" },
+  {
+    re: /Carefree building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-carefree",
+    only: "carefree",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
