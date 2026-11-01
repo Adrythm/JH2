@@ -136,6 +136,42 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-scottsdale",
     only: "scottsdale",
   },
+  // ---- Internal: Cave Creek local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "cave-creek" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "cave-creek" },
+  {
+    re: /Cave Creek zoning and setbacks/i,
+    href: "/reference-library/building-codes/cave-creek-residential-zoning-and-setbacks",
+    only: "cave-creek",
+  },
+  {
+    re: /Cave Creek adopted building codes/i,
+    href: "/reference-library/building-codes/cave-creek-adopted-building-codes",
+    only: "cave-creek",
+  },
+  {
+    re: /Cave Creek building inspections/i,
+    href: "/reference-library/building-codes/cave-creek-building-inspections-process",
+    only: "cave-creek",
+  },
+  {
+    re: /desert and dark-sky design rules/i,
+    href: "/faq/desert-and-dark-sky-design-rules-cave-creek-carefree",
+    only: "cave-creek",
+  },
+  { re: /shared well agreements/i, href: "/faq/what-is-a-shared-well-agreement-in-arizona", only: "cave-creek" },
+  {
+    re: /Cave Creek casita rules/i,
+    href: "/faq/do-cave-creek-fountain-hills-and-carefree-allow-casitas-and-adus",
+    only: "cave-creek",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "cave-creek" },
+  { re: /RV garage/i, href: "/rv-garages", only: "cave-creek" },
+  {
+    re: /Cave Creek building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-cave-creek",
+    only: "cave-creek",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
