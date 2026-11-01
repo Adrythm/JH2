@@ -231,6 +231,59 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-carefree",
     only: "carefree",
   },
+  // ---- Internal: Apache Junction local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "apache-junction" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "apache-junction" },
+  {
+    re: /complete guide to building a custom home in Apache Junction/i,
+    href: "/guides/building-a-custom-home-in-apache-junction-complete-guide",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction zoning and setbacks/i,
+    href: "/reference-library/building-codes/apache-junction-residential-zoning-and-setbacks",
+    only: "apache-junction",
+  },
+  {
+    re: /Pinal County zoning and setbacks/i,
+    href: "/reference-library/building-codes/pinal-county-residential-zoning-and-setbacks",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction adopted building codes/i,
+    href: "/reference-library/building-codes/apache-junction-adopted-building-codes",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction residential permit requirements/i,
+    href: "/reference-library/building-codes/apache-junction-residential-building-permit-requirements",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction building inspections/i,
+    href: "/reference-library/building-codes/apache-junction-building-inspections-process",
+    only: "apache-junction",
+  },
+  {
+    re: /Pinal County septic and well requirements/i,
+    href: "/reference-library/building-codes/pinal-county-septic-and-well-requirements",
+    only: "apache-junction",
+  },
+  {
+    re: /whether you need a soil test/i,
+    href: "/faq/do-i-need-a-soil-test-to-build-a-house-in-arizona",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-apache-junction",
+    only: "apache-junction",
+  },
+  {
+    re: /Apache Junction permit and impact fees/i,
+    href: "/reference-library/building-codes/apache-junction-building-permit-and-impact-fees",
+    only: "apache-junction",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
