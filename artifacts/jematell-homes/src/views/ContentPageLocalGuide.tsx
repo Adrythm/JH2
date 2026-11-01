@@ -336,6 +336,62 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-surprise",
     only: "surprise",
   },
+  // ---- Internal: Phoenix local guide ----
+  {
+    re: /licensed real estate agents/i,
+    href: "/buy-a-lot-with-us",
+    only: "phoenix",
+  },
+  {
+    re: /lot you already own/i,
+    href: "/build-on-your-lot",
+    only: "phoenix",
+  },
+  {
+    re: /complete guide to building a custom home in Phoenix/i,
+    href: "/guides/building-a-custom-home-in-phoenix-complete-guide",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix zoning and setbacks/i,
+    href: "/reference-library/building-codes/phoenix-residential-zoning-and-setbacks",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix adopted building codes/i,
+    href: "/reference-library/building-codes/phoenix-adopted-building-codes",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix residential permit requirements/i,
+    href: "/reference-library/building-codes/phoenix-residential-building-permit-requirements",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix building inspections/i,
+    href: "/reference-library/building-codes/phoenix-building-inspections-process",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix ADU and casita rules/i,
+    href: "/faq/adu-and-casita-rules-in-phoenix-arizona",
+    only: "phoenix",
+  },
+  {
+    re: /casitas and guest houses/i,
+    href: "/casitas-and-guest-houses",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix permit and impact fees/i,
+    href: "/reference-library/building-codes/phoenix-building-permit-and-impact-fees",
+    only: "phoenix",
+  },
+  {
+    re: /Phoenix building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-phoenix",
+    only: "phoenix",
+  },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
