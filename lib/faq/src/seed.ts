@@ -326,7 +326,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "are-container-homes-legal-in-arizona",
       question: "Are shipping container homes legal in Arizona?",
-      seoTitle: "Are Container Homes Legal in Arizona? Rules by City",
+      seoTitle: "Container Homes in Arizona: Legal Rules",
       answerHtml: `<p>A <strong>container home</strong> still has to clear the same two approvals as any house: the land has to be zoned to allow a home, and the building has to meet the adopted building code, the <strong>International Residential Code (IRC)</strong>. The 2021 IRC even names them. Section <strong>R301.1.4</strong> addresses <strong>intermodal shipping containers</strong> used in construction. The practical reality is that you cannot just drop a container on a lot and move in. Cutting doors, windows, or wall openings into a container changes how its steel carries load, so a container home in Arizona needs <strong>engineered, stamped plans</strong> from a licensed engineer before a building official will permit it.</p>
 <p>So the right answer is not "are they allowed" but "what does it take to do one legally." This page walks through the code, the engineering, the zoning, and the financing reality in Arizona.</p>
 <h2>Does Arizona's building code allow container homes?</h2>
@@ -2295,7 +2295,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "tract-home-vs-custom-home",
       question: "Tract home vs custom home: what's the difference?",
-      seoTitle: "Tract Home vs Custom Home: The Real Differences",
+      seoTitle: "What Is a Tract Home? Tract vs Custom Homes",
       answerHtml: `<p>How a house gets built sits on a spectrum, and a <strong>tract home</strong> and a <strong>custom home</strong> occupy opposite ends of it. A tract home (also called a <strong>production home</strong>) is one of many houses a builder constructs in a planned subdivision, using a handful of repeated floor plans and a fixed menu of options. A <strong>custom home</strong> is designed from scratch for one owner, on that owner's lot, with no set plan to start from. The tract builder builds the same few homes hundreds of times to keep costs down and crews moving. The custom builder builds your home once.</p>
 <p>That single difference, repetition versus one-of-a-kind, drives the cost, the timeline, and how much you can change.</p>
 <h2>How much you can change the design</h2>
@@ -7762,7 +7762,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "cost-to-build-a-house-per-square-foot-in-arizona",
       question: "What is the cost per square foot to build a house in Arizona?",
-      seoTitle: "Cost to Build a House in Arizona per Sq Ft (2026)",
+      seoTitle: "Arizona Custom Home Cost per Square Foot",
       answerHtml: `<p>That per-foot number is the <strong>vertical construction cost</strong>, meaning the heated, finished structure divided by its living area, and it excludes the land, the permits, and the site work to make the lot buildable. In the Phoenix and Scottsdale metro in 2026, it runs roughly <strong>$200 to $350 per square foot</strong> for a standard semi-custom home and <strong>$350 to $600 or more per square foot</strong> for a true custom home. The national data lines up with this: <strong>NAHB</strong> reported a median of <strong>$169 per square foot</strong> for custom homes started in the Mountain Division (which includes Arizona) in 2024, and that median total price already folds in lower-cost tract homes and the land.</p>
 <p><strong>Cost per square foot</strong> is the fastest way to size a budget, but it is the most misused number in home building. Below is what it actually includes, why two builders can quote wildly different numbers, and where Arizona homes land by type and city.</p>
 <h2>What "cost per square foot" actually measures</h2>
@@ -9133,6 +9133,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "spanish-colonial-vs-mediterranean-vs-tuscan-whats-the-difference-for-an-arizona-home",
       question: "Spanish Colonial vs Mediterranean vs Tuscan: what's the difference for an Arizona home?",
+      seoTitle: "Tuscan vs Mediterranean vs Spanish Homes",
       answerHtml: `<p>The short answer: <strong>Spanish Colonial</strong> is the clean, mission-inspired look (smooth white or cream stucco, red tile, arches, and courtyards). <strong>Mediterranean</strong> is the broad family of Italian and Spanish villa styles that Spanish Colonial belongs to. <strong>Tuscan</strong> is the warm, rustic, stone-and-timber Italian-villa branch of that Mediterranean family. They share the same DNA, stucco walls, low clay tile roofs, arches, and earth tones, but they differ in color, in how heavy and formal they look, and in how they read on an Arizona lot. All three work in the desert when adapted for the heat.</p>
 <p>This page lays out the differences side by side so you can tell them apart and pick the right one. For the deep page on each, see <a href="/faq/what-is-a-santa-barbara-or-spanish-colonial-style-custom-home-in-arizona">Santa Barbara or Spanish Colonial</a> and <a href="/faq/what-is-a-tuscan-or-mediterranean-style-custom-home-in-arizona">Tuscan or Mediterranean</a>.</p>
 <h2>How the three styles relate to each other</h2>
@@ -12664,7 +12665,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-inspections-are-required-when-building-a-house-in-arizona",
       question: "What inspections are required when building a house in Arizona?",
-      seoTitle: "Home Building Inspections in Arizona: The Sequence",
+      seoTitle: "Arizona Construction Inspections, in Order",
       answerHtml: `<p>Building a house in Arizona requires a series of inspections, each tied to a stage of construction under the <strong>International Residential Code (IRC)</strong>, the model code every Arizona city and county has adopted. The required stages are the <strong>footing and foundation</strong> inspection before concrete is poured, the <strong>rough-in</strong> inspections for plumbing, electrical, and mechanical before walls close, the <strong>framing</strong> inspection, the <strong>insulation</strong> inspection before drywall, and the <strong>final inspection</strong> before anyone moves in. The inspections come from IRC Section <strong>R109</strong>, "Types of inspections." Your city or county inspector has to approve each stage before the next phase covers it up. Skip one and you may have to open finished walls to prove the hidden work meets code.</p>
 <h2>The required inspection stages, in order</h2>
 <p>A house is inspected in the order it is built, so each stage signs off on work before the next stage hides it. The IRC sets these stages in Section R109.1, and Arizona cities follow them. Here is the sequence for a typical custom home.</p>
