@@ -8963,6 +8963,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "cost-to-build-casita-arizona",
       question: "How much does it cost to build a casita in Arizona?",
+      seoTitle: "Casita Cost in Phoenix and Arizona (2026)",
       answerHtml: `<p>Expect to pay <strong>$200 to $400 per square foot</strong> in the Phoenix and Scottsdale metro to build a <strong>casita</strong> in 2026. A common <strong>400 to 800 square foot detached casita</strong> runs roughly <strong>$100,000 to $280,000</strong>. Luxury Scottsdale casitas with premium finishes and a hard lot pass <strong>$400 per square foot</strong>. A simple <strong>guest house</strong> with no kitchen costs less, because it skips the second kitchen, the separate utilities, and some of the code requirements that a full rentable casita carries. These are 2026 planning ranges, not quotes, since prices move with material and labor costs.</p>
 <p>A casita is the Arizona word for a small detached second home, usually built as an <strong>accessory dwelling unit (ADU)</strong>. Where your build lands depends on size, whether it has a full kitchen, your finish level, and how much utility work the lot needs. Below is how the dollars break down.</p>
 <h2>What a casita costs per square foot in Arizona</h2>
@@ -8979,24 +8980,38 @@ export const faqSeed: FaqSeed = {
 <p>Site work and utility hookups can add <strong>$15,000 to $60,000 or more</strong> on top of the casita build, and they are the main reason two casitas of the same size cost different amounts. The per-square-foot figures cover the structure. Getting power, water, and sewer to a backyard building is separate.</p>
 <p>A casita behind an existing Phoenix or Scottsdale home with utilities at the house is the cheaper case. A short trench to extend water, sewer, and power may run <strong>$10,000 to $25,000</strong>. A casita on a large or rural lot is the expensive case. On acreage in <strong>Cave Creek</strong>, <strong>Carefree</strong>, or the <strong>Rio Verde Foothills</strong>, you may need a <strong>septic expansion</strong> ($15,000 to $40,000+), added <strong>well capacity</strong>, and a long power and water run across the property. These off-site costs are easy to miss, and they are not optional on a remote desert lot.</p>
 <p>State law helps your budget in one specific way. A city <strong>cannot require extra parking</strong> for a casita built as an ADU, and <strong>cannot force setbacks greater than five feet</strong> from the lot line. So you are not paying for a new parking pad or losing usable yard. Confirm utility capacity before you design, because a panel upgrade or septic expansion can reshape the whole budget.</p>
+<h2>What a casita costs in Phoenix by size</h2>
+<p>In Phoenix, the same <strong>$200 to $400 per square foot</strong> range applies, so the size you build sets most of the budget. The figures below are the structure alone, before the site work and utility runs covered above:</p>
+<table><thead><tr><th>Casita size</th><th>Structure at $200 to $400 per sq ft</th></tr></thead><tbody><tr><td>400 sq ft</td><td>$80,000 to $160,000</td></tr><tr><td>600 sq ft</td><td>$120,000 to $240,000</td></tr><tr><td>800 sq ft</td><td>$160,000 to $320,000</td></tr><tr><td>1,000 sq ft</td><td>$200,000 to $400,000</td></tr></tbody></table>
+<p>A <strong>1,000 square foot casita</strong> is the largest most Phoenix owners can build. Under <strong>Phoenix Zoning Ordinance Section 706</strong>, each accessory dwelling unit on a lot of up to 10,000 square feet is capped at 1,000 square feet. On a larger lot the cap rises to the lesser of 3,000 square feet or 10% of the net lot area, and the state's 75% of the main home test still applies on top. So a half-acre lot in north Phoenix can carry a bigger, costlier unit than a standard subdivision lot.</p>
+<h2>Phoenix rules that change what a casita costs</h2>
+<p>Several Phoenix rules move the budget in your favor. The city allows <strong>two ADUs</strong> on a typical single-family lot, cannot require extra parking for one, and must allow a detached unit as close as five feet to the side and rear lot lines, so you are not paying for a new parking pad. A detached casita placed in a required yard is limited to <strong>15 feet</strong> tall, which keeps most Phoenix casitas single story.</p>
+<p>Design cost is the other lever. Phoenix is building a library of <strong>pre-approved ADU plans</strong> from its 2024 design competition with AIA Phoenix Metro, which the city says will be free to residents and must be built as drawn. As of late October 2026 the city lists its first plans as still in review, so check before you count on one. For every rule in detail, see our guide to the <a href="/faq/adu-and-casita-rules-in-phoenix-arizona">ADU and casita rules in Phoenix</a>, and for an attached unit or a garage conversion, see <a href="/faq/cost-to-build-adu-arizona">what an ADU costs to build in Arizona</a>.</p>
+<h2>Do you need a permit to build a casita in Phoenix?</h2>
+<p>Yes. A casita in Phoenix needs a <strong>building permit</strong> from the Planning and Development Department, the same as any new home, with plans, a site plan showing where the unit sits on the lot, and inspections as it is built. Section 706 makes a casita allowed by right on a single-family lot, but it does not remove the permit or the building code. Permit and plan fees are part of the soft costs in your budget, along with design and engineering. Before you design, confirm your zoning district's lot coverage limit, since a large house and patio can leave less room for a casita than the size caps suggest, and check your HOA's rules on accessory structures.</p>
+<h2>Does a casita add value or rental income in Phoenix?</h2>
+<p>A casita adds finished living space to the property, and a full casita with its own kitchen can earn rent. In Phoenix that income has to come from a <strong>long-term lease</strong>: the city's ADU guide is direct that an ADU may not be used as a short-term rental, while state law protects renting an ADU as separately leased long-term housing. A <strong>guest house</strong> with no kitchen costs less to build but earns no rent. How much value either one adds to a sale depends on the appraisal and the neighborhood, so treat rental income, not resale, as the number you can plan around.</p>
 <h2>Confirm current casita pricing before you build</h2>
 <p>Treat every number here as a 2026 planning range, not a quote, because construction prices move with material costs, labor, and interest rates. Lumber, concrete, and skilled-trade labor have all swung sharply in recent years, and a per-square-foot figure that was right last quarter can be off by the time you sign. Always confirm current pricing with a builder on your actual plan and lot.</p>
 <p>The real number comes down to four answers: how large, kitchen or no kitchen, what finish level, and what shape the lot and its utilities are in. Once you have those, a builder can turn the broad <strong>$200 to $400 per square foot</strong> range into a firm, itemized bid. If you plan to rent the unit, build it as a full <strong>ADU casita</strong>, since a rentable unit can earn income that a non-rentable guest house cannot. Get a written scope and a current price before you commit, because the metro Phoenix market can shift within a single building season.</p>
 <h2>Building with Jematell Homes</h2>
-<p>Setbacks, overlays, and ADU rules shape our design work from day one. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
+<p>Setbacks, overlays, and ADU rules shape our design work from day one. We design and build <a href="/casitas-and-guest-houses">casitas and guest houses</a> with a new custom home or on a lot you already own, including in <a href="/where-we-build/phoenix">Phoenix</a>, Scottsdale, and Cave Creek. Every project is different, so we will confirm the specifics for your parcel and budget with you directly, or you can <a href="/contact">contact us</a> with your lot size and what the casita is for.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.nahb.org/blog/2025/01/cost-of-construction-survey-2024" target="_blank" rel="noopener noreferrer">NAHB: Cost of Construction Survey 2024 (cost shares of a new home)</a></li>
 <li><a href="https://www.azleg.gov/ars/9/00461-18.htm" target="_blank" rel="noopener noreferrer">A.R.S. 9-461.18 (Accessory dwelling units; size limit)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/guest-houses" target="_blank" rel="noopener noreferrer">City of Scottsdale: Guest Houses (definition and limits)</a></li>
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/accessory-dwelling-units" target="_blank" rel="noopener noreferrer">City of Scottsdale: Accessory Dwelling Units (size standards)</a></li>
+<li><a href="https://phoenix.municipal.codes/ZO/706" target="_blank" rel="noopener noreferrer">Phoenix Zoning Ordinance Section 706 (Accessory Uses and Structures)</a></li>
+<li><a href="https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/residential-building/beginners-guide-adus.pdf" target="_blank" rel="noopener noreferrer">City of Phoenix: Accessory Dwelling Unit (ADU) Guide</a></li>
+<li><a href="https://www.phoenix.gov/administration/departments/pdd/residential-building/accessory-dwelling-units.html" target="_blank" rel="noopener noreferrer">City of Phoenix: Accessory Dwelling Units (Planning and Development)</a></li>
 </ul>`,
       shortAnswer: "A casita in Arizona costs about $200 to $400 per square foot in 2026. A typical 400 to 800 square foot detached casita runs roughly $100,000 to $280,000, with luxury Scottsdale builds passing $400 per square foot. A guest house with no kitchen costs less than a full rentable casita.",
-      metaDescription: "A casita in Arizona costs about $200 to $400 per square foot in 2026, or roughly $100K to $280K for a detached unit. See the full cost breakdown by tier.",
+      metaDescription: "A casita in Phoenix and across Arizona costs about $200 to $400 per sq ft in 2026. See costs by size, Phoenix permit and ADU rules, and rental limits.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["adu-and-casita-rules-in-phoenix-arizona", "cost-to-build-adu-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -9041,7 +9056,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["cost-to-build-casita-arizona"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -9299,7 +9314,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "mesa", "research-phase"],
-      relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus"],
+      relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus", "cost-to-build-casita-arizona"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
