@@ -324,7 +324,7 @@ const TOWNS: Record<string, Town> = {
         },
         {
           title: "Two ADUs on a single-family lot",
-          body: "Under Phoenix Zoning Ordinance Section 706, a single-family lot can hold two accessory dwelling units. On a lot up to 10,000 square feet each one is capped at 1,000 square feet, a detached unit in a required yard is held to 15 feet, and the city cannot require extra parking. An ADU may be leased long term but not run as a short-term rental.",
+          body: "Under Phoenix Zoning Ordinance Section 706, a single-family lot can hold two accessory dwelling units. On a lot up to 10,000 square feet each one is capped at 1,000 square feet, a detached unit in a required yard is held to 15 feet, and the city cannot require extra parking. An ADU may be leased long term to anyone, and run as a short-term rental only with a city permit while the owner lives on site.",
           href: "/faq/adu-and-casita-rules-in-phoenix-arizona",
         },
         {
