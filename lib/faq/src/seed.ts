@@ -6410,7 +6410,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "fountain-hills", "research-phase"],
-      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "do-i-need-fire-sprinklers-in-a-new-home-in-fountain-hills-arizona", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "do-i-need-fire-sprinklers-in-a-new-home-in-fountain-hills-arizona", "how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-mesa"],
       relatedServiceSlugs: ["where-we-build/fountain-hills", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -6500,7 +6500,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "phoenix", "research-phase"],
-      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-tear-down-and-rebuild-a-house-in-arizona", "how-much-does-asbestos-abatement-cost-on-an-arizona-teardown-or-remodel", "can-i-tear-down-an-existing-house-and-rebuild-on-the-same-lot-in-arizona"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-tear-down-and-rebuild-a-house-in-arizona", "how-much-does-asbestos-abatement-cost-on-an-arizona-teardown-or-remodel", "can-i-tear-down-an-existing-house-and-rebuild-on-the-same-lot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-mesa"],
       relatedServiceSlugs: ["where-we-build/phoenix", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -6638,11 +6638,68 @@ export const faqSeed: FaqSeed = {
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "surprise", "research-phase"],
-      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix", "how-much-does-it-cost-to-build-a-custom-home-in-mesa"],
       relatedServiceSlugs: ["where-we-build/surprise", "custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 433,
+    }),
+    item({
+      slug: "how-much-does-it-cost-to-build-a-custom-home-in-mesa",
+      question: "How much does it cost to build a custom home in Mesa?",
+      answerHtml: `<p>A custom home in Mesa usually costs about <strong>$250 to $500 per square foot</strong> to build in 2026, the same band as the rest of metro Phoenix. For a 3,000 square foot custom home, that puts the build at roughly <strong>$750,000 to $1.5 million</strong>, before the lot. Where your home lands in that band depends on the plan, the finishes, and the lot. What is particular to Mesa is how the city prices the permit from your home's valuation, the water and sewer capacity fees set by meter size, and the 2024 building codes that apply to plans filed on or after January 8, 2026.</p>
+<p>For the statewide picture, start with <a href="/faq/how-much-does-it-cost-to-build-a-custom-home-in-arizona">how much it costs to build a custom home in Arizona</a> and <a href="/faq/cost-to-build-a-house-per-square-foot-in-arizona">the cost per square foot in Arizona</a>. This page covers the costs that are different when you build inside Mesa city limits.</p>
+<h2>What the per-square-foot range covers</h2>
+<p>The $250 to $500 range is for the house itself: the foundation, framing, roof, systems, and finishes. The low end is a simpler single-story plan with standard finishes on a flat, ready lot. The top end is a larger plan with a complex roof, high ceilings, big glass, a pool-ready yard, and upgraded selections. For a national benchmark, the National Association of Home Builders reports that in the Mountain region, which includes Arizona, "Half of the custom SFD homes started here in 2024 had prices of $169 per square foot or higher." That figure is a median across a whole region and a cheaper mix of homes, so treat it as a floor, not a target, for a custom build in the East Valley today.</p>
+<p>Construction costs for the house are close to the same across the valley, because the same trades and suppliers serve every city. What changes the total in Mesa is the lot: land on the city's northeast and eastern edges, near the Usery Mountains and Red Mountain, is where most custom lots sit, and those homesites tend to need more site work than an infill lot with utilities at the street.</p>
+<h2>City of Mesa permit fees</h2>
+<p>Mesa sets its building fees in the Development Services section of its Schedule of Fees and Charges, updated for July 2026. The city does not charge by the square foot. It first works out a <strong>valuation</strong>: your livable area times the current construction cost per square foot in the International Code Council's Building Valuation Data, plus non-livable area such as the garage and covered patios at 50 percent of that cost. It then runs the total through the residential rate table:</p>
+<ul>
+<li><strong>$200,000.01 to $500,000 of valuation:</strong> $1,550 plus $9 for each $1,000 over $200,000.</li>
+<li><strong>$500,000.01 to $2,000,000:</strong> $4,250 plus $6 for each $1,000 over $500,000.</li>
+<li><strong>Over $2,000,000:</strong> $13,250 plus $3 for each $1,000 over $2,000,000.</li>
+</ul>
+<p>The building permit fee covers the plumbing, mechanical, and electrical permits for a new home, so there is no separate trade permit to add. As a worked example, a home valued at $600,000 for permit purposes carries a <strong>$4,850</strong> building permit fee, and a home valued at $1,000,000 carries <strong>$7,250</strong>. Three smaller items ride along with it:</p>
+<ul>
+<li><strong>Permit deposit:</strong> due when you apply, and credited toward the permit fee when the permit issues. Mesa's deposit table asks for $1,500 when the valuation falls between $200,000 and $500,000, and $4,000 between $500,000 and $2 million.</li>
+<li><strong>Technology fee:</strong> 4 percent of each permit fee, capped at $800 a permit. On the $600,000 example that is about $194.</li>
+<li><strong>Solid Waste Residential Development Fee:</strong> $311 for each new single residence.</li>
+</ul>
+<p>Plan changes cost money too. After the third submittal, each revision before the permit issues is billed at $120 per staff hour, with a two-hour minimum. Mesa also offers expedited review for an added fee equal to the full building permit fee, which doubles that line. See <a href="/reference-library/building-codes/mesa-building-permit-and-impact-fees">Mesa building permit and impact fees</a> for how these pieces fit together, and confirm the current figures with the city before you set your budget.</p>
+<h2>Impact fees and water and sewer capacity</h2>
+<p>Arizona law lets cities charge development fees on new homes to pay for the public systems a new home uses, under Arizona Revised Statutes 9-463.05. Mesa's impact fee schedule for June 30, 2026 lists a public safety impact fee of <strong>$402</strong> for each detached single residence. The larger charges are the city's <strong>water and wastewater capacity fees</strong>, which Mesa sets by water meter size. A standard home on a small residential meter sits at the low end, and a larger meter for a big house or a guest house costs more. Ask the city for the capacity fee on the meter your plan needs, because on most Mesa new homes it is the largest city charge after the permit. A lot outside the city's water service area works differently, with its own provider's connection charges or a well.</p>
+<h2>The 2024 codes and what they add</h2>
+<p>Mesa adopted the 2024 International Code Council family of codes and the 2023 National Electrical Code, with local amendments in Mesa City Code Title 4. They took effect on January 8, 2026 and apply to permit applications submitted on or after that date. Newer codes tend to raise the cost of energy efficiency, electrical work, and some structural details compared with a plan drawn to the older 2018 codes. If you own a plan set drawn for an earlier Mesa permit, budget for the time and cost to bring it up to the current code. See <a href="/reference-library/building-codes/mesa-adopted-building-codes">the codes Mesa has adopted</a> for the list.</p>
+<h2>Zoning, lot size, and site work</h2>
+<p>Mesa's single-residence zones run from RS-6, on 6,000 square foot lots, up to RS-90, on lots of 90,000 square feet, and each zone sets the yards your house has to keep. An RS-6 lot needs a 10 foot front yard, 5 foot sides, and a 20 foot rear yard. An RS-43 lot of about an acre needs a 22 foot front yard and 10 foot sides. Every zone caps height at 30 feet. A tight footprint can push a plan to two stories, which changes the cost per square foot. Our page on <a href="/reference-library/building-codes/mesa-residential-zoning-and-setbacks">Mesa residential zoning and setbacks</a> lists each zone.</p>
+<p>Site work is where Mesa lots differ most. A lot in a finished subdivision may have water, sewer, and power at the street. A larger homesite on the city's edge can need a long driveway, a utility extension, grading for desert washes, or septic approvals through Maricopa County where there is no city sewer. Each of these is a line item you can price once you know the lot.</p>
+<h2>How long city review takes</h2>
+<p>Time is a cost on a custom home, because the loan, the plans, and your own schedule all wait on the permit. Mesa takes every application through its online permit system and reviews plans electronically. For a standard residential review, the city provides written comments or an approval within 10 working days. A complete, code-ready package is the cheapest way through, because each round of corrections adds time, and every round past the third adds the hourly review fee. Our page on <a href="/reference-library/building-codes/mesa-residential-building-permit-requirements">Mesa residential building permit requirements</a> lists what goes in the package.</p>
+<h2>Building versus buying in Mesa</h2>
+<p>The cost of buying a home in Mesa is the market price of a house someone else already designed, plus closing costs and whatever you change after you move in. The cost of building is the lot, the build at the per-square-foot range above, and the city fees on this page. Building usually costs more than buying a resale home of the same size, because you pay for new construction, current codes, and your own plan. In return you get the layout, lot, and finishes you chose, new systems under warranty, and none of the remodel bill that often follows a purchase. Compare the two on the total you would spend over your first few years in the house, not on the price tag alone.</p>
+<p>Starting from an existing plan is one of the simplest ways to save. On our own in-house <a href="/floor-plans">floor plans</a> we can quote a flat-rate build cost up front, and any plan can be changed to fit your lot, which costs less in design time than drawing a home from scratch.</p>
+<h2>Building a custom home in Mesa with Jematell Homes</h2>
+<p>We build custom homes in Mesa and across the East Valley. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Mesa fees, codes, and site work above become line items for your lot. Browse our <a href="/custom-homes">custom homes</a>, see <a href="/where-we-build">where we build</a>, or, if you already own land, start with how we <a href="/build-on-your-lot">build on your lot</a>. When you are ready to price a plan, <a href="/contact">contact us</a>.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.mesaaz.gov/files/assets/public/v/7/government/omb/fees-charges/development-services-fees.pdf" target="_blank" rel="noopener noreferrer">City of Mesa: Schedule of Fees and Charges, Development Services (July 2026)</a></li>
+<li><a href="https://www.mesaaz.gov/files/assets/public/v/1/government/omb/fees-charges/fiscal-year-2025-2026-impact-fee-report.pdf" target="_blank" rel="noopener noreferrer">City of Mesa: Impact Fee Report and Schedule (fiscal year 2025-2026)</a></li>
+<li><a href="https://www.mesaaz.gov/Business-Development/Development-Services/Building-Permit-Plan-Review/Mesa-Building-Code" target="_blank" rel="noopener noreferrer">City of Mesa: Mesa Building Code</a></li>
+<li><a href="https://www.mesaaz.gov/Business-Development/Development-Services/Building-Permit-Plan-Review" target="_blank" rel="noopener noreferrer">City of Mesa: Building Permit and Plan Review</a></li>
+<li><a href="https://library.municode.com/az/mesa/codes/code_of_ordinances?nodeId=COOR_TIT11ZOOR_ART2BAZO_CH5REDI" target="_blank" rel="noopener noreferrer">Mesa Zoning Ordinance, Chapter 5 (Residential Districts)</a></li>
+<li><a href="https://www.nahb.org/blog/2025/10/square-foot-prices" target="_blank" rel="noopener noreferrer">NAHB: How Do Median Square-Foot Prices Differ by Region?</a></li>
+<li><a href="https://www.azleg.gov/ars/9/00463-05.htm" target="_blank" rel="noopener noreferrer">Arizona Revised Statutes 9-463.05 (Municipal development fees)</a></li>
+</ul>`,
+      shortAnswer: "A custom home in Mesa runs about $250 to $500 per square foot to build in 2026, roughly $750,000 to $1.5 million for 3,000 square feet before the lot. On top of that come Mesa's valuation-based permit fee, the water and sewer capacity fees set by meter size, a $402 public safety impact fee, and site work that depends on the lot.",
+      metaDescription: "A Mesa custom home costs about $250 to $500 per square foot in 2026. See Mesa's permit fees, capacity fees, 2024 codes, and the site costs that move a budget.",
+      categorySlug: "costs-and-budget",
+      topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
+      tags: ["cost", "mesa", "research-phase"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix", "adu-and-casita-rules-in-mesa-arizona"],
+      relatedServiceSlugs: ["custom-homes", "build-on-your-lot", "floor-plans"],
+      pillarBlogSlug: "custom-homes-mesa-east-valley-arizona",
+      featured: false,
+      sortOrder: 438,
     }),
     item({
       slug: "how-much-does-it-cost-to-build-a-ramada-or-covered-patio-in-arizona",
@@ -9523,7 +9580,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "mesa", "research-phase"],
-      relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus", "cost-to-build-casita-arizona"],
+      relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus", "cost-to-build-casita-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-mesa"],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
