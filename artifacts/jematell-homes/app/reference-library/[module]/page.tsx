@@ -31,7 +31,7 @@ export async function generateMetadata({
   const meta = getReferenceModule(moduleSlug);
   if (!meta) return {};
   return pageMetadata({
-    title: meta.title,
+    title: meta.seoTitle ?? meta.title,
     description: meta.description,
     canonical: `/reference-library/${meta.slug}`,
   });
