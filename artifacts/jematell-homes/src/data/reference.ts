@@ -35,6 +35,8 @@ export interface ReferenceEntry {
 export interface ReferenceModuleMeta {
   slug: string;
   title: string;
+  /** Optional <title> override; the title stays the H1. */
+  seoTitle?: string;
   description: string;
 }
 
@@ -49,6 +51,7 @@ export const REFERENCE_MODULES: ReferenceModuleMeta[] = [
   {
     slug: "arizona-building-law",
     title: "Arizona Building Law",
+    seoTitle: "Arizona Building Laws: Statutes Explained",
     description:
       "The Arizona Revised Statutes that govern custom home building, contractors, liens, water, and land use, explained section by section.",
   },
