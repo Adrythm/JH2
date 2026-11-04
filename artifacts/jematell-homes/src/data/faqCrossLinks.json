@@ -1259,5 +1259,21 @@
       "research-phase"
     ],
     "pillarBlogSlug": "what-to-expect-when-building-a-custom-home-in-the-phoenix-metro-area"
+  },
+  {
+    "slug": "how-much-does-it-cost-to-build-a-custom-home-in-mesa",
+    "question": "How much does it cost to build a custom home in Mesa?",
+    "categorySlug": "costs-and-budget",
+    "categoryTitle": "Costs & Budget",
+    "topicSlugs": [
+      "budgeting-a-custom-home",
+      "per-city-cost"
+    ],
+    "tags": [
+      "cost",
+      "mesa",
+      "research-phase"
+    ],
+    "pillarBlogSlug": "custom-homes-mesa-east-valley-arizona"
   }
 ]
