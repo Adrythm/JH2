@@ -2111,7 +2111,7 @@ export const faqSeed: FaqSeed = {
 <h2>Sources</h2>
 <ul>
 <li><a href="https://basc.pnnl.gov/information/generators-back-power-during-outages" target="_blank" rel="noopener noreferrer">DOE Building America Solution Center (PNNL): Generators for Back-Up Power During Outages</a></li>
-<li><a href="https://www.energy.gov/eere/solar/homeowners-guide-going-solar" target="_blank" rel="noopener noreferrer">U.S. Department of Energy, Homeowner's Guide to Going Solar</a></li>
+<li><a href="https://www.energy.gov/cmei/systems/homeowners-guide-solar" target="_blank" rel="noopener noreferrer">U.S. Department of Energy, Homeowner's Guide to Going Solar</a></li>
 <li><a href="https://www.weather.gov/wrn/241903-home-power-backup" target="_blank" rel="noopener noreferrer">National Weather Service: New Technologies Make Whole-Home Power Backup More Accessible</a></li>
 </ul>`,
       shortAnswer: "Install a whole-house standby generator if you want to ride out long monsoon outages cheaply, since a gas generator runs for days. Install solar plus battery if outages are short and you want quiet, fuel-free backup that recharges from the sun. Many Arizona custom homes use both for full resilience.",
@@ -14692,8 +14692,8 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/48/00902.htm" target="_blank" rel="noopener noreferrer">A.R.S. 48-902 (Authorization for improvement district; areas and lands excluded)</a></li>
 <li><a href="https://www.azleg.gov/ars/48/01011.htm" target="_blank" rel="noopener noreferrer">A.R.S. 48-1011 (Domestic water and domestic wastewater improvement districts; definitions)</a></li>
 <li><a href="https://www.azleg.gov/arsDetail/?title=48" target="_blank" rel="noopener noreferrer">Arizona Revised Statutes Title 48 (Special Taxing Districts)</a></li>
-<li><a href="https://www.maricopa.gov/CivicAlerts.aspx?AID=2565&amp;ARC=4344" target="_blank" rel="noopener noreferrer">Maricopa County: Board Sets Date to Vote on Rio Verde Foothills Water Issue</a></li>
-<li><a href="https://www.maricopa.gov/CivicAlerts.aspx?AID=2679" target="_blank" rel="noopener noreferrer">Maricopa County: Advocates for Partnership with Private Water Provider (EPCOR)</a></li>
+<li><a href="https://www.maricopa.gov/m/newsflash/Archive/Item/2565?arcId=4344" target="_blank" rel="noopener noreferrer">Maricopa County: Board Sets Date to Vote on Rio Verde Foothills Water Issue</a></li>
+<li><a href="https://www.maricopa.gov/m/newsflash/home/detail/2679" target="_blank" rel="noopener noreferrer">Maricopa County: Advocates for Partnership with Private Water Provider (EPCOR)</a></li>
 </ul>`,
       shortAnswer: "A domestic water improvement district (DWID) is a local public taxing district that builds or buys a water system for an area with no city water. Arizona allows it under A.R.S. Title 48, Chapter 6. Property owners petition the county board of supervisors to form it, and the district then funds water service through taxes and fees.",
       metaDescription: "A domestic water improvement district (DWID) is an Arizona public taxing district that supplies water where no city does. How it forms under A.R.S. Title 48.",
