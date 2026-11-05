@@ -9333,7 +9333,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-i-build-an-adu-or-casita-for-aging-parents-in-arizona",
       question: "Can I build an ADU or casita for aging parents in Arizona?",
-      seoTitle: "ADU for Aging Parents in Arizona: Rules and Design",
+      seoTitle: "ADU for Aging Parents in Arizona",
       answerHtml: `<p>Yes. In most of the Phoenix metro you can build an ADU (accessory dwelling unit, often called a casita) for aging parents by right. Arizona law makes every city of more than 75,000 people, including Phoenix, Scottsdale, Mesa and Surprise, allow at least one attached and one detached ADU on a single-family lot, and since January 1, 2026 counties must do the same on unincorporated land. Neither a city nor a county can require the person living in it to be related to you, demand extra parking, or make it match the main house. Smaller towns such as Cave Creek, Carefree and Fountain Hills set their own casita rules.</p>
 <p>Below is what the law allows, how to choose between a suite, an attached unit and a detached casita for a parent, the design details that let a parent stay in it for years, and what the permit, the lot and the budget will ask of you.</p>
 <h2>What Arizona law lets you build for a parent</h2>
