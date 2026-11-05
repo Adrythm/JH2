@@ -168,6 +168,8 @@ for (const rel of fileKeys) {
   if (!rel.endsWith("page.tsx") || !existsSync(path.join(repoRoot, rel))) continue;
   const src = readFileSync(path.join(repoRoot, rel), "utf8");
   const views = [...src.matchAll(/from\s+"@\/views\/([^"]+)"/g)].map((m) => m[1]);
+  // The home page's sections live in src/sections.tsx, imported as "@/sections".
+  if (/from\s+"@\/sections"/.test(src)) views.push("../sections");
   viewImports.set(rel, views);
   for (const v of views) importers.set(v, (importers.get(v) || 0) + 1);
 }
