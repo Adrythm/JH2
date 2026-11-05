@@ -6,6 +6,7 @@ import { img } from "./lib/paths";
 import Link from "next/link";
 import { useContactForm } from "./contact-form";
 import { EASE_OUT_EXPO } from "./motion";
+import { locations, locationHref } from "./config/siteConfig";
 
 // FeaturedProjects lives in its own module (it is also rendered by ContentPage
 // on /custom-homes, which must not pull the rest of the home sections into its
@@ -90,6 +91,16 @@ export function About() {
             </p>
             <p>
               From the first conversation to the final walk-through, we focus on honest communication, quality craftsmanship, and the details that make a house feel like home. Whether you’re looking for a <Link href="/custom-homes">custom home</Link>, a home <Link href="/build-on-your-lot">built on the lot you already own</Link>, a <Link href="/casitas-and-guest-houses">casita or guest house</Link>, a home with an <Link href="/rv-garages">RV garage</Link>, or a move-in-ready <Link href="/spec-homes">spec home</Link>, we’re here to help bring your vision to life.
+            </p>
+            <p data-testid="about-towns">
+              We build across the Phoenix metro and beyond, in{" "}
+              {locations.map((loc, i) => (
+                <span key={loc.slug}>
+                  {i > 0 ? (i === locations.length - 1 ? ", and " : ", ") : null}
+                  <Link href={locationHref(loc.slug)}>{loc.name}</Link>
+                </span>
+              ))}
+              . See <Link href="/where-we-build">where we build</Link> for what building in each town involves.
             </p>
             <p>
               Welcome to Jematell Homes, where we turn your dream home into a reality.
