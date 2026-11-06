@@ -5997,7 +5997,7 @@ export const faqSeed: FaqSeed = {
 <p>Clear allowances and an honest cost breakdown are how we start every custom home. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://www.consumerfinance.gov/ask-cfpb/my-appraisal-came-in-lower-than-i-expected-en-2007/" target="_blank" rel="noopener noreferrer">CFPB: My appraisal is less than the sale price. What does that mean for me?</a></li>
+<li><a href="https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/" target="_blank" rel="noopener noreferrer">CFPB: My appraisal is less than the sale price. What does that mean for me?</a></li>
 <li><a href="https://www.consumerfinance.gov/rules-policy/regulations/1026/42/" target="_blank" rel="noopener noreferrer">CFPB Regulation Z 1026.42: Valuation independence</a></li>
 <li><a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-to-value-ratio-and-how-does-it-relate-to-my-costs-en-121/" target="_blank" rel="noopener noreferrer">CFPB: What is a loan-to-value ratio and how does it relate to my costs?</a></li>
 <li><a href="https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions" target="_blank" rel="noopener noreferrer">Fannie Mae Selling Guide B5-3.1: Construction-to-Permanent Financing: Single-Closing Transactions</a></li>
@@ -11956,7 +11956,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.maricopa.gov/1913/Dust-Sources-Control-and-Training" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Sources, Control, and Training (Rule 310 permit threshold)</a></li>
 <li><a href="https://www.maricopa.gov/1875/Do-You-Need-Dust-Control-Training" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Do You Need Dust Control Training? (coordinator and training rules)</a></li>
-<li><a href="https://www.maricopa.gov/5352/Dust-Rules" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Rules (Rule 310, Fugitive Dust from Dust-Generating Operations)</a></li>
+<li><a href="https://www.maricopa.gov/7027/Rule-310---Fugitive-Dust-from-Dust-Gener" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Rule 310, Fugitive Dust from Dust-Generating Operations</a></li>
 <li><a href="https://www.maricopa.gov/DocumentCenter/View/29724/Dust-Control-Field-Guide-PDF" target="_blank" rel="noopener noreferrer">Maricopa County Air Quality: Dust Control Field Guide for the Construction Industry (Rule 310)</a></li>
 <li><a href="https://www.epa.gov/naaqs/particulate-matter-pm-air-quality-standards" target="_blank" rel="noopener noreferrer">U.S. EPA: Particulate Matter (PM) Air Quality Standards (PM-10 health effects)</a></li>
 </ul>`,
