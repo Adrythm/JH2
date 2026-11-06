@@ -20,9 +20,9 @@ import { faqLinks, refLinks, guideLinks, blogLinks, termLinks } from "@/lib/serv
 const PATH = "/casitas-and-guest-houses";
 
 export const metadata = pageMetadata({
-  title: "Casita and Guest House Builder in Arizona",
+  title: "Scottsdale Guest House and Casita Builder",
   description:
-    "Jematell Homes designs and builds casitas, guest houses and ADUs across Scottsdale, Phoenix and the Valley: what your city allows in 2026, what it costs, and how we build it.",
+    "Guest house and casita builder in Scottsdale and the Valley: Scottsdale's guest house and ADU rules, what moves the cost, and how Jematell Homes builds it.",
   canonical: PATH,
   image: "/images/spec-home.jpg",
 });
@@ -156,9 +156,9 @@ export default function CasitasPage() {
             </p>
             <p>
               The words matter. An ADU is the legal term for a self-contained second home you can rent. A casita is the everyday Southwest
-              word for the same building. A guest house is a stricter category in cities like Scottsdale: it cannot be rented, is capped
-              smaller, and often has no full kitchen. Which one you build decides the size cap, the utilities, and whether it can ever earn
-              rent, so it is the first decision we make with you.
+              word for the same building. A guest house is a separate category in cities like Scottsdale: it cannot be rented apart from
+              the main home, it shares the main home&apos;s utilities, and it often has no full kitchen. Which one you build decides the size
+              cap, the utilities, and whether it can ever earn rent, so it is the first decision we make with you.
             </p>
             <p>
               Jematell Homes designs and builds detached casitas and guest houses as part of a new custom home or on a lot you already own,
@@ -178,6 +178,106 @@ export default function CasitasPage() {
             <Link href="/faq/topics/adus-and-casitas" className="dt-back" data-testid="casitas-topic-link">
               Every casita and ADU question we have answered <ArrowRight size={14} aria-hidden="true" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="dt-section" style={{ paddingTop: 0 }}>
+        <div className="container container-narrow">
+          <div className="dt-prose" data-testid="casitas-scottsdale">
+            <h2>Building a guest house or casita in Scottsdale</h2>
+            <p>
+              Scottsdale lets you build a guest house or an ADU behind a single-family home, and the city treats them as two different
+              buildings. Choose by how you will use it, because the choice sets the size limit, the utilities and the approval steps.
+            </p>
+            <h3>A guest house, for family and visitors</h3>
+            <ul>
+              <li>It is detached, and it may not be rented apart from the main home.</li>
+              <li>
+                There is no limit on how many you build, but all guest houses on the lot together can be no larger than half the floor
+                area of the main home. Next to a 4,000 square foot home, that is up to 2,000 square feet of guest space.
+              </li>
+              <li>It shares the main home&apos;s electric, water, sewer and gas service.</li>
+              <li>
+                A guest house built after January 1, 2025 needs a private deed restriction that keeps it a guest house. The owner records
+                it before the permit is approved.
+              </li>
+              <li>
+                It follows the accessory building setback and lot coverage rules of the zoning ordinance, and it is approved through a
+                building permit review of the plans.
+              </li>
+            </ul>
+            <h3>An ADU, a casita you can rent</h3>
+            <ul>
+              <li>
+                Ordinance 4687, adopted September 30, 2025, allows one attached and one detached ADU on a single-family lot, and a third
+                detached unit on a lot of an acre or more when one unit is kept as restricted-affordable housing.
+              </li>
+              <li>
+                The first ADU can be 1,000 square feet or 75 percent of the main home, whichever is less. A second or third ADU is capped
+                at 500 square feet.
+              </li>
+              <li>
+                Electric and gas are metered apart from the main home, and the unit needs its own outside entrance, its own address and a
+                path to the street.
+              </li>
+              <li>
+                A detached ADU sits in the rear yard, as close as five feet to a side or rear lot line, at least ten feet from the main
+                home, with at least 50 square feet of private outdoor space that is at least five feet deep.
+              </li>
+              <li>
+                If you rent it, long term or short term, you must live on the property, and no more than six adults may live on the lot
+                in total.
+              </li>
+              <li>Approval starts with a pre-application and a meeting with city staff, then an administrative review, then the building permit.</li>
+            </ul>
+            <p>
+              So how big can a casita or guest house be in Scottsdale? An ADU tops out at 1,000 square feet, while all guest houses
+              together can reach half the main home, so next to a large home the guest house can be the bigger building. If you want
+              space to rent, now or later, build it as an ADU from the start, since a guest house is deed restricted to guest use. The
+              city&apos;s own pages on{" "}
+              <a href="https://www.scottsdaleaz.gov/codes-and-ordinances/guest-houses" target="_blank" rel="noopener noreferrer">
+                guest houses
+              </a>{" "}
+              and{" "}
+              <a href="https://www.scottsdaleaz.gov/codes-and-ordinances/accessory-dwelling-units" target="_blank" rel="noopener noreferrer">
+                ADUs
+              </a>{" "}
+              set out each rule. Our answers on{" "}
+              <Link href="/faq/adu-and-casita-rules-in-scottsdale-arizona">Scottsdale&apos;s ADU and casita rules</Link> and{" "}
+              <Link href="/faq/can-i-rent-out-my-casita-or-adu-in-scottsdale-arizona">renting a casita in Scottsdale</Link> go deeper, and{" "}
+              <Link href="/where-we-build/scottsdale">building in Scottsdale</Link> covers the rest of the lot.
+            </p>
+
+            <h2>How we build your casita or guest house</h2>
+            <ol>
+              <li>
+                <strong>We look at the lot.</strong> We check it for utilities, access and grading, find where your city lets a detached
+                building sit, and tell you whether a guest house or an ADU fits what you want the space for: guests, a parent, a home office
+                or gym, or rent.
+              </li>
+              <li>
+                <strong>We design it with the house.</strong> With a new custom home, the casita is planned with the main home from the
+                first sketch, so the yard, the utilities and the views work for both. On a lot you already own, we design it around what
+                is there.
+              </li>
+              <li>
+                <strong>We price it before work starts.</strong> We price it from your plans and confirm the number before anything is
+                built.
+              </li>
+              <li>
+                <strong>We take it through permits.</strong> We handle the city&apos;s review and the permit. For plan review and
+                permitting, allow 2 to 4 months, depending on jurisdiction.
+              </li>
+              <li>
+                <strong>We build it and report every week.</strong> Each week of construction you get a written update: what was
+                finished, what is scheduled next, and any decision we need from you.
+              </li>
+            </ol>
+            <p>
+              Planning a casita or guest house in Scottsdale, Paradise Valley, Cave Creek or Rio Verde? Call{" "}
+              <a href={siteConfig.contact.phone.href}>{siteConfig.contact.phone.display}</a> or <Link href="/contact">tell us about your lot</Link>.
+            </p>
           </div>
         </div>
       </section>
