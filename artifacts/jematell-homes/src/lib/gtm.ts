@@ -13,18 +13,21 @@
  *   1. First real interaction — pointerdown / keydown / touchstart / scroll.
  *      This covers essentially every human: on mobile a single scroll counts.
  *
- *   2. Idle, but ONLY for visits carrying an ad click id. A paid click needs
- *      the Google tag to run while `?gclid=` is still in the URL so it can
- *      write the `_gcl_aw` cookie. This site is a client-side-routed SPA, so
- *      once the visitor navigates the parameter is gone and the click can no
- *      longer be tied to a later conversion. Organic and direct visits have no
- *      such deadline and simply wait for interaction.
+ *   2. Idle within 2 seconds for visits carrying an ad click id. A paid click
+ *      needs the Google tag to run while `?gclid=` is still in the URL so it
+ *      can write the `_gcl_aw` cookie. This site is a client-side-routed SPA,
+ *      so once the visitor navigates the parameter is gone and the click can
+ *      no longer be tied to a later conversion.
  *
- * The consequence, stated plainly: a visitor who lands organically and leaves
- * without scrolling, tapping or typing is never counted in GA4. That is a
- * deliberate trade — those are the least valuable sessions on the site, and
- * conversions are unaffected because reaching the contact form requires
- * interaction by definition.
+ *   3. Every other visit: 4 seconds after the page's load event.
+ *      Until 2026-11-06 organic and direct visits waited for interaction
+ *      alone, so a visitor who landed from search, read the answer and left
+ *      without scrolling or tapping was never counted in GA4. Search landings
+ *      on the FAQ and reference pages are this site's main traffic, and the
+ *      SEO work is judged on GA4 landing pages, so those visits must count.
+ *      Four seconds after load is well past the hero image's paint, so LCP is
+ *      untouched; it is the same "interaction or 4 seconds" pattern adrythm.com
+ *      runs.
  *
  * Safe against ordering surprises: `dataLayer` is a plain array until gtm.js
  * arrives, so anything pushed beforehand queues and is replayed on load. A lead
@@ -50,6 +53,9 @@ const WAKE_EVENTS = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
 
 /** How long a paid visit may go un-tagged before we load anyway. */
 const CLICK_ID_IDLE_TIMEOUT_MS = 2000;
+
+/** How long after the load event any other visit waits before we load anyway. */
+const AFTER_LOAD_DELAY_MS = 4000;
 
 interface GtmWindow extends Window {
   dataLayer?: unknown[];
@@ -85,6 +91,7 @@ export function loadGtmDeferred(): void {
 
   let idleHandle: number | undefined;
   let timerHandle: ReturnType<typeof setTimeout> | undefined;
+  let loadDelayHandle: ReturnType<typeof setTimeout> | undefined;
 
   const fire = (): void => {
     teardown();
@@ -98,14 +105,24 @@ export function loadGtmDeferred(): void {
     }).cancelIdleCallback;
     if (idleHandle !== undefined && cancelIdle) cancelIdle(idleHandle);
     if (timerHandle !== undefined) clearTimeout(timerHandle);
+    if (loadDelayHandle !== undefined) clearTimeout(loadDelayHandle);
+    window.removeEventListener("load", armAfterLoad);
+  }
+
+  function armAfterLoad(): void {
+    loadDelayHandle = setTimeout(fire, AFTER_LOAD_DELAY_MS);
   }
 
   for (const evt of WAKE_EVENTS) {
     window.addEventListener(evt, fire, { once: true, passive: true });
   }
 
-  // Only paid visits and debug sessions get a deadline — see the header comment.
-  if (needsEagerLoad()) {
+  // Paid visits and debug sessions get a short deadline; every other visit
+  // loads 4 seconds after the page has loaded. See the header comment.
+  if (!needsEagerLoad()) {
+    if (document.readyState === "complete") armAfterLoad();
+    else window.addEventListener("load", armAfterLoad, { once: true });
+  } else {
     const ric = (window as unknown as {
       requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
     }).requestIdleCallback;
