@@ -483,7 +483,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /Lost Dutchman State Park/i, href: "https://azstateparks.com/lost-dutchman", external: true },
   { re: /Apache Junction Unified School District/i, href: "https://www.ajusd.org", external: true },
   // ---- External: Surprise ----
-  { re: /Surprise Stadium/i, href: "https://surpriseaz.gov/1034/Surprise-Stadium", external: true },
+  { re: /Surprise Stadium/i, href: "https://surpriseaz.gov/surprise-stadium", external: true },
   { re: /Dysart Unified School District/i, href: "https://www.dysart.org", external: true },
   {
     re: /Lake Pleasant Regional Park/i,
