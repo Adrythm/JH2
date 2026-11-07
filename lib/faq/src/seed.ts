@@ -2089,7 +2089,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "should-i-install-a-whole-house-generator-or-battery-backup-in-arizona",
       question: "Should I install a whole-house generator or battery backup in Arizona?",
-      seoTitle: "Generator vs Battery Backup for an Arizona Home",
+      seoTitle: "Home Generator vs Battery Backup in Arizona",
       answerHtml: `<p>Whether you should install a <strong>whole-house generator</strong> or <strong>solar plus battery backup</strong> in Arizona comes down to two questions: how long your outages last, and whether you are putting solar on the roof anyway. A <strong>standby generator</strong> wired to natural gas runs for days through a long monsoon outage and costs less up front to cover the whole house. <strong>Solar plus battery</strong> handles the short, frequent outages silently, recharges itself from the sun each day, and folds into a solar system many Arizona homeowners already want. The two are not enemies. A growing number of high-end desert homes install both, with solar and battery for everyday resilience and a generator as the deep backup.</p>
 <p>Here is how each option performs in Arizona, what the safety code requires, and how to choose for your home.</p>
 <h2>Why backup power matters in the Arizona desert</h2>
@@ -3446,6 +3446,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-i-recover-attorney-fees-in-an-arizona-construction-defect-claim",
       question: "Can I recover attorney's fees in an Arizona construction-defect or warranty claim?",
+      seoTitle: "Arizona Construction Defect Attorney Fees",
       answerHtml: `<p>Yes, in many Arizona construction-defect and warranty cases you can recover <strong>reasonable attorney's fees</strong> if you win. Arizona follows the rule that fees can be awarded in a "contested action arising out of a contract," and a home construction defect claim usually qualifies. The key statute is <strong>A.R.S. 12-341.01</strong>, which says that "in any contested action arising out of a contract, express or implied, the court may award the successful party reasonable attorney fees." The Arizona Supreme Court settled the issue for warranty claims in <strong>Sirrah Enterprises, LLC v. Wunderlich</strong> (2017), holding that a buyer who wins a breach of the <strong>implied warranty of workmanship and habitability</strong> can recover fees because that claim "arises out of" the construction contract.</p>
 <p>This matters because legal fees are often the biggest barrier to fixing a serious defect. If you cannot recover fees, the cost of suing a builder can swallow the value of the repair. The ability to shift fees to the losing side changes the math and gives a builder a real reason to settle a valid claim.</p>
 <h2>The general rule: fees follow the contract</h2>
@@ -8220,6 +8221,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-i-change-the-floor-plan-during-a-custom-build",
       question: "Can I change the floor plan during a custom home build?",
+      seoTitle: "Changing a Floor Plan During a Custom Build",
       answerHtml: `<p>You can change the floor plan during a custom home build, but the cost and difficulty climb sharply as construction moves forward. A layout change is nearly free while the plans are still being drawn. Once the plans are <strong>stamped and permitted</strong>, a change means a permit revision. Once <strong>framing</strong> is up, moving a wall means tearing out finished work, paying for new materials and labor, and often new structural engineering. Every change after the contract is signed is handled through a <strong>change order</strong>, a written, signed amendment that adjusts the price and the schedule. The rule of thumb in Arizona builds: decide early, lock the plan, and treat any later change as a real cost, not a small favor.</p>
 <p>Here is when changes are easy, when they lock, and what a mid-build change actually costs.</p>
 <h2>When floor plan changes are cheap, and when they lock</h2>
@@ -12001,6 +12003,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-dust-control-permit-to-build-a-custom-home-in-arizona",
       question: "Do I need a dust control permit to build a custom home in Arizona?",
+      seoTitle: "Arizona Dust Control Permits for New Homes",
       answerHtml: `<p>Yes, in most cases you need a <strong>dust control permit</strong> to build a custom home in the Phoenix and Scottsdale metro. Maricopa County Air Quality <strong>Rule 310</strong>, the county's fugitive-dust rule, requires a dust control permit for any activity that disturbs a surface area "equal to or greater than .10 acre (4,356 square feet)." That is a small footprint. A house pad, driveway, and graded yard almost always exceed it, so the permit applies to nearly every custom build in <strong>Maricopa County</strong>, including unincorporated areas like <strong>Rio Verde Foothills</strong>, <strong>Cave Creek</strong>, and the metro fringe. This is an air-quality permit, separate from your building permit, and it has to be in hand before earthwork starts.</p>
 <p>Most buyers have never heard of it because it lives at the <strong>Air Quality Department</strong>, not the building department. But it is one of the first pre-construction gates on a desert lot, and missing it can stall your start and trigger fines.</p>
 <h2>What Rule 310 is and why the desert needs it</h2>
@@ -13133,6 +13136,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-deferred-submittal-and-how-can-it-delay-my-build",
       question: "What is a deferred submittal, and how can it delay my build?",
+      seoTitle: "Deferred Submittals: How They Delay a Build",
       answerHtml: `<p>Some parts of a home, like <strong>roof trusses, solar panels, and fire-sprinkler systems</strong>, are designed by a specialty manufacturer or subcontractor who is not even hired until after the permit is pulled. The building code has a name for the process that lets those pieces come in later: a <strong>deferred submittal</strong>, a portion of the design the building official agrees, in advance, can be turned in for review <strong>after</strong> the main building permit is issued, instead of with the first plan set. The catch is in the code. Under <strong>IBC Section 107.3.4.1</strong>, "the deferred submittal items shall not be installed until the deferred submittal documents have been approved by the building official." So if a deferred package is submitted late or sits in review, the work that depends on it cannot start, and that can stall framing, the roof, or your final inspection.</p>
 <h2>What a deferred submittal is</h2>
 <p>A deferred submittal is a planned exception to the rule that all your plans come in at once. Normally you submit a full set of construction documents for the permit. The city reviews and approves them before work starts. But some parts of a home are designed by specialists you do not hire until after permitting. Their shop drawings do not exist yet. The deferred submittal process lets those few items be <strong>formally deferred</strong> so the rest of the permit can move ahead.</p>
@@ -14450,7 +14454,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-you-finance-a-hauled-water-or-cistern-home-with-a-usda-or-va-loan-in-arizona",
       question: "Can you finance a hauled-water or cistern home with a USDA or VA loan in Arizona?",
-      seoTitle: "USDA or VA Loan on a Cistern Home in Arizona?",
+      seoTitle: "Cistern Home Loans in Arizona: USDA and VA",
       answerHtml: `<p>Both programs require the property to have a continuous, safe, and potable water supply, and both treat a <strong>cistern</strong> as a stored tank, not a real water source. USDA's rulebook says properties served by cisterns are not acceptable. VA says a cistern is not a continuing supply of safe and potable water. The fix is the same for both: a drilled <strong>private well</strong> that produces water and passes a health-authority or EPA water test does qualify. So if you are building or buying in Rio Verde Foothills and want a USDA or VA loan, the deciding factor is whether the parcel has a well, not a tank of <strong>hauled water</strong>.</p>
 <p>This page covers what USDA and VA each require for water, why a cistern fails both, what a well has to pass, and the practical path for a tank-home buyer. For the broader resale and lender picture, see <a href="/faq/does-a-well-or-hauled-water-affect-a-rio-verde-foothills-property-value-and-financing">does a well or hauled water affect a Rio Verde Foothills property value and financing</a>.</p>
 <h2>What USDA Rural Development requires for water</h2>
@@ -14710,6 +14714,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-big-a-water-storage-tank-do-i-need-for-a-hauled-water-home-in-arizona",
       question: "How big a water storage tank do I need for a hauled-water home in Arizona?",
+      seoTitle: "Hauled Water Tank Size for an Arizona Home",
       answerHtml: `<p>Sizing the tank comes down to one simple idea: hold enough water that you are never caught dry between deliveries, with a safety cushion on top. That points most Arizona households to a tank somewhere between <strong>2,500 and 10,000 gallons</strong>. A common rule of thumb is to size the tank for <strong>two to four weeks of supply</strong>. A household that uses about <strong>150 to 200 gallons a day</strong> burns roughly 4,500 to 6,000 gallons a month, which points most families to a tank in the <strong>5,000 to 10,000 gallon</strong> range. A smaller home, a part-time residence, or a careful single-person household can do well on <strong>2,500 to 3,000 gallons</strong>. The tank is a cushion, so bigger means fewer deliveries and more margin if a truck is late.</p>
 <p>Here is the usage math, the sizing trade-offs, and the site factors that decide your tank.</p>
 <h2>The usage math that sets tank size</h2>
