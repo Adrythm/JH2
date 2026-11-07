@@ -9399,6 +9399,65 @@ export const faqSeed: FaqSeed = {
       sortOrder: 439,
     }),
     item({
+      slug: "how-to-find-out-if-you-can-build-on-a-lot-in-arizona",
+      question: "How do I find out if I can build on a lot in Arizona?",
+      seoTitle: "Can I Build on This Lot in Arizona?",
+      answerHtml: `<p>You find out whether you can build on a lot in Arizona by checking seven things before you buy or design: who governs the parcel and how it is zoned, legal and physical access, water, wastewater, flood risk, the ground itself, and the private rules recorded against it. Most of the first pass is free public lookups you can do in an afternoon from the parcel number. The rest takes a title report, a survey, a soils report and a septic feasibility test. If any one of the seven fails, the lot may still be buildable, but it will cost more or take longer, so you want to know before you sign.</p>
+<p>On unincorporated county land there is a head start built into state law. Under <a href="https://www.azleg.gov/ars/33/00422.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-422</a>, a seller of five or fewer parcels outside a subdivision must hand you a written affidavit of disclosure at least seven days before the sale, and you can cancel within five days of receiving it. The affidavit asks most of the same questions below, so read it line by line and check every answer marked unknown.</p>
+<h2>1. Find out who governs the parcel and how it is zoned</h2>
+<p>Look the parcel up on the county assessor's map first. If a city or town name appears, that city's zoning code and building department decide what you can build. If it reads unincorporated, the county does. Our answer on <a href="/faq/how-do-i-know-if-my-lot-is-in-the-city-or-unincorporated-county-arizona">telling whether a lot is in a city or the county</a> walks through the lookup.</p>
+<p>Then read the zoning district. It sets whether a single-family home is allowed at all, the minimum lot size, the setbacks from each line, the height limit and how much of the lot you may cover. A one-acre county lot in a rural district such as RU-43 plays by different rules than a city lot, as our page on <a href="/faq/rural-residential-zoning-districts-in-maricopa-county">rural residential zoning in Maricopa County</a> explains. Setbacks, height and coverage together give you the buildable envelope, which is how big the house can be (see <a href="/faq/what-is-the-biggest-house-i-can-build-on-my-lot-in-arizona">the biggest house you can build on your lot</a>).</p>
+<h2>2. Confirm legal and physical access</h2>
+<p>A lot needs a recorded right to reach it, not just a dirt road you can drive. Legal access means the parcel fronts a public road or has a recorded easement to one. Physical access means a vehicle can actually get there. The affidavit asks about both separately, and it asks whether a surveyor or engineer has said the access can be driven by a two-wheel drive car, because counties apply that test when they review land splits under <a href="https://www.azleg.gov/ars/11/00831.htm" target="_blank" rel="noopener noreferrer">A.R.S. 11-831</a>. A preliminary title report shows the recorded easements. Our guide to <a href="/faq/how-do-i-confirm-legal-access-to-a-rural-lot">confirming legal access to a rural lot</a> covers what to look for.</p>
+<h2>3. Prove where the water will come from</h2>
+<p>Inside a city, ask the water provider for a will-serve letter. On rural land, the answer is a private well, a shared well, a private water company or hauled water, and each changes the build.</p>
+<ul>
+<li><strong>A new well.</strong> Arizona exempts small domestic wells, those with a pump of 35 gallons per minute or less, from most groundwater rules under <a href="https://www.azleg.gov/ars/45/00454.htm" target="_blank" rel="noopener noreferrer">A.R.S. 45-454</a>. The same statute bars a new exempt well on land within 100 feet of the water lines of a city or town provider that holds an assured water supply designation, in the older active management areas such as Phoenix and Pinal, unless the state grants an exemption, for example when the provider will not confirm service or connecting would cost more than the well. Search the state's <a href="https://www.azwater.gov/permitting-wells/well-record-search" target="_blank" rel="noopener noreferrer">well records</a> for neighboring wells to see how deep they went.</li>
+<li><strong>A shared well.</strong> Get the recorded agreement before you buy. Our page on <a href="/faq/what-is-a-shared-well-agreement-in-arizona">shared well agreements</a> explains why it is your only protection.</li>
+<li><strong>Hauled water.</strong> The affidavit must name the hauler and the source. Ask a lender early, since some loans treat a hauled-water home differently (see <a href="/faq/can-you-finance-a-hauled-water-or-cistern-home-with-a-usda-or-va-loan-in-arizona">financing a hauled-water home</a>).</li>
+</ul>
+<p>A parcel split from a larger one, five lots or fewer, may never have passed the state's 100-year water test, which is how much of the Rio Verde Foothills was built (see <a href="/faq/what-is-a-wildcat-lot-split-in-arizona-and-how-does-it-affect-water-and-permits">wildcat lot splits</a>).</p>
+<h2>4. Check that the soil can take a septic system</h2>
+<p>Where there is no sewer, the house needs an on-site wastewater system, and the county will not issue a building permit without approval for one. That approval starts with a site investigation and a <a href="/faq/what-is-a-perc-test-and-do-i-need-one">percolation test</a>, which shows whether the ground can absorb the water. A shallow rock layer, a steep slope or a wash through the lot can rule out a standard system and call for an engineered one. The septic area also has to sit at least 100 feet from any well, yours or a neighbor's, so a small lot can run out of room (see <a href="/faq/how-close-can-a-well-be-to-a-septic-system-in-arizona">well to septic distance</a>).</p>
+<h2>5. Look up the flood zone and the washes</h2>
+<p>Enter the address on FEMA's <a href="https://msc.fema.gov/portal/home" target="_blank" rel="noopener noreferrer">Flood Map Service Center</a> to see whether any part of the lot sits in a mapped floodplain. In Maricopa County, the <a href="https://www.maricopa.gov/959/Floodplain-Information" target="_blank" rel="noopener noreferrer">Flood Control District's floodplain information</a> adds local studies and the floodplain use permit you may need. A lot can be outside FEMA's map and still have a desert wash that floods in the monsoon, so walk it after a storm if you can. A house in a floodplain is often still buildable, but the floor may have to sit higher and a federally backed mortgage will require flood insurance.</p>
+<h2>6. Know the ground: fissures, problem soils and slope</h2>
+<p>Groundwater pumping has opened earth fissures and caused subsidence in parts of the Valley and Pinal County, and expansive clay and caliche are common across the state. The <a href="https://azgs.arizona.edu/geohazards/problem-soils" target="_blank" rel="noopener noreferrer">Arizona Geological Survey</a> maps both, and the affidavit asks about them. Screen the parcel there, then order a soils report, which most building departments and lenders ask for anyway (see <a href="/faq/do-i-need-a-soil-test-to-build-a-house-in-arizona">whether you need a soil test</a> and <a href="/faq/earth-fissures-and-land-subsidence-in-pinal-county">earth fissures in Pinal County</a>). A steep or rocky lot is buildable too, but grading, retaining walls and the foundation will cost more.</p>
+<h2>7. Read the recorded rules: easements, HOA and overlays</h2>
+<p>The title report lists what is recorded against the land: utility easements that cut through the middle, a road easement for a neighbor, deed restrictions, and an HOA's CC&amp;Rs with their own setbacks, size minimums and design review. In North Scottsdale and similar desert areas, a building envelope and a natural area easement can put much of a large lot off limits to building (see <a href="/faq/what-is-a-building-envelope-or-naos-easement-on-an-arizona-custom-lot">building envelopes and NAOS easements</a>). Some towns add hillside, dark-sky or height rules on top of zoning, so ask the planning counter which overlays apply.</p>
+<h2>Utilities and the cost of getting them there</h2>
+<p>Ask the electric company how far the nearest line is and what an extension would take, and confirm whether gas, phone and internet reach the lot. Distance to power is one of the biggest swings in a rural budget, as our answer on <a href="/faq/how-much-does-it-cost-to-extend-power-or-utilities-to-a-rural-arizona-lot">extending power to a rural lot</a> shows, and it belongs with the rest of <a href="/faq/how-much-should-i-budget-for-site-work">site work</a> in the numbers before you buy.</p>
+<h2>What you can check yourself and what needs a professional</h2>
+<ul>
+<li><strong>Free, from the parcel number:</strong> jurisdiction and zoning, the FEMA flood map, the fissure and soils maps, nearby well records, and whether a water provider serves the area.</li>
+<li><strong>From the seller:</strong> the A.R.S. 33-422 affidavit on unincorporated land, any HOA documents and any existing septic or well records.</li>
+<li><strong>Paid, before you close:</strong> a preliminary title report, a boundary survey, a soils report, a septic site investigation and percolation test, and will-serve letters from the utilities.</li>
+</ul>
+<p>Make the purchase contract contingent on those reports where you can, so a failed test lets you walk away.</p>
+<h2>How Jematell Homes checks a lot</h2>
+<p>Building on land you own is our specialty. When you <a href="/build-on-your-lot">build on your lot with Jematell Homes</a>, we check the lot for utilities, access and grading first, then handle the permits, engineering, site prep and the build. If you do not have land yet, our licensed real estate agents can help you <a href="/buy-a-lot-with-us">find and buy a lot</a> that passes these checks. We build across Scottsdale, Phoenix, Cave Creek, Carefree, Fountain Hills, Paradise Valley, the Rio Verde Foothills and Pinal County. Call <a href="tel:6024215576">(602) 421-5576</a> or <a href="/contact">tell us about the lot you are considering</a>, and confirm the rules for your specific parcel with your city or county before you buy.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.azleg.gov/ars/33/00422.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-422 (Land divisions; recording; disclosure affidavit)</a></li>
+<li><a href="https://www.azleg.gov/ars/11/00831.htm" target="_blank" rel="noopener noreferrer">A.R.S. 11-831 (Review of land divisions)</a></li>
+<li><a href="https://www.azleg.gov/ars/45/00454.htm" target="_blank" rel="noopener noreferrer">A.R.S. 45-454 (Exemption of small non-irrigation wells)</a></li>
+<li><a href="https://msc.fema.gov/portal/home" target="_blank" rel="noopener noreferrer">FEMA Flood Map Service Center</a></li>
+<li><a href="https://www.maricopa.gov/959/Floodplain-Information" target="_blank" rel="noopener noreferrer">Flood Control District of Maricopa County: Floodplain Information</a></li>
+<li><a href="https://azgs.arizona.edu/geohazards/problem-soils" target="_blank" rel="noopener noreferrer">Arizona Geological Survey: Problem Soils</a></li>
+<li><a href="https://www.azwater.gov/permitting-wells/well-record-search" target="_blank" rel="noopener noreferrer">Arizona Department of Water Resources: Well Record Search</a></li>
+</ul>`,
+      shortAnswer: "Check seven things before you buy or design: who governs the parcel and its zoning, legal and physical access, water, septic, flood zone, the soil, and recorded easements and HOA rules. Most are free lookups from the parcel number; a title report, survey, soils report and perc test settle the rest.",
+      metaDescription: "How to find out if you can build on a lot in Arizona: zoning, legal access, water, septic, flood zone, soils and recorded rules, with the free lookups.",
+      categorySlug: "land-and-due-diligence",
+      topicSlugs: ["buying-land-to-build"],
+      tags: ["land", "due-diligence", "research-phase"],
+      relatedFaqSlugs: ["how-do-i-buy-land-to-build-a-house-in-arizona", "how-do-i-confirm-legal-access-to-a-rural-lot", "what-is-a-perc-test-and-do-i-need-one", "buying-raw-land-vs-a-finished-lot"],
+      relatedServiceSlugs: ["build-on-your-lot", "custom-homes"],
+      pillarBlogSlug: null,
+      featured: false,
+      sortOrder: 440,
+    }),
+    item({
       slug: "open-concept-vs-split-bedroom-floor-plan-which-is-right-for-an-arizona-home",
       question: "Open-concept vs split-bedroom floor plan: which is right for an Arizona home?",
       answerHtml: `<p>Open concept and split bedroom are not two choices you pick between. They answer two different questions, so most Arizona custom homes use both at once. <strong>Open concept</strong> describes the shared living area: the kitchen, dining, and living rooms flow together as one big space with few or no walls. <strong>Split bedroom</strong> describes where the bedrooms sit: the <strong>primary suite</strong> goes on one side of the home and the secondary bedrooms go on the other, with the shared living space in the middle. The plan you see again and again in Scottsdale, Cave Creek, and Fountain Hills custom homes is an open great room in the center with a split-bedroom layout wrapped around it. You get the openness for everyday life and the separation for sleep and privacy.</p>
@@ -11063,7 +11122,7 @@ export const faqSeed: FaqSeed = {
 <p>Setbacks matter more than buyers expect. A wide lot with a deep wash or a steep slope can shrink the buildable area to a fraction of the acreage. Get the buildable envelope clear before you fall in love with the view.</p>
 <p>Watch for deed restrictions too. Some rural parcels carry covenants or HOA rules that cap home size, ban certain materials, or require a minimum square footage. Zoning is the county's rule. A covenant is a private rule that rides with the land. Both can limit your home, so ask the title company for the full set of recorded restrictions before you close.</p>
 <h2>Step two: water, septic, and power</h2>
-<p>The biggest hidden cost on rural land is getting water, waste, and power to the home. A lot with no city utilities needs a private well, a septic system, and a power connection, and each one adds cost and time.</p>
+<p>The biggest hidden cost on rural land is getting water, waste, and power to the home. A lot with no city utilities needs a private well, a septic system, and a power connection, and each one adds cost and time. For the full list of checks, from the flood map to recorded easements, see <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">how to find out if you can build on a lot in Arizona</a>.</p>
 <ul><li><strong>Water.</strong> If no water provider serves the lot, you drill a private well. In some Arizona areas you also confirm a long-term supply. The <strong>Arizona Department of Water Resources (ADWR)</strong> manages assured and adequate water supply rules, and some counties require a 100-year adequacy determination before a final plat. Ask whether a designated provider serves the area or whether a well is your only option.</li><li><strong>Septic.</strong> A lot without a sewer line needs an onsite septic system, which requires a soil and percolation test to size it. Poor soil or a high water table can rule out a standard system and force a costlier alternative.</li><li><strong>Power.</strong> Confirm how far the nearest utility line runs. A long line extension across desert can cost tens of thousands of dollars, paid by you.</li></ul>
 <p>Budget real numbers here. A well, a septic system, and a power drop can add 40,000 to 100,000 dollars or more before the house even starts, depending on depth and distance.</p>
 <p>Order matters with these. A well can take weeks to permit and drill. A septic design waits on a soil test. A power line extension can wait on the utility's own schedule. Start all three early, because any one of them can hold up the build. On a rural lot, site work like this often takes longer than framing the house itself.</p>
@@ -11092,7 +11151,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["land", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona"],
       relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -11103,7 +11162,7 @@ export const faqSeed: FaqSeed = {
       question: "How do I know if my lot is in a city or unincorporated county in Arizona?",
       answerHtml: `<p>This one fact decides which building codes apply, which office issues your permit, and whether you can even use septic and a well, so settle it before you draw a plan or write an offer. The fastest way is to pull up your parcel on the <strong>county assessor's map</strong> and read the jurisdiction it lists. If a city or town name shows up, your lot is inside that city's limits and the city governs your build. If the record reads <strong>unincorporated</strong> or names only the county, the county governs. In Maricopa County you can confirm this in two places: the Assessor's parcel viewer and the County's <strong>PlanNet</strong> zoning map, both reachable from the County's Interactive Parcel Maps page.</p>
 <h2>Why this question comes before everything else</h2>
-<p>Settle jurisdiction first because it sets every rule that follows. Arizona has <strong>no statewide building code</strong>. Each city, town, and county adopts its own code edition and runs its own permit office, so the agency that governs your lot decides the code year you build to, the permit process, the inspections, the setbacks, and whether you are even allowed to use a septic system. A lot one mile outside Scottsdale's city limits is not "basically Scottsdale." It is unincorporated Maricopa County, and the County's rules apply, not the city's.</p>
+<p>Settle jurisdiction first because it sets every rule that follows. Arizona has <strong>no statewide building code</strong>. Each city, town, and county adopts its own code edition and runs its own permit office, so the agency that governs your lot decides the code year you build to, the permit process, the inspections, the setbacks, and whether you are even allowed to use a septic system. A lot one mile outside Scottsdale's city limits is not "basically Scottsdale." It is unincorporated Maricopa County, and the County's rules apply, not the city's. It is the first of seven checks in <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">finding out whether you can build on a lot in Arizona</a>.</p>
 <p>The word <strong>incorporated</strong> means a place has organized as a city or town with its own government and powers. Arizona law gives an incorporated city or town the power to zone land and regulate buildings. Under A.R.S. 9-462.01, a municipality may "regulate the use of buildings, structures and land as between agriculture, residence, industry, business and other purposes." An <strong>unincorporated</strong> area has no city government, so the county is the local authority instead. This is not a map label you can ignore. It changes who you call, what you submit, and what your build costs.</p>
 <p>Boundaries also move. A city can pull nearby unincorporated land into its limits through <strong>annexation</strong>, the legal process in A.R.S. 9-471 where a city or town extends its boundary over contiguous county territory. A lot that was county land last year can be inside a city today. That is why you check the current parcel record and zoning map rather than trusting an old listing or a neighbor's memory.</p>
 <p>Rio Verde Foothills is the clearest local example. It sits next to Scottsdale and Fountain Hills, but it is <strong>unincorporated Maricopa County</strong>. People there build under county rules, drill private wells or haul water, and install septic, because there is no city sewer or water main. A buyer who assumes the lot follows Scottsdale's code would plan the entire project around the wrong authority.</p>
@@ -11137,7 +11196,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["land", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona"],
       relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -11775,7 +11834,7 @@ export const faqSeed: FaqSeed = {
 <p>The district also drives the height ceiling and the coverage cap. Scottsdale holds a flat 30-foot height limit across its R1 districts, so the roofline is capped the same whether you are on a small lot or an acre. That means on a small lot, going up is often the only way to add space once the footprint is maxed out. On a larger lot, the deeper setbacks and any coverage cap may leave a surprisingly modest building pad, even though the parcel is big.</p>
 <p>This is also why you check zoning before you buy, not after. The difference between two districts can change your front yard from 20 feet to 40 feet and reshape the entire footprint. Pull the district standards from your city's zoning ordinance, or have your builder do it, before you commit to a lot or a <a href="/floor-plans">floor plan</a>.</p>
 <h2>Local rules that shrink the envelope further</h2>
-<p>Beyond zoning, several local layers can make your buildable envelope smaller than the base district numbers suggest, so confirm all of them before you design. The base setbacks, height, and coverage are the starting point, not the final word.</p>
+<p>Beyond zoning, several local layers can make your buildable envelope smaller than the base district numbers suggest, so confirm all of them before you design. The base setbacks, height, and coverage are the starting point, not the final word. Before you size the house, make sure the lot can be built on at all, since water, septic, access and flood risk come first (see <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">how to find out if you can build on a lot in Arizona</a>).</p>
 <ul><li><strong>HOA and CC&amp;Rs.</strong> If your lot is in a planned community, the recorded <strong>CC&amp;Rs</strong> can set stricter setbacks, height limits, or coverage caps than the city, and the HOA design review can run before the city permit. For how that works, see <a href="/faq/how-does-hoa-design-review-affect-building-a-custom-home">how HOA design review affects building a custom home</a>.</li><li><strong>Easements.</strong> A utility or drainage easement crossing your lot is land you usually cannot build on, even though it counts as part of the parcel. It eats into the buildable area on top of the setbacks.</li><li><strong>Hillside and overlay zones.</strong> Many Scottsdale, Cave Creek, and Fountain Hills lots carry hillside ordinances that limit grading, height, and disturbed area on sloped land, which can cut the envelope hard.</li><li><strong>Lot coverage details.</strong> What counts toward coverage varies. The main house and garage almost always count. Uncovered patios, pools, and driveways often do not. Covered patios and casitas may or may not, depending on the ordinance.</li></ul>
 <p>Maricopa County, which covers unincorporated areas like Rio Verde Foothills, makes lot coverage a required plan-review item and tells owners to "Know your project's lot coverage" before submitting. The cleanest path is to have your builder or designer pull your district standards, map the easements, and draw the buildable envelope on day one, because that single drawing decides whether your dream floor plan fits or has to shrink. Zoning standards and overlays change, so confirm your lot's current district, setbacks, height, and coverage with your city or county planning department before you design.</p>
 <h2>Building with Jematell Homes</h2>
@@ -11791,7 +11850,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["land", "research-phase"],
-      relatedFaqSlugs: ["how-does-hoa-design-review-affect-building-a-custom-home"],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona", "how-does-hoa-design-review-affect-building-a-custom-home"],
       relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
@@ -15189,7 +15248,7 @@ export const faqSeed: FaqSeed = {
 <h2>What "finished" actually means</h2>
 <p>A finished or improved lot, the kind common in a master-planned community, typically comes with power, water, and sewer (or an approved septic area) brought to the property, a paved or recorded access, graded buildable area, and zoning and subdivision approvals already secured. Raw or unimproved land may have none of these. The price gap between the two usually reflects exactly that missing work, which is why a cheap parcel can end up costing more once you add what it lacks.</p>
 <h2>The due-diligence checklist before you sign</h2>
-<p>Whether the land is raw or finished, walk it against this list and put real numbers on each line before you make an offer:</p>
+<p>Whether the land is raw or finished, walk it against this list and put real numbers on each line before you make an offer: Our step-by-step answer on <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">how to find out if you can build on a lot in Arizona</a> names the free lookup for each item.</p>
 <ul>
 <li><strong>Legal access.</strong> You need recorded, legal access to the parcel, not just a dirt road that appears to reach it. Landlocked parcels and unrecorded easements are common and expensive surprises. Confirm access is recorded with the county.</li>
 <li><strong>Utilities to the lot.</strong> Find out how far electric power runs and what the utility will charge to extend it, because a long line extension can be a major cost. Confirm whether there is a water provider, a sewer line, or natural gas, or whether you will be providing your own.</li>
@@ -15210,7 +15269,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["raw-land", "finished-lot", "utilities", "access", "due-diligence", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona"],
       relatedServiceSlugs: ["buy-a-lot-with-us", "build-on-your-lot", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -15233,7 +15292,7 @@ export const faqSeed: FaqSeed = {
 <h2>What happens if the soil does not perc well</h2>
 <p>A poor result is not always a dead end, but it costs money. Where conventional soil absorption will not work, the designer turns to an alternative or engineered system, such as a system with additional treatment before disposal, a different disposal method, or a larger or specially designed field. These cost more to install and sometimes more to maintain than a conventional septic system. A failed or marginal perc result can also limit how large a home the lot will support, because a bigger house with more bedrooms needs a larger disposal area. This is one of the practical reasons two similar-looking rural lots can carry very different all-in costs.</p>
 <h2>How it fits the rest of due diligence</h2>
-<p>The percolation and soil-absorption evaluation answers the wastewater question. It is separate from the structural geotechnical (soils) report, which tells your engineer how to design the foundation, although both involve looking at the ground and it often makes sense to plan them together early. It is also tied to the water question on a rural lot, because a parcel that needs a well and a septic system has to site the two with the required separation. Confirming septic feasibility, water, and access together before you buy is what keeps a rural lot from turning into an expensive surprise.</p>
+<p>The percolation and soil-absorption evaluation answers the wastewater question. It is separate from the structural geotechnical (soils) report, which tells your engineer how to design the foundation, although both involve looking at the ground and it often makes sense to plan them together early. It is also tied to the water question on a rural lot, because a parcel that needs a well and a septic system has to site the two with the required separation. Confirming septic feasibility, water, and access together before you buy is what keeps a rural lot from turning into an expensive surprise. The other checks, from zoning to the flood map, are in <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">how to find out if you can build on a lot in Arizona</a>.</p>
 <h2>How Jematell Homes helps</h2>
 <p>On rural and unincorporated lots, we help buyers scope the wastewater question early, coordinate the soil and percolation evaluation with a qualified professional, and design the home so the disposal field, the well, and the structure all fit with the required separations. Because the rules, required test methods, and fees are set by ADEQ and administered by the county and can change, we confirm exactly what is required for your parcel with the local Authority Having Jurisdiction (Maricopa County Environmental Services, Pinal County, or your city, depending on where the lot sits) before relying on any result.</p>`,
       shortAnswer: "A perc test times how fast water drains through a lot's soil, which is how a septic system is designed and sited. You need one whenever the home will use a septic system instead of a municipal sewer, which is most rural Arizona lots. Poor-draining soil can force a costlier engineered system or limit the home size.",
@@ -15241,7 +15300,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["perc-test", "percolation", "septic", "soil-evaluation", "research-phase"],
-      relatedFaqSlugs: ["buying-raw-land-vs-a-finished-lot"],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona", "buying-raw-land-vs-a-finished-lot"],
       relatedServiceSlugs: ["build-on-your-lot", "buy-a-lot-with-us", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
@@ -15264,7 +15323,7 @@ export const faqSeed: FaqSeed = {
 <h2>What landlocked means and how it gets fixed</h2>
 <p>A landlocked parcel has no recorded legal access to a public road. Arizona law does provide remedies, but they are slow, uncertain, and sometimes costly. An owner can negotiate and purchase an easement from a neighbor, which depends entirely on the neighbor's willingness and price. In some circumstances a court can recognize an easement by necessity or grant a private way of necessity to a landlocked owner under Arizona statute, but that is a legal proceeding, not a quick fix, and the outcome is not guaranteed. None of this is something to count on after you have already bought; it is a reason to confirm access before you commit.</p>
 <h2>Why access also drives permitting</h2>
-<p>Access is not only a legal question; it is a permitting one. Building departments and fire authorities require that a homesite be reachable by emergency apparatus, which can mean minimum road width, surface, grade, and turnaround standards for the access route and driveway. A parcel with a marginal track may need road improvements before a permit will issue, which is a cost and a timeline item. Address assignment and utility service also depend on a defined, legal access point. So confirming access early protects the permit, the budget, and the schedule, not just the deed.</p>
+<p>Access is not only a legal question; it is a permitting one. Building departments and fire authorities require that a homesite be reachable by emergency apparatus, which can mean minimum road width, surface, grade, and turnaround standards for the access route and driveway. A parcel with a marginal track may need road improvements before a permit will issue, which is a cost and a timeline item. Address assignment and utility service also depend on a defined, legal access point. So confirming access early protects the permit, the budget, and the schedule, not just the deed. Access is one of seven checks in <a href="/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona">finding out whether you can build on a lot in Arizona</a>.</p>
 <h2>How Jematell Homes helps</h2>
 <p>For rural and unincorporated lots, we help buyers treat access as a first-tier question alongside water and septic, working from the title commitment and the survey rather than from how the road looks on a site visit. We help scope what an access route needs to satisfy the building and fire requirements so the driveway and any road work are in the budget from the start. Because access rights live in recorded documents and because permitting standards are set locally, we confirm legal access with a title company and a licensed surveyor and confirm the access and emergency-vehicle requirements with the local Authority Having Jurisdiction (Maricopa County, Pinal County, or your city, plus the fire authority) before relying on any access for your parcel.</p>`,
       shortAnswer: "Verify in recorded records that the lot either fronts a public road or has a recorded ingress and egress easement to one. A dirt road you can drive is not legal access, and a landlocked parcel can block your permit, financing, and title insurance. Confirm with a title company and surveyor before you buy.",
@@ -15272,7 +15331,7 @@ export const faqSeed: FaqSeed = {
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["legal-access", "landlocked", "ingress-egress", "rural-lots", "research-phase"],
-      relatedFaqSlugs: ["buying-raw-land-vs-a-finished-lot"],
+      relatedFaqSlugs: ["how-to-find-out-if-you-can-build-on-a-lot-in-arizona", "buying-raw-land-vs-a-finished-lot"],
       relatedServiceSlugs: ["build-on-your-lot", "buy-a-lot-with-us", "custom-homes"],
       pillarBlogSlug: "what-to-do-after-buying-land-in-arizona",
       featured: false,
