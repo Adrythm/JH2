@@ -749,6 +749,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-makeup-air-for-a-high-cfm-range-hood-in-a-new-arizona-home",
       question: "Do I need makeup air for a high-CFM range hood in a new Arizona home?",
+      seoTitle: "Range Hood Makeup Air: The 400 CFM Rule",
       answerHtml: `<p>The code is specific about when makeup air kicks in. Under <strong>IRC Section M1503.4</strong>, "Exhaust hood systems capable of exhausting in excess of 400 cubic feet per minute (0.19 m3/s) shall be mechanically or naturally provided with makeup air at a rate approximately equal to the exhaust air rate. Such makeup air systems shall be equipped with not less than one damper." The pro-style hoods that go over big gas ranges in most luxury Arizona kitchens are rated well above 400 <strong>CFM</strong> (cubic feet per minute, the measure of how much air the hood pulls). That puts them over the line, so makeup air is required and your plans have to show it.</p>
 <p>Here is what that 400 CFM threshold means, why it matters even more in a tight desert home, and how builders supply makeup air.</p>
 <h2>The 400 CFM rule, straight from the code</h2>
@@ -775,7 +776,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://basc.pnnl.gov/information/pre-retrofit-assessment-combustion-appliances" target="_blank" rel="noopener noreferrer">DOE Building America Solution Center (PNNL): Combustion Appliances</a></li>
 </ul>`,
       shortAnswer: "Yes. Under IRC Section M1503.4, any range hood that can exhaust more than 400 cubic feet per minute must have makeup air supplied at about the same rate, with at least one damper. The big pro-style hoods in most Arizona custom kitchens cross that 400 CFM line, so makeup air is required.",
-      metaDescription: "IRC M1503.4 requires makeup air for any range hood over 400 CFM. Most pro-style hoods in Arizona custom kitchens cross that line. Here is what the code requires.",
+      metaDescription: "IRC M1503.4 requires makeup air for any range hood over 400 CFM, and most pro-style hoods in Arizona custom kitchens cross that line. What the code asks.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
@@ -1666,6 +1667,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-much-makeup-air-does-a-second-kitchen-or-high-cfm-hood-need-in-an-arizona-home",
       question: "How much makeup air does a second kitchen or high-CFM hood need in an Arizona home?",
+      seoTitle: "Makeup Air for a Scullery or Big Range Hood",
       answerHtml: `<p>A second kitchen or high-CFM hood needs makeup air at a rate roughly equal to what the hood exhausts. Under <strong>IRC Section M1503.6</strong>, when a fuel-burning appliance is inside the sealed house, "each exhaust system capable of exhausting in excess of 400 cubic feet per minute (0.19 m3/s) shall be mechanically or passively provided with makeup air at a rate approximately equal to the exhaust air rate." So if your scullery hood moves 600 <strong>CFM</strong> (cubic feet per minute, the measure of how much air a hood pulls), it needs about 600 CFM of fresh air coming back in. The new wrinkle with a second kitchen is that you now have two cooking zones, and each hood that clears 400 CFM is its own trigger that has to be solved on its own.</p>
 <p>This page covers how the 400 CFM rule applies to a back kitchen, how much makeup air to plan for, and how Arizona builders supply it. If you want the rule for the main kitchen hood by itself, see our page on <a href="/faq/do-i-need-makeup-air-for-a-high-cfm-range-hood-in-a-new-arizona-home">makeup air for a high-CFM range hood</a>.</p>
 <h2>The 400 CFM trigger applies to every hood, not the house total</h2>
@@ -1705,6 +1707,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "is-a-barndominium-a-good-idea-in-arizona",
       question: "Is a barndominium a good idea in Arizona?",
+      seoTitle: "Barndominiums in Arizona: Pros and Cons",
       answerHtml: `<p>A home built inside a barn-style metal or <strong>post-frame</strong> shell is a real, buildable style here, and it works well if you go in with eyes open on four things: desert heat, insurance, financing, and resale. The catch is that a steel barn was not designed for a Phoenix summer, lenders and appraisers see it as a less common home, and the resale pool is smaller than for a standard house. None of these are dealbreakers. They are reasons to plan carefully before you commit.</p>
 <p>If you build it like a real, code-built house and treat the heat, financing, and resale as design decisions up front, a barndominium can work well in Arizona. If you treat it as a cheap shortcut, it can disappoint. This page covers whether a barndominium is a good idea for you. For what a barndominium is and whether you can legally build one here, see <a href="/faq/what-is-a-barndominium-and-can-you-build-one-in-arizona">what is a barndominium and can you build one in Arizona</a>.</p>
 <h2>Will a metal barndominium stay cool in the Arizona heat?</h2>
@@ -3136,6 +3139,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "are-stucco-cracks-on-a-new-home-normal-in-arizona",
       question: "Are stucco cracks on a new home normal in Arizona?",
+      seoTitle: "Is It Normal for New Stucco to Crack?",
       answerHtml: `<p><strong>Stucco</strong>, also called cement plaster, is a wet mix that shrinks slightly as it cures and dries, and that shrinkage shows up as fine surface cracks, usually within the first weeks to months after the coats go on. That is why thin hairline cracks on new stucco are normal and expected in Arizona. Cracks narrower than about <strong>1/32 of an inch</strong> are inherent in all cement-based materials and are cosmetic, not structural. What is not normal is a crack you can fit a coin into, a diagonal <strong>stair-step</strong> crack running from a window or door corner, or any crack that keeps getting wider over time. Those can point to <strong>foundation movement</strong>, often from Arizona's expansive soils, and they deserve an inspection.</p>
 <p>So the question is not whether your stucco will crack. It will. The question is which cracks are the harmless byproduct of curing and which ones are the wall telling you something moved underneath it. Below is how to tell them apart, why Arizona soil makes the structural kind more common here, and what your builder's warranty covers.</p>
 <h2>Hairline shrinkage cracks are normal and cosmetic</h2>
@@ -4263,6 +4267,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-to-file-an-roc-complaint-and-recovery-fund-arizona",
       question: "What can I do if my Arizona builder does bad work (ROC complaint + Recovery Fund)?",
+      seoTitle: "Bad Builder Work in AZ: ROC Complaint Steps",
       answerHtml: `<p>Arizona gives you a clear, two-step path through the state when a licensed builder's work falls short. First, file a complaint with the <strong>Arizona Registrar of Contractors</strong>, the agency that licenses and disciplines contractors, within <strong>two years</strong> of the close of escrow or move-in on a new home. The agency investigates, can order the builder to fix the work, and can suspend or revoke the license. Second, if the builder still will not make it right, you may claim from the <strong>Residential Contractors' Recovery Fund</strong>, a state fund that pays homeowners up to <strong>$30,000</strong> in actual damages caused by a licensed residential contractor.</p>
 <p>This path exists because Arizona licenses builders for exactly this reason. You do not have to start with an expensive lawsuit. The state has a process built to hold a licensed builder accountable, and a fund to pay you when the builder cannot or will not.</p>
 <h2>Step one: file a complaint with the Registrar of Contractors</h2>
@@ -10305,7 +10310,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-scullery-or-back-kitchen-and-do-you-need-one",
       question: "What is a scullery or back kitchen, and do you need one?",
-      seoTitle: "Scullery or Back Kitchen: What It Is, Do You Need One",
+      seoTitle: "Scullery or Back Kitchen: Do You Need One?",
       answerHtml: `<p>Behind the main kitchen, where the real cooking, prep, and cleanup happen out of sight, sits the <strong>scullery</strong>, also called a <strong>back kitchen</strong> or <strong>messy kitchen</strong>. It usually holds a second sink, a dishwasher, plenty of counter, and often a cooktop or second oven. The point is simple: the main kitchen stays clean and beautiful for guests while the dishes, the small appliances, and the cooking mess hide in the scullery. You need one if you cook seriously or entertain often and want the show kitchen to stay open and uncluttered in the great room.</p>
 <p>The scullery has become one of the most requested features in higher-end Arizona custom homes, and the reason is the open floor plan. When the kitchen sits on display in the great room, homeowners want a second space to absorb the work. Below is what a scullery includes, how it differs from a butler's pantry, the ventilation a second cooking space needs in a sealed Arizona home, and how to decide if it earns its place in your plan.</p>
 <h2>What a scullery includes</h2>
@@ -10899,6 +10904,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-i-build-my-own-house-in-arizona",
       question: "Can I build my own house in Arizona?",
+      seoTitle: "Build Your Own House in Arizona: The Rules",
       answerHtml: `<p>State law has an <strong>owner-builder exemption</strong> that lets you act as your own contractor on property you own, without holding a contractor license. The rule lives in <strong>A.R.S. 32-1121(A)(5)</strong>, which exempts owners who improve their property or build structures on it and who do the work themselves, use their own employees, or hire licensed contractors. The catch is that the exemption only covers the licensing question. You still pull permits, pass inspections, and follow the building code like any builder. You also cannot sell or rent the home for one year after it is finished without triggering a legal presumption that you built it to sell.</p>
 <h2>What the owner-builder exemption actually lets you do</h2>
 <p>The owner-builder exemption lets you legally manage and build a home on your own land without a license from the <strong>Arizona Registrar of Contractors (ROC)</strong>. Under A.R.S. 32-1121(A)(5), the exemption applies to "owners of property who improve such property or who build or improve structures or appurtenances on such property and who do the work themselves, with their own employees or with duly licensed contractors."</p>
@@ -11859,6 +11865,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-roof-types-and-slopes-do-luxury-arizona-communities-allow",
       question: "What roof types and slopes do luxury Arizona communities allow?",
+      seoTitle: "Roof Types in Luxury Arizona Communities",
       answerHtml: `<p>The bright red barrel tile people often picture on a Southwest home is banned outright in several of the Valley's most exclusive communities. <strong>FireRock</strong> in Fountain Hills limits pitched roofs to a maximum slope of <strong>5/12</strong> and requires that "reflectance of the roof material shall not exceed 50%," and it states plainly that "red 'Mexican tile' or 'barrel tile' roof shall not be permitted." <strong>Troon North</strong> in Scottsdale goes the flat-roof route, requiring flat roof surfaces to be tan with "a minimum Solar Reflectance Index (SRI) of 64." The goal across these communities is a roof that reads as quiet desert and does not glare or stand out across open views.</p>
 <p>This page explains the slope limits, the reflectance caps, why barrel tile gets banned, and how to pick a roof that passes review. For the wider design check these rules sit inside, see <a href="/faq/how-does-hoa-design-review-affect-building-a-custom-home">how HOA design review affects building a custom home</a>.</p>
 <h2>The roof slopes luxury communities allow</h2>
@@ -12337,6 +12344,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-permit-to-enclose-a-patio-in-arizona",
       question: "Do I need a permit to enclose a patio in Arizona?",
+      seoTitle: "Enclosing a Patio in Arizona: Permit Rules",
       answerHtml: `<p>The line that decides it is how open the space stays. A covered patio that keeps most of its walls open is a patio cover. The moment you add walls, glass, or insulation, or you heat and cool the space, the city treats it as a <strong>room addition</strong>, and that requires a permit, plans, and inspections. Once you close those walls in, it becomes conditioned or enclosed living space and falls under the full building code. A bare screen room sometimes needs less review, but a finished <strong>Arizona room</strong> never does.</p>
 <h2>The 65 percent rule that decides everything</h2>
 <p>The rule that separates a patio cover from a permitted room addition is the <strong>65 percent openness test</strong>. Arizona cities and counties follow the International Residential Code (IRC), and a structure only counts as an open patio cover if enough of its walls stay open. The Maricopa County sunroom directive states the standard plainly: a structure stays a patio cover when "the open or glazed area of the longer wall and one additional wall is equal to at least sixty five percent" of the wall area below six feet eight inches. Close in more than that, and the city reclassifies it as a habitable room.</p>
@@ -12381,6 +12389,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-permit-to-remodel-my-house-in-arizona",
       question: "Do I need a permit to remodel my house in Arizona?",
+      seoTitle: "Arizona Remodel Permits: What Needs One",
       answerHtml: `<p>The trigger is any change to the structure, electrical, plumbing, or mechanical systems of the house. That covers moving or removing a wall, adding or relocating outlets and circuits, moving a sink or adding a bathroom, and touching gas lines or HVAC. You do not need a <strong>building permit</strong> for <strong>cosmetic</strong> work: paint, flooring, cabinets, trim, and swapping a fixture one for one. Rules and thresholds vary by city and by unincorporated county, so confirm with your local building department before you start. When in doubt, a quick call to the permit counter is free and saves you from a stop-work order later.</p>
 <h2>What remodel work needs a permit</h2>
 <p>A permit is required whenever your remodel touches structure, electrical, plumbing, mechanical, or gas. Those five categories are the trigger, and most real remodels hit at least one of them. The City of Scottsdale puts it simply: a permit is required to move walls and to add electrical or plumbing features. Other Arizona cities follow the same logic, because they all build on the same model code.</p>
@@ -14911,6 +14920,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-domestic-water-improvement-district-and-how-does-it-work-in-arizona",
       question: "What is a domestic water improvement district and how does it work in Arizona?",
+      seoTitle: "What Is a DWID? Arizona Water Districts",
       answerHtml: `<p>When no city or company will serve a rural area, Arizona lets residents build and own their own water system through a <strong>domestic water improvement district (DWID)</strong>, a local public taxing district that constructs, buys, or runs a water system for an area with no city water line. Arizona authorizes it under <strong>A.R.S. Title 48, Chapter 6</strong>, the law for county special taxing districts. The way it works is simple. Property owners in an unincorporated area <strong>petition the county board of supervisors</strong> to form the district. The board holds a hearing and votes. If it passes, the district becomes a small government body. It can charge fees, levy assessments, and even sell bonds to pay for water lines, wells, storage, and delivery. Arizona statute defines it as "a county improvement district that is formed for the purpose of constructing or improving a domestic water delivery system or purchasing an existing domestic water delivery system."</p>
 <p>Here is what a DWID is, how one forms, how it pays for water, and the real Rio Verde Foothills case where residents tried to form one.</p>
 <h2>What a domestic water improvement district is</h2>
