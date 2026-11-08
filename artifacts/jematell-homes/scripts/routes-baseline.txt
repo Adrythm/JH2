@@ -41,6 +41,7 @@
 /where-we-build/cave-creek
 /where-we-build/fountain-hills
 /where-we-build/carefree
+/where-we-build/mesa
 /where-we-build/casa-grande
 /where-we-build/apache-junction
 /where-we-build/surprise

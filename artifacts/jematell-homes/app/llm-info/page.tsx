@@ -20,7 +20,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Where does Jematell Homes build?",
-    a: "Jematell Homes builds across the greater Phoenix metro, including Scottsdale, Rio Verde, Phoenix, Cave Creek, Fountain Hills, Carefree, Casa Grande, and Apache Junction, Arizona.",
+    a: "Jematell Homes builds across the greater Phoenix metro, including Scottsdale, Rio Verde, Phoenix, Cave Creek, Fountain Hills, Carefree, Mesa, Casa Grande, and Apache Junction, Arizona.",
   },
   {
     q: "Is Jematell Homes a licensed contractor?",
@@ -126,6 +126,7 @@ export default function LlmInfo() {
             <li>Carefree, AZ</li>
             <li>Casa Grande, AZ</li>
             <li>Apache Junction, AZ</li>
+            <li>Mesa, AZ</li>
             <li>Greater Phoenix metropolitan area</li>
           </ul>
         </Section>

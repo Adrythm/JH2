@@ -5447,5 +5447,243 @@
         "text": "Relax while we manage every detail, throughout the entire process."
       }
     ]
+  },
+  "mesa": {
+    "sourceUrl": "https://jematellhomes.com/where-we-build/mesa",
+    "title": "Custom Home Builder in Mesa, AZ",
+    "description": "Custom home builder in Mesa, AZ. We design to Mesa's RS zoning and 2024 codes, run the city permit, and build on your lot or ours. ROC# 339367.",
+    "ogImage": "/images/cdn/e812c4c3-4996-483c-8f4c-59f6aa6d43b7__Kitchen.webp",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/cdn/e812c4c3-4996-483c-8f4c-59f6aa6d43b7__Kitchen.webp",
+        "alt": "Custom kitchen in a Jematell Homes custom home"
+      },
+      {
+        "type": "h1",
+        "text": "MESA"
+      },
+      {
+        "type": "h2",
+        "text": "BUILD A HOME IN MESA"
+      },
+      {
+        "type": "p",
+        "text": "Jematell Homes is a family-owned custom home builder for Mesa, Arizona. We build custom homes and homes on your own lot inside Mesa city limits, from established neighborhoods to the larger homesites of northeast Mesa near Red Mountain, the Usery Mountains and Las Sendas, and we run every Mesa build from our Scottsdale office. Before a plan is drawn we check what the lot allows under Mesa's zoning, which codes the plans will be reviewed against, and how water and sewer reach the site."
+      },
+      {
+        "type": "img",
+        "src": "/images/cdn/5afe092e-b5ff-4ff2-8380-f9ff2b884c07__01-Front-Of-Home-Twilight.webp",
+        "alt": "Front of a completed Jematell Homes custom home at twilight"
+      },
+      {
+        "type": "h2",
+        "text": "Full-Service Design & Project Management"
+      },
+      {
+        "type": "h4",
+        "text": "Site Selection"
+      },
+      {
+        "type": "p",
+        "text": "Find the right lot in Mesa, or build on the one you own"
+      },
+      {
+        "type": "h4",
+        "text": "Material Selection"
+      },
+      {
+        "type": "p",
+        "text": "Choose quality materials for every detail"
+      },
+      {
+        "type": "h4",
+        "text": "Funding"
+      },
+      {
+        "type": "p",
+        "text": "Navigate financing options with expert guidance"
+      },
+      {
+        "type": "h4",
+        "text": "Final Inspections"
+      },
+      {
+        "type": "p",
+        "text": "Rigorous quality checks throughout"
+      },
+      {
+        "type": "h4",
+        "text": "Design"
+      },
+      {
+        "type": "p",
+        "text": "Collaborate with our architects on your vision"
+      },
+      {
+        "type": "h4",
+        "text": "Weekly Updates"
+      },
+      {
+        "type": "p",
+        "text": "Stay informed on your project's progress"
+      },
+      {
+        "type": "h4",
+        "text": "Pre-Construction"
+      },
+      {
+        "type": "p",
+        "text": "Thorough planning before breaking ground"
+      },
+      {
+        "type": "h4",
+        "text": "Permitting"
+      },
+      {
+        "type": "p",
+        "text": "Handle all permits, plan review and inspections with the City of Mesa"
+      },
+      {
+        "type": "h3",
+        "text": "Building In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Mesa's single-residence zoning runs from RS-6 on 6,000 square foot lots up to RS-90 on lots of 90,000 square feet. An RS-6 lot needs a 10 foot front yard, 5 foot sides and a 20 foot rear yard, while an RS-43 lot of about an acre needs 22 feet in front, 10 on each side and 30 in the rear, and its garage must sit 30 feet back from the street. Every district caps height at 30 feet, and lot coverage falls from 60% on the small lots to 40% on an acre. Our guide to Mesa zoning and setbacks lists every district."
+      },
+      {
+        "type": "p",
+        "text": "Those numbers decide how large a home can be and where it sits, so we read the lot's district first and draw the floor plan to fit it, rather than cutting it back in plan review."
+      },
+      {
+        "type": "h3",
+        "text": "Construction In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "The City of Mesa reviews the plans, issues the permit and inspects the build. Mesa adopted the 2024 International Residential Code and the 2023 National Electrical Code with local amendments, for permit applications filed on or after January 8, 2026, so a plan set drawn for an older Mesa permit is updated before it goes in. Our guide to the Mesa adopted building codes lists each one."
+      },
+      {
+        "type": "p",
+        "text": "Plans go in through the city's online DIMES portal, and Mesa returns written comments or an approval within 10 working days on a standard residential review, as our guide to Mesa residential permit requirements explains. The city then inspects in order from foundation to final and the certificate of occupancy, covered in our guide to Mesa building inspections. We handle the permit, schedule every inspection, and send you a written update every week of construction."
+      },
+      {
+        "type": "h3",
+        "text": "Building On Your Lot In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Already own land in Mesa? We build a new home on a lot you already own, or on one our licensed real estate agents help you find. Most custom homesites sit on the city's northeast and eastern edges, and those lots tend to need more site work than an infill lot with utilities at the street: a longer driveway, a utility extension, grading around desert washes, or a septic system approved through Maricopa County where there is no city sewer. We price each of those once we have seen the lot."
+      },
+      {
+        "type": "h3",
+        "text": "Water And Sewer In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Inside the city's service area, a new home connects to City of Mesa water and sewer and pays the city's water and wastewater capacity fees, which are set by the size of the water meter, so a meter sized to the home keeps that charge down. A lot outside the city's water service area works differently, with its own provider's connection charges or a well, so we confirm who serves a parcel before you buy or design."
+      },
+      {
+        "type": "h3",
+        "text": "Building Costs In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "How much does it cost to build a custom home in Mesa? The house itself costs about the same across the Valley, because the same trades and suppliers serve every city. What changes the total in Mesa is the lot, its site work and the city's charges: a building permit priced from the home's construction valuation, a public safety impact fee, the water and sewer capacity fees, and an optional expedited review that costs as much again as the permit. Our Mesa building cost guide works through the city's current figures, and our guide to Mesa permit and impact fees shows how each charge is built. On a cost-plus build we share every subcontractor bid with you before work begins."
+      },
+      {
+        "type": "h3",
+        "text": "Casitas And Guest Houses In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Mesa allows one attached and one detached casita or accessory dwelling unit on a single-family lot, each up to 75% of the main home's interior area or 1,000 square feet, whichever is less, with a five foot side and rear setback and no owner-occupancy rule. Our answer on Mesa ADU and casita rules covers the details, and we build casitas and guest houses with a new home or on a lot you already own."
+      },
+      {
+        "type": "h3",
+        "text": "Buying Or Building In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Is it cheaper to build or buy a house in Mesa? Building usually costs more than buying a resale home of the same size, because you pay for new construction, current codes and your own plan. In return you get the layout, lot and finishes you chose and new systems under warranty. Starting from one of our in-house floor plans saves design time, and on those plans we can quote a flat-rate build cost up front. Our construction financing page explains how a build is paid for, draw by draw."
+      },
+      {
+        "type": "h3",
+        "text": "Activities In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Mesa is the largest city in the East Valley, with the Usery Mountain trails and the Salt River on its northeast edge and the Tonto National Forest beyond. Downtown Mesa has the Mesa Arts Center, and spring training baseball comes to the city every March."
+      },
+      {
+        "type": "h3",
+        "text": "Education In Mesa"
+      },
+      {
+        "type": "p",
+        "text": "Mesa Public Schools serves most of the city, alongside charter and private schools. Mesa Community College and Arizona State University's Polytechnic campus in southeast Mesa are both close to home."
+      },
+      {
+        "type": "h1",
+        "text": "Explore Floor Plans"
+      },
+      {
+        "type": "p",
+        "text": "Every home begins with the floor plan. Browse various styles, sizes, and configurations to find the perfect foundation for your vision."
+      },
+      {
+        "type": "img",
+        "src": "/images/cdn/983545ec-db2e-4602-a7be-c4d2e224e657__1849-Square-Foot-Floor-Plan.webp",
+        "alt": "Custom home floor plan layout showcasing open-concept living, bedrooms, and modern design"
+      },
+      {
+        "type": "h4",
+        "text": "Under 2,000 Sq Ft"
+      },
+      {
+        "type": "p",
+        "text": "Efficient designs from under 2,000 sq ft3-4 Bedrooms | 2-2.5 Baths"
+      },
+      {
+        "type": "img",
+        "src": "/images/cdn/2cd21098-b966-4836-96ff-1694ab9e0fec__2616-Square-Foot-Floor-Plan.webp",
+        "alt": "Single-story custom home floor plan designed for modern living"
+      },
+      {
+        "type": "h4",
+        "text": "2,000 - 3,000 Sq Ft"
+      },
+      {
+        "type": "p",
+        "text": "Spacious living from 2,000 - 3,000 sq ft3-4 Bedrooms | 2.5-3.5 Baths"
+      },
+      {
+        "type": "img",
+        "src": "/images/cdn/280d2393-74f2-473b-95d6-92343503f01a__3771-Square-Foot-Floor-Plan.webp",
+        "alt": "Luxury home floor plan with open living areas and spacious bedrooms"
+      },
+      {
+        "type": "h4",
+        "text": "Over 3,000 Sq Ft"
+      },
+      {
+        "type": "p",
+        "text": "Luxury homes over 3,000 sq ft4+ Bedrooms | 3.5+ Baths"
+      },
+      {
+        "type": "img",
+        "src": "/images/cdn/ac32514a-52c9-496a-970e-ccea56485718__018_Aerial-View-1--min.webp",
+        "alt": "A newly constructed single-story house with a gray tiled roof, white exterior walls, and a concrete driveway, situated in a desert landscape with mountains in the background."
+      },
+      {
+        "type": "h2",
+        "text": "BEGIN YOUR BUILD"
+      },
+      {
+        "type": "p",
+        "text": "Relax while we manage every detail, throughout the entire process."
+      }
+    ]
   }
 }

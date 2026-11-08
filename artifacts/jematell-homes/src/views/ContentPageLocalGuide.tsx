@@ -284,6 +284,43 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/reference-library/building-codes/apache-junction-building-permit-and-impact-fees",
     only: "apache-junction",
   },
+  // ---- Internal: Mesa local guide ----
+  { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "mesa" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "mesa" },
+  {
+    re: /Mesa zoning and setbacks/i,
+    href: "/reference-library/building-codes/mesa-residential-zoning-and-setbacks",
+    only: "mesa",
+  },
+  {
+    re: /Mesa adopted building codes/i,
+    href: "/reference-library/building-codes/mesa-adopted-building-codes",
+    only: "mesa",
+  },
+  {
+    re: /Mesa residential permit requirements/i,
+    href: "/reference-library/building-codes/mesa-residential-building-permit-requirements",
+    only: "mesa",
+  },
+  {
+    re: /Mesa building inspections/i,
+    href: "/reference-library/building-codes/mesa-building-inspections-process",
+    only: "mesa",
+  },
+  {
+    re: /Mesa building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-mesa",
+    only: "mesa",
+  },
+  {
+    re: /Mesa permit and impact fees/i,
+    href: "/reference-library/building-codes/mesa-building-permit-and-impact-fees",
+    only: "mesa",
+  },
+  { re: /Mesa ADU and casita rules/i, href: "/faq/adu-and-casita-rules-in-mesa-arizona", only: "mesa" },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "mesa" },
+  { re: /in-house floor plans/i, href: "/floor-plans", only: "mesa" },
+  { re: /construction financing/i, href: "/financing", only: "mesa" },
   // ---- Internal: Surprise local guide ----
   { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "surprise" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "surprise" },
