@@ -75,6 +75,16 @@ const SERVICE_CALLOUTS: Record<string, Callout> = {
  */
 const TOPIC_CALLOUTS: { test: RegExp; callout: Callout }[] = [
   {
+    test: /(^|-)mesa(-|$)/,
+    callout: {
+      href: "/where-we-build/mesa",
+      kicker: "Mesa",
+      title: "Building in Mesa?",
+      body: "How we build custom homes in Mesa, and the city rules that shape a build there, from RS zoning and the 2024 codes to the permit, the inspections and the water and sewer capacity fees.",
+      cta: "See our Mesa page",
+    },
+  },
+  {
     test: /rio-verde/,
     callout: {
       href: "/where-we-build/rio-verde",

@@ -27,6 +27,7 @@ export const locations: LocationItem[] = [
   { slug: "cave-creek", name: "Cave Creek", tagline: "Rugged Sonoran charm & big views" },
   { slug: "fountain-hills", name: "Fountain Hills", tagline: "Hillside homes above the fountain" },
   { slug: "carefree", name: "Carefree", tagline: "Boulder serenity & dark desert skies" },
+  { slug: "mesa", name: "Mesa", tagline: "East Valley homesites below Red Mountain" },
   { slug: "casa-grande", name: "Casa Grande", tagline: "Wide-open land & room to grow" },
   {
     slug: "apache-junction",

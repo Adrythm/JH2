@@ -335,7 +335,7 @@ export function relationsForReference(entry: ReferenceEntry): RelationSet {
  *
  * A city page can span more than one jurisdiction (Casa Grande builds fall
  * under the city or unincorporated Pinal County), and a jurisdiction can map
- * to no city page yet (Paradise Valley, Mesa). Both maps are explicit so that
+ * to no city page yet (Maricopa County has none of its own). Both maps are explicit so that
  * adding a city page or a jurisdiction is a one-line change here, and the
  * city-page side is keyed on SERVICE_LINKS so a page that does not exist is
  * simply skipped rather than linked to a 404.
@@ -355,6 +355,7 @@ const CITY_JURISDICTIONS: Record<string, string[]> = {
   "rio-verde": ["maricopa-county"],
   "paradise-valley": ["paradise-valley"],
   surprise: ["surprise"],
+  mesa: ["mesa"],
 };
 
 /** Jurisdiction slug -> city page slugs where those rules apply. */

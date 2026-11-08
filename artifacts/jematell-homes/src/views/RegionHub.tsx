@@ -381,6 +381,29 @@ const TOWNS: Record<string, Town> = {
       },
     ],
   },
+  mesa: {
+    galleryLocations: ["Mesa"],
+    heading: "Building a custom home in Mesa",
+    lead:
+      "Inside Mesa city limits the City of Mesa reviews the plans, issues the permit and inspects the build. Mesa moved to the 2024 International Codes for applications filed on or after January 8, 2026, and its RS zoning districts, from RS-6 lots to RS-90 homesites, set the yards, height and lot coverage before a floor plan is drawn.",
+    points: [
+      {
+        title: "The 2024 codes, since January 2026",
+        body: "Mesa adopted the 2024 International Residential Code and the 2023 National Electrical Code with local amendments in City Code Title 4, so a plan set drawn for an older Mesa permit is updated before it is submitted.",
+        href: `${REF}/mesa-adopted-building-codes`,
+      },
+      {
+        title: "The district sets the yards",
+        body: "An RS-6 lot needs a 10 foot front, 5 foot sides and a 20 foot rear yard; an RS-43 acre needs 22 feet in front, 10 on each side and 30 in the rear, with the garage 30 feet back. Every district caps height at 30 feet.",
+        href: `${REF}/mesa-residential-zoning-and-setbacks`,
+      },
+      {
+        title: "Online review in about two weeks",
+        body: "Plans go in through the city's DIMES portal, and Mesa returns written comments or an approval within 10 working days on a standard residential review. We handle the permit for you.",
+        href: `${REF}/mesa-residential-building-permit-requirements`,
+      },
+    ],
+  },
 };
 
 export function hasRegionHub(region: string): boolean {

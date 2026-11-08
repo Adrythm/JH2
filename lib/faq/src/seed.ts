@@ -6686,7 +6686,7 @@ export const faqSeed: FaqSeed = {
 <p>The cost of buying a home in Mesa is the market price of a house someone else already designed, plus closing costs and whatever you change after you move in. The cost of building is the lot, the build at the per-square-foot range above, and the city fees on this page. Building usually costs more than buying a resale home of the same size, because you pay for new construction, current codes, and your own plan. In return you get the layout, lot, and finishes you chose, new systems under warranty, and none of the remodel bill that often follows a purchase. Compare the two on the total you would spend over your first few years in the house, not on the price tag alone.</p>
 <p>Starting from an existing plan is one of the simplest ways to save. On our own in-house <a href="/floor-plans">floor plans</a> we can quote a flat-rate build cost up front, and any plan can be changed to fit your lot, which costs less in design time than drawing a home from scratch.</p>
 <h2>Building a custom home in Mesa with Jematell Homes</h2>
-<p>We build custom homes in Mesa and across the East Valley. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Mesa fees, codes, and site work above become line items for your lot. Browse our <a href="/custom-homes">custom homes</a>, see <a href="/where-we-build">where we build</a>, or, if you already own land, start with how we <a href="/build-on-your-lot">build on your lot</a>. When you are ready to price a plan, <a href="/contact">contact us</a>.</p>
+<p>We build custom homes in Mesa and across the East Valley. On a cost-plus build you get an itemized estimate before we break ground and see the actual subcontractor bids, so the Mesa fees, codes, and site work above become line items for your lot. See <a href="/where-we-build/mesa">how we build custom homes in Mesa</a>, browse our <a href="/custom-homes">custom homes</a>, or, if you already own land, start with how we <a href="/build-on-your-lot">build on your lot</a>. When you are ready to price a plan, <a href="/contact">contact us</a>.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.mesaaz.gov/files/assets/public/v/7/government/omb/fees-charges/development-services-fees.pdf" target="_blank" rel="noopener noreferrer">City of Mesa: Schedule of Fees and Charges, Development Services (July 2026)</a></li>
@@ -6703,7 +6703,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
       tags: ["cost", "mesa", "research-phase"],
       relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-phoenix", "adu-and-casita-rules-in-mesa-arizona"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot", "floor-plans"],
+      relatedServiceSlugs: ["where-we-build/mesa", "custom-homes", "build-on-your-lot", "floor-plans"],
       pillarBlogSlug: "custom-homes-mesa-east-valley-arizona",
       featured: false,
       sortOrder: 438,
@@ -9716,7 +9716,7 @@ export const faqSeed: FaqSeed = {
 <p>This flexibility traces back to the state law Mesa was implementing. Ordinance 5883 says it "is intended to comply with the requirements of A.R.S. 9-461.18." That statute forced cities over 75,000 people to allow ADUs. It also bars a city from requiring "a familial, marital, employment or other preexisting relationship" between the home's owner and the ADU's occupant. And it protects the right to rent the unit as long-term housing. Mesa chose not to layer an owner-occupancy rule on top. So the unit stands on its own as rentable housing, which is a real edge for an investor weighing Mesa against Scottsdale.</p>
 <p>Short-term rental rules are a separate question and can change. Confirm the current ADU and short-term-rental terms with the City of Mesa before you count on rental income. For the statewide rules these city standards build on, see our pages on <a href="/faq/arizona-adu-requirements">Arizona's ADU requirements</a> and <a href="/faq/which-arizona-cities-are-required-to-allow-adus">which Arizona cities are required to allow ADUs</a>.</p>
 <h2>How Jematell Homes helps</h2>
-<p>We design to your lot's zoning envelope from the first sketch. If you are planning a custom home in Scottsdale, Rio Verde, or the greater Phoenix metro, we are happy to walk through your project.</p>
+<p>We design to your lot's zoning envelope from the first sketch, and we build in Mesa: a casita can go up with a new home or on a lot you already own. See <a href="/where-we-build/mesa">how we build custom homes in Mesa</a> or our <a href="/casitas-and-guest-houses">casitas and guest houses</a> page, and we are happy to walk through your project.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://mesa.legistar.com/View.ashx?M=F&amp;ID=13302818&amp;GUID=8F683E6F-8C99-409D-8469-DFD318CA8679" target="_blank" rel="noopener noreferrer">City of Mesa Ordinance 5883 (Accessory Dwelling Units; Zoning Ordinance Section 11-31-3)</a></li>
@@ -9729,7 +9729,7 @@ export const faqSeed: FaqSeed = {
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "mesa", "research-phase"],
       relatedFaqSlugs: ["arizona-adu-requirements", "which-arizona-cities-are-required-to-allow-adus", "cost-to-build-casita-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-mesa"],
-      relatedServiceSlugs: ["custom-homes"],
+      relatedServiceSlugs: ["where-we-build/mesa", "casitas", "custom-homes"],
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 309,
