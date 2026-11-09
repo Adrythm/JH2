@@ -1256,6 +1256,62 @@
       },
       {
         "type": "h2",
+        "text": "The First Lot Question in Each Town We Build In"
+      },
+      {
+        "type": "p",
+        "text": "The checks above apply everywhere, but each town has one rule that tends to decide the house before anything else does. This is where we start on a lot in each of the towns we serve."
+      },
+      {
+        "type": "li",
+        "text": "[Scottsdale](/where-we-build/scottsdale): lots in the north and east of the city keep a share of permanent natural desert under the city's ESL rules, anywhere from roughly 15 to 80 percent of the lot as the ground gets steeper, so we start by measuring what you can actually build on."
+      },
+      {
+        "type": "li",
+        "text": "[Paradise Valley](/where-we-build/paradise-valley): a slope of 10 percent or more brings the Town's hillside rules into play. The steeper the site, the less of it you may grade, and a hillside committee signs off on the plans before the permit."
+      },
+      {
+        "type": "li",
+        "text": "[Phoenix](/where-we-build/phoenix): the district name tells you the smallest lot allowed, from R1-6 at 6,000 square feet to RE-43 at about an acre, and no home in those districts may rise above 30 feet or two stories."
+      },
+      {
+        "type": "li",
+        "text": "[Mesa](/where-we-build/mesa): custom lots tend to sit out on the northeast and east side of the city, where you may be paying for a longer drive, bringing utilities in, or getting a septic system approved by the county because sewer has not reached the street."
+      },
+      {
+        "type": "li",
+        "text": "[Surprise](/where-we-build/surprise): water service is not the same across the city, since a private company serves some neighborhoods, and a lot inside a mapped flood zone needs its own permit from the county's flood control district before grading."
+      },
+      {
+        "type": "li",
+        "text": "[Cave Creek](/where-we-build/cave-creek): under the Town's desert rural zoning a house may cover only 10 to 15 percent of the lot and rise no higher than 25 feet, so even an acre or more holds a fairly modest footprint."
+      },
+      {
+        "type": "li",
+        "text": "[Carefree](/where-we-build/carefree): the Town's 24 foot height cap is measured from the original ground beneath each part of the house, so a sloped lot earns no extra height, and the Town also limits the total area you may clear."
+      },
+      {
+        "type": "li",
+        "text": "[Fountain Hills](/where-we-build/fountain-hills): nearly every new home here needs fire sprinklers, a Town requirement since 2008, and neighborhoods such as FireRock Ridge layer their own review and a lower height cap over the Town's."
+      },
+      {
+        "type": "li",
+        "text": "[Rio Verde](/where-we-build/rio-verde): this is county land, not a city, so Maricopa County reviews the plans and does the inspections, and the washes that cross many Foothills parcels usually settle where the house and driveway can go."
+      },
+      {
+        "type": "li",
+        "text": "[Casa Grande](/where-we-build/casa-grande): start with the water provider. A lot on Arizona Water Company's lines is covered by the company's state designation of a 100-year supply, and a lot that relies on a private well or hauled water is not."
+      },
+      {
+        "type": "li",
+        "text": "[Apache Junction](/where-we-build/apache-junction): check first whether the parcel falls inside the city or in unincorporated Pinal or Maricopa County, because the answer changes which building codes apply and which office approves the well and septic."
+      },
+      {
+        "type": "p",
+        "text": "For any of these towns, our [Build on Your Lot](/build-on-your-lot) page collects our answers on land, water, permits and paying for the build."
+      },
+      {
+        "type": "h2",
         "text": "Finding the Right Builder for a BYOL Project"
       },
       {
@@ -1280,7 +1336,7 @@
       },
       {
         "type": "p",
-        "text": "At Jematell Homes, we build custom and semi-custom homes on private lots across the Phoenix metro, including Scottsdale, Mesa, Gilbert, Chandler, Maricopa, Queen Creek, and Rio Verde. Our team walks through the site evaluation and pre-construction process with buyers before any commitments are made, because a lot of what determines project success is figured out before design begins."
+        "text": "At Jematell Homes, we take on this kind of build in all eleven towns listed above, on land you already own, or with help from our licensed real estate agents if you are still looking for a lot. Our team walks through the site evaluation and pre-construction process with buyers before any commitments are made, because a lot of what determines project success is figured out before design begins."
       },
       {
         "type": "h2",
@@ -1292,7 +1348,7 @@
       },
       {
         "type": "p",
-        "text": "A realistic BYOL custom home timeline in Arizona looks something like this: land due diligence and soils testing runs four to eight weeks, design and plan development runs two to four months depending on complexity, permitting through the city or Maricopa County runs four to twelve weeks, and construction runs ten to sixteen months. Total time from land purchase to move-in is commonly 18 to 24 months for a fully custom build on your own lot."
+        "text": "A realistic BYOL custom home timeline in Arizona looks something like this: land due diligence and soils testing runs four to eight weeks, design and plan development runs two to four months depending on complexity, plan review and permitting through the city or county runs 2 to 4 months, depending on jurisdiction, and construction runs ten to sixteen months. Total time from land purchase to move-in is commonly 18 to 24 months for a fully custom build on your own lot."
       },
       {
         "type": "p",
@@ -1328,11 +1384,11 @@
       },
       {
         "type": "h3",
-        "text": "Does Jematell Homes build on private lots in Mesa, Gilbert, Chandler, and Scottsdale?"
+        "text": "Which towns does Jematell Homes build on private lots in?"
       },
       {
         "type": "p",
-        "text": "Yes. Jematell Homes builds on private lots across the Phoenix metro including Mesa, Gilbert, Chandler, Scottsdale, Maricopa, Queen Creek, and Rio Verde. Contact us to discuss your land and what the build process looks like for your specific parcel."
+        "text": "Eleven towns today: Scottsdale and Paradise Valley; Phoenix, Mesa and Surprise elsewhere in the Valley; the desert towns of Cave Creek, Carefree, Fountain Hills and Rio Verde; and Casa Grande and Apache Junction in Pinal County. Contact us to talk through your land and what the build process looks like for your parcel."
       },
       {
         "type": "h3",
@@ -6608,7 +6664,7 @@
       },
       {
         "type": "p",
-        "text": "At Jematell Homes, we build custom and semi-custom homes across the Phoenix metro including Scottsdale, Mesa, Gilbert, Chandler, Maricopa, Queen Creek, and Rio Verde. We are glad to answer every question on this list and put the answers in writing."
+        "text": "At Jematell Homes, we build custom and semi-custom homes across the Phoenix metro and Pinal County, from Scottsdale, Paradise Valley and Phoenix to Mesa, Surprise, Rio Verde, Cave Creek, Carefree, Fountain Hills, Casa Grande and Apache Junction. We are glad to answer every question on this list and put the answers in writing."
       },
       {
         "type": "h2",
@@ -6644,7 +6700,7 @@
       },
       {
         "type": "p",
-        "text": "Yes. Jematell Homes builds custom and semi-custom homes across the Phoenix metro including Scottsdale, Mesa, Gilbert, Chandler, Maricopa, Queen Creek, and Rio Verde. Contact us to discuss your project and get direct answers to every question on this list."
+        "text": "Yes. Jematell Homes builds custom and semi-custom homes in Scottsdale, Paradise Valley, Phoenix, Mesa, Surprise, Rio Verde, Cave Creek, Carefree and Fountain Hills, and in Casa Grande and Apache Junction in Pinal County. Contact us to discuss your project and get direct answers to every question on this list."
       },
       {
         "type": "h3",
@@ -6856,7 +6912,7 @@
       },
       {
         "type": "p",
-        "text": "Does Jematell Homes build custom homes in Rio Verde? Yes. Jematell Homes builds custom and semi-custom homes in Rio Verde and across the Phoenix metro including Scottsdale, Mesa, Gilbert, Chandler, and Maricopa. Contact us to discuss your land and get a realistic picture of your build scope and budget."
+        "text": "Does Jematell Homes build custom homes in Rio Verde? Yes. Most of the homes in our gallery are in Rio Verde, and we also build across the Phoenix metro, including Scottsdale, Cave Creek, Carefree, Fountain Hills and Mesa. Contact us to discuss your land and get a realistic picture of your build scope and budget."
       },
       {
         "type": "h2",
@@ -7264,7 +7320,7 @@
       },
       {
         "type": "p",
-        "text": "At Jematell Homes, we build custom and semi-custom homes in both markets and across the Phoenix metro including Mesa, Gilbert, Chandler, Maricopa, and Paradise Valley. If you are evaluating both locations and want a straight conversation about what your budget realistically builds in each area, we are glad to have it."
+        "text": "At Jematell Homes, we build custom and semi-custom homes in both markets, and across the Phoenix metro in Paradise Valley, Phoenix, Mesa, Cave Creek, Carefree and Fountain Hills. If you are evaluating both locations and want a straight conversation about what your budget realistically builds in each area, we are glad to have it."
       },
       {
         "type": "h2",
@@ -7320,7 +7376,7 @@
       },
       {
         "type": "p",
-        "text": "Yes. Jematell Homes builds custom and semi-custom homes in Rio Verde, Scottsdale, and across the Phoenix metro including Mesa, Gilbert, Chandler, and Maricopa. Contact us to discuss your land and build goals in either market."
+        "text": "Yes. Jematell Homes builds custom and semi-custom homes in Rio Verde and Scottsdale, and elsewhere in the Phoenix metro and Pinal County, from Paradise Valley and Mesa to Casa Grande. Contact us to discuss your land and build goals in either market."
       },
       {
         "type": "h3",
@@ -7512,11 +7568,11 @@
       },
       {
         "type": "h3",
-        "text": "Are semi-custom homes available in Scottsdale, Mesa, Gilbert, and Chandler?"
+        "text": "Are semi-custom homes available in Scottsdale and Mesa?"
       },
       {
         "type": "p",
-        "text": "Yes. Jematell Homes builds semi-custom and custom homes across the Phoenix metro including Scottsdale, Mesa, Gilbert, Chandler, Maricopa, and Rio Verde. Location availability depends on current lots and projects in each area."
+        "text": "Yes. Jematell Homes builds semi-custom and custom homes in Scottsdale, Mesa, Rio Verde and the other Phoenix metro and Pinal County towns we serve. Location availability depends on current lots and projects in each area."
       },
       {
         "type": "h3",

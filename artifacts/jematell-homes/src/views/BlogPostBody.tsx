@@ -1,6 +1,33 @@
 "use client";
+import type { ReactNode } from "react";
+import Link from "next/link";
 import { m, useReducedMotion } from "framer-motion";
 import type { Block } from "../data/blogs";
+
+/**
+ * Body text may carry an internal link written as [label](/path). Only
+ * site-relative paths are linked; any other text renders as it always did.
+ */
+const INLINE_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const LINK_STYLE = { textDecoration: "underline", textUnderlineOffset: "3px" } as const;
+
+function renderInline(text: string | undefined): ReactNode {
+  if (!text || !text.includes("](/")) return text;
+  const out: ReactNode[] = [];
+  let last = 0;
+  for (const match of text.matchAll(INLINE_LINK)) {
+    const at = match.index ?? 0;
+    if (at > last) out.push(text.slice(last, at));
+    out.push(
+      <Link key={at} href={match[2]} className="post-link" style={LINK_STYLE}>
+        {match[1]}
+      </Link>,
+    );
+    last = at + match[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
 
 type BlockGroup =
   | { kind: "single"; block: Block; index: number }
@@ -54,7 +81,7 @@ export function BlogPostBody({ blocks }: { blocks: Block[] }) {
             <m.ul key={group.startIndex} className="post-list" {...anim}>
               {group.items.map((item, j) => (
                 <li key={j} className="post-li">
-                  {item.text}
+                  {renderInline(item.text)}
                 </li>
               ))}
             </m.ul>
@@ -80,7 +107,7 @@ export function BlogPostBody({ blocks }: { blocks: Block[] }) {
         if (b.type === "p") {
           return (
             <m.p key={i} className="post-p" {...anim}>
-              {b.text}
+              {renderInline(b.text)}
             </m.p>
           );
         }
