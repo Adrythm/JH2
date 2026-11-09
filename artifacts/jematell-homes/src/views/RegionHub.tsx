@@ -291,6 +291,41 @@ const TOWNS: Record<string, Town> = {
         href: `${REF}/paradise-valley-adopted-building-codes`,
       },
     ],
+    beyond: {
+      heading: "Rebuilds, guest houses and site work in Paradise Valley",
+      points: [
+        {
+          title: "Tearing down an older house",
+          body: "On many older Paradise Valley lots the land is worth the price and the house is dated, so a new home replaces it. The order is fixed: a demolition permit, the utilities disconnected, an asbestos survey under Maricopa County's Rule 370, and any well or septic closed out before the new-home permit. The new house is held to the R-43 yards and floor-area cap above.",
+          href: "/faq/can-i-tear-down-an-existing-house-and-rebuild-on-the-same-lot-in-arizona",
+        },
+        {
+          title: "Guest houses follow the Town's own code",
+          body: "Paradise Valley is under 75,000 people, so the state law that makes larger cities allow ADUs does not apply here. The Town's zoning decides what a second dwelling may be, so we check it for your lot before a guest house is drawn.",
+          href: "/faq/which-arizona-cities-are-required-to-allow-adus",
+        },
+        {
+          title: "Casitas and guest houses we build",
+          body: "We design and build detached casitas and guest houses with a new custom home or on a lot you already own, placed inside the Town's yards and planned with the main house.",
+          href: "/casitas-and-guest-houses",
+        },
+        {
+          title: "Walls, gates and the street setback",
+          body: "Almost any fence or site wall needs a Town permit, gates, planters and retaining walls included. Solid walls top out at six feet from the outside grade, and a six-foot wall must sit 40 feet back from the street.",
+          href: `${REF}/paradise-valley-fence-and-site-wall-permit`,
+        },
+        {
+          title: "Grading and drainage by a civil engineer",
+          body: "Earthwork that changes the slope or drainage of the lot needs a grading permit, with the plan drawn by an Arizona registered civil engineer. A new house triggers one once it adds 999 square feet of hard surface.",
+          href: `${REF}/paradise-valley-grading-and-drainage-permit`,
+        },
+        {
+          title: "Pools and their barriers",
+          body: "A pool or spa needs its own Town permit with an engineer's pool plan, and a barrier at least five feet tall with self-latching gates must be in place before it is filled.",
+          href: `${REF}/paradise-valley-pool-spa-barrier-permit`,
+        },
+      ],
+    },
   },
   phoenix: {
     galleryLocations: ["Phoenix"],
