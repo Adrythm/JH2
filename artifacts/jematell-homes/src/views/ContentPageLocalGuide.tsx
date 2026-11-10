@@ -136,6 +136,51 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-scottsdale",
     only: "scottsdale",
   },
+  {
+    re: /Scottsdale's adopted building codes/i,
+    href: "/reference-library/building-codes/scottsdale-adopted-building-codes",
+    only: "scottsdale",
+  },
+  {
+    re: /online permit portal/i,
+    href: "/reference-library/building-codes/scottsdale-residential-building-permit-requirements",
+    only: "scottsdale",
+  },
+  {
+    re: /inspects in stages/i,
+    href: "/reference-library/building-codes/scottsdale-building-inspections-process",
+    only: "scottsdale",
+  },
+  {
+    re: /Green Building Program/i,
+    href: "/reference-library/building-codes/scottsdale-green-building-program",
+    only: "scottsdale",
+  },
+  {
+    re: /Troon North/i,
+    href: "/reference-library/community-design-guidelines/troon-north-scottsdale-design-guidelines",
+    only: "scottsdale",
+  },
+  {
+    re: /A\.R\.S\. 33-1817/i,
+    href: "/reference-library/arizona-building-law/ars-33-1817-hoa-design-review-arizona",
+    only: "scottsdale",
+  },
+  {
+    re: /HOA design review fees/i,
+    href: "/faq/how-much-are-hoa-design-review-fees-for-a-custom-home-in-arizona",
+    only: "scottsdale",
+  },
+  {
+    re: /ROC's free license search/i,
+    href: "/faq/how-to-verify-an-arizona-contractor-license-with-the-roc",
+    only: "scottsdale",
+  },
+  {
+    re: /green flags of a good custom home builder/i,
+    href: "/faq/what-are-the-green-flags-of-a-good-custom-home-builder",
+    only: "scottsdale",
+  },
   // ---- Internal: Cave Creek local guide ----
   { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "cave-creek" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "cave-creek" },
