@@ -43,6 +43,7 @@
 /where-we-build/carefree
 /where-we-build/mesa
 /where-we-build/chandler
+/where-we-build/gilbert
 /where-we-build/queen-creek
 /where-we-build/casa-grande
 /where-we-build/apache-junction
