@@ -29,6 +29,7 @@ export const locations: LocationItem[] = [
   { slug: "carefree", name: "Carefree", tagline: "Boulder serenity & dark desert skies" },
   { slug: "mesa", name: "Mesa", tagline: "East Valley homesites below Red Mountain" },
   { slug: "chandler", name: "Chandler", tagline: "East Valley living along the Loop 202" },
+  { slug: "queen-creek", name: "Queen Creek", tagline: "Acre lots and rural estates in the East Valley" },
   { slug: "casa-grande", name: "Casa Grande", tagline: "Wide-open land & room to grow" },
   {
     slug: "apache-junction",
