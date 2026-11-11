@@ -32,6 +32,7 @@ export const locations: LocationItem[] = [
   { slug: "gilbert", name: "Gilbert", tagline: "Acre lots and master-planned neighborhoods in the East Valley" },
   { slug: "queen-creek", name: "Queen Creek", tagline: "Acre lots and rural estates in the East Valley" },
   { slug: "casa-grande", name: "Casa Grande", tagline: "Wide-open land & room to grow" },
+  { slug: "maricopa", name: "Maricopa", tagline: "Master-planned neighborhoods and open land in Pinal County" },
   {
     slug: "apache-junction",
     name: "Apache Junction",
