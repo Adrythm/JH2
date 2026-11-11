@@ -54,7 +54,7 @@ export function FloorPlanTiersSection({ section, pageKey }: { section: Section; 
               transition={{ duration: 0.5, delay: i * 0.08 }}
             >
               <Link href={`/floor-plans/${card.slug}`} className="page-tier-media fp-exclusive-media" data-testid={`fp-featured-${card.slug}-img`}>
-                <img src={card.img} alt={card.alt} loading="lazy" {...(PLAN_RENDERING_DIMS[card.img] ?? {})} />
+                <img {...planRenderingSrc(card.img)} alt={card.alt} loading="lazy" {...(PLAN_RENDERING_DIMS[card.img] ?? {})} />
               </Link>
               <div className="page-tier-body">
                 <h3 className="page-tier-title">{card.title}</h3>
@@ -147,6 +147,21 @@ const PLAN_RENDERING_DIMS: Record<string, { width: number; height: number }> = {
   "/images/plans/3970-rendering.png": { width: 1672, height: 941 },
   "/images/plans/4103-rendering.png": { width: 1672, height: 941 },
 };
+
+/**
+ * Every rendering in PLAN_RENDERING_DIMS also ships as 768 and 1280 px WebP
+ * beside its PNG (about 200 KB against 2.4 MB at 1280). Serve those, and keep
+ * the PNG only for an image the table does not know.
+ */
+function planRenderingSrc(img: string): { src: string; srcSet?: string; sizes?: string } {
+  if (!PLAN_RENDERING_DIMS[img] || !img.endsWith(".png")) return { src: img };
+  const base = img.slice(0, -".png".length);
+  return {
+    src: `${base}-1280.webp`,
+    srcSet: `${base}-768.webp 768w, ${base}-1280.webp 1280w`,
+    sizes: "(max-width: 768px) 100vw, 50vw",
+  };
+}
 
 const FP_EXCLUSIVES: Record<string, ExclusiveCard[]> = {
   "under-2000": [
@@ -317,7 +332,7 @@ export function FloorPlanWidgets() {
                           transition={{ duration: 0.5 }}
                         >
                           <Link href={`/floor-plans/${card.slug}`} className="page-tier-media fp-exclusive-media" data-testid={`fp-exclusive-${card.slug}-img`}>
-                            <img src={card.img} alt={card.alt} loading="lazy" {...(PLAN_RENDERING_DIMS[card.img] ?? {})} />
+                            <img {...planRenderingSrc(card.img)} alt={card.alt} loading="lazy" {...(PLAN_RENDERING_DIMS[card.img] ?? {})} />
                           </Link>
                           <div className="page-tier-body">
                             <h3 className="page-tier-title">{card.title}</h3>
