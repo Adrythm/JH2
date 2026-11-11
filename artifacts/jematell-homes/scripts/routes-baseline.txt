@@ -46,6 +46,7 @@
 /where-we-build/gilbert
 /where-we-build/queen-creek
 /where-we-build/casa-grande
+/where-we-build/maricopa
 /where-we-build/apache-junction
 /where-we-build/surprise
 /gallery/skinner-custom
