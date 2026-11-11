@@ -79,8 +79,24 @@ function bySlug(slug: string): Step | null {
   return null;
 }
 
+/**
+ * Garage questions filed under building in the desert (car lifts, collector
+ * garages, mezzanines, cooled garages, EV outlets) are read by people planning
+ * a big garage with a new home, so they lead to the RV garage page rather than
+ * the general custom homes page. The RV garage FAQs filed under costs keep the
+ * costs box.
+ */
+const GARAGE: Step = {
+  lead: "Planning a new home with an oversized or RV garage?",
+  linkLabel: "See how we build RV garages",
+  href: "/rv-garages",
+};
+
 function pick(slug: string, categorySlug: string): Step | null {
-  return bySlug(slug) ?? BY_CATEGORY[categorySlug] ?? null;
+  const step = bySlug(slug);
+  if (step) return step;
+  if (categorySlug === "building-in-the-desert" && /(^|-)garages?(-|$)/.test(slug)) return GARAGE;
+  return BY_CATEGORY[categorySlug] ?? null;
 }
 
 const BUILD_ON_YOUR_LOT = BY_CATEGORY["land-and-due-diligence"];
