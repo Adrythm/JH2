@@ -37,12 +37,12 @@ export const navItems: NavItem[] = [
     label: "Where We Build",
     href: "/where-we-build",
     children: [
+      { id: "build-on-your-lot", label: "Build on Your Lot", href: "/build-on-your-lot" },
       ...locations.map((l) => ({
         id: l.slug,
         label: l.name,
         href: locationHref(l.slug),
       })),
-      { id: "build-on-your-lot", label: "Build on Your Lot", href: "/build-on-your-lot" },
       { id: "buy-a-lot-with-us", label: "Buy a Lot With Us", href: "/buy-a-lot-with-us" },
     ],
   },

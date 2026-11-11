@@ -251,11 +251,11 @@ const FP_EXCLUSIVES: Record<string, ExclusiveCard[]> = {
     },
     {
       slug: "3102",
-      title: "The 3102 Plan",
-      specs: ["3,102 Sq Ft", "4 Bedrooms", "3.5 Bathrooms", "1 Den/Office", "2-Car Garage"],
+      title: "The 3132 Plan",
+      specs: ["3,132 Sq Ft", "4 Bedrooms", "3.5 Bathrooms", "1 Den/Office", "2-Car Garage"],
       desc: "A spacious single-story home with four bedrooms and an office, available to build on your lot.",
       img: "/images/plans/3102-rendering.png",
-      alt: "Rendered exterior of the 3102 sq ft Jematell Homes floor plan",
+      alt: "Rendered exterior of the 3,132 sq ft Jematell Homes floor plan",
     },
     {
       slug: "3610",
