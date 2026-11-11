@@ -643,6 +643,12 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /Designation of Assured Water Supply/i, href: "https://www.azwater.com/news/docs/NR_ADAWS_Designation.pdf", external: true, only: "casa-grande" },
   { re: /construction financing/i, href: "/financing", only: "casa-grande" },
   { re: /100-year water rule/i, href: "/faq/assured-vs-adequate-water-supply-and-the-100-year-rule", only: "casa-grande" },
+  { re: /An R-1 lot/i, href: "/reference-library/building-codes/casa-grande-residential-zoning-and-setbacks", only: "casa-grande" },
+  { re: /Pinal County's rules/i, href: "/reference-library/building-codes/pinal-county-residential-zoning-and-setbacks", only: "casa-grande" },
+  { re: /2018 International Residential Code/i, href: "/reference-library/building-codes/casa-grande-adopted-building-codes", only: "casa-grande" },
+  { re: /Development Center/i, href: "/reference-library/building-codes/casa-grande-residential-building-permit-requirements", only: "casa-grande" },
+  { re: /Pinal County septic permit/i, href: "/reference-library/building-codes/pinal-county-septic-and-well-requirements", only: "casa-grande" },
+  { re: /Certificate of Occupancy/i, href: "/reference-library/building-codes/casa-grande-building-inspections-process", only: "casa-grande" },
   // ---- External: Apache Junction ----
   { re: /Lost Dutchman State Park/i, href: "https://azstateparks.com/lost-dutchman", external: true },
   { re: /Apache Junction Unified School District/i, href: "https://www.ajusd.org", external: true },
