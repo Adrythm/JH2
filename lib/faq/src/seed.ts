@@ -4386,6 +4386,14 @@ export const faqSeed: FaqSeed = {
 <p>To use your warranty, report defects in writing, keep records, and act before the time limit runs. Builders in Arizona must be licensed, and that license is what gives the state power to enforce quality. Under A.R.S. 32-1151, it is unlawful to act as a contractor without a license in good standing, so confirm your builder holds an active license before and during the build.</p>
 <p>If a builder will not honor a valid claim, Arizona gives you a backstop. The <strong>Arizona Registrar of Contractors</strong>, the state agency that licenses and disciplines contractors, can investigate a complaint that a licensee failed "to perform work in a professional and workmanlike manner or in accordance with any applicable building codes," a ground spelled out in A.R.S. 32-1154. There is a deadline. Under A.R.S. 32-1162, a complaint about a new home must be filed in writing <strong>within two years</strong> after the earlier of the close of escrow or actual occupancy. Miss that window and the agency loses authority to act, so calendar it the day you move in.</p>
 <p>The practical takeaway is to treat your warranty as an active document, not a drawer filler. Log every issue with dates and photos, send claims in writing so there is a record, and know that the implied warranty and the two-year ROC deadline stand behind the written terms. A short, smart move is to do a quick walkthrough near the end of your first year and submit a single written punch list of every workmanship item before that broad year-one tier expires.</p>
+<h2>If the builder will not fix it: Arizona's notice and repair steps</h2>
+<p>When a written warranty claim goes nowhere, Arizona's Purchaser Dwelling Act sets the steps you must take before a lawsuit or arbitration over a defect. Skipping them is costly. Under <a href="/reference-library/arizona-building-law/ars-12-1363-builder-right-to-repair-arizona">A.R.S. 12-1363</a>, a case filed without the notice is dismissed, and if the deadline to sue has passed by then, a new case against the builder is barred.</p>
+<ol><li><strong>Send written notice by certified mail, return receipt requested.</strong> List each defect, where you see it in the home, the damage it has caused or is likely to cause, and the street address. The statute calls this "reasonable detail."</li>
+<li><strong>Let the builder inspect.</strong> The builder and its subcontractors may inspect and test. You must make the home available within 10 days of their request, and they must put back anything their testing disturbs.</li>
+<li><strong>Wait for the written response.</strong> The builder has 60 days from receiving your notice to answer in writing by certified mail. It may offer to repair or replace, offer money, or both. If no response comes within 60 days, you may file.</li>
+<li><strong>Allow the repair.</strong> If the builder offers to repair, the two of you coordinate the work within 30 days of its offer, and the work should start within about 35 days (or 10 days after a needed permit, if that is later). You can ask that the repair be done by a contractor who did not work on the home, chosen by the builder with your consent. A repair by itself does not earn the builder a release.</li>
+<li><strong>Then decide.</strong> Once the repairs are done, you may still file, or use the dispute process in your purchase contract if it meets the statute.</li></ol>
+<p>The clock pauses while this runs. For the defects named in your notice, the deadlines to sue, including the eight-year statute of repose under <a href="/faq/what-is-arizonas-statute-of-repose-for-construction-defects">A.R.S. 12-552</a>, stop until 30 days after the repair is substantially complete. The repose period counts from substantial completion of the home, not from when you notice a problem, so send notice as soon as a claim stalls. Every step is walked through in <a href="/faq/how-arizonas-90-day-notice-and-right-to-repair-works">how Arizona's notice and right-to-repair process works</a>.</p>
 <h2>Comparing builders on warranty</h2>
 <p>If you are choosing a builder, ask each one for its written warranty before you sign, not after, and read it beside the contract: what it covers, for how long, how a claim is made and who answers it. Check the builder's license with the Registrar of Contractors too, since the implied warranty and any ROC complaint only help you against a licensed contractor. You can <a href="/faq/how-to-verify-an-arizona-contractor-license-with-the-roc">verify an Arizona contractor license with the ROC</a> in a few minutes.</p>
 <h2>Warranty with Jematell Homes</h2>
@@ -4396,13 +4404,24 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/32/01154.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1154 (Grounds for suspension or revocation of a contractor license)</a></li>
 <li><a href="https://www.azleg.gov/ars/32/01162.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1162 (Time limit to file a complaint with the Registrar of Contractors)</a></li>
 <li><a href="https://www.azleg.gov/ars/32/01151.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1151 (Contractor licensing required)</a></li>
+<li><a href="https://www.azleg.gov/ars/12/01363.htm" target="_blank" rel="noopener noreferrer">A.R.S. 12-1363 (Notice and right to repair or replace)</a></li>
+<li><a href="https://www.azleg.gov/ars/12/00552.htm" target="_blank" rel="noopener noreferrer">A.R.S. 12-552 (Statute of repose for construction)</a></li>
 </ul>`,
       shortAnswer: "A new home builder warranty in Arizona usually covers workmanship for one year, systems like plumbing and wiring for two years, and major structural defects for ten years. On top of that, Arizona law gives every buyer an implied warranty that the home was built in a workmanlike manner and is habitable.",
       metaDescription: "Arizona builder warranties: 1 year workmanship, 2 years systems, 10 years structural, plus the implied warranty under state law. What is and is not covered.",
       categorySlug: "choosing-a-builder",
       topicSlugs: ["choosing-a-custom-home-builder", "warranty-and-defects"],
       tags: ["builder", "research-phase"],
-      relatedFaqSlugs: [],
+      relatedFaqSlugs: [
+        "how-long-does-a-builder-warranty-last-arizona",
+        "what-is-a-builder-warranty-service-request-and-how-do-i-submit-a-claim",
+        "how-do-builders-handle-warranty-callbacks-and-the-one-year-walkthrough",
+        "how-arizonas-90-day-notice-and-right-to-repair-works",
+        "arizona-implied-warranty-of-workmanship-and-habitability",
+        "can-a-home-builder-waive-the-implied-warranty-in-arizona",
+        "what-is-arizonas-statute-of-repose-for-construction-defects",
+        "builder-warranty-vs-home-warranty",
+      ],
       relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
       pillarBlogSlug: null,
       featured: false,
