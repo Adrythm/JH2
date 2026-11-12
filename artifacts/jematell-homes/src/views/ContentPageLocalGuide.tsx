@@ -181,6 +181,59 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/what-are-the-green-flags-of-a-good-custom-home-builder",
     only: "scottsdale",
   },
+  // ---- Internal: Paradise Valley local guide ----
+  {
+    re: /R-43 district/i,
+    href: "/reference-library/building-codes/paradise-valley-residential-zoning-and-setbacks",
+    only: "paradise-valley",
+  },
+  {
+    re: /2015 International Residential Code/i,
+    href: "/reference-library/building-codes/paradise-valley-adopted-building-codes",
+    only: "paradise-valley",
+  },
+  {
+    re: /Hillside Development Regulations/i,
+    href: "/reference-library/building-codes/paradise-valley-hillside-development-requirements",
+    only: "paradise-valley",
+  },
+  {
+    re: /Rule 370/i,
+    href: "/faq/can-i-tear-down-an-existing-house-and-rebuild-on-the-same-lot-in-arizona",
+    only: "paradise-valley",
+  },
+  {
+    re: /state law that makes larger Arizona cities allow accessory dwelling units/i,
+    href: "/faq/which-arizona-cities-are-required-to-allow-adus",
+    only: "paradise-valley",
+  },
+  { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "paradise-valley" },
+  { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
+  {
+    re: /fence or site wall/i,
+    href: "/reference-library/building-codes/paradise-valley-fence-and-site-wall-permit",
+    only: "paradise-valley",
+  },
+  {
+    re: /grading permit/i,
+    href: "/reference-library/building-codes/paradise-valley-grading-and-drainage-permit",
+    only: "paradise-valley",
+  },
+  {
+    re: /municipal impact fee/i,
+    href: "/reference-library/building-codes/paradise-valley-building-permit-and-impact-fees",
+    only: "paradise-valley",
+  },
+  {
+    re: /Paradise Valley building cost guide/i,
+    href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-paradise-valley",
+    only: "paradise-valley",
+  },
+  {
+    re: /pool or spa/i,
+    href: "/reference-library/building-codes/paradise-valley-pool-spa-barrier-permit",
+    only: "paradise-valley",
+  },
   // ---- Internal: Cave Creek local guide ----
   { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "cave-creek" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "cave-creek" },
