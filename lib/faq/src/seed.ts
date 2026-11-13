@@ -583,6 +583,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "can-you-build-an-adobe-or-rammed-earth-home-in-arizona",
       question: "Can you build an adobe or rammed earth home in Arizona?",
+      seoTitle: "Adobe and Rammed Earth Homes in Arizona",
       answerHtml: `<p>Both methods are part of the state's building history. <strong>Adobe</strong> is sun-dried earth and straw block. <strong>Rammed earth</strong> is moist soil packed hard inside forms to make solid walls. The building code recognizes adobe directly: <strong>IBC Section 2109</strong> sets rules for adobe masonry, including wall thickness and weather protection. Some Arizona counties go further. Coconino County adopted an earthen building code in 2019 that covers adobe, rammed earth, and compressed earth block. So these are not fringe experiments here. They are permitted, code-backed ways to build.</p>
 <p>The wrinkle is that earthen walls are not in the standard prescriptive tables for stick framing, so your design often needs an engineer, and the exact rules depend on your county. This page covers the code, the permit path, and why thick earth walls perform well in the desert.</p>
 <h2>Is adobe or rammed earth construction legal in Arizona?</h2>
@@ -789,6 +790,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-big-should-a-luxury-or-car-collector-garage-be-in-arizona",
       question: "How big should a luxury or car-collector garage be in Arizona?",
+      seoTitle: "Car Collector Garage Size in Arizona",
       answerHtml: `<p>A <strong>luxury or car-collector garage</strong> in Arizona should be sized by how many cars you keep and how you use them, not by a single square-footage number. The building blocks are simple: plan at least <strong>12 feet of width</strong> and <strong>24 feet of depth</strong> per car, a <strong>12-foot or taller ceiling</strong> if you want lifts, and extra space to walk around, work on, and store the cars. A collector garage is usually <strong>four to eight bays or more</strong>, well above the two-car garage that most homes have. The right size is the program that fits your collection, your hobby, and your lot, with room to grow.</p>
 <p>This page is about the overall size and program: how many bays, how much total room, and how the pieces add up. For the single most-overlooked dimension, garage depth per bay, see our detailed guide on <a href="/faq/how-deep-should-a-garage-be-for-a-car-collector-in-arizona">how deep a garage should be for a car collector</a>. Below is how to size the whole garage, the Arizona code and climate factors, and how to plan it into a build.</p>
 <h2>Start with bay count, not square footage</h2>
@@ -1789,6 +1791,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "is-an-evaporative-cooler-swamp-cooler-or-refrigerated-ac-better-for-an-arizona-custom-home",
       question: "Is an evaporative cooler (swamp cooler) or refrigerated AC better for an Arizona custom home?",
+      seoTitle: "Swamp Cooler vs AC for an Arizona Home",
       answerHtml: `<p>For a luxury Arizona custom home, <strong>refrigerated air conditioning</strong> is the better primary system, and it is not close. Refrigerated AC works in any humidity, holds a tight, even temperature, and dries the air slightly while it cools, which matters during monsoon. An <strong>evaporative cooler</strong>, also called a <strong>swamp cooler</strong>, is far cheaper to run and install, but it has a hard limit: it only cools well when the air is dry. The U.S. Department of Energy is direct about this, noting that evaporative coolers "should not be used in humid climates because they add humidity to the air in your home." Arizona is dry most of the year, so a swamp cooler works well in spring and early summer, then loses its edge for weeks when the monsoon arrives. That is why most custom homes run refrigerated AC as the main system and treat evaporative cooling as a low-cost option or a garage and workshop add-on.</p>
 <p>Below is how each system works, the real cost and energy trade-off, and where each one fits in an Arizona build.</p>
 <h2>How the two systems cool, and why humidity decides it</h2>
@@ -2468,6 +2471,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-hvac-system-is-best-for-an-arizona-custom-home",
       question: "What HVAC system is best for an Arizona custom home?",
+      seoTitle: "Best HVAC for an Arizona Custom Home",
       answerHtml: `<p>A high-efficiency <strong>electric heat pump</strong> or a <strong>gas-furnace-and-AC split system</strong> covers most Arizona custom homes well, and either one has to meet the federal <strong>SEER2 14.3</strong> minimum that applies to the hot South region. A heat pump heats and cools with one piece of electric equipment and fits all-electric and solar-ready homes well. A gas and AC split makes sense where you already have natural gas and want gas heat in the mild winters. For a guest casita, an addition, or a room over a garage, a <strong>ductless mini-split</strong> is often the best fit. The single most important decision is not the system type or the brand. It is getting the equipment sized correctly with a <strong>Manual J</strong> load calculation built for Arizona's 110-degree summer.</p>
 <p>Below is how each system compares for the desert, what SEER2 and Manual J mean for your build, and how to choose.</p>
 <h2>Heat pump vs gas-and-AC split vs mini-split</h2>
@@ -4682,6 +4686,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "cost-plus-custom-home-contract",
       question: "What is a cost-plus custom home contract and how does it work?",
+      seoTitle: "Cost-Plus Custom Home Contracts Explained",
       answerHtml: `<p>Instead of one locked-in number, a <strong>cost-plus custom home contract</strong> bills you for the real cost of building your home, plus a separate fee for running the job. You cover the actual price of labor, materials, subcontractors, and permits as the bills come in, and on top of that you pay the builder either a flat fee or a percentage markup, commonly <strong>10 to 20 percent</strong>. The National Association of Home Builders describes this method as basing the charge on "the amount of time and labor it will take to construct your home, plus a percentage markup on all material that goes into your home." The defining trait is transparency. You see the true cost of the work, usually backed by invoices and receipts, rather than one fixed number set before construction starts. That openness is the trade-off for taking on the risk that costs can rise.</p>
 <h2>How the billing actually works</h2>
 <p>In a cost-plus contract, the builder bills you in stages for the real costs they paid, then adds their agreed fee. There is no single locked price. The total is whatever the home actually costs to build, plus the builder's compensation on top.</p>
@@ -5998,6 +6003,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-does-the-appraisal-work-on-a-custom-home-construction-loan",
       question: "How does the appraisal work on a custom home construction loan?",
+      seoTitle: "Construction Loan Appraisal: How It Works",
       answerHtml: `<p>On a custom home construction loan, the appraiser has to value a home that <strong>does not exist yet</strong>. There is no finished house to walk through, so the appraiser works from your <strong>plans, specifications, and the lot</strong>, then estimates what the completed home will be worth using recent sales of similar nearby homes. That figure is called the <strong>as-completed</strong> or <strong>subject-to</strong> value, because the value is "subject to" the home being built as drawn. It is the number that decides how much the lender will lend. Your lender orders the appraisal, an independent licensed appraiser does the work, and you usually pay the fee as a closing cost. Appraisal rules and fees vary, so confirm the specifics with your lender.</p>
 <p>Below is how the appraiser values an unbuilt home, what they review, who orders and pays for it, and what happens when the number comes in below your budget.</p>
 <h2>How you appraise a home that is not built yet</h2>
@@ -7411,6 +7417,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "construction-loan-draw-schedule-explained",
       question: "What is a construction loan draw schedule and how does it work?",
+      seoTitle: "Construction Loan Draw Schedule Explained",
       answerHtml: `<p>Your lender will not hand you the full loan amount at closing. Instead, it releases the money in stages under a <strong>draw schedule</strong>, tied to how far the home has actually progressed. Each stage, called a <strong>draw</strong>, pays your builder after a specific phase of work is done and inspected. A typical schedule pays out after the <strong>foundation, framing, dry-in (roof and windows), mechanicals (plumbing, electrical, HVAC), drywall, and final completion</strong>. Before each draw, the lender sends an inspector or appraiser to confirm the work is finished. You pay <strong>interest only on the money drawn so far</strong>, not the whole loan, which keeps your payments low early in the build. The CFPB puts it plainly: construction loan money "is typically provided in a series of advances as the construction progresses."</p>
 <p>Below is how a real Arizona draw schedule is structured, who inspects each stage, how interest is calculated, and what can go wrong.</p>
 <h2>Why construction loans pay in stages</h2>
@@ -8009,6 +8016,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "rv-garage-hookups-and-utilities-arizona",
       question: "What utilities and hookups does an RV garage need?",
+      seoTitle: "RV Garage Hookups: 50 Amp, Water, Sewer",
       answerHtml: `<p>Power, water, waste, and air: those are the four systems an RV bay needs before it earns the name <a href="/rv-garages">RV garage</a>. That means a <strong>50-amp, 240-volt electrical outlet</strong> for the coach, a <strong>water line</strong>, a <strong>sewer dump or macerator connection</strong>, and <strong>ventilation</strong> to clear engine and battery fumes. Around those, plan a dedicated <strong>electrical sub-panel</strong>, bright lighting, a hose bib, and in Arizona a <strong>mini-split</strong> to fight the heat. The 50-amp RV outlet matters most, because a large motorhome draws far more power than a wall plug can give, and rewiring a finished garage for it is costly. Rough in every line during the build, while the slab is still open and the crew is on site, since trenching across a finished floor or a landscaped yard afterward is expensive and disruptive.</p>
 <p>Below is what each hookup does, the electrical and plumbing details, the ventilation Arizona garages need, and why early rough-in saves money.</p>
 <h2>The 50-amp RV electrical hookup</h2>
@@ -8475,6 +8483,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "casita-vs-guest-house-vs-adu-arizona",
       question: "Casita vs guest house vs ADU: what's the difference in Arizona?",
+      seoTitle: "Casita vs Guest House vs ADU in Arizona",
       answerHtml: `<p>The three words overlap, but in Arizona they are not the same thing. An <strong>ADU</strong> (accessory dwelling unit) is the legal term for a self-contained second home on your lot that you are allowed to rent. A <strong>casita</strong> is the everyday Southwest word people use for that same small building. A <strong>guest house</strong> is a separate, stricter category that some cities, including Scottsdale, define on their own: it cannot be rented separately, it is capped at a smaller size, and it often skips the full kitchen. So the gap that matters most is legal, not architectural. ADU and casita usually describe a rentable unit. A guest house, by city rule, is not rentable.</p>
 <p>Getting these straight matters because it changes what you can build, how big it can be, and whether it can ever earn rent. Below is each term, then a clean side-by-side.</p>
 <h2>ADU: the legal, rentable unit defined by state law</h2>
@@ -9544,6 +9553,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "single-story-vs-two-story-home-in-arizona",
       question: "Single-story vs two-story custom home: which is better in Arizona?",
+      seoTitle: "Single-Story vs Two-Story Homes in Arizona",
       answerHtml: `<p>For most Arizona custom homes a <strong>single-story</strong> layout is the default choice, with <strong>two-story</strong> winning on cost per square foot and on tight lots. A two-story home stacks living space, so it needs less foundation and less roof per square foot, which lowers cost per foot and fits a smaller parcel. A single-story spreads everything on one level, which costs more per foot but is easier to cool evenly, simpler to age in, and lighter on the structure. Your lot size, your budget, the desert heat, and how long you plan to stay all push the decision. There is no answer that fits every owner, but there is a clear answer for your lot and your plans. Below is the real trade-off on each one.</p>
 <h2>Cost per square foot: two-story usually wins</h2>
 <p>A two-story home almost always costs less per square foot than a single-story home of the same total size. The reason is geometry. A single-story home puts the entire floor area on one slab and under one roof, so it carries the <strong>most foundation and roof per square foot of living space</strong>. A two-story home stacks the second floor on top of the first, cutting the foundation footprint and the roof area roughly in half for the same square footage.</p>
@@ -11071,6 +11081,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-to-call-811-blue-stake-before-digging-on-my-arizona-property",
       question: "Do I need to call 811 Blue Stake before digging on my Arizona property?",
+      seoTitle: "Arizona 811 Blue Stake: When to Call",
       answerHtml: `<p>Arizona law requires you to notify <strong>Arizona 811</strong>, the service most people still call <strong>Blue Stake</strong>, at least <strong>two full working days</strong> before any excavation, and that includes small jobs like setting a fence post, planting a tree, or digging a footing. The call is <strong>free</strong>. You file a locate request, and each utility with buried lines on your site sends a locator to mark its gas, electric, water, sewer, and communication lines. Then you can dig around them safely. Skipping the call is not just risky, it is illegal, and hitting a line can cost up to <strong>$5,000 per violation</strong> plus the full cost of the repair.</p>
 <p>This page covers when the rule applies, exactly how the free process works, what the law says, and who is responsible for the call on a custom home build.</p>
 <h2>When you have to call (almost always)</h2>
@@ -15396,6 +15407,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "septic-permits-and-the-transfer-of-ownership-inspection",
       question: "What permits does a septic system need, and what is the transfer-of-ownership inspection?",
+      seoTitle: "Arizona Septic Permits and Sale Inspections",
       answerHtml: `<p><strong>A new septic (onsite wastewater) system has to be permitted before it is built, and when a home on septic is later sold, Arizona requires a transfer-of-ownership inspection so the buyer knows the system works. Both processes run under the Arizona Department of Environmental Quality (ADEQ) rules in Arizona Administrative Code Title 18, Chapter 9 (R18-9), carried out locally in our area by Maricopa County Environmental Services.</strong> Knowing both ends of the system's life, the build permit and the resale inspection, helps you avoid surprises whether you are building or buying.</p>
 <h2>The regulatory framework</h2>
 <p>Onsite wastewater systems in Arizona are governed by ADEQ's rules in A.A.C. R18-9. ADEQ delegates day-to-day permitting to county agencies, so in the Phoenix metro your point of contact is usually Maricopa County Environmental Services rather than the state directly. Most conventional household systems are authorized under a general permit, while unusual designs or larger flows can require an individual permit. The county administers the applications, inspections, and approvals for your parcel.</p>
