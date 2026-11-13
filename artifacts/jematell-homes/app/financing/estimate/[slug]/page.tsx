@@ -101,7 +101,7 @@ export async function generateMetadata({
       `Estimate only, not a loan offer.`,
     canonical: `/financing/estimate/${s.slug}`,
   });
-  // Only one down payment per budget and city is indexed; the rest stay for
+  // One estimate per city is indexed; the rest stay for
   // readers and pass their links on (see isIndexedScenario).
   return isIndexedScenario(s) ? meta : { ...meta, robots: { index: false, follow: true } };
 }

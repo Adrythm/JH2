@@ -85,17 +85,43 @@ export function estimateScenarioRoutes(): string[] {
 }
 
 /**
- * The down payment whose pages Google is asked to index: one page per budget
- * and city. The 25 and 30 percent pages repeat their 20 percent sibling with
- * one figure changed, and 135 near-identical pages read as scaled content
- * (Google's spam policies) while taking crawl from the service pages. They
- * stay published for readers, linked from their sibling, but carry noindex
- * and leave the sitemap. Reversible: drop the check to index them again.
+ * The pages Google is asked to index: one per city, at 20 percent down.
+ *
+ * Every estimate page shares the same text and differs only in its figures, so
+ * a page per budget repeats its siblings with the numbers changed. In the 90
+ * days to 2026-11-11 the 45 indexed pages (five budgets in nine cities) drew
+ * about 600 impressions in Search Console and 3 clicks, on searches such as
+ * "20% of $600,000" rather than anyone pricing a build. Near-identical pages at
+ * that scale read as scaled content (Google's spam policies) and take crawl
+ * from the service and town pages.
+ *
+ * What differs between cities is real (the county, the effective tax rate, the
+ * town page the estimate links), so each city keeps one indexed page: the
+ * budget its pages were shown for most in that window, else $1 million. The
+ * other pages stay published for readers and the calculator's links, carry
+ * noindex, follow, and leave the sitemap. Reversible: widen the check to
+ * index them again.
  */
 export const INDEXED_DOWN_PCT = 20;
 
+/** City slug to the budget slug whose page is indexed (default "1-million"). */
+export const INDEXED_PRICE_BY_CITY: Record<string, string> = {
+  phoenix: "600k",
+  "casa-grande": "1-5-million",
+  "apache-junction": "800k",
+  "cave-creek": "1-million",
+  scottsdale: "1-million",
+  carefree: "1-5-million",
+  "fountain-hills": "600k",
+  "rio-verde": "1-million",
+  surprise: "1-million",
+};
+
 export function isIndexedScenario(s: EstimateScenario): boolean {
-  return s.downPct === INDEXED_DOWN_PCT;
+  return (
+    s.downPct === INDEXED_DOWN_PCT &&
+    s.price.slug === (INDEXED_PRICE_BY_CITY[s.location.slug] ?? "1-million")
+  );
 }
 
 export function noindexEstimateRoutes(): string[] {
