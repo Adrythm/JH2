@@ -9,12 +9,14 @@ import { guides } from "@/data/guides";
 import { glossaryTerms } from "@/data/glossary";
 import { referenceEntries } from "@/data/reference";
 
+const META_DESCRIPTION =
+  "Arizona custom home resources from Jematell Homes: typical cost ranges, the code each city enforces, raw lot prep, permits and financing, kept current.";
 const INTRO =
   "Everything we have learned building custom homes across Scottsdale, Rio Verde, and the Phoenix metro, written down and kept current. Real cost ranges, the code edition each city actually enforces, what it takes to make a raw lot buildable, and the answers most builders leave you to find on your own.";
 
 export const metadata = pageMetadata({
   title: "Resources",
-  description: INTRO,
+  description: META_DESCRIPTION,
   canonical: "/resources",
 });
 

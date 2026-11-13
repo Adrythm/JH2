@@ -7,12 +7,14 @@ import { collectionJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
 import { CTA } from "@/cta";
 
+const META_DESCRIPTION =
+  "Arizona building codes by city, the state statutes that govern a build, the residential code section by section, and gated community design guidelines.";
 const INTRO =
   "The source material behind every answer, in plain language: the adopted building codes for each city we serve, the Arizona statutes that govern a build, the residential code explained section by section, and the design guidelines of the guard-gated communities.";
 
 export const metadata = pageMetadata({
   title: "Reference Library",
-  description: INTRO,
+  description: META_DESCRIPTION,
   canonical: "/reference-library",
 });
 

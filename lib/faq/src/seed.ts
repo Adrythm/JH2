@@ -2161,7 +2161,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www1.eere.energy.gov/buildings/residential/pdfs/rerh_pv_guide.pdf" target="_blank" rel="noopener noreferrer">U.S. DOE: Renewable Energy Ready Home (RERH) Solar PV specification and checklist</a></li>
 </ul>`,
       shortAnswer: "Yes, pre-wiring a new home for solar and smart-home automation is almost always worth it. Running conduit and low-voltage cable during the build is far cheaper than opening finished walls later. Modern energy codes already include solar-ready provisions, so the rough-in work is well defined and inexpensive at the framing stage.",
-      metaDescription: "Pre-wiring a new Arizona home for solar and smart-home automation is cheap during the build and costly later. See what solar-ready and low-voltage rough-in covers.",
+      metaDescription: "Pre-wiring a new Arizona home for solar and smart-home automation is cheap during the build and costly later. What solar-ready and low-voltage rough-in covers.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials", "luxury-features"],
       tags: ["desert-build", "research-phase"],
@@ -10421,7 +10421,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://basc.pnnl.gov/resource-guides/high-thermal-mass-construction" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: High-Thermal-Mass Construction (time lag, thermal damping, western US swings)</a></li>
 </ul>`,
       shortAnswer: "Territorial style is Arizona's own historic look from the late 1800s, when it was still a U.S. territory. It blends adobe walls and flat roofs with American touches: crisp brick coping on top of the parapet, painted wood window trim, and squared-off details. The result is more formal and rectilinear than rounded Pueblo style.",
-      metaDescription: "Territorial style is Arizona's historic territorial-era look: adobe walls, flat roofs, brick coping, painted trim. See its features, desert fit, cost, and HOA fit.",
+      metaDescription: "Territorial style is Arizona's territorial-era look: adobe walls, flat roofs, brick coping and painted trim. Its features, desert fit, cost and HOA fit.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "architectural-styles"],
       tags: ["design", "research-phase"],
@@ -15186,7 +15186,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes handles it</h2>
 <p>We confirm which professional stamps your specific design and jurisdiction require before drawings are finalized, coordinate the geotechnical report and structural engineering so the foundation matches your soils, and submit a package the building department can approve without chasing missing seals. Because registration rules and local submittal standards change, we verify the current requirements with the Arizona Board of Technical Registration and your local building department for your specific lot. Always confirm what stamps your plans need with your local Authority Having Jurisdiction before you submit.</p>`,
       shortAnswer: "Usually a registered architect is optional for a single-family home under Arizona's residential exemption, but a licensed engineer's stamp is often required for the structure. Expansive or caliche soils, long spans, tall walls, and hillside sites push the design past prescriptive code and trigger stamped engineering. Confirm exact requirements with your AHJ and the Board of Technical Registration.",
-      metaDescription: "Do Arizona house plans need an architect's or engineer's stamp? An architect is often optional under the residential exemption, but structural engineering is frequently required.",
+      metaDescription: "Do Arizona house plans need an architect's or engineer's stamp? An architect is often optional for a home, but structural engineering is often required.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["plans", "structural-engineering", "architect", "btr", "research-phase"],
@@ -15383,7 +15383,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes helps</h2>
 <p>For rural and unincorporated lots, we help buyers treat access as a first-tier question alongside water and septic, working from the title commitment and the survey rather than from how the road looks on a site visit. We help scope what an access route needs to satisfy the building and fire requirements so the driveway and any road work are in the budget from the start. Because access rights live in recorded documents and because permitting standards are set locally, we confirm legal access with a title company and a licensed surveyor and confirm the access and emergency-vehicle requirements with the local Authority Having Jurisdiction (Maricopa County, Pinal County, or your city, plus the fire authority) before relying on any access for your parcel.</p>`,
       shortAnswer: "Verify in recorded records that the lot either fronts a public road or has a recorded ingress and egress easement to one. A dirt road you can drive is not legal access, and a landlocked parcel can block your permit, financing, and title insurance. Confirm with a title company and surveyor before you buy.",
-      metaDescription: "How to confirm legal access to a rural or landlocked lot in Arizona: recorded easements, road frontage, title insurance, and the permitting and emergency-access requirements.",
+      metaDescription: "How to confirm legal access to a rural or landlocked Arizona lot: recorded easements, road frontage, title insurance, and permit and emergency-access rules.",
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["legal-access", "landlocked", "ingress-egress", "rural-lots", "research-phase"],
