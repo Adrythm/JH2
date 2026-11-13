@@ -7,12 +7,14 @@ import { collectionJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
 import { CTA } from "@/cta";
 
+const META_DESCRIPTION =
+  "In-depth guides to building a custom home in Arizona: financing, pre-construction permits, rural land, choosing a builder, and a guide for each city we serve.";
 const INTRO =
   "In-depth guides that walk the whole journey end to end: how to build a custom home in Arizona, construction financing, the pre-construction permit layer, building on rural land, choosing a builder, and a complete guide for every city we build in.";
 
 export const metadata = pageMetadata({
   title: "Custom Home Building Guides",
-  description: INTRO,
+  description: META_DESCRIPTION,
   canonical: "/guides",
 });
 

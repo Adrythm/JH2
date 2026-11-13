@@ -9,12 +9,14 @@ import {
   type GlossaryTermLite,
 } from "@/views/GlossaryIndexClient";
 
+const META_DESCRIPTION =
+  "Plain-English definitions of Arizona custom home building terms, from allowances and draw schedules to setbacks, NAOS, post-tension slabs and the ROC.";
 const INTRO =
   "Plain-English definitions for the terms that come up on a custom build in Arizona: allowances, draw schedules, setbacks, NAOS, post-tension slabs, the ROC, and dozens more, each with the sources behind it.";
 
 export const metadata = pageMetadata({
   title: "Custom Home Building Glossary",
-  description: INTRO,
+  description: META_DESCRIPTION,
   canonical: "/glossary",
 });
 

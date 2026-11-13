@@ -7,7 +7,7 @@ import FloorPlan2616 from "@/views/FloorPlan2616";
 export const metadata = pageMetadata({
   title: "2616 Floor Plan",
   description:
-    "The Jematell Homes 2616 sq ft floor plan — 3 bed, 2.5 bath, 3-car garage, with a private study and gated courtyard. View full architectural drawings, all four elevations, and photos of the completed Cave Creek home.",
+    "The Jematell Homes 2616 sq ft floor plan: 3 bed, 2.5 bath, 3-car garage, study and gated courtyard, with drawings, elevations and photos of the Cave Creek home.",
   canonical: "/floor-plans/2616",
   image: "/images/plans/2616-rendering.png",
 });
