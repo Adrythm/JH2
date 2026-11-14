@@ -393,6 +393,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /how to find out if you can build on a lot in Arizona/i, href: "/faq/how-to-find-out-if-you-can-build-on-a-lot-in-arizona", only: "chandler" },
   { re: /Arizona ADU requirements/i, href: "/faq/arizona-adu-requirements", only: "chandler" },
   { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "chandler" },
+  { re: /How much does it cost to build a custom home in Chandler\?/i, href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-chandler", only: "chandler" },
   { re: /cost per square foot in Arizona/i, href: "/faq/cost-to-build-a-house-per-square-foot-in-arizona", only: "chandler" },
   { re: /building permit costs in Arizona/i, href: "/faq/building-permit-cost-arizona", only: "chandler" },
   { re: /in-house floor plans/i, href: "/floor-plans", only: "chandler" },
