@@ -3773,8 +3773,11 @@ export const faqSeed: FaqSeed = {
 <p>Hiring an unlicensed contractor strips away the state protections built into Arizona law, and it is illegal for the contractor in the first place. A.R.S. 32-1151 makes it unlawful for anyone to "act in the capacity of a contractor" without a license. So an unlicensed person taking on your home build is already breaking the law before the first nail goes in.</p>
 <p>The bigger cost is to you. With a licensed builder, three protections kick in. You can file an <strong>ROC complaint</strong> and the agency can order repairs or discipline the license. You can claim against the contractor's <strong>license bond</strong>. And as a last resort, you can claim from the <strong>Residential Contractors' Recovery Fund</strong>, which pays up to $30,000 in actual damages under A.R.S. 32-1132 and related sections. An unlicensed worker erases all three. For the full path on filing a complaint and claiming the fund, see our guide on <a href="/faq/how-to-file-an-roc-complaint-and-recovery-fund-arizona">how to file an ROC complaint and recovery fund claim in Arizona</a>.</p>
 <p>One Arizona wrinkle is the <strong>owner-builder exemption</strong>. A.R.S. 32-1121 lets you build or improve your own home, for your own use, without a contractor license, as long as you are not building it to sell or rent within a year. That exemption is for owners doing their own work, not a loophole that lets you hire an unlicensed crew. If you are paying someone to build your home, they need the license, and you should verify it. The takeaway is to run the free ROC search first, confirm Active status and a class B license, and keep a screenshot of the record with your contract.</p>
-<h2>The Jematell Homes approach</h2>
-<p>Transparency, a real license, and a written scope are how we work. Jematell Homes is licensed by the ROC as ROC# 339367, so you can run this same check on us. See how a <a href="/custom-homes">custom home build</a> works with us, or <a href="/contact">reach out</a> and we will talk through how this applies to your specific lot and plan.</p>
+<h2>Checking Jematell Homes</h2>
+<p>Run the same search on us. Jematell Homes is licensed by the ROC as <strong>ROC# 339367</strong>: type that number into the license search and read the status, class, bond and complaint history the way this page describes. Keep a screenshot of the record with your other bids.</p>
+<p>A clean license is the first check, not the last. Next, ask every builder you are considering for three things in writing, and compare them side by side:</p>
+<ul><li><strong>The contract.</strong> Arizona sets what a home construction contract must contain, from the license number and the scope to the deposit and each progress payment. Our page on <a href="/reference-library/arizona-building-law/ars-32-1158-home-construction-contract-requirements-arizona">A.R.S. 32-1158 contract requirements</a> lists each item.</li><li><strong>The estimate.</strong> On our cost-plus builds you get an itemized cost estimate before we break ground, and we share the actual subcontractor bids with you. Our guide to <a href="/faq/how-do-i-compare-custom-home-builder-bids-and-quotes-in-arizona">comparing builder bids</a> shows how to line up estimates that are built differently.</li><li><strong>How you will hear from them.</strong> We send a written update every week of construction, so you never have to call to ask how your home is coming along. Ask each builder what you will get and how often, then <a href="/faq/how-do-i-check-a-custom-home-builders-references-and-past-work">check their references and past work</a>.</li></ul>
+<p>If you are comparing builders for a <a href="/custom-homes">custom home</a>, in <a href="/where-we-build/scottsdale">Scottsdale</a> or anywhere in the Phoenix metro, <a href="/contact">reach out</a> and we will walk you through our license, our contract and how our estimate is built before you decide.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://roc.az.gov/search" target="_blank" rel="noopener noreferrer">Arizona Registrar of Contractors (ROC) license search</a></li>
@@ -3787,7 +3790,14 @@ export const faqSeed: FaqSeed = {
       categorySlug: "choosing-a-builder",
       topicSlugs: ["choosing-a-custom-home-builder"],
       tags: ["builder", "research-phase"],
-      relatedFaqSlugs: ["how-to-file-an-roc-complaint-and-recovery-fund-arizona"],
+      relatedFaqSlugs: [
+        "what-questions-should-i-ask-a-custom-home-builder-before-hiring",
+        "red-flags-a-custom-home-builder-is-not-legitimate-arizona",
+        "what-are-the-green-flags-of-a-good-custom-home-builder",
+        "how-do-i-compare-custom-home-builder-bids-and-quotes-in-arizona",
+        "what-is-a-builders-bond-or-completion-deposit-on-an-arizona-custom-home",
+        "how-to-file-an-roc-complaint-and-recovery-fund-arizona",
+      ],
       relatedServiceSlugs: ["custom-homes"],
       pillarBlogSlug: null,
       featured: false,
