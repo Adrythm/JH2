@@ -6745,6 +6745,76 @@ export const faqSeed: FaqSeed = {
       sortOrder: 438,
     }),
     item({
+      slug: "how-much-does-it-cost-to-build-a-custom-home-in-chandler",
+      question: "How much does it cost to build a custom home in Chandler?",
+      seoTitle: "Cost to Build a Custom Home in Chandler, AZ",
+      answerHtml: `<p>Building a custom home in Chandler usually costs about <strong>$250 to $500 per square foot</strong> in 2026, in line with the rest of the East Valley. A 3,000 square foot home at that rate comes to roughly <strong>$750,000 to $1.5 million</strong>, not counting the lot. The plan, the finishes and the lot decide where in that band your home falls. Two City of Chandler charges sit on top of the build: a building permit priced from the home's valuation with a plan review fee of 65 percent of that permit, and system development fees that run from about <strong>$10,000 to $19,000</strong> for a single family home, depending on where in the city the lot sits.</p>
+<p>The statewide numbers are in our answers on <a href="/faq/how-much-does-it-cost-to-build-a-custom-home-in-arizona">what a custom home costs in Arizona</a> and <a href="/faq/cost-to-build-a-house-per-square-foot-in-arizona">the cost per square foot in Arizona</a>. This page covers what changes when the lot is inside Chandler city limits.</p>
+<h2>What the per-square-foot range covers</h2>
+<p>The $250 to $500 range pays for the house: foundation, framing, roof, plumbing, electrical and mechanical systems, and finishes. A single-story plan with standard selections on a flat, finished lot lands near the bottom. A larger home with a complicated roofline, tall ceilings, walls of glass and upgraded finishes lands near the top. As a national check, the National Association of Home Builders found that in the Mountain region, which includes Arizona, "Half of the custom SFD homes started here in 2024 had prices of $169 per square foot or higher." That is a regional median that mixes in many cheaper markets, so read it as a floor for a Chandler custom home, not a target.</p>
+<h2>Chandler building permit and plan review fees</h2>
+<p>Chandler does not price a new home permit by the square foot. Building permit fees for new construction follow the building valuation data published by the International Code Council, which sets a minimum value per square foot, and the city runs that valuation through its fee table. If the valuation on your application is lower than the city's figure, the fee is based on the city's figure. The brackets most custom homes fall into are:</p>
+<ul>
+<li><strong>$100,001 to $500,000 of valuation:</strong> $893 for the first $100,000, plus $5.00 for each additional $1,000.</li>
+<li><strong>$500,001 to $1,000,000:</strong> $2,893 for the first $500,000, plus $4.25 for each additional $1,000.</li>
+<li><strong>Over $1,000,000:</strong> $5,018 for the first $1,000,000, plus $2.75 for each additional $1,000.</li>
+</ul>
+<p>The <strong>plan review fee is 65 percent of the building permit fee</strong>, and it is due when you submit plans. As a worked example, a home valued at $600,000 carries a $3,318 permit fee and a $2,156.70 plan review fee, about <strong>$5,475</strong> together. At a $1,000,000 valuation the permit is $5,018 and plan review is $3,261.70, about <strong>$8,280</strong>. Other lines on the same schedule that can apply to a new home:</p>
+<ul>
+<li><strong>Expedited review:</strong> twice the normal plan review fee, at the Building Official's discretion.</li>
+<li><strong>Foundation-only permit:</strong> 25 percent of the calculated building permit fee, for starting the foundation before the full permit issues.</li>
+<li><strong>Re-inspections and revisions to approved plans:</strong> $60 an hour, one hour minimum.</li>
+<li><strong>Pool, spa, solar and ramada permits:</strong> $110 for a residential pool, $55 for a spa, $150 for a solar photovoltaic system and $150 for a ramada or accessory storage building.</li>
+<li><strong>Reinstating an expired permit:</strong> 50 percent of the current permit fee if done within a year.</li>
+</ul>
+<p>Chandler's homeowner permit manual also warns that work built without a permit may be charged a double permit fee. Our guide to <a href="/faq/building-permit-cost-arizona">building permit costs in Arizona</a> compares how other Valley cities price the same permit.</p>
+<h2>System development fees for a new Chandler home</h2>
+<p>Arizona Revised Statutes 9-463.05 lets a city charge development fees on new homes for the public systems they use. Chandler calls these system development fees and lists them in City Code Chapter 38. The current schedule, effective July 1, 2024, charges a single family home:</p>
+<table><thead><tr><th>Fee</th><th>Single family, per home</th></tr></thead><tbody>
+<tr><td>Fire</td><td>$308</td></tr>
+<tr><td>Police</td><td>$74</td></tr>
+<tr><td>Parks</td><td>$0 northwest, $129 northeast, $5,242 southeast service area</td></tr>
+<tr><td>Public buildings</td><td>$110</td></tr>
+<tr><td>Water (meter installation not included)</td><td>$2,460</td></tr>
+<tr><td>Wastewater</td><td>$5,989</td></tr>
+<tr><td>Reclaimed water</td><td>$1,094</td></tr>
+<tr><td>Arterial streets (only in certain areas)</td><td>$3,792</td></tr>
+</tbody></table>
+<p>Without the arterial street fee, the total is <strong>$10,035</strong> in the northwest parks area, <strong>$10,164</strong> in the northeast and <strong>$15,277</strong> in the southeast. Where every fee applies, those totals rise to <strong>$13,827</strong>, <strong>$13,956</strong> and <strong>$19,069</strong>. The city notes that a home may also owe solid waste fees and other charges, so ask Development Services for the full list on your parcel before you set a budget. Wastewater is the largest single line, which is why a lot that is not on city sewer has a very different fee picture, along with the cost of a septic system.</p>
+<h2>Chandler's 2024 building codes</h2>
+<p>Chandler adopted the 2024 International Codes with the 2023 National Electrical Code through Ordinance No. 5108. All plans submitted for review on or after July 1, 2025 must be designed to these editions. A plan set drawn to the older codes for an earlier permit will need updating before it can be approved in Chandler, so count that design time in the budget if you are reusing plans.</p>
+<h2>Lots, zoning and site work</h2>
+<p>Chandler is mostly built out, so a custom home here usually goes on an infill lot, a teardown, or one of the larger parcels that remain. Zoning is set by Chapter 35 of the City Code, and many neighborhoods were approved as planned area developments with their own setbacks and an HOA. Our <a href="/faq/how-does-hoa-design-review-affect-building-a-custom-home">answer on HOA design review</a> covers what that adds. Some parcels surrounded by the city are unincorporated county islands, where Maricopa County, not Chandler, issues the permit and the city fees above do not apply. See <a href="/faq/how-do-i-know-if-my-lot-is-in-the-city-or-unincorporated-county-arizona">how to tell whether a lot is in the city or the county</a> before you price one.</p>
+<p>Site work is the line that moves most from lot to lot. A lot in a finished subdivision may have water, sewer and power at the street. A larger parcel can need a utility extension, a new meter, grading, or demolition of an older house first. Each becomes its own line item once the lot is known.</p>
+<h2>How long city review takes</h2>
+<p>Time costs money on a custom build, because loan interest, rent and your own plans all wait on the permit. Chandler reviews plans electronically and takes payment through its Citizen Access portal. The city also runs a free pre-technical review, which it requires for proposed subdivisions, site plan developments and new buildings, so ask Development Services early whether your home needs one. Across the Valley we plan on <strong>2 to 4 months for permits, depending on jurisdiction</strong>, and a complete, code-ready package is the surest way to the short end. Our answer on <a href="/faq/how-long-does-it-take-to-get-a-building-permit-in-arizona">how long a building permit takes in Arizona</a> has more.</p>
+<h2>Building or buying in Chandler</h2>
+<p>A resale house in Chandler costs the market price plus closing costs, and often a remodel to make it yours. A custom home costs the lot, the build at the range above, the permit and plan review, and the system development fees on this page. Building usually comes out higher than buying the same size resale home. What you get for the difference is a home drawn for your lot and your family, built to the 2024 codes, with new systems under warranty. Our <a href="/floor-plans">floor plans</a> are a cheaper starting point than a home designed from scratch, and on our in-house plans we can quote a flat-rate build cost up front.</p>
+<h2>Building a custom home in Chandler with Jematell Homes</h2>
+<p>We build custom homes in Chandler and across the East Valley. On a cost-plus build you get an itemized estimate before we break ground and see every subcontractor bid, so the permit, plan review, system development fees and site work above become line items for your lot. See <a href="/where-we-build/chandler">how we build in Chandler</a>, browse our <a href="/custom-homes">custom homes</a>, or, if you already own land, start with how we <a href="/build-on-your-lot">build on your lot</a>. When you have a lot or a plan in mind, <a href="/contact">contact us</a>.</p>
+<p>Whoever builds your Chandler home pulls the permit in their name and must hold an Arizona Registrar of Contractors license, so a low bid from an unlicensed builder is not a saving you can use. Ours is ROC# 339367, and our answer on <a href="/faq/how-to-verify-an-arizona-contractor-license-with-the-roc">how to verify a contractor license with the ROC</a> shows how to check any builder you are pricing.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Development-Department-Fee-Schedule.pdf" target="_blank" rel="noopener noreferrer">City of Chandler: Fee Schedule, Building Safety (section 4.6)</a></li>
+<li><a href="https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-System-Development-Fees-Schedule-2026.pdf" target="_blank" rel="noopener noreferrer">City of Chandler: System Development Fee Schedule (effective July 1, 2024)</a></li>
+<li><a href="https://www.chandleraz.gov/government/departments/development-services/building-safety-plan-review-permits-and-inspections" target="_blank" rel="noopener noreferrer">City of Chandler: Building Safety Plan Review, Permits and Inspections</a></li>
+<li><a href="https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Amendments-to-the-2024-International-Codes.pdf" target="_blank" rel="noopener noreferrer">City of Chandler: Ordinance No. 5108, Amendments to the 2024 International Codes</a></li>
+<li><a href="https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Home-Owners-Building-Permit-Manual.pdf" target="_blank" rel="noopener noreferrer">City of Chandler: Homeowner Building Permit Manual</a></li>
+<li><a href="https://www.nahb.org/blog/2025/10/square-foot-prices" target="_blank" rel="noopener noreferrer">NAHB: How Do Median Square-Foot Prices Differ by Region?</a></li>
+<li><a href="https://www.azleg.gov/ars/9/00463-05.htm" target="_blank" rel="noopener noreferrer">Arizona Revised Statutes 9-463.05 (Municipal development fees)</a></li>
+</ul>`,
+      shortAnswer: "A custom home in Chandler runs about $250 to $500 per square foot to build in 2026, roughly $750,000 to $1.5 million for 3,000 square feet before the lot. Chandler adds a valuation-based permit, plan review at 65 percent of it, and system development fees of about $10,000 to $19,000 per home.",
+      metaDescription: "A Chandler custom home costs about $250 to $500 per square foot in 2026. See the city's permit and plan review fees, system development fees and 2024 codes.",
+      categorySlug: "costs-and-budget",
+      topicSlugs: ["budgeting-a-custom-home", "per-city-cost"],
+      tags: ["cost", "chandler", "research-phase"],
+      relatedFaqSlugs: ["how-much-does-it-cost-to-build-a-custom-home-in-arizona", "cost-to-build-a-house-per-square-foot-in-arizona", "how-much-does-it-cost-to-build-a-custom-home-in-mesa", "building-permit-cost-arizona"],
+      relatedServiceSlugs: ["where-we-build/chandler", "custom-homes", "build-on-your-lot", "floor-plans"],
+      pillarBlogSlug: null,
+      featured: false,
+      sortOrder: 441,
+    }),
+    item({
       slug: "how-much-does-it-cost-to-build-a-ramada-or-covered-patio-in-arizona",
       question: "How much does it cost to build a ramada or covered patio in Arizona?",
       answerHtml: `<p>Whether the structure attaches to the house or stands alone is the single biggest swing factor in price. Plan on roughly <strong>$5,000 to $30,000 or more</strong> in 2026 for the Phoenix and Scottsdale metro. A small attached aluminum or wood patio cover over an existing slab lands at the low end. A large freestanding ramada with its own footings, a tile or foam roof, recessed lighting, and a ceiling fan lands at the top or beyond. These are 2026 planning ranges, not quotes, because lumber, steel, and labor costs move within a single building season.</p>
