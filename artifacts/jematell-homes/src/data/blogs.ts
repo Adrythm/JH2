@@ -10,6 +10,8 @@ export type Block = {
 export type BlogData = {
   sourceUrl: string;
   title: string;
+  /** Search title when it should differ from the post's H1 (title stays the H1). */
+  seoTitle?: string;
   description: string;
   ogImage: string;
   blocks: Block[];

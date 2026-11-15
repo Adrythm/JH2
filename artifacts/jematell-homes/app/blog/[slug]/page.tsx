@@ -186,7 +186,7 @@ export async function generateMetadata({
   const title = cleanTitle(data.title);
   const heroImg = heroImage(data);
   return pageMetadata({
-    title,
+    title: data.seoTitle ?? title,
     description: data.description || `${title}: notes from the Jematell Homes journal.`,
     canonical: `/blog/${slug}`,
     image: heroImg,
