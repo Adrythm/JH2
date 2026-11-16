@@ -11,6 +11,10 @@ export type PageData = {
   sourceUrl: string;
   title: string;
   description: string;
+  /** Optional search title (the <title> tag only). The hero heading keeps `title`. */
+  seoTitle?: string;
+  /** Optional meta description. The visible hero line keeps `description`. */
+  seoDescription?: string;
   ogImage: string;
   blocks: Block[];
 };

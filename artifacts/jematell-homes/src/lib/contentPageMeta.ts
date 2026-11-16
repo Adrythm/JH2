@@ -74,8 +74,8 @@ export function contentPageMeta(opts: ContentPageMetaOpts): ContentPageMetaResul
     return { title: "Page Not Found", description: "", canonical: path, noindex: true };
   }
   return {
-    title: cleanTitle(data.title),
-    description: data.description,
+    title: data.seoTitle ?? cleanTitle(data.title),
+    description: data.seoDescription ?? data.description,
     canonical: path,
     ...(data.ogImage ? { image: data.ogImage } : {}),
     ...(key === "thankyou" ? { noindex: true } : {}),
