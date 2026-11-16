@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 import { AlertCircle } from "lucide-react";
 
 // The old <Seo title="Page Not Found" noindex /> sink is gone: under the App
@@ -14,7 +15,11 @@ export default function NotFound() {
           </div>
 
           <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
+            This page has moved or no longer exists. Try{" "}
+            <Link href="/custom-homes" className="underline">custom homes</Link>,{" "}
+            <Link href="/build-on-your-lot" className="underline">build on your lot</Link>,{" "}
+            <Link href="/faq" className="underline">our FAQ</Link> or{" "}
+            <Link href="/contact" className="underline">contact us</Link>.
           </p>
         </CardContent>
       </Card>
