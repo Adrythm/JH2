@@ -15023,6 +15023,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-much-does-it-cost-to-haul-water-in-rio-verde-foothills",
       question: "How much does it cost to haul water in Rio Verde Foothills?",
+      seoTitle: "Hauled Water Cost in Rio Verde Foothills",
       answerHtml: `<p>Hauling water to a Rio Verde Foothills home has two separate costs, and you pay both. The first is the water itself at the <strong>EPCOR fill station</strong>, which as of June 2026 is priced at about <strong>$16.28 per 1,000 gallons</strong> (roughly 1.6 cents a gallon) plus a monthly account fee. The second is the <strong>hauler's delivery fee</strong> for trucking that water to your storage tank, which is billed separately and often runs near 4 cents a gallon. Put together, a normal single-family home in this area tends to spend somewhere around <strong>$100 to $200 a month</strong> on water, depending on how much it uses and how far the truck drives. These are utility-regulated and market prices that change, so confirm the current numbers with EPCOR and your hauler before you budget.</p>
 <p>Here is how each cost works, what drives it, and how to keep your monthly water bill predictable.</p>
 <h2>What the EPCOR fill station charges</h2>
