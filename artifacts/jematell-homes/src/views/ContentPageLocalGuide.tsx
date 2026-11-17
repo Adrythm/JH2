@@ -703,6 +703,9 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /Development Center/i, href: "/reference-library/building-codes/casa-grande-residential-building-permit-requirements", only: "casa-grande" },
   { re: /Pinal County septic permit/i, href: "/reference-library/building-codes/pinal-county-septic-and-well-requirements", only: "casa-grande" },
   { re: /Certificate of Occupancy/i, href: "/reference-library/building-codes/casa-grande-building-inspections-process", only: "casa-grande" },
+  { re: /Casa Grande building cost guide/i, href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-casa-grande", only: "casa-grande" },
+  { re: /Casa Grande permit and impact fees/i, href: "/reference-library/building-codes/casa-grande-building-permit-and-impact-fees", only: "casa-grande" },
+  { re: /in-house floor plans/i, href: "/floor-plans", only: "casa-grande" },
   // ---- External: Apache Junction ----
   { re: /Lost Dutchman State Park/i, href: "https://azstateparks.com/lost-dutchman", external: true },
   { re: /Apache Junction Unified School District/i, href: "https://www.ajusd.org", external: true },
