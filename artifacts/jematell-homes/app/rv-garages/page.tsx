@@ -119,10 +119,97 @@ export default function RvGaragesPage() {
               ventilation, and in Arizona a mini-split for cooling, all roughed in during the build.
             </p>
             <p>
-              In Arizona an RV garage typically costs about $40,000 to $120,000 or more in 2026. The tall door and roof drive the cost,
-              and local zoning often caps accessory-building height near 30 feet, so we confirm your limit before we design. Jematell
+              The tall door and roof drive what an RV garage costs, and our{" "}
+              <Link href="/faq/cost-to-build-an-rv-garage-in-arizona">RV garage cost answer</Link> breaks it down. Local zoning also
+              caps how tall the building can be, so we confirm your limit before we design. Jematell
               Homes builds RV garages as part of a new custom home, attached or detached, across Scottsdale, Rio Verde, Cave Creek and
               the Phoenix metro, and can add a casita above or beside it. Licensed Arizona general contractor, {siteConfig.contact.roc}.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="dt-section" style={{ paddingTop: 0 }}>
+        <div className="container container-narrow">
+          <div className="dt-prose" data-testid="rv-lot-rules">
+            <h2>Where an RV garage can go on your lot</h2>
+            <p>
+              An RV garage is usually the tallest and longest building on the lot after the house, so zoning decides where it sits
+              before the floor plan does. The rules change at the city line. These are the places we build most, and each one handles
+              a tall garage differently.
+            </p>
+            <h3>Scottsdale</h3>
+            <p>
+              Scottsdale caps building height at 30 feet in its single-family R1 districts. Inside the Environmentally Sensitive Lands
+              (ESL) overlay in north Scottsdale, the City holds a home to 24 feet, measured from natural grade and counting the ridge,
+              parapets and rooftop equipment. An attached RV bay is part of the home, so a 16 foot door and an 18 foot ceiling leave
+              about 6 feet for the roof framing under that cap, and the roof shape gets settled early.
+            </p>
+            <p>
+              A detached garage may sit closer to the side and rear lines than the house, but the City steps a tall accessory
+              building back. For each foot of height over 10 feet, it has to move at least one more foot away from the property line,
+              measured at its highest point. A detached RV garage with a 22 foot ridge sits 12 feet farther from the line than the
+              base setback alone would allow. Our{" "}
+              <Link href="/reference-library/building-codes/scottsdale-residential-zoning-and-setbacks">Scottsdale zoning and setbacks guide</Link>{" "}
+              has the district yards, and{" "}
+              <Link href="/where-we-build/scottsdale">building in Scottsdale</Link> covers the rest of the lot.
+            </p>
+            <h3>Rio Verde Foothills and other county land</h3>
+            <p>
+              Outside city limits, Maricopa County zoning applies. On an RU-43 acre, a detached garage, shop or barn may sit 3 feet
+              from an interior side or rear line, while its front and street-side setbacks match the house: 40 feet and 20 feet. The
+              county&apos;s 25% lot coverage cap counts every building together, so the house, the RV garage and any casita share one
+              footprint. That is why an RV bay on a one-acre lot is drawn on the same site plan as the home, not added later.
+            </p>
+            <p>
+              Most county lots run on a septic system. A dump connection in the RV bay sends black-tank waste into the same tank and
+              leach field as the house, so the septic design has to count the garage from the start. See{" "}
+              <Link href="/reference-library/building-codes/maricopa-county-residential-zoning-and-setbacks">Maricopa County zoning and setbacks</Link>,{" "}
+              <Link href="/faq/rv-garage-hookups-and-utilities-arizona">RV garage hookups and utilities</Link> and{" "}
+              <Link href="/where-we-build/rio-verde">building in Rio Verde</Link>.
+            </p>
+            <h3>Queen Creek</h3>
+            <p>
+              In Queen Creek&apos;s rural districts, a garage or workshop that is not a dwelling follows the accessory building rules
+              and does not have to match the home&apos;s design. A 2024 amendment added 5% of lot coverage for accessory buildings and
+              set their side setback at 10 feet on the larger lots, which leaves room for an RV garage beside the house. See{" "}
+              <Link href="/where-we-build/queen-creek">building in Queen Creek</Link>.
+            </p>
+            <p>
+              Cave Creek, Carefree, Fountain Hills and our other towns set their own heights and yards, and an HOA or a community&apos;s
+              design guidelines can be stricter than the town. Our{" "}
+              <Link href="/where-we-build">town pages</Link> cover each one.
+            </p>
+
+            <h2>How we plan an RV garage with your home</h2>
+            <ol>
+              <li>
+                <strong>Measure the coach, and the next one.</strong> We take the height with the rooftop air units on, the length with
+                any hitch, and ask whether a trailer, a tow car or a bigger rig may join it later.
+              </li>
+              <li>
+                <strong>Fit it to the lot.</strong> We check the lot for utilities, access and grading, then run the setbacks, height
+                limit and lot coverage for the house and the RV bay together, before a plan is drawn.
+              </li>
+              <li>
+                <strong>Pick attached or detached.</strong> The roofline, the fire separation and how you use the bay decide it. Our{" "}
+                <Link href="/faq/attached-vs-detached-rv-garage-arizona">attached vs detached comparison</Link> walks through both.
+              </li>
+              <li>
+                <strong>Rough in the systems with the slab.</strong> The 50-amp outlet, the water line, the dump or macerator, the floor
+                drain and the mini-split go in while the slab is open, so nothing is trenched across a finished floor later.
+              </li>
+              <li>
+                <strong>Permit and build it with the house.</strong> An RV garage is far larger than the small sheds the codes let you
+                build without a permit, so it goes through plan review and gets a building permit. For plan review and permitting,
+                allow 2 to 4 months, depending on jurisdiction. During the build you get a written update every week.
+              </li>
+            </ol>
+            <p>
+              Planning a home with an RV garage in Scottsdale, Rio Verde, Cave Creek or Queen Creek? Call{" "}
+              <a href={siteConfig.contact.phone.href}>{siteConfig.contact.phone.display}</a> or{" "}
+              <Link href="/contact">tell us about your lot and your coach</Link>. If you do not have land yet,{" "}
+              <Link href="/build-on-your-lot">building on your own lot</Link> explains how we help you find one.
             </p>
           </div>
         </div>
