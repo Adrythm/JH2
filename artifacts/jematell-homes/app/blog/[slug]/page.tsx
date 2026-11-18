@@ -167,6 +167,43 @@ function cleanTitle(t: string) {
   return t.replace(/\s*[—–-]\s*Jematell Homes\s*$/i, "").trim();
 }
 
+function headingKey(t: string) {
+  return cleanTitle(t).toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9']+/g, " ").trim();
+}
+
+/**
+ * Every post's own headline, as its title and as the scraped h1 block. The
+ * scrape caught the old site's previous and next post links as one or two
+ * empty headings at the end of 47 posts, so those posts showed other posts'
+ * headlines as h2 sections with nothing under them.
+ */
+const POST_HEADLINES = new Set(
+  Object.values(blogs).flatMap((p) => [
+    headingKey(p.title),
+    ...(p.blocks[0]?.type === "h1" && p.blocks[0].text ? [headingKey(p.blocks[0].text)] : []),
+  ]),
+);
+
+/**
+ * The body as a reader should see it: the hero image is shown above, the h1
+ * block is dropped when it only repeats the page's headline, and trailing
+ * headings that name another post (with nothing after them) are dropped.
+ */
+function bodyFor(data: (typeof blogs)[string], title: string, heroImg: string) {
+  const blocks = data.blocks.filter((b) => !(b.type === "img" && b.src === heroImg));
+  let end = blocks.length;
+  while (
+    end > 0 &&
+    ["h2", "h3"].includes(blocks[end - 1].type) &&
+    POST_HEADLINES.has(headingKey(blocks[end - 1].text ?? ""))
+  ) {
+    end--;
+  }
+  const start =
+    blocks[0]?.type === "h1" && headingKey(blocks[0].text ?? "") === headingKey(title) ? 1 : 0;
+  return blocks.slice(start, end);
+}
+
 function heroImage(data: (typeof blogs)[string]): string {
   return (
     data.ogImage ||
@@ -215,9 +252,7 @@ export default async function BlogPostPage({
 
   const title = cleanTitle(data.title);
   const heroImg = heroImage(data);
-  const bodyBlocks = data.blocks.filter(
-    (b) => !(b.type === "img" && b.src === heroImg),
-  );
+  const bodyBlocks = bodyFor(data, title, heroImg);
 
   const path = `/blog/${slug}`;
 
