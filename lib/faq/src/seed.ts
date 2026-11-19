@@ -3018,6 +3018,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "why-post-tension-slabs-arizona",
       question: "Why are post-tension slab foundations common in Arizona?",
+      seoTitle: "Why Arizona Homes Use Post-Tension Slabs",
       answerHtml: `<p>Much of the ground across the Phoenix and Scottsdale metro is <strong>expansive clay</strong>, soil that swells when it gets wet and shrinks when it dries out, and ordinary concrete cannot flex with that movement without cracking. A <strong>post-tension slab</strong> is the engineered answer: a concrete floor with steel cables run through it that get pulled tight after the concrete cures. That tension squeezes the slab together, so when the soil heaves or pulls away below it, the slab stays stiff and resists cracking. On the shrink-swell soils common in Maricopa and Pinal County, that is often the difference between a flat floor and a cracked one. The Arizona Geological Survey lists foundation cracks and "heaving and cracking of floor slabs and walls" as direct results of expansive soil, which is exactly the failure a post-tension slab is built to stop.</p>
 <p>This page explains what these soils do, how the cables work, why builders here reach for them so often, and what they cost compared with a basic slab.</p>
 <h2>What expansive soil does under a slab</h2>
@@ -3944,6 +3945,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-important-is-communication-with-your-builder-during-a-custom-build",
       question: "How important is communication with your builder during a custom build, and what should I expect?",
+      seoTitle: "Builder Communication: What to Expect",
       answerHtml: `<p>A custom home is hundreds of decisions and changes spread over many months, which is exactly why communication makes or breaks the project. What you should expect from a good builder is concrete: a <strong>single point of contact</strong>, <strong>regular updates on a set cadence</strong>, and a <strong>written change-order process</strong> for any change to scope, price, or schedule. A build runs on decisions, and decisions run on clear communication. When that breaks down, budgets slip, timelines stretch, and trust erodes. The way a builder communicates before you sign is the best preview of how they will communicate once the slab is poured.</p>
 <h2>Why communication makes or breaks a custom build</h2>
 <p>Communication matters this much because a custom home is not bought, it is built decision by decision over time. Unlike a finished spec home you walk into, a custom build asks you for a long stream of choices: the lot work, the plans, the allowances, the finishes, and the dozens of small calls that come up when a wall meets reality. Every one of those needs information to flow both ways, on time. Miss a decision deadline and the schedule slips. Misunderstand an allowance and the budget jumps.</p>
@@ -5509,6 +5511,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "attached-vs-detached-rv-garage-arizona",
       question: "Attached vs detached RV garage: which is better for an Arizona custom home?",
+      seoTitle: "Attached vs Detached RV Garage in Arizona",
       answerHtml: `<p>For most Arizona custom homes, the deciding factor comes down to roofline and air quality, and both favor building separate. A <strong>detached RV garage</strong> keeps a tall, 16 to 18 foot building apart from your house, so it does not force your roofline up or crowd your living space, and it gives you freedom to place the garage where the lot's setbacks and height limits allow. A detached building also keeps exhaust fumes, fuel smells, and engine noise away from the home. An <strong>attached RV garage</strong> has its own appeal: you skip one exterior wall, you reach the coach without crossing the yard, and you can share utilities. But attaching a tall RV box to a single-story house often looks awkward and pulls garage air toward your living space, which is why detached wins on most rural and large-lot Arizona builds.</p>
 <p>Below is how the two compare on zoning, design, fumes and code, and cost, so you can pick the right one for your lot.</p>
 <h2>Zoning and placement: where each one can go</h2>
@@ -5718,6 +5721,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-insurance-on-vacant-land-before-i-build-in-arizona",
       question: "Do I need insurance on vacant land before I build in Arizona?",
+      seoTitle: "Vacant Land Insurance in Arizona",
       answerHtml: `<p><strong>A hiker who falls, a trespasser on an ATV, a neighbor cutting through: if someone is hurt on your raw lot, you can be held responsible, and a standard homeowners policy will not be in force yet.</strong> That is the main reason to carry insurance on vacant land before you build in Arizona. <strong>Vacant land liability insurance</strong> covers that gap. If you financed the land, you also bought <strong>title insurance</strong> to confirm clean ownership, and when you start building, your <strong>construction loan</strong> will require <strong>builders risk</strong> coverage before the first draw. On rural Rio Verde and Cave Creek parcels, wildfire risk makes all of this matter more.</p>
 <p>Raw desert land feels low-risk, but it is not zero-risk. People wander onto unfenced lots. Brush catches fire. And the title to a parcel can carry old liens or boundary problems you never created. Each of those is a different kind of coverage, and the right time to line them up is before you break ground, not after a problem shows up.</p>
 <h2>Vacant land liability insurance: the main coverage you need</h2>
@@ -5806,6 +5810,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-pay-interest-during-the-construction-phase-of-a-loan-in-arizona",
       question: "Do I pay interest during the construction phase of a construction loan?",
+      seoTitle: "Construction Loan Interest During the Build",
       answerHtml: `<p>The interest applies only to the money you have actually drawn, not the full loan amount. While the home is being built you make <strong>interest-only payments</strong>. You are not paying down principal yet. Because the lender releases the loan in stages, your outstanding balance grows as construction moves forward, so each payment is a little larger than the last. When the build finishes, the loan either converts to a permanent mortgage or is paid off, and only then do you start paying principal. Rates and terms vary by lender and change often, so confirm your numbers with your lender.</p>
 <h2>How interest works while the home is being built</h2>
 <p>You pay interest only on the funds advanced so far, and only for the time those funds are outstanding. A construction loan does not hand you the whole amount on day one. The <strong>Consumer Financial Protection Bureau (CFPB)</strong> explains that the money "is typically provided in a series of advances as the construction progresses." Each advance is a <strong>draw</strong>, released when the home hits a set milestone like foundation, framing, or drywall. You can see how those milestones line up in our draw schedule glossary entry.</p>
@@ -7419,6 +7424,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-happens-if-your-construction-loan-runs-out-of-money-in-arizona",
       question: "What happens if my construction loan runs out of money before the house is finished?",
+      seoTitle: "When a Construction Loan Runs Out of Money",
       answerHtml: `<p>If your construction loan runs out before the house is finished, you are on the hook for the shortfall. A <strong>construction loan</strong> funds an approved, fixed budget that the lender releases in stages called <strong>draws</strong>, so any cost above that budget is yours to cover. The money comes from one of three places: your <strong>contingency reserve</strong> (a cushion built into the loan), cash out of your pocket, or a formal loan increase the lender has to approve. Lenders plan for this risk, which is why most require a contingency reserve of roughly <strong>5% to 10%</strong> of the build cost set aside before the first nail goes in. Here is how the shortfall happens and how to keep it from stopping your build.</p>
 <h2>Why the loan can run dry</h2>
 <p>A construction loan can run out because it funds a number set at closing, and real builds drift above that number. The Consumer Financial Protection Bureau describes how these loans work:</p>
@@ -8073,6 +8079,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "rv-garage-dimensions-arizona",
       question: "What size should an RV garage be?",
+      seoTitle: "RV Garage Size: Door, Ceiling and Depth",
       answerHtml: `<p>The right <a href="/rv-garages">RV garage</a> size starts with your coach, then adds clearance on every side. For a large <strong>Class A motorhome</strong>, plan a <strong>14 to 16 foot tall door</strong>, a <strong>16 to 18 foot interior ceiling</strong>, a bay <strong>14 to 16 feet wide</strong>, and a depth of <strong>40 to 50 feet</strong>. Those numbers fit a long diesel pusher with rooftop air conditioners, satellite domes, and slide-outs, plus room to walk around it and open the door. A smaller Class C or travel trailer needs less, but the rule is the same: measure your actual RV, then add room to move. The most common and most expensive mistake is building a door an inch too short, so measure the height with the rooftop gear in place before you pour a slab.</p>
 <p>Below are the real dimensions by RV class, how the door and ceiling work together, and how Arizona height limits shape what you can build.</p>
 <h2>RV garage dimensions by motorhome class</h2>
@@ -8662,6 +8669,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-tpt-license-for-a-short-term-rental-in-arizona",
       question: "Do I need a TPT license for a short-term rental in Arizona?",
+      seoTitle: "Arizona TPT License for a Short-Term Rental",
       answerHtml: `<p>A short-term rental is any lodging stay under <strong>30 days</strong>, and the Arizona Department of Revenue (ADOR) taxes that income as <strong>transient lodging</strong>. To collect and pay that tax legally, you get a <strong>transaction privilege tax (TPT)</strong> license through the state's <strong>AZTaxes.gov</strong> site, report your bookings under the transient-lodging business class, and remit state, county, and city tax on each stay. You also have to put the TPT license number in your listing and register the property as a rental with your <strong>county assessor</strong>. This is separate from any city short-term rental permit. The TPT license is the tax account; the city permit is the local operating license, and most short-term hosts need both.</p>
 <h2>Why a short-term rental owes TPT</h2>
 <p>A short-term rental owes transaction privilege tax because Arizona treats stays under 30 days as taxable <strong>transient lodging</strong>, the same tax type as a hotel. TPT is often called a sales tax, but in Arizona it is really a tax on the business of selling, and renting a short stay is a taxable sale. ADOR is direct that "income from short-term rental stays is subject to Arizona transaction privilege tax." Once you rent your home, casita, or ADU for a stay under 30 days, you are in the lodging business in the eyes of the state, and that triggers the tax.</p>
@@ -12316,6 +12324,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-i-need-a-permit-for-a-fire-pit-or-outdoor-fireplace-in-arizona",
       question: "Do I need a permit for a fire pit or outdoor fireplace in Arizona?",
+      seoTitle: "Fire Pit Permits in Arizona: Gas vs Wood",
       answerHtml: `<p>In Arizona, a basic <strong>wood-burning fire pit</strong> almost never needs a building permit, but a <strong>gas line</strong> run to a gas fire pit or outdoor fireplace does. The fire pit or fireplace itself is treated as an outdoor appliance, not a structure, so cities like Phoenix and Scottsdale do not make you pull a building permit just to set one in the yard. The moment you add fuel-gas piping, whether natural gas or propane, that gas work needs a permit and an inspection because it ties into the home's gas system. You also have to meet <strong>fire code</strong> clearances no matter the fuel: a recreational fire stays <strong>25 feet</strong> from a structure, and a portable outdoor fireplace stays <strong>15 feet</strong>, unless it is used at a one- or two-family home. On top of that, <strong>Maricopa County</strong> and your city set seasonal and no-burn-day rules for wood fires.</p>
 <p>So the real question is not "fire pit, yes or no." It is what fuel you use, how it connects to the house, and where it sits. Here is how each of those decides whether you need a permit and what rules apply.</p>
 <h2>Gas line permits versus no permit for wood</h2>
@@ -13885,6 +13894,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "how-to-add-a-casita-or-detached-structure-to-an-existing-home-arizona",
       question: "How do I add a casita or detached structure to an existing Arizona home?",
+      seoTitle: "Adding a Casita to an Existing Arizona Home",
       answerHtml: `<p>Four things gate a detached structure on an existing Arizona lot: zoning that allows it, a design that fits the size and setback limits, extended water, sewer, and power, and a building permit pulled before you start. That is the path for adding a <strong>casita</strong> or other detached structure to an existing home. A casita that has a kitchen and a bathroom is an <strong>accessory dwelling unit (ADU)</strong>, a second small home on the same lot. Under <strong>A.R.S. 9-461.18</strong>, Arizona cities with more than 75,000 people must allow at least one attached and one detached ADU as a permitted use on most lots zoned for single-family homes. A detached garage, shop, or pool house without a kitchen follows simpler <strong>accessory structure</strong> rules. The path depends on which one you are building.</p>
 <h2>Casita, guest house, or ADU: know what you are building</h2>
 <p>What you can build and how it is regulated depends on whether the structure is a full dwelling or just a room. The terms get mixed up, so start here:</p>
@@ -14735,6 +14745,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "do-you-need-a-well-permit-or-adequate-water-supply-determination-to-build-in-maricopa-county",
       question: "Do you need a well permit or adequate water supply determination to build in Maricopa County?",
+      seoTitle: "Maricopa County Well Permit and Water Rules",
       answerHtml: `<p>Building a single custom home in Maricopa County does not require a city-style <strong>well permit</strong> or a subdivision-level <strong>water supply determination</strong>. What you do need depends on your water source. If you drill your own well, you file a <strong>Notice of Intent to Drill</strong> with the <strong>Arizona Department of Water Resources (ADWR)</strong>. A household well qualifies as an <strong>exempt well</strong>, meaning a pump rated 35 gallons per minute or less. A formal <strong>100-year Assured Water Supply determination</strong> is a subdivision requirement. It is triggered when land is split into <strong>six or more lots</strong> inside an <strong>Active Management Area</strong>, which covers the Phoenix metro. One home on an already-legal lot does not have to clear that 100-year test. The county still permits and inspects your house, and your site plan must show a legal water source. But the heavy water-supply paperwork is aimed at developers carving up land, not at one family building one home.</p>
 <p>Here is what each requirement is, when it applies, and how the rules differ inside and outside an Active Management Area.</p>
 <h2>The well filing for one home: Notice of Intent to Drill</h2>
@@ -15161,6 +15172,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-wildcat-lot-split-in-arizona-and-how-does-it-affect-water-and-permits",
       question: "What is a wildcat lot split in Arizona, and how does it affect water and permits?",
+      seoTitle: "Wildcat Lot Split Rules in Arizona",
       answerHtml: `<p>One number in Arizona law creates the whole loophole: the state only treats a division of land as a <strong>subdivision</strong> when it creates <strong>six or more lots, parcels, or fractional interests</strong>, a threshold set in <strong>A.R.S. 32-2101</strong>. A landowner who divides a large parcel into <strong>five or fewer lots</strong> on purpose, called a <strong>wildcat lot split</strong>, stays under that line and avoids the formal subdivision rules entirely. Stay at five or fewer, and you skip the public report, the engineered plat, and, most important, the <strong>100-year assured water supply</strong> test that real subdivisions inside the Phoenix area must pass. That single gap is why thousands of rural homes, including much of <strong>Rio Verde Foothills</strong>, sit on land that never had to prove a long-term water source.</p>
 <p>This page explains what a wildcat split is, why the water rule does not catch it, and what it means for your permit, your well, and your build today. The rules here are still moving in 2026, so the timing of your purchase matters.</p>
 <h2>What a wildcat lot split actually is</h2>
@@ -15308,6 +15320,7 @@ export const faqSeed: FaqSeed = {
     item({
       slug: "what-is-a-certificate-of-occupancy-and-how-do-i-get-one",
       question: "What is a certificate of occupancy and how do I get one?",
+      seoTitle: "How to Get a Certificate of Occupancy in AZ",
       answerHtml: `<p><strong>No one may legally move into a newly built home until the local government signs off that it is finished and safe. That sign-off is the certificate of occupancy (CO), the building official's written confirmation that your finished home was built to the code it was permitted under and is legally safe to live in. You get one by passing every required final inspection. Once the building final and the final electrical, plumbing, and mechanical inspections all pass, the jurisdiction issues the certificate, and that document is your green light to move in.</strong> Until it is issued, the home is not legally occupiable, even if it looks done.</p>
 <h2>What the certificate actually means</h2>
 <p>Under the International Residential Code (IRC R110) and the parallel building-code provisions most Arizona jurisdictions adopt, a building cannot be used or occupied until the building official issues a certificate of occupancy. The certificate ties the completed structure back to the approved plans and the code edition in force when the permit was issued. It is both a safety document and a legal one: lenders, insurers, and future buyers may ask to see it, so it matters well beyond move-in day.</p>
@@ -15326,7 +15339,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes handles it</h2>
 <p>We manage the home to a clean final inspection: keeping the approved plans and any revisions current on site, scheduling the trade and building finals in the right order, and clearing punch-list items so the building official can issue your certificate without a second trip. If a temporary certificate is the right call to let you move in on time, we coordinate that and the remaining work to closeout. Because each jurisdiction names and documents this step differently, we confirm the exact occupancy requirements with your local Authority Having Jurisdiction for your specific permit before you plan a move-in date. If you are <a href="/build-on-your-lot">building on a lot you own</a> or planning a <a href="/custom-homes">custom home</a>, <a href="/contact">reach out</a> and we will walk you through the inspection order from permit to move-in.</p>`,
       shortAnswer: "A certificate of occupancy is the building official's confirmation that your finished home meets code and is legal to live in. You earn it by passing every final inspection, the trade finals plus the building final. Some homes get a temporary certificate to move in while minor items finish. Never occupy before it is issued; confirm requirements with your AHJ.",
-      metaDescription: "What is a certificate of occupancy and how do you get one in Arizona? It is the building official's sign-off that your home is code-compliant and legal to occupy after final inspections.",
+      metaDescription: "A certificate of occupancy is the building official's sign-off that a new Arizona home meets code and is legal to live in. Here is how you get one.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["certificate-of-occupancy", "inspections", "final-inspection", "move-in", "research-phase"],
