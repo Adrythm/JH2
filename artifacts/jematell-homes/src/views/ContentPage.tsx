@@ -20,6 +20,7 @@ import {
 import type { PageData, Block } from "../data/pages";
 import { FeaturedProjects } from "../components/FeaturedProjects";
 import { cleanTitle } from "../lib/cleanTitle";
+import cdnImageLadders from "../data/cdnImageLadders.json";
 import dynamic from "next/dynamic";
 
 // CityNavigator renders only on the /where-we-build hub, so it is code-split:
@@ -269,6 +270,10 @@ const CDN_HERO_LADDERS: Record<string, { widths: number[]; width: number; height
   "/images/cdn/9dd598a4-90af-45ab-b64c-e6173da0836e__11-Kitchen.webp": { widths: [768, 1280, 1920], width: 2500, height: 1667 },
   "/images/cdn/349e0c45-d74f-4339-8962-191661b5c87b__natur-wunderland-uH3wpt7gKnQ-unsplash.webp": { widths: [768, 1280, 1920], width: 2500, height: 1875 },
   "/images/cdn/d3a7f535-7f88-4e72-a8bb-004f7aaab0a9__009_Master-Bathroom-1.webp": { widths: [768, 1280, 1920], width: 2500, height: 1667 },
+  // The heroes of the Mesa, Chandler, Gilbert, Queen Creek and Maricopa town pages (2026-11-19).
+  "/images/cdn/e812c4c3-4996-483c-8f4c-59f6aa6d43b7__Kitchen.webp": { widths: [768, 1280, 1920], width: 2500, height: 1875 },
+  "/images/cdn/b8993077-77d4-4c46-a79d-9949d2d44784__luxury-new-build-home.webp": { widths: [768, 1280, 1920], width: 2500, height: 1668 },
+  "/images/cdn/6025a92f-f126-48e2-a9e3-c2ffc0b7ac15__new-construction-home-exterior.webp": { widths: [768, 1280, 1920], width: 2500, height: 1667 },
 };
 
 /** <picture> + matching preload for a cdn hero that has a generated ladder. */
@@ -416,7 +421,30 @@ function IntroPicture({ image }: { image: IntroImage }) {
       />
     );
   }
-  return <img src={image.src} alt={image.alt || ""} loading="lazy" />;
+  return <img src={image.src} alt={image.alt || ""} loading="lazy" {...cdnResponsive(image.src)} />;
+}
+
+/* Squarespace-era cdn/ body photos (a town page's intro photo, a split
+ * section's figure) with generated rungs on disk: until 2026-11-19 each
+ * reached a phone as the one 110-650KB desktop file (Lighthouse on
+ * /where-we-build/gilbert: 508 KiB of image waste). The list holds the
+ * original's size, which stays the top rung and the src fallback. To add one:
+ * `node scripts/gen-image-variants.mjs --from-lossy --dir=public/images/cdn
+ * <name>`, then its entry in src/data/cdnImageLadders.json. The figures crop
+ * with object-fit: cover into a 4/5 box on desktop, so a photo there renders
+ * wider than its column: hence 80vw, not 50vw. */
+const CDN_BODY_SIZES = "(min-width: 900px) 80vw, 100vw";
+const CDN_LADDERS = cdnImageLadders as Record<string, { widths: number[]; width: number; height: number }>;
+
+function cdnResponsive(src: string): { srcSet: string; sizes: string } | Record<string, never> {
+  const ladder = CDN_LADDERS[src];
+  if (!ladder) return {};
+  const base = src.replace(/\.webp$/, "");
+  return {
+    srcSet:
+      ladder.widths.map((w) => `${base}-${w}.webp ${w}w`).join(", ") + `, ${src} ${ladder.width}w`,
+    sizes: CDN_BODY_SIZES,
+  };
 }
 
 function IntroSection({
@@ -829,10 +857,14 @@ function SplitSection({
   section,
   index,
   forceReverse,
+  responsive = true,
 }: {
   section: Section;
   index: number;
   forceReverse?: boolean;
+  /** srcset from cdnImageLadders.json; off on /where-we-build until its
+   * images trial (1697) ends its cool-down on 2026-11-27. */
+  responsive?: boolean;
 }) {
   // Generic alternating section: title + paragraphs (+ first image as media)
   const paras: string[] = [];
@@ -920,7 +952,7 @@ function SplitSection({
               viewport={{ once: true, amount: 0.15 }}
               transition={{ duration: 0.55 }}
             >
-              <img src={img.src} alt={img.alt || ""} loading="lazy" />
+              <img src={img.src} alt={img.alt || ""} loading="lazy" {...(responsive ? cdnResponsive(img.src) : {})} />
             </m.figure>
           ) : null}
         </div>
@@ -1221,7 +1253,7 @@ export default function ContentPage({ pageKey, isRegion, region, data, cityImage
               if (isLocationEditorialSection(s)) return <LocationEditorialSection key={i} section={s} />;
               if (isTierListSection(s))
                 return <TierListSection key={i} section={s} eyebrow={tierEyebrow} />;
-              return <SplitSection key={i} section={s} index={i} forceReverse={key === "where-we-build"} />;
+              return <SplitSection key={i} section={s} index={i} forceReverse={key === "where-we-build"} responsive={key !== "where-we-build"} />;
             })}
 
 
