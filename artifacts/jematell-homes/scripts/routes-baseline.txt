@@ -287,6 +287,7 @@
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-carefree
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-casa-grande
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-cave-creek
+/faq/how-much-does-it-cost-to-build-a-custom-home-in-chandler
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-fountain-hills
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-paradise-valley
 /faq/how-much-does-it-cost-to-build-a-custom-home-in-phoenix
