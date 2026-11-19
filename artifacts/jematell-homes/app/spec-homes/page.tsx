@@ -5,6 +5,8 @@ import { pageMetadata } from "@/seo/metadata";
 import { contentPageMeta, contentPageJsonLd } from "@/lib/contentPageMeta";
 import { JsonLd } from "@/seo/JsonLd";
 import { SpecHomesMap } from "@/views/SpecHomesMap";
+import { SpecHomesHub, SPEC_FAQ } from "@/views/SpecHomesHub";
+import { faqPageJsonLd } from "@/seo/jsonldBuilders";
 
 export const metadata = pageMetadata(contentPageMeta({ pageKey: "spechomes" }));
 
@@ -26,7 +28,10 @@ const PLANS: { id: "1849" | "1644"; href: string; img: string; specs: string[] }
 ];
 
 export default function SpecHomes() {
-  const jsonLd = contentPageJsonLd({ pageKey: "spechomes" });
+  const jsonLd = [
+    ...contentPageJsonLd({ pageKey: "spechomes" }),
+    faqPageJsonLd({ url: "/spec-homes", items: SPEC_FAQ.map((f) => ({ question: f.question, shortAnswer: f.answer })) }),
+  ];
   return (
     <>
       {jsonLd.length ? <JsonLd data={jsonLd} /> : null}
@@ -49,6 +54,10 @@ export default function SpecHomes() {
             <div className="spec-intro-grid">
               <div className="spec-intro-copy" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <h2 className="heading-lg" style={{ textTransform: "uppercase", fontSize: "clamp(26px, 5.5vw, 44px)" }}>High quality, stylish homes at affordable pricing</h2>
+                <p>
+                  A spec house is a new home a builder plans, pays for and builds before it has a buyer, then sells move-in ready.
+                  Ours are built on our own floor plans, for buyers who want a new home without the full design process.
+                </p>
                 <p>
                   Our homes are designed with current trends in mind, and we never choose a price tag over quality.
                   Experience the satisfaction of owning a thoughtfully designed and impeccably constructed spec home,
@@ -128,6 +137,8 @@ export default function SpecHomes() {
             </div>
           </div>
         </section>
+
+        <SpecHomesHub />
       </main>
     </>
   );

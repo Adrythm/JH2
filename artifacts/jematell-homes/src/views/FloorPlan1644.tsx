@@ -14,7 +14,7 @@ const FADE_IN = {
 };
 
 const DRAWINGS = [
-  { label: "Floor Plan", src: "/images/plans/1644-1.png", alt: "1644 floor plan layout — 3 bed, 2 bath, 3-car garage" },
+  { label: "Floor Plan", src: "/images/plans/1644-1.png", alt: "1644 floor plan layout: 3 bed, 2 bath, 2-car garage" },
   { label: "Elevations", src: "/images/plans/1644-2.png", alt: "1644 floor plan — all four exterior elevations" },
 ];
 
