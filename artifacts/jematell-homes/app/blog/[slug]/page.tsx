@@ -224,7 +224,8 @@ export async function generateMetadata({
   const heroImg = heroImage(data);
   return pageMetadata({
     title: data.seoTitle ?? title,
-    description: data.description || `${title}: notes from the Jematell Homes journal.`,
+    description:
+      data.seoDescription || data.description || `${title}: notes from the Jematell Homes journal.`,
     canonical: `/blog/${slug}`,
     image: heroImg,
     type: "article",
