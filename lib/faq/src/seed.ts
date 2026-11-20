@@ -4269,7 +4269,7 @@ export const faqSeed: FaqSeed = {
 <p>The third is the inspection gate. The adopted residential code, the <strong>International Residential Code</strong> in both Scottsdale and Maricopa County, requires the building department to inspect specific stages: footings before the pour, plumbing and electrical rough-in before cover, framing, and a final inspection before occupancy. You cannot legally move in until that final inspection passes and the jurisdiction issues the <strong>certificate of occupancy</strong>.</p>
 <p>The fourth is your own decisions. Every selection you delay becomes a change order later, and change orders cost money and time. The owners who finish on schedule lock their floor plan and finishes during design, then resist mid-build changes unless something truly needs to move. Treat steps 1 through 4 as the place to make decisions, and let steps 5 through 12 be execution. Build the right order into your plan from the start, and the rest of the project follows it cleanly.</p>
 <h2>How Jematell Homes helps</h2>
-<p>We are a licensed, family-owned Arizona custom home builder. We would rather answer your questions before you build than after, so get in touch any time.</p>
+<p>We are a licensed, family-owned Arizona custom home builder. If you already own land, see <a href="/build-on-your-lot">how we build a house on your lot</a>, stage by stage from the lot check to the keys. We would rather answer your questions before you build than after, so get in touch any time.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://roc.az.gov/before-hire" target="_blank" rel="noopener noreferrer">Arizona Registrar of Contractors: Before You Hire a Contractor</a></li>
