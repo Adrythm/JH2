@@ -10,6 +10,19 @@ import { serviceJsonLd, breadcrumbJsonLd, collectionJsonLd } from "../seo/jsonld
 import { absoluteUrl } from "../seo/siteMeta";
 import { locations } from "../config/siteConfig";
 import { cleanTitle } from "./cleanTitle";
+import ogJpg from "../data/ogJpg.json";
+
+/**
+ * Every pages.json ogImage is a WebP, and Google Business Profile posts (and
+ * some link previews) take JPG or PNG only. src/data/ogJpg.json maps a WebP
+ * hero to a JPG copy of the same photo under public/images/og/, so the share
+ * image (og:image, twitter:image) is one they accept. The visible hero and the
+ * JSON-LD keep the WebP. A page whose hero has no JPG copy keeps its WebP.
+ */
+const OG_JPG: Record<string, string> = ogJpg;
+export function shareImage(src: string | undefined): string | undefined {
+  return src ? OG_JPG[src] ?? src : src;
+}
 
 const SERVICE_KEYS = new Set(["custom-homes", "spechomes", "floorplans"]);
 const WHERE_NESTED_KEYS = new Set(["build-on-your-lot", "buy-a-lot-with-us"]);
@@ -78,7 +91,7 @@ export function contentPageMeta(opts: ContentPageMetaOpts): ContentPageMetaResul
     title: data.seoTitle ?? cleanTitle(data.title),
     description: data.seoDescription ?? data.description,
     canonical: path,
-    ...(data.ogImage ? { image: data.ogImage } : {}),
+    ...(data.ogImage ? { image: shareImage(data.ogImage) } : {}),
     ...(key === "thankyou" ? { noindex: true } : {}),
   };
 }
