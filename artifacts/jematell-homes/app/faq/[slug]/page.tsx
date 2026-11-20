@@ -8,6 +8,7 @@ import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pageMetadata } from "@/seo/metadata";
 import { qaPageJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
+import { contentLastmod } from "@/seo/contentDates";
 import { annotateHeadings } from "@/lib/detail";
 import { DetailShell } from "@/components/DetailShell";
 import { DetailDisclaimer } from "@/components/DetailParts";
@@ -55,6 +56,7 @@ export default async function FaqDetailPage({
   const related = faqDataset.related(item);
   const article = annotateHeadings(detail.answerHtml || "");
   const path = `/faq/${detail.slug}`;
+  const answerLastmod = contentLastmod(`faq:${detail.slug}`);
   const primaryTopic = (() => {
     for (const ts of detail.topicSlugs) {
       const t = faqDataset.getTopic(ts);
@@ -96,15 +98,15 @@ export default async function FaqDetailPage({
           // QAPage, not FAQPage: this page is one question with one
           // authoritative answer, and FAQPage markup earns nothing outside
           // government and health sites since Google's 2023 restriction.
-          // dateModified is deliberately not passed: every entry in the FAQ
-          // seed carries the same 2026-01-01 placeholder, so publishing it
-          // would assert the same review date on all 350 pages, which is worse
-          // than asserting none. Pass detail.updatedDate here once the seed
-          // stamps real per-answer dates.
+          // dateModified is the day this answer's own seed entry last
+          // changed in git (the sitemap's lastmod for this page), never the
+          // seed's updatedDate, which is the same 2026-01-01 placeholder on
+          // every entry.
           qaPageJsonLd({
             url: path,
             question: detail.question,
             answer: detail.answer,
+            ...(answerLastmod ? { dateModified: answerLastmod } : {}),
             ...(detail.categoryTitle ? { topic: detail.categoryTitle } : {}),
           }),
           breadcrumbJsonLd(crumbs),

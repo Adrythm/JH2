@@ -7,7 +7,7 @@ import { referenceEntries, jurisdictionSlugOf } from "@/data/reference";
 import { glossaryTerms } from "@/data/glossary";
 import { guides } from "@/data/guides";
 import { pages } from "@/data/pages";
-import lastmodJson from "@/data/lastmod.json";
+import { CONTENT_LASTMOD } from "@/seo/contentDates";
 
 export const dynamic = "force-static";
 
@@ -19,7 +19,7 @@ const NOINDEX_ROUTES = new Set(["/thank-you", ...noindexEstimateRoutes()]);
  * from git history; never the build time). A route's lastmod is the newest of
  * its sources; a route with none gets no lastmod rather than a guess.
  */
-const LASTMOD = lastmodJson as Record<string, string>;
+const LASTMOD = CONTENT_LASTMOD;
 
 /** Scraped-page keys whose route is not /<key> (mirrors contentPageMeta). */
 const PAGE_KEY_BY_PATH: Record<string, string> = {
