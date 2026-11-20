@@ -6,7 +6,8 @@
  * client component keeps only the rendering. No JSX in this file.
  */
 import { pages, type PageData } from "../data/pages";
-import { serviceJsonLd, breadcrumbJsonLd } from "../seo/jsonldBuilders";
+import { serviceJsonLd, breadcrumbJsonLd, collectionJsonLd } from "../seo/jsonldBuilders";
+import { absoluteUrl } from "../seo/siteMeta";
 import { locations } from "../config/siteConfig";
 import { cleanTitle } from "./cleanTitle";
 
@@ -120,6 +121,32 @@ export function contentPageJsonLd(opts: ContentPageMetaOpts): object[] {
         url: path,
         image: data.ogImage,
       }),
+    ];
+  }
+  if (key === "where-we-build") {
+    // The hub is the parent of every town page, and it used to carry no
+    // page JSON-LD at all. A CollectionPage whose mainEntity lists the town
+    // pages (and the breadcrumb the town pages already point back to) says
+    // in markup what the page shows: these are the places we build.
+    const towns = locations.filter((l) => pages[l.slug]);
+    return [
+      {
+        ...collectionJsonLd({ name: pageTitle, description: data.description, url: path }),
+        mainEntity: {
+          "@type": "ItemList",
+          numberOfItems: towns.length,
+          itemListElement: towns.map((l, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: cleanTitle(pages[l.slug]!.title),
+            url: absoluteUrl(`/where-we-build/${l.slug}`),
+          })),
+        },
+      },
+      breadcrumbJsonLd([
+        { name: "Home", url: "/" },
+        { name: "Where We Build", url: path },
+      ]),
     ];
   }
   if (WHERE_NESTED_KEYS.has(key)) {
