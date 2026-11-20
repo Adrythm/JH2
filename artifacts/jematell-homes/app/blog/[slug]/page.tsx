@@ -8,6 +8,7 @@ import { blogSlugs } from "@/lib/routeList";
 import { pageMetadata } from "@/seo/metadata";
 import { articleJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
+import { contentLastmod } from "@/seo/contentDates";
 import { BlogPostBody } from "@/views/BlogPostBody";
 
 export const dynamicParams = false;
@@ -261,7 +262,7 @@ export default async function BlogPostPage({
     <main className="page blog-post">
       <JsonLd
         data={[
-          articleJsonLd({ title, description: data.description, url: path, image: heroImg }),
+          articleJsonLd({ title, description: data.description, url: path, image: heroImg, dateModified: contentLastmod(`blog:${slug}`) }),
           breadcrumbJsonLd([
             { name: "Home", url: "/" },
             { name: "Blog", url: "/blog" },
