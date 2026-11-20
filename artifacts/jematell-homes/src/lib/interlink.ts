@@ -153,6 +153,16 @@ function termAliases(term: string): string[] {
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+/**
+ * A place name as a whole word. "Maricopa" alone is the Pinal County city we
+ * have a page for; "Maricopa County" is the county around Phoenix, another
+ * place. Without the lookahead every Maricopa County question
+ * linked "Custom Homes in Maricopa" (five FAQs, the rural zoning answer among
+ * them) and the Maricopa city page listed Maricopa County FAQs as its own.
+ */
+const placeRe = (name: string) =>
+  new RegExp(`\\b${escapeRe(name)}\\b${/ County$/.test(name) ? "" : "(?! County)"}`);
+
 /** Word-boundary match so a 3-letter abbreviation cannot match inside a word. */
 function mentionsAlias(hay: string, term: string): boolean {
   return termAliases(term).some((a) => new RegExp(`\\b${escapeRe(a)}\\b`, "i").test(hay));
@@ -423,7 +433,7 @@ function guidesForPlaces(names: string[]): LinkItem[] {
  * they are the highest-intent ones for someone reading a city page.
  */
 function faqsForPlaces(names: string[], limit: number): LinkItem[] {
-  const res = names.map((n) => new RegExp(`\\b${escapeRe(n)}\\b`));
+  const res = names.map(placeRe);
   return FAQ_INDEX.filter((r) => res.some((re) => re.test(r.question)))
     .map((r) => ({ r, cost: /cost|price|budget|how much/i.test(r.question) ? 0 : 1 }))
     .sort((a, b) => a.cost - b.cost)
@@ -449,9 +459,19 @@ export function relationsForRegion(citySlug: string, cityName: string): Relation
   return {
     references: dedupe(refs, self, 6),
     guides: dedupe(guidesForPlaces([cityName]), self, 2),
-    faqs: dedupe(faqsForPlaces([cityName], 4), self, 4),
+    faqs: dedupe(faqsForPlaces([cityName, ...(REGION_FAQ_PLACES[citySlug] || [])], 4), self, 4),
   };
 }
+
+/**
+ * Places beyond the town's own name whose FAQs belong on its page. The City of
+ * Maricopa has no FAQ of its own, and the land around it (Hidden Valley,
+ * Thunderbird Farms) is unincorporated Pinal County, so its page lists the
+ * Pinal County answers rather than none.
+ */
+const REGION_FAQ_PLACES: Record<string, string[]> = {
+  maricopa: ["Pinal County"],
+};
 
 /** "Keep exploring" for a /reference-library/building-codes/<jurisdiction> hub. */
 export function relationsForJurisdiction(j: JurisdictionMeta): RelationSet {
@@ -528,12 +548,29 @@ const TOPIC_SERVICES: Record<string, string[]> = {
  */
 const CITY_MENTIONS = locations.map((l) => ({
   key: `where-we-build/${l.slug}`,
-  re: new RegExp(`\\b${escapeRe(l.name)}\\b`),
+  re: placeRe(l.name),
 }));
+
+/**
+ * A question about county land names the county, not a town, so it linked no
+ * town page at all. These are the town pages whose own text says lots there
+ * fall under that county: Rio Verde Foothills is unincorporated Maricopa
+ * County, Gilbert and Chandler hold Maricopa County islands, Hidden Valley and
+ * Thunderbird Farms around Maricopa and San Tan Valley beside Queen Creek are
+ * unincorporated Pinal County, and Casa Grande and Apache Junction already map
+ * to Pinal County below. The towns with the fewest links to their pages lead.
+ */
+const COUNTY_MENTIONS: { re: RegExp; towns: string[] }[] = [
+  { re: placeRe("Maricopa County"), towns: ["rio-verde", "gilbert", "chandler"] },
+  { re: placeRe("Pinal County"), towns: ["maricopa", "queen-creek", "casa-grande", "apache-junction"] },
+];
 
 function derivedServices(detail: { question: string; topicSlugs?: string[] }): LinkItem[] {
   const keys: string[] = [];
   for (const c of CITY_MENTIONS) if (c.re.test(detail.question)) keys.push(c.key);
+  for (const c of COUNTY_MENTIONS) {
+    if (c.re.test(detail.question)) for (const t of c.towns) keys.push(`where-we-build/${t}`);
+  }
   for (const t of detail.topicSlugs || []) for (const k of TOPIC_SERVICES[t] || []) keys.push(k);
   keys.push("custom-homes");
   return keys
