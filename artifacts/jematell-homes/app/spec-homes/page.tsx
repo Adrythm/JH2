@@ -27,6 +27,19 @@ const PLANS: { id: "1849" | "1644"; href: string; img: string; specs: string[] }
   { id: "1644", href: "/floor-plans/1644", img: "/images/plans/1644-rendering.png", specs: ["1,644 Sq Ft", "3 Bedrooms", "2 Bathrooms", "2-Car Garage"] },
 ];
 
+/**
+ * Both renderings ship as 768 and 1280 px WebP beside the 2.6 MB PNG (as on
+ * /floor-plans), so the cards load those and never the PNG.
+ */
+function planWebp(png: string): { src: string; srcSet: string; sizes: string } {
+  const base = png.replace(/\.png$/, "");
+  return {
+    src: `${base}-1280.webp`,
+    srcSet: `${base}-768.webp 768w, ${base}-1280.webp 1280w`,
+    sizes: "(max-width: 768px) 100vw, 50vw",
+  };
+}
+
 export default function SpecHomes() {
   const jsonLd = [
     ...contentPageJsonLd({ pageKey: "spechomes" }),
@@ -70,7 +83,11 @@ export default function SpecHomes() {
               </div>
               <div className="spec-intro-media" style={{ overflow: "hidden", borderRadius: 4 }}>
                 <img
-                  src="/images/spec-homes-kitchen.jpg"
+                  src="/images/spec-homes-kitchen-1280.webp"
+                  srcSet="/images/spec-homes-kitchen-768.webp 768w, /images/spec-homes-kitchen-1280.webp 1280w, /images/spec-homes-kitchen.jpg 1800w"
+                  sizes="(max-width: 860px) 100vw, 50vw"
+                  width={1800}
+                  height={1350}
                   alt="Kitchen in a Jematell Homes spec home with a quartz waterfall island, subway-tile backsplash, and stainless appliances"
                   loading="lazy"
                   style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
@@ -109,7 +126,7 @@ export default function SpecHomes() {
                 return (
                   <article className="page-tier-card" key={p.id} data-testid={`spec-card-${p.id}`}>
                     <Link href={p.href} className="page-tier-media fp-exclusive-media">
-                      <img src={p.img} alt={`Rendered exterior of the ${p.id} Plan by Jematell Homes`} loading="lazy" />
+                      <img {...planWebp(p.img)} alt={`Rendered exterior of the ${p.id} Plan by Jematell Homes`} loading="lazy" width={1536} height={1024} />
                     </Link>
                     <div className="page-tier-body">
                       <span className="eyebrow" style={{ color: "var(--color-warm)" }}>
