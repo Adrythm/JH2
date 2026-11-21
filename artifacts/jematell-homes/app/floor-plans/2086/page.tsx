@@ -7,7 +7,7 @@ import FloorPlan2086 from "@/views/FloorPlan2086";
 export const metadata = pageMetadata({
   title: "2086 Floor Plan",
   description:
-    "The Jematell Homes 2086 sq ft floor plan — 3 bedrooms plus office, 2 baths, and a 3-car garage. View full architectural drawings, all four elevations, and photos of the completed Desert Retreat home.",
+    "2086 sq ft floor plan: 3 bedrooms plus office, 2 baths, and a 3-car garage. Full drawings, all four elevations, and photos of the completed Desert Retreat home.",
   canonical: "/floor-plans/2086",
   image: "/images/plans/2086-rendering.png",
 });

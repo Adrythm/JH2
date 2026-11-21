@@ -7,7 +7,7 @@ import FloorPlan2997 from "@/views/FloorPlan2997";
 export const metadata = pageMetadata({
   title: "2997 Floor Plan",
   description:
-    "The Jematell Homes 2997 sq ft modern farmhouse floor plan — 5 bedrooms, 3.5 baths, a 2-car garage, and an upstairs bonus room. View full architectural drawings, all four elevations, and photos of the completed Modern Farmhouse.",
+    "2997 sq ft modern farmhouse plan: 5 bedrooms, 3.5 baths, a 2-car garage, and a bonus room. Full drawings, four elevations, and photos of the completed home.",
   canonical: "/floor-plans/2997",
   image: "/images/plans/2997-rendering.png",
 });

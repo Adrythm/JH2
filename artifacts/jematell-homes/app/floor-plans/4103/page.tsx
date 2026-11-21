@@ -7,7 +7,7 @@ import { CUSTOM_HOMES_SHOWCASE } from "@/lib/customHomesShowcase";
 export const metadata = pageMetadata({
   title: "4103 Floor Plan",
   description:
-    "The Jematell Homes 4103 sq ft floor plan: 3 bedrooms, a bonus room, a den, 4.5 baths, and a 4-car garage. View the floor plan and all four elevations, and build it on your lot.",
+    "4103 sq ft floor plan: 3 bedrooms, a bonus room, a den, 4.5 baths, and a 4-car garage. View the floor plan and all four elevations, and build it on your lot.",
   canonical: "/floor-plans/4103",
   image: "/images/plans/4103-rendering.png",
 });
