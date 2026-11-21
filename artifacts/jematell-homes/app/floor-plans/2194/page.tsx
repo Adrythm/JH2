@@ -7,7 +7,7 @@ import FloorPlan2194 from "@/views/FloorPlan2194";
 export const metadata = pageMetadata({
   title: "2194 Floor Plan",
   description:
-    "The Jematell Homes 2194 sq ft floor plan — 3 bedrooms plus office, 2 baths, and a 2-car garage with a dedicated RV garage. View full architectural drawings, all four elevations, and photos of the completed Rio Verde RV home.",
+    "2194 sq ft floor plan: 3 bedrooms plus office, 2 baths, a 2-car garage and an RV garage. Full drawings, four elevations, and photos of the Rio Verde RV home.",
   canonical: "/floor-plans/2194",
   image: "/images/plans/2194-rendering.png",
 });

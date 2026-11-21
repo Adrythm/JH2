@@ -7,7 +7,7 @@ import { CUSTOM_HOMES_SHOWCASE } from "@/lib/customHomesShowcase";
 export const metadata = pageMetadata({
   title: "2045 Floor Plan",
   description:
-    "The Jematell Homes 2045 sq ft floor plan: 2 bedrooms, 2.5 baths, a 2.5-car garage, and a dedicated RV garage. View the floor plan and all four elevations, and build it on your lot.",
+    "2045 sq ft floor plan: 2 bedrooms, 2.5 baths, a 2.5-car garage, and an RV garage. View the floor plan and all four elevations, and build it on your lot.",
   canonical: "/floor-plans/2045",
   image: "/images/plans/2045-rendering.png",
 });

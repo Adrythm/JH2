@@ -7,7 +7,7 @@ import { CUSTOM_HOMES_SHOWCASE } from "@/lib/customHomesShowcase";
 export const metadata = pageMetadata({
   title: "2867 Floor Plan",
   description:
-    "The Jematell Homes 2867 sq ft floor plan: 3 bedrooms, a study, 2.5 baths, a 3-car garage, and a detached casita guest suite. View the floor plan and all four elevations, and build it on your lot.",
+    "2867 sq ft floor plan: 3 bedrooms, a study, 2.5 baths, a 3-car garage, and a detached casita. View the plan and all four elevations, and build it on your lot.",
   canonical: "/floor-plans/2867",
   image: "/images/plans/2867-rendering.png",
 });

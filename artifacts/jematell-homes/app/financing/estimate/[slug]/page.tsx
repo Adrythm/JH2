@@ -96,9 +96,9 @@ export async function generateMetadata({
   const meta = pageMetadata({
     title: scenarioTitle(s),
     description:
-      `A ${s.price.label} custom home in ${s.location.name}, Arizona with ${s.downPct}% down works out to about ` +
-      `${money(est.allInMonthly)} a month after move-in, including principal and interest, property taxes, and insurance. ` +
-      `Estimate only, not a loan offer.`,
+      `A ${s.price.label} custom home in ${s.location.name}, AZ with ${s.downPct}% down: about ` +
+      `${money(est.allInMonthly)} a month for the loan, taxes and insurance. ` +
+      `An estimate, not a loan offer.`,
     canonical: `/financing/estimate/${s.slug}`,
   });
   // One estimate per city is indexed; the rest stay for

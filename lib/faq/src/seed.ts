@@ -2369,7 +2369,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/s/IRC2021P3/chapter-3-building-planning/IRC2021P3-Pt03-Ch03-SecR302.6" target="_blank" rel="noopener noreferrer">2021 International Residential Code, Section R302.6 Dwelling-Garage Fire Separation (ICC Digital Codes)</a></li>
 </ul>`,
       shortAnswer: "The core luxury garage finishes are a coated floor (epoxy or polyaspartic), full storage cabinets, and car lifts, plus insulation and a cooled interior to protect it all. In Arizona, climate control comes first, because desert heat and sun degrade uncooled floors, tires, and stored goods faster than in a mild climate.",
-      metaDescription: "The best luxury garage finishes are epoxy or polyaspartic floors, cabinets, and lifts, plus Arizona climate control. See what each upgrade does and costs to plan.",
+      metaDescription: "The best luxury garage finishes are epoxy or polyaspartic floors, cabinets, and lifts, plus Arizona climate control. What each upgrade does and costs.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
@@ -2790,7 +2790,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.energystar.gov/products/energy_star_home_upgrade/make_your_home_electric_ready" target="_blank" rel="noopener noreferrer">ENERGY STAR: Make Your Home Electric Ready</a></li>
 </ul>`,
       shortAnswer: "A smart electrical panel is a breaker box that monitors and controls each circuit through an app. It shows real-time power use per circuit and can shed loads automatically. In a custom home with EV charging, solar, and battery, it is often worth it, because managing loads can avoid a costly 400-amp service upgrade.",
-      metaDescription: "A smart electrical panel monitors and controls each circuit and sheds loads automatically. See whether it is worth it in a custom home with EV, solar, and battery.",
+      metaDescription: "A smart electrical panel monitors and controls each circuit and sheds loads automatically. Is it worth it in a custom home with EV, solar, and battery?",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["desert-build", "research-phase"],
@@ -5899,7 +5899,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/33/01002.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-1002 (Owner-occupied dwelling lien exemption)</a></li>
 </ul>`,
       shortAnswer: "Yes. Your lender requires a lender's title insurance policy on an Arizona construction loan, and you should also buy an owner's policy. On new construction the biggest title risk is a mechanics lien from an unpaid contractor or supplier, which owner's title insurance can defend against.",
-      metaDescription: "On Arizona new construction your lender requires title insurance and you should add an owner's policy. See how it guards against mechanics liens from unpaid subs.",
+      metaDescription: "On Arizona new construction your lender requires title insurance and you should add an owner's policy. How it guards against mechanics liens from unpaid subs.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
@@ -7513,7 +7513,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2008/CV-07-0416-91274.PDF" target="_blank" rel="noopener noreferrer">The Lofts at Fillmore Condominium Assn v. Reliance Commercial Construction (Ariz. 2008), implied warranty survives change of owner</a></li>
 </ul>`,
       shortAnswer: "If your Arizona builder goes out of business or files bankruptcy mid-project, your deposit and unfinished work are at risk. You may claim up to $30,000 from the Residential Contractors' Recovery Fund if the builder was licensed, watch for subcontractor liens, and hire a new licensed builder to finish, with your home warranty rights still intact.",
-      metaDescription: "If your Arizona builder goes out of business, your deposit and build are at risk. See the ROC Recovery Fund $30,000 cap, lien exposure, and how warranty rights survive.",
+      metaDescription: "If your Arizona builder goes out of business, your deposit and build are at risk. The ROC Recovery Fund $30,000 cap, lien exposure, and your warranty rights.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
@@ -7601,7 +7601,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/32/01155.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1155 (Acts constituting grounds for suspension or revocation)</a></li>
 </ul>`,
       shortAnswer: "A builder allowance is a set dollar amount in your contract for an item you have not chosen yet, like flooring or cabinets. If your actual selection costs more than the allowance, you pay the difference as an overage, usually billed through a change order. If it costs less, you may get a credit.",
-      metaDescription: "A builder allowance is a budget placeholder for unchosen items. Go over it and you pay the overage, usually via a change order. See how allowances work in Arizona.",
+      metaDescription: "A builder allowance is a budget placeholder for unchosen items. Go over it and you pay the overage, usually by change order. How allowances work in Arizona.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
@@ -8289,7 +8289,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://difi.az.gov/home-insurance" target="_blank" rel="noopener noreferrer">Arizona Department of Insurance and Financial Institutions: Homeowners Insurance consumer information</a></li>
 </ul>`,
       shortAnswer: "Either the owner or the builder can pay for builders risk insurance, and your contract decides which. On an Arizona build-on-your-lot project the owner usually carries it because they hold the land and the construction loan. On a turnkey custom build, the builder often carries it and bills it as a line item.",
-      metaDescription: "Owner or builder can pay for builders risk insurance on an Arizona home. See who usually carries it, what your contract should say, and the coverage gaps to avoid.",
+      metaDescription: "Owner or builder can pay for builders risk insurance on an Arizona home. Who usually carries it, what your contract should say, and the coverage gaps to avoid.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["cost", "research-phase"],
@@ -8456,7 +8456,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.scottsdaleaz.gov/codes-and-ordinances/accessory-dwelling-units" target="_blank" rel="noopener noreferrer">City of Scottsdale: Accessory Dwelling Units (size standards)</a></li>
 </ul>`,
       shortAnswer: "Yes. You can build a guest house without a full kitchen in Arizona, and many people do on purpose. Leaving out the kitchen is what keeps it a guest house, not a rentable ADU, in cities like Scottsdale. That means a smaller size cap, lower cost, and shared utilities, but you cannot rent it.",
-      metaDescription: "Yes, you can build a guest house with no kitchen in Arizona. The kitchen is the line between a guest house and a rentable ADU. See the rules, cost, and trade-offs.",
+      metaDescription: "You can build a guest house with no kitchen in Arizona. The kitchen is the line between a guest house and a rentable ADU. The rules, cost, and trade-offs.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "adus-and-casitas"],
       tags: ["design", "research-phase"],
@@ -8588,7 +8588,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.scottsdaleaz.gov/planning-development/home-improvement" target="_blank" rel="noopener noreferrer">City of Scottsdale: Home Improvement (permits for remodels and additions)</a></li>
 </ul>`,
       shortAnswer: "Yes, but exterior remodels in an Arizona HOA usually need architectural review approval before you start, on top of the city permit. Interior work rarely needs HOA sign-off. Under A.R.S. 33-1817, the design committee reviews changes to exterior colors, materials, roofs, walls, and additions against the community's CC&Rs and guidelines.",
-      metaDescription: "Remodeling in a Scottsdale HOA or gated community? Exterior changes need architectural review under A.R.S. 33-1817, plus the city permit. See what needs approval.",
+      metaDescription: "Remodeling in a Scottsdale HOA or gated community? Exterior changes need architectural review under A.R.S. 33-1817, plus the city permit. What needs approval.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["design", "scottsdale", "research-phase"],
@@ -10270,7 +10270,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://basc.pnnl.gov/resource-guides/passive-and-low-energy-cooling" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Passive and Low-Energy Cooling</a></li>
 </ul>`,
       shortAnswer: "A hacienda or Spanish ranch home is a low, single-story house built around a central courtyard, with thick stucco or adobe walls, a low red tile roof, arched arcades, and wrought iron. It comes from the working Spanish-Mexican ranchos of the Southwest. The courtyard-centered plan suits Arizona well because it shades and cools the home naturally.",
-      metaDescription: "A hacienda or Spanish ranch home is a courtyard-centered, single-story house with stucco walls and a low tile roof. See its features, desert fit, cost, and HOA rules.",
+      metaDescription: "A hacienda or Spanish ranch home is a courtyard-centered, single-story house with stucco walls and a low tile roof. Its features, desert fit, cost, HOA rules.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "architectural-styles", "luxury-features"],
       tags: ["design", "research-phase"],
@@ -10455,7 +10455,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://basc.pnnl.gov/resource-guides/high-thermal-mass-construction" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: High-Thermal-Mass Construction (time lag, thermal damping, western US swings)</a></li>
 </ul>`,
       shortAnswer: "A Pueblo Revival home copies the look of New Mexico's adobe pueblos: flat parapeted roofs, soft rounded earth-tone walls, and exposed wood roof beams called vigas that poke through the wall. In Arizona it reads as warm and handcrafted. Today the look is usually built in stucco over a wood or block frame, not solid adobe.",
-      metaDescription: "A Pueblo Revival or Southwest style home copies adobe pueblos: flat roofs, rounded earth walls, exposed vigas. See its features, desert fit, and cost in Arizona.",
+      metaDescription: "A Pueblo Revival or Southwest style home copies adobe pueblos: flat roofs, rounded earth walls, exposed vigas. Its features, desert fit, and cost in Arizona.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "architectural-styles"],
       tags: ["design", "research-phase"],
@@ -10684,7 +10684,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://basc.pnnl.gov/resource-guides/passive-and-low-energy-cooling" target="_blank" rel="noopener noreferrer">PNNL Building America Solution Center: Passive and Low-Energy Cooling</a></li>
 </ul>`,
       shortAnswer: "A transitional home blends traditional and modern design. It keeps the comfort and warmth of a classic home, such as natural materials and a pitched or mixed roofline, while using the clean lines, big glass, and uncluttered interiors of modern style. In Arizona it is a popular middle ground between Mediterranean and desert contemporary.",
-      metaDescription: "A transitional style home blends traditional warmth with modern clean lines. See its features, why it suits Arizona, cost, and how it fares in HOA design review.",
+      metaDescription: "A transitional style home blends traditional warmth with modern clean lines. Its features, why it suits Arizona, cost, and how it fares in HOA design review.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus", "architectural-styles"],
       tags: ["design", "research-phase"],
@@ -13793,7 +13793,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.maricopa.gov/6408/Residential-Pool-and-Barrier-Requirement" target="_blank" rel="noopener noreferrer">Maricopa County: Residential Pool and Barrier Requirements</a></li>
 </ul>`,
       shortAnswer: "To build a pool with a new home in Arizona, you need a separate pool permit covering the structure, plumbing, and electrical, plus a barrier permit and a passed barrier inspection before you fill it. Arizona's barrier rules come from A.R.S. 36-1681, which cities can make stricter.",
-      metaDescription: "A new Arizona pool needs a separate pool permit plus a barrier permit and inspection before filling. See the A.R.S. 36-1681 barrier rules and how cities add to them.",
+      metaDescription: "A new Arizona pool needs a pool permit plus a barrier permit and inspection before filling. The A.R.S. 36-1681 barrier rules and how cities add to them.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona", "luxury-features"],
       tags: ["permits", "research-phase"],
@@ -14179,7 +14179,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.phoenix.gov/administration/departments/pdd/residential-building/resident-plan-reviews/additions-remodels.html" target="_blank" rel="noopener noreferrer">City of Phoenix: Residential Additions and Remodels</a></li>
 </ul>`,
       shortAnswer: "A garage renovation in Arizona ranges widely by scope, from a few thousand dollars for a coated floor and cabinets to well over $50,000 for insulation, cooling, new doors, and a full luxury finish. The cost is driven by what you add: floor coating, storage, climate control, power, and structural changes. Confirm current pricing with your builder.",
-      metaDescription: "A garage remodel in Arizona spans from a few thousand dollars to $50K+ by scope. See the cost drivers, permit rules, and what climate control adds in the desert.",
+      metaDescription: "A garage remodel in Arizona runs from a few thousand dollars to $50K+ by scope. See the cost drivers, permit rules, and what climate control adds in the desert.",
       categorySlug: "remodeling-and-additions",
       topicSlugs: ["remodeling-and-additions"],
       tags: ["remodeling", "research-phase"],
@@ -14263,7 +14263,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/s/IRC2018P7/chapter-1-scope-and-administration/IRC2018P7-Pt01-Ch01-SubCh01-SecR102.7.1" target="_blank" rel="noopener noreferrer">2018 IRC R102.7.1 (Additions, alterations or repairs)</a></li>
 </ul>`,
       shortAnswer: "A kitchen remodel in Arizona usually runs about $25,000 to $100,000 or more in 2026. A midrange refresh lands near $30,000 to $60,000, while a high-end custom kitchen with moved walls and premium finishes runs $75,000 to $150,000+. Cabinets, layout changes, and finish level drive the number. Confirm current pricing with your builder.",
-      metaDescription: "A kitchen remodel in Arizona runs about $25,000 to $100,000+ in 2026. See the cost drivers: cabinets, layout changes, appliances, and finish level, with real ranges.",
+      metaDescription: "A kitchen remodel in Arizona runs about $25,000 to $100,000+ in 2026. The cost drivers: cabinets, layout changes, appliances, and finish level, with ranges.",
       categorySlug: "remodeling-and-additions",
       topicSlugs: ["remodeling-and-additions"],
       tags: ["remodeling", "research-phase"],
@@ -14305,7 +14305,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://codes.iccsafe.org/s/IRC2018P7/chapter-1-scope-and-administration/IRC2018P7-Pt01-Ch01-SubCh01-SecR102.7.1" target="_blank" rel="noopener noreferrer">2018 IRC R102.7.1 (Additions, alterations or repairs)</a></li>
 </ul>`,
       shortAnswer: "A primary bathroom remodel in Arizona usually runs about $20,000 to $75,000 or more in 2026. A midrange update lands near $25,000 to $45,000, while a high-end spa bath with a custom shower and freestanding tub runs $50,000 to $100,000+. Tile, layout, and finish drive the number. Confirm current pricing with your builder.",
-      metaDescription: "A primary bathroom remodel in Arizona runs about $20,000 to $75,000+ in 2026. See cost drivers: tile, custom showers, layout changes, and spa features, with ranges.",
+      metaDescription: "A primary bathroom remodel in Arizona runs about $20,000 to $75,000+ in 2026. Cost drivers: tile, custom showers, layout changes, and spa features, with ranges.",
       categorySlug: "remodeling-and-additions",
       topicSlugs: ["remodeling-and-additions"],
       tags: ["remodeling", "research-phase"],
@@ -14729,7 +14729,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.maricopa.gov/1674/Residential-Construction" target="_blank" rel="noopener noreferrer">Maricopa County Residential Construction permits</a></li>
 </ul>`,
       shortAnswer: "Yes. There is no city water in Rio Verde Foothills, so every custom home there runs without it, using a private well or hauled water in an onsite storage tank. The catch is financing: FHA loans reject hauled-water cisterns on new construction, so a well or a portfolio or cash buyer is usually how a tank home gets built.",
-      metaDescription: "You can build in Rio Verde Foothills with no city water, using a well or hauled-water tank. The catch is FHA rejects cisterns on new builds. How financing works.",
+      metaDescription: "You can build in Rio Verde Foothills with no city water, using a well or hauled-water tank. The catch: FHA rejects cisterns on new builds. How financing works.",
       categorySlug: "water-septic-utilities",
       topicSlugs: ["rural-water-and-septic", "rio-verde-water"],
       tags: ["water-septic", "rio-verde", "research-phase"],
@@ -15158,7 +15158,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.azleg.gov/ars/45/00454.htm" target="_blank" rel="noopener noreferrer">A.R.S. 45-454 (Exemption of small non-irrigation wells; 35 gpm)</a></li>
 </ul>`,
       shortAnswer: "Cost tracks how much deeper you go and whether you deepen or replace the well. Deepening reuses the existing borehole and is often the cheaper fix. A full replacement well, drilled and cased by the foot plus a new pump, costs more. Both require an ADWR Notice of Intent and a licensed driller.",
-      metaDescription: "What it costs to deepen or replace an Arizona well depends on depth, drilling, and the pump. See deepen vs replace, the ADWR rules, and how to confirm a real quote.",
+      metaDescription: "What it costs to deepen or replace an Arizona well depends on depth, drilling, and the pump. Deepen vs replace, the ADWR rules, and how to confirm a real quote.",
       categorySlug: "water-septic-utilities",
       topicSlugs: ["rural-water-and-septic"],
       tags: ["water-septic", "research-phase"],
@@ -15433,7 +15433,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes handles it</h2>
 <p>We confirm whether the city or the county is your AHJ, assemble the correct application packet for that office, and carry the plan-review cycles and supporting approvals in order. Because Pinal County and its cities update their adopted codes, fees, and processing times periodically, we verify the current requirements directly with the governing office for your specific parcel before committing to a schedule. Always confirm jurisdiction and current requirements with your local building department or Pinal County Community Development.</p>`,
       shortAnswer: "It depends on whether your lot is inside a city or in unincorporated county. Inside Casa Grande or Apache Junction, the city permits and inspects; just outside, Pinal County Community Development is the authority. Each has its own application packet, adopted code, and fees, so confirm jurisdiction before you design.",
-      metaDescription: "How building permits work in Pinal County around Casa Grande and Apache Junction: when the city is the authority, when Pinal County Community Development is, and what the process involves.",
+      metaDescription: "How building permits work in Pinal County around Casa Grande and Apache Junction: when the city or the county is the authority, and what the process involves.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["permits", "pinal-county", "casa-grande", "apache-junction", "process", "research-phase"],
@@ -15531,7 +15531,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes handles it</h2>
 <p>If living on your lot during construction is part of your plan, we help you confirm whether your jurisdiction allows it, identify the temporary use permit and the approved water and sewage arrangements you will need, and coordinate the timing so the RV is sited and removed in step with the build and your certificate of occupancy. Because zoning rules, health requirements, and time limits differ by jurisdiction and change over time, we verify the current rules with your county or city planning and environmental offices for your specific parcel. Always confirm temporary-occupancy rules with your local Authority Having Jurisdiction, your county environmental office, and any HOA before you move onto the land. If the coach is staying after move-in, plan its <a href="/rv-garages">RV garage</a> with the house, and see how we <a href="/build-on-your-lot">build on your lot</a> from the first lot check onward.</p>`,
       shortAnswer: "Often yes in unincorporated county areas, with limits. You typically need an active building permit, a temporary use permit, approved water and sewage, and you must remove the RV by the time the certificate of occupancy is issued. Cities are stricter and some prohibit it; HOAs and deed restrictions can override the zoning. Confirm with your AHJ before moving on.",
-      metaDescription: "Can you live in an RV on your lot while building a home in Arizona? Often yes in county areas with a temporary use permit and approved water and sewage, but cities and HOAs may say no.",
+      metaDescription: "Can you live in an RV on your lot while building in Arizona? Often yes in county areas with a temporary use permit, water and sewage; cities and HOAs may not.",
       categorySlug: "permits-and-codes",
       topicSlugs: ["building-permits-arizona"],
       tags: ["rv", "temporary-occupancy", "zoning", "owner-builder", "research-phase"],
@@ -15568,7 +15568,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes helps</h2>
 <p>When we evaluate a Pinal County parcel with a buyer, screening the AZGS fissure mapping and walking the land for surface signs is part of the conversation before an offer. If the site warrants it, we coordinate the geotechnical investigation and design the home's placement, foundation, and drainage to the engineer's recommendations. Because the fissure mapping is updated as the AZGS resurveys and because ground conditions are parcel-specific, we treat the public map as a first screen and confirm the specifics for your site with a licensed geotechnical engineer and the local Authority Having Jurisdiction (the City of Casa Grande, the City of Apache Junction, or Pinal County, depending on where the parcel sits) before relying on any conclusion.</p>`,
       shortAnswer: "Yes. Groundwater pumping has caused land subsidence and earth fissures across parts of Pinal County near Casa Grande and Apache Junction. Screen any parcel for free on the Arizona Geological Survey earth fissure viewer before you offer, then order a geotechnical study if a fissure is mapped on or near the lot.",
-      metaDescription: "Earth fissures and land subsidence in Pinal County: why groundwater pumping causes them, how to check the AZGS fissure viewer before buying, and what it means for siting.",
+      metaDescription: "Earth fissures and land subsidence in Pinal County: why groundwater pumping causes them, how to check the AZGS fissure viewer before buying, and siting.",
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["earth-fissures", "land-subsidence", "pinal-county", "casa-grande", "research-phase"],
@@ -15602,7 +15602,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes helps</h2>
 <p>We routinely walk both raw and finished lots with prospective buyers and pressure-test them against this checklist, drawing on years of building across Scottsdale, Rio Verde, and the wider Phoenix metro. We can help you put realistic numbers on utilities, access, well and septic, and grading so you are comparing parcels on their true all-in cost, and we can help you find a lot that fits your plans or evaluate one you are considering. None of this replaces formal reports, a title commitment, and the jurisdiction's own determinations, so we confirm the specifics for each parcel with the utility providers, the county, and the local Authority Having Jurisdiction before you rely on any estimate.</p>`,
       shortAnswer: "It depends on the all-in cost to make each ready, not the price tag. A finished lot already has utilities, recorded access, and zoning; raw land may need a power extension, a well or provider, septic, recorded access, and grading. Confirm access, utilities, water, septic feasibility, title, and zoning before you sign.",
-      metaDescription: "Buying raw land vs. a finished lot to build on in Arizona: a utilities, access, easement, and well and septic feasibility checklist to run before you make an offer.",
+      metaDescription: "Buying raw land vs. a finished lot in Arizona: a utilities, access, easement, and well and septic feasibility checklist to run before you make an offer.",
       categorySlug: "land-and-due-diligence",
       topicSlugs: ["buying-land-to-build"],
       tags: ["raw-land", "finished-lot", "utilities", "access", "due-diligence", "research-phase"],
@@ -15748,7 +15748,7 @@ export const faqSeed: FaqSeed = {
 <h2>Reading a lot's water before you buy</h2>
 <p>Whether a parcel has an assured supply, an adequate one or neither changes what a home there needs, so we read the water status with the zoning before a design starts. Wells, shared wells and hauled water are routine on the rural lots we build on in the Rio Verde Foothills, Cave Creek, Carefree and unincorporated Maricopa County, and a lot outside a designated provider's area may need one of them. If you are still choosing land, the licensed real estate agents on our staff can help you <a href="/buy-a-lot-with-us">buy a lot with us</a> and check its water before you make an offer. If you own the lot, see how we <a href="/build-on-your-lot">build on your own lot</a>, or <a href="/contact">send us the parcel number</a>. For a formal determination we still point you to ADWR and qualified professionals, since these rules are changing.</p>`,
       shortAnswer: "Assured Water Supply applies inside Active Management Areas and is mandatory before selling a subdivision; Adequate Water Supply applies outside and is mainly disclosure. A Designation covers a provider's whole service area, while a Certificate covers one subdivision. Both require proving a 100-year supply. Confirm current status with ADWR.",
-      metaDescription: "Assured vs. adequate water supply in Arizona: the assured 100-year rule is mandatory inside Active Management Areas, plus how a Designation differs from a Certificate.",
+      metaDescription: "Assured vs. adequate water supply in Arizona: the 100-year rule is mandatory inside Active Management Areas, and how a Designation differs from a Certificate.",
       categorySlug: "water-septic-utilities",
       topicSlugs: ["rural-water-and-septic"],
       tags: ["assured-water-supply", "adequate-water-supply", "adwr", "100-year-rule", "research-phase"],
@@ -15789,7 +15789,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes approaches it</h2>
 <p>We price the site and the house as two separate conversations, because on many of the lots we build, the site is where the real cost lives. Before we commit to a site budget we want the survey, the soils report, the septic feasibility, and the utility will-serve letters in hand, so the number reflects your actual ground rather than a generic allowance. We also sequence the grading, well, septic, and access permits so they do not stall the building permit. Because soils, well depth, and fee schedules all vary by parcel and change over time, treat any planning figure as a starting point and confirm the current requirements and costs with the local Authority Having Jurisdiction, your utility and water providers, and your licensed site professionals for your specific lot.</p>`,
       shortAnswer: "Site work covers clearing, grading, utility runs, a well and septic where there is no city service, a driveway, and drainage. On a raw desert lot it is the most variable budget line and can run from the tens of thousands into six figures before the house begins. Order a survey, soils report, septic feasibility, and utility will-serve letters to price it, and confirm costs for your specific parcel.",
-      metaDescription: "How much should you budget for site work on a raw Arizona lot? Clearing, grading, utilities, well, septic, driveway, and drainage, plus the studies that let you price it.",
+      metaDescription: "How much to budget for site work on a raw Arizona lot: clearing, grading, utilities, well, septic, driveway, drainage, and the studies that let you price it.",
       categorySlug: "costs-and-budget",
       topicSlugs: ["budgeting-a-custom-home"],
       tags: ["site-work", "raw-land", "grading", "well-and-septic", "budget", "research-phase"],
@@ -15878,7 +15878,7 @@ export const faqSeed: FaqSeed = {
 <p>We design homes that read as part of the desert rather than imposed on it, building the dark-sky lighting plan, native-plant preservation, restrained grading, and desert-appropriate materials into the design and carrying them through each town's review. Because Cave Creek and Carefree update their ordinances on their own schedules and apply them parcel by parcel, we confirm the current zoning, lighting, and building standards with the town, and any applicable HOA, for your specific lot before finalizing a plan.</p>
 <p>See how we <a href="/where-we-build/cave-creek">build custom homes in Cave Creek</a> and <a href="/where-we-build/carefree">build custom homes in Carefree</a>. If you already own a desert lot, start with <a href="/build-on-your-lot">building on your own lot</a>, or <a href="/contact">contact us</a> with the address.</p>`,
       shortAnswer: "Cave Creek and Carefree protect their desert and night sky through local zoning and building ordinances: shielded, downward dark-sky lighting, native-plant preservation, restrained grading, and desert-appropriate materials, all run through town development review. Each town is its own AHJ, so the rules differ from Scottsdale's.",
-      metaDescription: "What desert and dark-sky design rules apply in Cave Creek and Carefree? Shielded outdoor lighting, native-plant preservation, grading limits, and town development review.",
+      metaDescription: "Desert and dark-sky design rules in Cave Creek and Carefree: shielded outdoor lighting, native-plant preservation, grading limits, and town development review.",
       categorySlug: "design-zoning-adus",
       topicSlugs: ["zoning-setbacks-adus"],
       tags: ["dark-sky", "cave-creek", "carefree", "desert-design", "research-phase"],
@@ -16016,7 +16016,7 @@ export const faqSeed: FaqSeed = {
 <h2>How Jematell Homes approaches it</h2>
 <p>We detail the envelope for the monsoon from the start: continuous WRB and flashing, pan-flashed openings, windows rated for driven rain, redundant low-slope roof drainage, and an air-tight, well-filtered envelope that keeps dust out. Adopted code editions and local amendments to the flashing and drainage requirements change and vary by jurisdiction, so we confirm the current requirements with your AHJ for your specific parcel before construction.</p>`,
       shortAnswer: "Detail the building to keep weather out: a continuous water-resistive barrier and flashing behind the cladding, pan-flashed windows and doors rated for wind-driven rain, redundant drainage on low-slope roofs, and an air-tight, well-filtered envelope that blocks dust. Site grading handles water away from the foundation; confirm current code details with your AHJ.",
-      metaDescription: "Protect a desert home from monsoon and dust: water-resistive barriers, pan-flashed windows, redundant low-slope roof drainage, and an air-tight envelope per IRC R703.",
+      metaDescription: "Protect a desert home from monsoon and dust: water-resistive barriers, pan-flashed windows, redundant low-slope roof drains, and a tight envelope per IRC R703.",
       categorySlug: "building-in-the-desert",
       topicSlugs: ["desert-build-essentials"],
       tags: ["monsoon", "dust", "building-envelope", "flashing", "research-phase"],
@@ -16053,7 +16053,7 @@ export const faqSeed: FaqSeed = {
     <h2>What this means for an Arizona build</h2>
     <p>On desert lots, the design has to respond to the lot before it is final: which Authority Having Jurisdiction governs the parcel, whether Scottsdale's Environmentally Sensitive Lands or a hillside overlay applies, how a well and septic will be placed, and how grading will handle monsoon runoff. A design-build team folds those realities in early, which is exactly when changes are cheap. Whichever model you choose, confirm the builder's license and classification with the Arizona Registrar of Contractors at roc.az.gov, and verify the rules for your specific parcel with your local AHJ, because adopted codes and jurisdiction requirements change. When you <a href="/build-on-your-lot">build on your lot</a> with us, we check the lot for utilities, access and grading first, then handle permits, engineering, site prep and the build, so the design answers to the lot from the start. <a href="/contact">Reach out</a> with your parcel.</p>`,
       shortAnswer: "In design-bid-build you complete the design first, then bid it out and hire a separate builder; the phases are sequential and the designer and builder are independent. In design-build, one team handles design and construction under one contract, giving you a single point of accountability, earlier cost feedback, and a faster schedule. Design-build suits most custom homes.",
-      metaDescription: "Design-build vs design-bid-build for a custom home: how each delivery method works, the trade-offs in cost certainty and schedule, and which is the better fit in Arizona.",
+      metaDescription: "Design-build vs design-bid-build for a custom home: how each method works, the trade-offs in cost certainty and schedule, and which fits better in Arizona.",
       categorySlug: "choosing-a-builder",
       topicSlugs: ["choosing-a-custom-home-builder"],
       tags: ["design-build", "design-bid-build", "delivery-method", "choosing-a-builder", "research-phase"],
