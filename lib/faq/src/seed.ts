@@ -7012,7 +7012,7 @@ export const faqSeed: FaqSeed = {
 </table>
 <p>The code stages are set out in our answer on <a href="/faq/what-inspections-are-required-when-building-a-house-in-arizona">the inspections required to build a house in Arizona</a>: footing and foundation, the rough-ins, framing, insulation and the final. A city inspection looks at one trade at one stage and passes it once it meets code. Nobody at the city checks whether the tile layout matches your selections, whether a door rubs or whether the grading you were shown on the plans is what got built. Those are the gaps a private inspection fills. Special inspections an engineer calls for, such as post-tension slabs, are a third kind again (see <a href="/faq/what-is-a-special-inspection-on-a-custom-home-and-who-pays-for-it">special inspections on a custom home</a>).</p>
 <h2>When should a home inspection be done on a new build?</h2>
-<p>Schedule private inspections at the points where work is about to be hidden or where your leverage changes. A single final inspection is better than none, but it cannot see inside a closed wall.</p>
+<p>Schedule private inspections at the points where work is about to be hidden or where it gets harder to ask for a fix. A single final inspection is better than none, but it cannot see inside a closed wall.</p>
 <table>
 <thead><tr><th>Stage</th><th>What the inspector can see then</th><th>Why it matters</th></tr></thead>
 <tbody>
