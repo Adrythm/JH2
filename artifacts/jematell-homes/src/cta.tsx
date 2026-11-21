@@ -3,12 +3,34 @@ import { ResponsiveImage } from "./components/ResponsiveImage";
 import { ArrowRight } from "lucide-react";
 import { useContactForm } from "./contact-form";
 
+/**
+ * Backdrops passed as bgImage that have a WebP ladder in public/images
+ * (scripts/gen-image-variants.mjs). The original JPEG is 3600x2400 and 7.4MB;
+ * served raw it was the heaviest file on every floor plan page. Through the
+ * ladder a phone takes the 768w rung (about 25KB). The original stays the
+ * <img> fallback.
+ */
+const BG_LADDERS: Record<string, { name: string; widths: number[]; width: number; height: number }> = {
+  "/images/fp1849-cta.jpg": { name: "fp1849-cta", widths: [768, 1280, 1920, 2500], width: 3600, height: 2400 },
+};
+
 export function CTA({ bgImage }: { bgImage?: string } = {}) {
   const { open: openContactForm } = useContactForm();
+  const ladder = bgImage ? BG_LADDERS[bgImage] : undefined;
 
   return (
     <section className="cta" id="contact">
-      {bgImage
+      {ladder
+        ? <ResponsiveImage
+            name={ladder.name}
+            className="cta-bg"
+            alt=""
+            widths={ladder.widths}
+            sizes="100vw"
+            width={ladder.width}
+            height={ladder.height}
+          />
+        : bgImage
         ? <img src={bgImage} className="cta-bg" alt="" aria-hidden="true" loading="lazy" />
         : <ResponsiveImage
             name="cta-bg"
