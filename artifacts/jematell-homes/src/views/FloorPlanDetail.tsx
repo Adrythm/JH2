@@ -33,6 +33,20 @@ export interface PlanDrawing {
 export interface PlanImage {
   src: string;
   alt: string;
+  /** WebP candidates for the carousel; the src stays the fallback. */
+  srcSet?: string;
+}
+
+/**
+ * The Crist Residence originals are 4 to 13MB JPEGs, each with a WebP copy
+ * of a few hundred KB beside it (src/data/crist.ts). The carousel takes the
+ * WebP when an image names no srcSet of its own.
+ */
+const CRIST_JPG = /^(\/images\/gallery\/crist\/[^/]+)\.jpg$/;
+function carouselSrcSet(image: PlanImage): string | undefined {
+  if (image.srcSet) return image.srcSet;
+  const m = CRIST_JPG.exec(image.src);
+  return m ? `${m[1]}.webp` : undefined;
 }
 export interface PlanGallery {
   heading: string;
@@ -173,6 +187,8 @@ export default function FloorPlanDetail({
                     <img
                       key={`${slideIndex}-${offset}`}
                       src={img.src}
+                      srcSet={carouselSrcSet(img)}
+                      sizes="(max-width: 600px) 100vw, 33vw"
                       alt={img.alt}
                       className="fp1849-carousel-img"
                       loading="lazy"
