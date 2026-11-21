@@ -10,6 +10,8 @@ import { articleJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
 import { contentLastmod } from "@/seo/contentDates";
 import { BlogPostBody } from "@/views/BlogPostBody";
+import { preload } from "react-dom";
+import cdnImageLadders from "@/data/cdnImageLadders.json";
 
 export const dynamicParams = false;
 
@@ -205,6 +207,44 @@ function bodyFor(data: (typeof blogs)[string], title: string, heroImg: string) {
   return blocks.slice(start, end);
 }
 
+const LADDERS = cdnImageLadders as Record<string, { widths: number[]; width: number; height: number }>;
+
+/**
+ * The post's hero is its largest paint. Each one is a single 400KB to 1.7MB
+ * webp, and since JH2 #208 every one has 768w and 1280w copies listed in
+ * cdnImageLadders.json, so a phone takes a rung instead of the original. The
+ * original stays the top rung and the fallback; the preload matches the srcset
+ * so the browser fetches one file, early.
+ */
+function PostHero({ src }: { src: string }) {
+  const ladder = LADDERS[src];
+  if (!ladder || !src.endsWith(".webp")) {
+    return <img src={src} alt="" className="page-hero-bg" />;
+  }
+  const base = src.slice(0, -".webp".length);
+  const srcSet =
+    ladder.widths.map((w) => `${base}-${w}.webp ${w}w`).join(", ") + `, ${src} ${ladder.width}w`;
+  preload(src, {
+    as: "image",
+    fetchPriority: "high",
+    imageSrcSet: srcSet,
+    imageSizes: "100vw",
+    type: "image/webp",
+  });
+  return (
+    <img
+      src={src}
+      srcSet={srcSet}
+      sizes="100vw"
+      alt=""
+      className="page-hero-bg"
+      fetchPriority="high"
+      width={ladder.width}
+      height={ladder.height}
+    />
+  );
+}
+
 function heroImage(data: (typeof blogs)[string]): string {
   return (
     data.ogImage ||
@@ -271,7 +311,7 @@ export default async function BlogPostPage({
         ]}
       />
       <section className="blog-post-hero">
-        {heroImg ? <img src={heroImg} alt="" className="page-hero-bg" /> : null}
+        {heroImg ? <PostHero src={heroImg} /> : null}
         <div className="page-hero-overlay" />
         <div className="container page-hero-content">
           <Link href="/blog" className="gallery-back" data-testid="blog-back">
