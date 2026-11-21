@@ -121,10 +121,13 @@ export default function About() {
                 </p>
               </div>
               <figure className="about-figure">
-                <img
-                  src="/images/custom-home.jpg"
+                <ResponsiveImage
+                  name="custom-home"
                   alt="Custom kitchen by Jematell Homes with deep green cabinetry, a natural stone waterfall island, and vaulted ceilings"
-                  loading="lazy"
+                  widths={[768, 1280, 1600, 2000]}
+                  sizes="(max-width: 820px) 100vw, (max-width: 1400px) 45vw, 640px"
+                  width={2000}
+                  height={1334}
                 />
               </figure>
             </div>
@@ -184,10 +187,13 @@ export default function About() {
           <div className="container">
             <div className="about-split reverse">
               <figure className="about-figure">
-                <img
-                  src="/images/office.jpg"
+                <ResponsiveImage
+                  name="office"
                   alt="The Jematell Homes office reception in Scottsdale, Arizona, with the company logo on the wall and a natural stone reception desk"
-                  loading="lazy"
+                  widths={[640, 768, 1280, 1920]}
+                  sizes="(max-width: 820px) 100vw, (max-width: 1400px) 45vw, 640px"
+                  width={1920}
+                  height={2560}
                 />
               </figure>
               <div className="about-copy">
