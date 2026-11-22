@@ -5,16 +5,22 @@ import { m, useReducedMotion } from "framer-motion";
 import { Search, ArrowRight } from "lucide-react";
 import { ResponsiveImage } from "../components/ResponsiveImage";
 import cdnImageLadders from "../data/cdnImageLadders.json";
+import blogImageLadders from "../data/blogImageLadders.json";
 
 /* The card thumbnails are the posts' full-size cdn photos (up to 1.7MB each,
  * about 30MB for the 47 cards). A card is at most a third of the container on
  * desktop, half on tablets and the full width on phones, so the browser picks
- * a rung from cdnImageLadders.json. A card never asks for more than 1280w,
+ * a rung from blogImageLadders.json. A card never asks for more than 1280w,
  * so a card photo keeps only its 768w and 1280w rungs. To add one: `node
  * scripts/gen-image-variants.mjs --from-lossy --dir=public/images/cdn <name>`,
- * delete its -1920 file, then its entry in that file. */
+ * delete its -1920 file, then its entry in that file. A blog-only photo goes
+ * in blogImageLadders.json, never cdnImageLadders.json: ContentPage bundles
+ * that one into every service and town page's JS. */
 const CARD_SIZES = "(max-width: 640px) calc(100vw - 48px), (max-width: 1024px) 50vw, 400px";
-const LADDERS = cdnImageLadders as Record<string, { widths: number[]; width: number; height: number }>;
+const LADDERS = { ...cdnImageLadders, ...blogImageLadders } as Record<
+  string,
+  { widths: number[]; width: number; height: number }
+>;
 
 function cardSrcSet(src: string): { srcSet: string; sizes: string } | Record<string, never> {
   const ladder = LADDERS[src];
