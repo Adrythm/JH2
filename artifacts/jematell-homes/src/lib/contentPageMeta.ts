@@ -26,6 +26,17 @@ export function shareImage(src: string | undefined): string | undefined {
 
 const SERVICE_KEYS = new Set(["custom-homes", "spechomes", "floorplans"]);
 const WHERE_NESTED_KEYS = new Set(["build-on-your-lot", "buy-a-lot-with-us"]);
+/**
+ * Top-level pages whose child pages already name them as the parent crumb
+ * (the floor plans name "Floor Plans" at /floor-plans). These pages carried
+ * no BreadcrumbList of their own, so the trail stopped one level short.
+ */
+const TOP_LEVEL_CRUMBS: Record<string, string> = {
+  "custom-homes": "Custom Homes",
+  spechomes: "Spec Homes",
+  floorplans: "Floor Plans",
+  warranty: "Warranty",
+};
 
 /**
  * pageKey -> route path, mirroring the old AppShell route table. The old page
@@ -134,6 +145,10 @@ export function contentPageJsonLd(opts: ContentPageMetaOpts): object[] {
         url: path,
         image: data.ogImage,
       }),
+      breadcrumbJsonLd([
+        { name: "Home", url: "/" },
+        { name: TOP_LEVEL_CRUMBS[key] ?? pageTitle, url: path },
+      ]),
     ];
   }
   if (key === "where-we-build") {
@@ -159,6 +174,14 @@ export function contentPageJsonLd(opts: ContentPageMetaOpts): object[] {
       breadcrumbJsonLd([
         { name: "Home", url: "/" },
         { name: "Where We Build", url: path },
+      ]),
+    ];
+  }
+  if (key === "warranty") {
+    return [
+      breadcrumbJsonLd([
+        { name: "Home", url: "/" },
+        { name: TOP_LEVEL_CRUMBS[key], url: path },
       ]),
     ];
   }
