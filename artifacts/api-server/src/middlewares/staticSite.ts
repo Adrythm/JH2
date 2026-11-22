@@ -16,7 +16,10 @@
  *      caching for hashed /_next/static/ assets, weak ETags, and
  *      Accept-Encoding negotiation against the .br/.gz siblings written by
  *      the site build's precompress step (falls back to the raw file).
- *   4. Unknown URLs get the exported 404.html with a real 404 status.
+ *   4. Unknown URLs get the exported 404.html with a real 404 status, and so
+ *      do the export's own missing-page files (/404, /_not-found and their
+ *      .html names). A page's export file name (/index.html, /<route>.html)
+ *      301s to its clean URL, so no page has a second address.
  *
  * Adapted from the G Brothers production site server (same semantics, inverted
  * trailing-slash convention).
@@ -131,6 +134,23 @@ function resolveFile(path: string): string | null {
   return null;
 }
 
+/** Addresses of the exported missing-page screen, which must answer 404. */
+const NOT_FOUND_KEYS = new Set(["/404", "/404.html", "/_not-found", "/_not-found.html"]);
+
+/**
+ * The clean URL a page's export file name stands for (/index.html -> /,
+ * /custom-homes.html -> /custom-homes), or null when the path is not such a
+ * twin or no page lives at the clean URL (then it 404s as before).
+ */
+export function htmlTwinTarget(key: string): string | null {
+  if (key === "/index" || key === "/index.html") return "/";
+  if (!key.endsWith(".html")) return null;
+  const clean = key.slice(0, -".html".length).replace(/\/index$/, "");
+  if (!clean || clean === "/") return "/";
+  if (NOT_FOUND_KEYS.has(clean)) return null;
+  return resolveFile(clean) ? clean : null;
+}
+
 function cacheControlFor(file: string, ext: string): string {
   const norm = file.replace(/\\/g, "/");
   if (norm.includes("/_next/static/")) return "public, max-age=31536000, immutable";
@@ -228,6 +248,22 @@ export async function staticSite(req: Request, res: Response, next: NextFunction
     if (/^\/blog-articles\/(category|tag|author)[/_]/.test(key)) {
       res.set("Cache-Control", "no-cache");
       res.redirect(301, "/blog");
+      return;
+    }
+
+    // 1c. The missing-page screens Next exports as files of their own (404.html,
+    //     _not-found.html) answer with a real 404, never a 200 at their own address.
+    if (NOT_FOUND_KEYS.has(key)) {
+      await serve404(req, res);
+      return;
+    }
+
+    // 1d. A page's export file name is not a second address for it: /index,
+    //     /index.html and /<page>.html 301 to the page's clean URL (single hop).
+    const twin = htmlTwinTarget(key);
+    if (twin) {
+      res.set("Cache-Control", "no-cache");
+      res.redirect(301, twin);
       return;
     }
 
