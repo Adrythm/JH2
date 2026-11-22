@@ -3274,7 +3274,7 @@ export const faqSeed: FaqSeed = {
 <h2>When a price increase is a red flag</h2>
 <p>Some increases are legitimate, and some are a warning sign of a builder in trouble or acting in bad faith. Treat these as red flags worth pushing back on:</p>
 <ul><li><strong>An increase with no signed change order or escalation clause.</strong> On a fixed-price deal, a price hike must point to a contract provision you agreed to. "Costs went up" is not a contractual basis by itself.</li><li><strong>Pressure to pay the increase to keep working.</strong> A builder who stops the job and demands more money to continue, with no scope change, may be moving toward abandonment. <strong>A.R.S. 32-1154</strong> lists "abandonment of a contract" and failing "to complete a construction project or operation for the price stated in the contract" as grounds for ROC discipline.</li><li><strong>Vague or retroactive escalation.</strong> A clause that lets the builder raise the price for any reason, with no named materials or index, is not a fair escalation clause. So is a builder trying to apply an increase to work already done.</li></ul>
-<p>If a builder raises the price without a contractual basis and threatens to walk, you can file a complaint with the ROC and, if the job is abandoned, pursue the steps in <a href="/faq/what-to-do-if-your-builder-wont-finish-your-house-in-arizona">what to do if your builder won't finish your house</a>.</p>
+<p>If a builder raises the price without a contractual basis and threatens to walk, you can file a complaint with the ROC and, if the job is abandoned, pursue the steps in <a href="/faq/what-to-do-if-your-builder-wont-finish-your-house-in-arizona">what to do if your builder won't finish your house</a>. Our answer on <a href="/faq/can-i-cancel-a-contract-with-a-home-builder-in-arizona">whether you can cancel a contract with a home builder</a> explains ending the contract for cause.</p>
 <p>It also helps to separate a legitimate cost increase from a budget overrun on a cost-plus job. On cost-plus, the price was always going to track actual costs, so a higher final number is the model, not a breach. The fair test is whether the builder can document the real costs with invoices and receipts. A cost-plus builder who cannot show you where the money went, or who keeps revising the estimate upward with no backup, is a problem even though the contract is open by design. Ask for the cost backup on every draw so the running total stays honest.</p>
 <h2>Protect yourself before you sign</h2>
 <p>The way to control price changes is to set the rules before the first payment. Choose the contract type with open eyes: fixed-price for certainty, cost-plus for flexibility on a complex build. If you go fixed-price, read the change-order and escalation language closely, require that every change order be signed with its own price before work proceeds, and insist any escalation clause name specific materials, tie to an index, and run both ways. A builder who writes these terms clearly, the way Jematell Homes does, is telling you the final price will not be a surprise.</p>
@@ -5353,7 +5353,7 @@ export const faqSeed: FaqSeed = {
 <p>Beyond the legal minimums, a good custom home contract spells out allowances, change orders, the schedule, and the scope in detail, because that is where most disputes start. The statute sets the floor. These terms keep a year-long project from going sideways.</p>
 <p>Put these in writing:</p>
 <ul><li><strong>Allowances.</strong> An <strong>allowance</strong> is a budgeted dollar amount for an item you have not picked yet, like flooring or cabinets. List each allowance and what happens if your choice costs more or less. Realistic allowances stop a budget from creeping during the build.</li><li><strong>Change orders.</strong> A <strong>change order</strong> is a written, signed change to the scope or price. Require that every change be in writing and priced before work proceeds. Verbal changes are how costs and tempers blow up.</li><li><strong>The schedule.</strong> The contract names an estimated completion date, but add detail: major milestones, who is responsible for delays, and what happens if weather or a permit holdup pushes the date. Arizona's monsoon season and busy city permit offices both cause real delays.</li><li><strong>Plans and specifications.</strong> Reference the exact set of approved plans and a specification list by date or version, so "the work" is fully defined and cannot be quietly downgraded.</li><li><strong>Warranty.</strong> State the builder's warranty terms, what is covered, and for how long. A common structure is one year on workmanship and longer coverage on major structural systems.</li></ul>
-<p>The clearer these are at signing, the fewer fights you have during construction. Vague terms favor whoever wrote them. Specific terms protect both sides equally.</p>
+<p>The clearer these are at signing, the fewer fights you have during construction. Vague terms favor whoever wrote them. Specific terms protect both sides equally. Read the termination clause as closely, because it decides <a href="/faq/can-i-cancel-a-contract-with-a-home-builder-in-arizona">whether you can cancel a contract with a home builder</a> and what you owe if you do.</p>
 <h2>Why the license number and complaint language matter</h2>
 <p>The license number and the ROC complaint language are in your contract for a reason: they are your enforcement rights if the work goes wrong. A.R.S. 32-1158 requires both, and they connect directly to Arizona's contractor protection system.</p>
 <p>First, the <strong>license number</strong>. A.R.S. 32-1151 makes it "unlawful" for any person "to engage in the business of" or "act in the capacity of a contractor without having a contractor's license in good standing." A custom home builder must hold the <strong>B General Residential Contractor</strong> license to build your home legally. The number in the contract lets you confirm the license is active with the Arizona Registrar of Contractors and check for past complaints before you sign. Hiring an unlicensed person voids the protections below.</p>
@@ -7131,6 +7131,104 @@ export const faqSeed: FaqSeed = {
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 443,
+    }),
+    item({
+      slug: "can-i-cancel-a-contract-with-a-home-builder-in-arizona",
+      question: "Can I cancel a contract with a home builder in Arizona?",
+      seoTitle: "Can I Cancel a Contract With a Home Builder in Arizona?",
+      answerHtml: `<p>Sometimes, but Arizona gives you no automatic cooling-off period on a custom home contract you sign at the builder's office. Once you sign, the contract itself decides how you can cancel a contract with a home builder: most custom home contracts let the owner end the job for convenience by paying for the work done, the costs the builder has already committed and any fee the contract names, and let either side end it for cause when the other side breaks the contract. A three-day right to cancel applies only in narrow cases, such as a sale a seller came to your home to make without being asked. So the termination clause you sign, not a general rule, is what you will be held to.</p>
+<p>Below is when you can and cannot cancel, what the three-day rules really cover, what a termination clause decides, the grounds that let you end the contract for cause, how to end it without making things worse, and what a cancelled build costs.</p>
+<h2>When you can and cannot cancel a home builder contract</h2>
+<table>
+<thead><tr><th>Your situation</th><th>Can you cancel?</th><th>What decides it</th></tr></thead>
+<tbody>
+<tr><td>You have a proposal or an estimate but have not signed</td><td>Yes, you can walk away</td><td>Nothing binds you yet, though a paid design or preconstruction agreement may</td></tr>
+<tr><td>You signed at the builder's office after several meetings</td><td>Only as the contract allows</td><td>The contract's termination clause</td></tr>
+<tr><td>A seller came to your home uninvited and you signed there</td><td>Usually yes, within three business days</td><td>A.R.S. 44-5004 and the federal Cooling-Off Rule</td></tr>
+<tr><td>A storm-damage repair paid by your insurance</td><td>Yes, within four business days</td><td>A.R.S. 32-1158.02 (repairs only, not a new home)</td></tr>
+<tr><td>The builder walked off the job or is not finishing it</td><td>Often yes, for cause, after written notice</td><td>The contract, and A.R.S. 32-1154 for an ROC complaint</td></tr>
+<tr><td>You changed your mind partway through the build</td><td>Usually, by paying what the contract says</td><td>A termination for convenience clause, if there is one</td></tr>
+<tr><td>You are buying a finished spec home</td><td>Only within the purchase contract's terms</td><td>The purchase contract's inspection period, financing terms and earnest money rules</td></tr>
+</tbody>
+</table>
+<h2>Is there a three-day right to cancel a home builder contract in Arizona?</h2>
+<p>Not for most custom homes. People often hear about a three-day rule, and it is real, but it was written for door-to-door sales, not for a home you plan with a builder over weeks of meetings.</p>
+<ul>
+<li><strong>Arizona's home solicitation law.</strong> <a href="https://www.azleg.gov/ars/44/05001.htm" target="_blank" rel="noopener noreferrer">A.R.S. 44-5001</a> covers a sale the seller personally solicits without prior invitation, appointment or consent, where you agree to buy at a home. In that case <a href="https://www.azleg.gov/ars/44/05004.htm" target="_blank" rel="noopener noreferrer">A.R.S. 44-5004</a> requires a written notice that you may cancel before midnight of the third business day, and a cancellation form attached to the contract. The law does not cover a sale made after earlier negotiations at the seller's fixed place of business.</li>
+<li><strong>The federal Cooling-Off Rule.</strong> The Federal Trade Commission's rule, <a href="https://www.law.cornell.edu/cfr/text/16/429.0" target="_blank" rel="noopener noreferrer">16 CFR 429.0</a>, gives three business days to cancel a sale of $25 or more made at your home, or $130 or more made at a temporary place such as a hotel room or a fair. It also leaves out sales made after negotiations at the seller's permanent place of business, and it does not apply to the sale of real property.</li>
+<li><strong>Storm-damage repair contracts.</strong> <a href="https://www.azleg.gov/ars/32/01158-02.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1158.02</a> lets an owner cancel a storm-damage repair contract paid by insurance within four business days of signing, or within 72 hours after the insurer denies the claim. It applies to repairs after a catastrophic storm, not to building a new home.</li>
+</ul>
+<p>So if you met the builder at its office, toured its homes and signed there, none of these three rules is likely to apply. If a salesperson signed you up at your kitchen table without an appointment, the first two may, and you should act inside the three business days in writing.</p>
+<h2>What your contract's termination clause decides</h2>
+<p>Because the law gives you so little, the termination clause is the part of the contract to read twice. A well written custom home contract usually covers four things.</p>
+<ul>
+<li><strong>Termination for convenience.</strong> Whether you can end the contract for any reason, and what you owe if you do: typically the work completed, materials ordered or delivered, the subcontractor and supplier commitments the builder cannot cancel, and sometimes a fee or part of the builder's profit.</li>
+<li><strong>Termination for cause.</strong> What counts as a serious breach on either side, how much written notice you must give, and how many days the other side gets to fix the problem before you can end the contract.</li>
+<li><strong>The builder's rights.</strong> Most contracts let the builder stop work or end the contract if you do not pay a draw when it is due, if your financing falls through, or if you keep the crew from the site.</li>
+<li><strong>Money and paperwork at the end.</strong> How the final accounting is done, what happens to your deposit, who owns the plans and the materials on site, and how lien releases are handed over.</li>
+</ul>
+<p>Arizona law sets what the contract must say about money. Under <a href="https://www.azleg.gov/ars/32/01158.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1158</a>, a residential contract over $1,000 must state the estimated completion date, the total you will pay, the amount of any advance deposit, and each progress payment with the stage of work when it is due. It must also tell you how to file a complaint with the Arizona Registrar of Contractors. Those terms are what you measure a cancellation against. Our answer on <a href="/faq/what-to-include-in-custom-home-contract">what to include in a custom home contract</a> lists the rest, and the <a href="/reference-library/arizona-building-law/ars-32-1158-home-construction-contract-requirements-arizona">A.R.S. 32-1158 reference page</a> covers each required term.</p>
+<h2>On what grounds can a contract be terminated?</h2>
+<p>Outside a convenience clause, you end a contract for cause because the builder broke it in a serious way. The common grounds on a home build are:</p>
+<ul>
+<li>The builder abandons the job or refuses to keep working without a legal excuse.</li>
+<li>The builder departs from the plans or specifications in a material way without your consent.</li>
+<li>The work does not meet the building code.</li>
+<li>The builder fails in a material way to complete the house for the price in the contract or its signed changes.</li>
+<li>The builder is not licensed for the work.</li>
+</ul>
+<p>The first four are also grounds for discipline of a contractor's license under <a href="https://www.azleg.gov/ars/32/01154.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1154</a>, so they support a complaint to the Registrar of Contractors as well as a breach claim. The license matters in another way: under <a href="https://www.azleg.gov/ars/32/01153.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1153</a>, a contractor that was not licensed when the contract was made and when the dispute arose cannot go to court in Arizona to collect for the work. Check the license before you sign with our guide to <a href="/faq/how-to-verify-an-arizona-contractor-license-with-the-roc">verifying an Arizona contractor license with the ROC</a>.</p>
+<p>A contract can also be void or voidable from the start: for example when it was signed because of fraud or a material misrepresentation, under threat or pressure that the law calls duress, or by someone who lacked the legal capacity to sign. Those are questions for an attorney, not for a letter to the builder.</p>
+<p>A slow job or a disagreement over a finish is usually not enough on its own. If the build has stalled, our answer on <a href="/faq/what-to-do-if-your-builder-wont-finish-your-house-in-arizona">what to do if your builder won't finish your house</a> covers notice, the ROC and the recovery fund. A complaint for a new home must be filed within two years after the earlier of the close of escrow or move-in, under <a href="/reference-library/arizona-building-law/ars-32-1162-roc-complaint-time-limit-arizona">A.R.S. 32-1162</a>.</p>
+<h2>How to end a builder contract early without penalty</h2>
+<p>The way you end a contract can matter as much as the reason. An owner who stops paying or locks the builder out without following the contract can become the one in breach. These steps keep you on solid ground.</p>
+<ol>
+<li><strong>Read the clause first.</strong> Find the termination, notice and dispute sections, and note any cure period or required form of notice.</li>
+<li><strong>Talk before you send anything.</strong> Many problems are fixed with a meeting and a written plan. A signed change order or a revised schedule may get you what you need without ending the contract.</li>
+<li><strong>Give written notice the way the contract says.</strong> Send it to the address in the contract, by the method it names, and keep proof that it arrived.</li>
+<li><strong>Document the site.</strong> Take dated photos and video of the work in place and the materials on site, and keep copies of every invoice, draw request and change order.</li>
+<li><strong>Tell your lender.</strong> A construction loan pays in draws against inspected work, and stopping the build can affect the loan. See our answer on <a href="/faq/construction-loan-draw-schedule-explained">the construction loan draw schedule</a>.</li>
+<li><strong>Collect lien releases.</strong> Before you make a final payment, get releases from the builder and from the subcontractors and suppliers who worked on the house. Our answer on <a href="/faq/what-is-a-mechanics-lien-and-how-do-lien-releases-work-on-a-new-home-in-arizona">mechanic's liens and lien releases</a> explains why.</li>
+<li><strong>Get legal advice on a large contract.</strong> A construction attorney can read your clause and tell you what you owe before you act. Arizona courts may award attorney fees to the winning side in a contract dispute under <a href="/reference-library/arizona-building-law/ars-12-341-01-attorney-fees-contract-disputes-arizona">A.R.S. 12-341.01</a>.</li>
+</ol>
+<h2>What a cancelled build costs</h2>
+<p>Ending a contract rarely costs nothing. What you pay depends on how far the build has gone and what the clause says, and it usually includes some of these:</p>
+<ul>
+<li>The work already in place, at the contract's price or by the final accounting.</li>
+<li>Materials ordered for your home that cannot be returned, such as custom windows, doors and cabinets.</li>
+<li>Design, engineering and permit work already done for your plans.</li>
+<li>Any termination fee or share of profit the contract names.</li>
+<li>If you finish with another builder, the cost of a new contract on a half-built house, which can be higher because the new builder takes on work it did not start.</li>
+</ul>
+<p>If the builder closed its doors rather than walked away, the steps are different. See <a href="/faq/what-happens-if-my-builder-goes-out-of-business-arizona">what happens if your builder goes out of business</a>.</p>
+<h2>Can a builder cancel my contract?</h2>
+<p>Yes, if the contract allows it or you break it. Builders most often end a contract for missed payments, financing that never closes, or an owner who will not approve the selections the schedule needs. Some contracts also let the builder end the deal before work starts if costs rise past a stated point, which is why our answer on <a href="/faq/can-a-home-builder-raise-the-price-after-you-sign-in-arizona">whether a builder can raise the price after you sign</a> is worth reading before you commit.</p>
+<h2>Avoiding the need to cancel</h2>
+<p>Most cancelled builds trace back to something that was unclear on the day the contract was signed: the price, the payment schedule, who decides the selections, or how changes are priced. Compare more than one builder with our guide to <a href="/faq/how-do-i-compare-custom-home-builder-bids-and-quotes-in-arizona">comparing custom home builder bids</a>, ask the questions in <a href="/faq/what-questions-should-i-ask-a-custom-home-builder-before-hiring">what to ask a builder before hiring</a>, and decide whether a <a href="/faq/cost-plus-vs-fixed-price-home-contract">cost-plus or fixed-price contract</a> fits you. If you expect to change the design as you go, read <a href="/faq/can-i-change-the-floor-plan-during-a-custom-build">whether you can change the floor plan during a custom build</a>.</p>
+<h2>How Jematell Homes sets up a build</h2>
+<p>We would rather you know what you are signing than need to get out of it. On our cost-plus <a href="/custom-homes">custom homes</a> you get an itemized cost estimate before we break ground, and we share the actual subcontractor bids with you. For our in-house plans or simpler custom homes we can quote a flat-rate build cost up front instead. You get the full draw schedule at the start, so you know which stage triggers each payment, and you get a written update every week of construction.</p>
+<p>If you want a new home without the full design process, our <a href="/spec-homes">spec homes</a> are built on our own floor plans. If you already own land, we <a href="/build-on-your-lot">build on your lot</a>. We build across the Phoenix area, from Scottsdale and Rio Verde to Cave Creek, Fountain Hills and Pinal County, and we are a licensed Arizona contractor, ROC# 339367. <a href="/contact">Get in touch</a> and we will walk you through our contract before you sign it.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.azleg.gov/ars/44/05001.htm" target="_blank" rel="noopener noreferrer">A.R.S. 44-5001 (Home solicitation sales; definitions)</a></li>
+<li><a href="https://www.azleg.gov/ars/44/05004.htm" target="_blank" rel="noopener noreferrer">A.R.S. 44-5004 (Notice of the buyer's right to cancel)</a></li>
+<li><a href="https://www.law.cornell.edu/cfr/text/16/429.0" target="_blank" rel="noopener noreferrer">16 CFR 429.0 (FTC Cooling-Off Rule definitions)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01158-02.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1158.02 (Storm-damage repair contracts; cancellation)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01158.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1158 (Residential construction contract requirements)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01154.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1154 (Grounds to discipline a contractor)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01153.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1153 (Unlicensed contractors may not sue to collect)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01162.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1162 (Time limit for ROC complaints)</a></li>
+</ul>`,
+      shortAnswer: "Sometimes. Arizona has no automatic cooling-off period for a custom home contract signed at the builder's office. The contract's termination clause decides how you can end it: for convenience by paying for work done and committed costs, or for cause if the builder abandons the job or breaks the contract. Three-day rights cover only narrow cases such as a sale made at your home.",
+      metaDescription: "Can you cancel a home builder contract in Arizona? Usually only as the contract allows. When the 3-day rule applies, grounds for cause and what it costs.",
+      categorySlug: "choosing-a-builder",
+      topicSlugs: ["choosing-a-custom-home-builder"],
+      tags: ["builder", "research-phase"],
+      relatedFaqSlugs: ["what-to-include-in-custom-home-contract", "can-a-home-builder-raise-the-price-after-you-sign-in-arizona", "what-to-do-if-your-builder-wont-finish-your-house-in-arizona", "what-happens-if-my-builder-goes-out-of-business-arizona", "cost-plus-vs-fixed-price-home-contract", "how-to-verify-an-arizona-contractor-license-with-the-roc"],
+      relatedServiceSlugs: ["custom-homes", "spec-homes", "build-on-your-lot"],
+      pillarBlogSlug: null,
+      featured: false,
+      sortOrder: 444,
     }),
     item({
       slug: "how-much-does-it-cost-to-build-a-ramada-or-covered-patio-in-arizona",
