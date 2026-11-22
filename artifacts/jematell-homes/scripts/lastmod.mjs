@@ -183,6 +183,18 @@ for (const rel of fileKeys) {
   if (ds.length) dates[`file:${rel.replace("artifacts/jematell-homes/", "")}`] = ds[ds.length - 1];
 }
 
+// /gallery/skinner-custom is the one gallery page with no scraped page in
+// pages.json: its words are written in the gallery route and its photos listed
+// in crist.ts, so its date is the newest commit to those two files. Without
+// this the sitemap gave it no lastmod at all.
+if (!dates["page:gallery_skinner-custom"]) {
+  const ds = ["artifacts/jematell-homes/app/gallery/[slug]/page.tsx", "artifacts/jematell-homes/src/data/crist.ts"]
+    .map((rel) => fileDate(`:(literal)${rel}`))
+    .filter(Boolean)
+    .sort();
+  if (ds.length) dates["page:gallery_skinner-custom"] = ds[ds.length - 1];
+}
+
 const sorted = Object.fromEntries(Object.keys(dates).sort().map((k) => [k, dates[k]]));
 const text = JSON.stringify(sorted, null, 1) + "\n";
 if (check) {
