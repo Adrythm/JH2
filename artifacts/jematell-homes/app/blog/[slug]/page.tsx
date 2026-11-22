@@ -12,6 +12,7 @@ import { contentLastmod } from "@/seo/contentDates";
 import { BlogPostBody } from "@/views/BlogPostBody";
 import { preload } from "react-dom";
 import cdnImageLadders from "@/data/cdnImageLadders.json";
+import blogImageLadders from "@/data/blogImageLadders.json";
 
 export const dynamicParams = false;
 
@@ -207,12 +208,15 @@ function bodyFor(data: (typeof blogs)[string], title: string, heroImg: string) {
   return blocks.slice(start, end);
 }
 
-const LADDERS = cdnImageLadders as Record<string, { widths: number[]; width: number; height: number }>;
+const LADDERS = { ...cdnImageLadders, ...blogImageLadders } as Record<
+  string,
+  { widths: number[]; width: number; height: number }
+>;
 
 /**
  * The post's hero is its largest paint. Each one is a single 400KB to 1.7MB
  * webp, and since JH2 #208 every one has 768w and 1280w copies listed in
- * cdnImageLadders.json, so a phone takes a rung instead of the original. The
+ * blogImageLadders.json, so a phone takes a rung instead of the original. The
  * original stays the top rung and the fallback; the preload matches the srcset
  * so the browser fetches one file, early.
  */
