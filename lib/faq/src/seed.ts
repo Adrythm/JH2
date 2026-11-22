@@ -3987,7 +3987,7 @@ export const faqSeed: FaqSeed = {
 <p>When you buy a <strong>production home</strong> from a national builder, the floor plans, finishes, and engineering already exist, and you pick from set options. The builder has built that plan many times and has the permit process down to a routine. That is why production homes finish faster: Census data shows homes built for sale averaged the shortest construction times, while homes built on the owner's land took the longest. The trade-off is that you build what they offer, not what you want.</p>
 <p>A <strong>spec home</strong> sits in between. A builder constructs it on speculation, makes the design choices, and sells it complete or near-complete. You get some say if you buy early, but the builder controls the process.</p>
 <p>A <strong>custom home</strong> flips that. You own the design phase, which is why a custom process has four phases instead of three. That phase is where you decide the layout, the rooms, the ceiling heights, and the finishes, and it is the reason the timeline runs longer than a production home. The payoff is a home built around how you actually live, on your lot, to your priorities.</p>
-<p>Because the design phase is yours, the way to keep a custom process efficient is to treat design as the place to be thorough and slow, and construction as the place to be decisive and fast. Owners who change their minds during construction turn the custom advantage into delay. Owners who pour their thinking into the design phase get the custom result without the custom drag. A builder who guides you to lock decisions at the right moment is what makes the whole process work the way it should.</p>
+<p>Because the design phase is yours, the way to keep a custom process efficient is to treat design as the place to be thorough and slow, and construction as the place to be decisive and fast. Owners who change their minds during construction turn the custom advantage into delay, because each late decision becomes a priced, signed change order (see <a href="/faq/how-do-change-orders-work-when-building-a-custom-home">how change orders work when building a custom home</a>). Owners who pour their thinking into the design phase get the custom result without the custom drag. A builder who guides you to lock decisions at the right moment is what makes the whole process work the way it should.</p>
 <h2>Building with Jematell Homes</h2>
 <p>Transparency, a real license, and a written scope are how we work. Every project is different, so we will confirm the specifics for your parcel and budget with you directly.</p>
 <h2>Sources</h2>
@@ -7231,6 +7231,105 @@ export const faqSeed: FaqSeed = {
       sortOrder: 444,
     }),
     item({
+      slug: "how-do-change-orders-work-when-building-a-custom-home",
+      question: "How do change orders work when building a custom home?",
+      seoTitle: "How Change Orders Work on a Custom Home",
+      answerHtml: `<p>When you are building a custom home, a change order is the written, signed amendment that changes the work after the contract is signed. It works in five steps: someone asks for or finds a change, the builder prices it and states what it does to the schedule, you approve it in writing, the work is done, and the new amount is added to (or credited against) your contract total and your draw schedule. Nothing new should be built until that paper is signed. In Arizona, the contract has to state the work, the total price and the progress payments in writing (A.R.S. 32-1158), and a licensed contractor who departs from the plans in a material way without the owner's consent can be disciplined by the Registrar of Contractors (A.R.S. 32-1154). A signed change order is how both of you stay on the right side of those rules.</p>
+<p>Below is what a change order is, how the process runs step by step, what a change order should include, who pays for each kind of change, how changes are priced on cost-plus and fixed-price contracts, the questions people ask most, and how to keep changes from taking over your budget and schedule.</p>
+<h2>What is a change order in construction?</h2>
+<p>A change order is a modification to the construction contract that adds work, removes work or revises it, with the adjustment to the price and the completion date that goes with it. The standard owner-contractor form most builders borrow from, the AIA A103-2017 cost-plus agreement, puts it plainly: the owner may order changes "within the general scope of the Contract consisting of additions, deletions or other revisions," and the owner "shall issue such changes in writing." The contractor is then entitled to an equitable adjustment in the contract time for the change.</p>
+<p>On a custom home, change orders cover things like moving a wall, adding a window, upgrading a countertop beyond its allowance, adding outlets or a gas line, or a fix the inspector requires. A small field decision that changes neither price nor schedule, such as nudging a light box a few inches, is usually handled as a field note rather than a change order. Anything that moves money or days belongs on a change order. For the short definition, see our glossary entry on the <a href="/glossary/change-order">change order</a>.</p>
+<h2>How the change order process works, step by step</h2>
+<ol>
+<li><strong>The change is raised.</strong> You ask for something new, the builder finds a condition the plans did not show, or the city or county requires a fix. It should be raised in writing, by email or in the builder's project portal, not just mentioned on site.</li>
+<li><strong>The builder prices it.</strong> The builder gets prices from the trades it affects and writes up the cost, any credit for work no longer needed, and the days it adds. If the change needs new drawings, engineering or a permit revision, that goes on the order too.</li>
+<li><strong>You review and sign.</strong> You read the scope, the price and the schedule change, ask questions, and sign only when the numbers are clear. The builder signs as well.</li>
+<li><strong>The work is done.</strong> The crew builds the change as written. Work should not start before the order is signed, except for a true emergency the contract allows for.</li>
+<li><strong>The contract and the draws are updated.</strong> The new amount is added to the contract total, the change shows on the next draw request, and the running total of approved changes stays on record so neither side is surprised at closing.</li>
+</ol>
+<h2>What should be included in a construction change order?</h2>
+<p>A change order should stand on its own, so anyone reading it later knows exactly what was agreed. Look for these items on every one:</p>
+<table>
+<thead><tr><th>Item</th><th>What it should say</th></tr></thead>
+<tbody>
+<tr><td>Project and contract</td><td>Your name, the job address and the date of the original contract it changes</td></tr>
+<tr><td>Change number and date</td><td>A running number, so you can see every approved change in order</td></tr>
+<tr><td>Description of the change</td><td>What is being added, removed or revised, with the room, drawing sheet or selection it touches</td></tr>
+<tr><td>Reason</td><td>Owner request, a condition found on site, a code or inspector requirement, or a design correction</td></tr>
+<tr><td>Cost</td><td>Materials, labor, any design or engineering, permit revision fees, and the builder's fee or markup, or the credit if work is removed</td></tr>
+<tr><td>Schedule</td><td>The days added to the completion date, or a plain statement that there are none</td></tr>
+<tr><td>New contract total</td><td>The original total, the approved changes to date, and the new total</td></tr>
+<tr><td>Payment</td><td>When the change is paid: on the next draw, at a stage, or at completion</td></tr>
+<tr><td>Signatures</td><td>Both you and the builder, before the work starts</td></tr>
+</tbody>
+</table>
+<p>Arizona already requires the original contract to list the description of the work, the total amount to be paid, any advance deposit, and the progress payments with the stage of construction that triggers each (A.R.S. 32-1158). A change order that updates those same items keeps the paper trail complete.</p>
+<h2>Who pays for each kind of change</h2>
+<p>Not every change is the owner's cost. Who pays depends on why the change happened and what the contract says.</p>
+<table>
+<thead><tr><th>Kind of change</th><th>Example</th><th>Who usually pays</th></tr></thead>
+<tbody>
+<tr><td>Owner request</td><td>A bigger pantry, an added window, a pricier tile</td><td>The owner</td></tr>
+<tr><td>Selection over its allowance</td><td>A faucet or countertop that costs more than the contract set aside</td><td>The owner, for the difference</td></tr>
+<tr><td>Condition found on site</td><td>Rock, buried debris or soil that needs a deeper footing</td><td>Set by the contract's concealed or unknown conditions clause; often the owner</td></tr>
+<tr><td>Code or inspector requirement</td><td>A correction the plans missed and the inspector requires</td><td>Depends on who drew the plans and what the contract says about design errors</td></tr>
+<tr><td>Builder error</td><td>Work built wrong against approved plans</td><td>The builder, with no change order to the owner</td></tr>
+</tbody>
+</table>
+<p>The AIA cost-plus form handles the site-condition case this way: when the contractor runs into unanticipated conditions that will significantly change the cost or the completion date, it must promptly notify the owner in writing and not proceed with that work until it has written instructions. Ask whether your contract has the same rule. Allowance overages are the most common owner-paid change; our answer on <a href="/faq/what-is-a-builder-allowance-and-what-happens-if-you-go-over">what a builder allowance is and what happens if you go over</a> explains how they are billed.</p>
+<h2>How change orders are priced on cost-plus and fixed-price contracts</h2>
+<p>How a change is priced depends on the kind of contract you signed.</p>
+<ul>
+<li><strong>Cost-plus.</strong> The added cost of the change becomes part of the cost of the work, and the builder's fee is adjusted the way the contract says. The AIA A103 form has a blank for exactly this, "the method of adjustment of the Contractor's Fee for changes in the Work," and a second one for limits on a subcontractor's overhead and profit on changes. If those blanks are empty, the form says the fee is adjusted on the same basis used to set the fee for the original work. Read those lines before you sign.</li>
+<li><strong>Fixed price.</strong> Each change is quoted as a set price before it is built. The quote usually carries the builder's overhead and profit, so a change can cost more per item than the same item would have cost in the original bid.</li>
+</ul>
+<p>Either way, ask for the price in writing and the trade quotes behind it before you approve. Our comparison of <a href="/faq/cost-plus-vs-fixed-price-home-contract">cost-plus and fixed-price home contracts</a> covers the rest of the difference.</p>
+<h2>Can contractors change the price after the contract is signed?</h2>
+<p>Not on their own. Once the contract is signed, the price changes only as the contract allows: through a change order you sign, an allowance reconciliation, or a price escalation clause written into the contract. A builder who simply sends a higher bill without a signed change order, or an escalation clause that permits it, is asking you to agree to something new. Our answer on <a href="/faq/can-a-home-builder-raise-the-price-after-you-sign-in-arizona">whether a home builder can raise the price after you sign</a> goes through escalation clauses in detail.</p>
+<h2>Can a contractor refuse a change order?</h2>
+<p>Sometimes. Under the standard AIA wording, the owner may order changes within the general scope of the contract, and the builder gets a fair adjustment to price and time. A change that falls outside that scope, such as adding a detached casita to a contract for one house, is new work the builder can decline or price as a separate contract. A builder can also refuse to start a change until it is signed, refuse a change that breaks the building code or the approved plans, or decline one that the engineer or the city would have to approve first. What a builder should not do is build a material departure from the plans without your consent: A.R.S. 32-1154 lists departure from or disregard of the plans or specifications, without the owner's consent, as grounds to discipline a licensed contractor.</p>
+<h2>What is the difference between an RFI and a change order?</h2>
+<p>An RFI, or request for information, is a question. The builder or a trade asks the designer or the owner to clear up something the drawings do not answer, such as the height of a niche or which way a door swings. An RFI does not change the price or the schedule by itself. If the answer to an RFI changes the work, the cost or the completion date, a change order follows. Keep the RFIs and their answers with your change orders, since together they explain why the house was built the way it was.</p>
+<h2>Change orders, your draws and your schedule</h2>
+<p>Change orders reach past the contract price. A few things to plan for:</p>
+<ul>
+<li><strong>Your construction loan.</strong> A construction loan is sized to the budget the lender approved. Approved changes beyond that budget are usually paid from your own funds or a contingency reserve, and some lenders want to see signed change orders before they release a draw that includes them. See our page on the <a href="/faq/construction-loan-draw-schedule-explained">construction loan draw schedule</a>.</li>
+<li><strong>Retainage.</strong> Some contracts hold back part of each payment until the work is finished. Retainage is separate from a change order; ask whether your contract applies it to change order work too.</li>
+<li><strong>New suppliers and lien notices.</strong> A change can bring a supplier or trade that was not on the job before. Arizona requires most suppliers and subcontractors to serve a preliminary twenty day notice on the owner to protect their lien rights (A.R.S. 33-992.01), so a notice from a new name after a change order is normal. Keep each one with the change order that brought it.</li>
+<li><strong>The schedule.</strong> A change that needs new engineering or a permit revision can stop the trade it affects while the city or county reviews it. A late change can also delay the next trade in line, which is why the days added belong on the order.</li>
+</ul>
+<h2>How to keep change orders under control</h2>
+<p>A few change orders are normal on any custom home. A steady stream of them is how a budget and a schedule slip. These habits keep the number low:</p>
+<ul>
+<li><strong>Finish design before you sign.</strong> A change on paper costs a redraw. The same change after framing means tearing out finished work. Our answer on <a href="/faq/can-i-change-the-floor-plan-during-a-custom-build">changing the floor plan during a custom build</a> shows how the cost climbs at each stage.</li>
+<li><strong>Make your selections early.</strong> Cabinets, tile, fixtures and appliances chosen during design rarely become change orders. See <a href="/faq/how-do-finish-selections-work-in-a-custom-home">how finish selections work in a custom home</a>.</li>
+<li><strong>Set allowances to your real taste.</strong> Price what you actually want in the showrooms before the allowances are written into the contract.</li>
+<li><strong>Keep a contingency.</strong> Set money aside for the changes no one can foresee, like a site condition found after digging.</li>
+<li><strong>Put every request in writing.</strong> A request made in passing on site is easy to misremember. A written request, priced and signed, is not.</li>
+</ul>
+<p>If your home is already running over, our answer on <a href="/faq/why-is-my-custom-home-coming-in-over-budget-arizona">why a custom home comes in over budget</a> walks through the usual causes.</p>
+<h2>How Jematell Homes handles changes on a build</h2>
+<p>We build <a href="/custom-homes">custom homes</a> across the Phoenix area, from Scottsdale and Rio Verde to Cave Creek, Fountain Hills, Mesa and Pinal County, and we are a licensed Arizona contractor, ROC# 339367. On our cost-plus builds you get an itemized cost estimate before we break ground, and we share the actual subcontractor bids with you, so you can see what every part of your home costs and what a change adds to it. For our in-house plans or simpler custom homes, we can quote a flat-rate build cost up front instead. You get the full draw schedule at the start, and every week of construction you get a written update on what was finished, what is scheduled next and any decision we need from you, so a choice that affects the price or the schedule is in front of you in writing before it is built.</p>
+<p>If you want a new home without the full design process, our <a href="/spec-homes">spec homes</a> are built on our own floor plans. If you own land already, we <a href="/build-on-your-lot">build on your lot</a>. <a href="/contact">Get in touch</a> and we will walk you through how our contract handles changes before you sign it.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.azleg.gov/ars/32/01158.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1158 (Residential construction contract requirements)</a></li>
+<li><a href="https://www.azleg.gov/ars/32/01154.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1154 (Grounds to discipline a contractor, including departure from plans)</a></li>
+<li><a href="https://www.azleg.gov/ars/33/00992-01.htm" target="_blank" rel="noopener noreferrer">A.R.S. 33-992.01 (Preliminary twenty day notice)</a></li>
+<li><a href="https://assets.aiacontracts.com/ctrzdweb02/zdpdfs/aia-a103-2017-comparative-and-exhibit2.pdf" target="_blank" rel="noopener noreferrer">AIA A103-2017 (Owner and contractor agreement, cost of the work plus a fee: Article 5 fee adjustment and Article 6 changes in the work)</a></li>
+</ul>`,
+      shortAnswer: "A change order is the written, signed amendment that changes the work after a custom home contract is signed. The change is raised, the builder prices it and states the days it adds, you sign it, the work is done, and the new amount goes on your contract total and your next draw. In Arizona the contract must state the work and price in writing, so nothing new should be built before the change order is signed.",
+      metaDescription: "How change orders work when building a custom home: the steps, what one must include, who pays, cost-plus vs fixed price, and Arizona rules.",
+      categorySlug: "costs-and-budget",
+      topicSlugs: ["budgeting-a-custom-home"],
+      tags: ["builder", "research-phase"],
+      relatedFaqSlugs: ["can-i-change-the-floor-plan-during-a-custom-build", "what-is-a-builder-allowance-and-what-happens-if-you-go-over", "can-a-home-builder-raise-the-price-after-you-sign-in-arizona", "cost-plus-vs-fixed-price-home-contract", "why-is-my-custom-home-coming-in-over-budget-arizona", "what-to-include-in-custom-home-contract"],
+      relatedServiceSlugs: ["custom-homes", "spec-homes", "build-on-your-lot"],
+      pillarBlogSlug: null,
+      featured: false,
+      sortOrder: 445,
+    }),
+    item({
       slug: "how-much-does-it-cost-to-build-a-ramada-or-covered-patio-in-arizona",
       question: "How much does it cost to build a ramada or covered patio in Arizona?",
       answerHtml: `<p>Whether the structure attaches to the house or stands alone is the single biggest swing factor in price. Plan on roughly <strong>$5,000 to $30,000 or more</strong> in 2026 for the Phoenix and Scottsdale metro. A small attached aluminum or wood patio cover over an existing slab lands at the low end. A large freestanding ramada with its own footings, a tile or foam roof, recessed lighting, and a ceiling fan lands at the top or beyond. These are 2026 planning ranges, not quotes, because lumber, steel, and labor costs move within a single building season.</p>
@@ -8654,7 +8753,7 @@ export const faqSeed: FaqSeed = {
 <h2>Change orders add up fast during the build</h2>
 <p><strong>Change orders</strong> are the second big driver, and they are usually your own decisions, not the builder's. A change order is a written, signed amendment that adds, removes, or alters work after the contract is set. Moving a wall, upgrading to a larger window package, adding a second island, or switching from a tub to a curbless shower all become change orders. Each one carries the new material cost, the labor, and often a markup, plus any rework if the change comes late.</p>
 <p>The cost of a change is mostly about timing. Asking for a bigger primary closet during the design phase is cheap. Asking for it after the framing is up and the electrical is roughed in means tearing out finished work, so the same change can cost several times more. Arizona law backs the paper trail here. Under <strong>A.R.S. 32-1158</strong>, your residential contract must spell out terms in writing, and a clean change order process protects both sides by documenting the new price and your approval before the work happens.</p>
-<p>The way to control change orders is to make your decisions during design and then hold them. Every "small" change you green-light during construction is a real line item. A handful of them is normal. A constant stream is how a home ends up tens of thousands over.</p>
+<p>The way to control change orders is to make your decisions during design and then hold them. Every "small" change you green-light during construction is a real line item. A handful of them is normal. A constant stream is how a home ends up tens of thousands over. For the steps, what each order should list and who pays for which kind of change, see <a href="/faq/how-do-change-orders-work-when-building-a-custom-home">how change orders work when building a custom home</a>.</p>
 <h2>Material and labor escalation moves the whole number</h2>
 <p><strong>Escalation</strong> is the rise in material and labor prices between the day you bid and the day you build, and it can move your total even if you change nothing. This is not a small effect. According to the NAHB 2024 Cost of Construction Survey, construction costs made up <strong>64.4% of the average new home's sales price in 2024, up from 60.8% in 2022</strong>, a record high since the survey began in 1998, driven largely by broad inflation in building material prices. On a custom home that can take a year or more from contract to keys, a price list quoted in spring may not hold by the next spring.</p>
 <p>Escalation hits hardest in the categories with the most material exposure. The same NAHB data puts interior finishes, major system rough-ins, and framing among the largest shares of construction cost, so a swing in lumber, copper, or finish prices flows straight to your bottom line. You control this with your contract type and your schedule. A <strong>fixed-price</strong> contract puts escalation risk on the builder, while a <strong>cost-plus</strong> contract leaves it with you. Read our comparison of <a href="/faq/cost-plus-vs-fixed-price-home-contract">cost-plus versus fixed-price home contracts</a> to see which one fits how you want to carry that risk.</p>
