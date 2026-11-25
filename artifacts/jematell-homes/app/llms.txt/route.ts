@@ -22,6 +22,7 @@ export function GET() {
     `- [Build on Your Lot](${SITE_URL}/build-on-your-lot)\n` +
     `- [Casitas and Guest Houses](${SITE_URL}/casitas-and-guest-houses): what each city allows, cost, and the ADU law\n` +
     `- [RV Garages](${SITE_URL}/rv-garages): door sizes by RV class, slab, hookups, cost\n` +
+    `- [Luxury Home Builder](${SITE_URL}/luxury-home-builder): how we design, price and build a high-end custom home in Phoenix and Scottsdale\n` +
     `- [Buy a Lot With Us](${SITE_URL}/buy-a-lot-with-us)\n` +
     `- [Financing](${SITE_URL}/financing): how construction-to-permanent loans work, plus a calculator\n` +
     `- [Gallery](${SITE_URL}/gallery)\n` +

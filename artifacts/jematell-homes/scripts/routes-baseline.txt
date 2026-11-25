@@ -22,6 +22,7 @@
 /build-on-your-lot
 /buy-a-lot-with-us
 /casitas-and-guest-houses
+/luxury-home-builder
 /rv-garages
 /about
 /contact
