@@ -18,9 +18,9 @@ import {
 } from "@/data/estimateScenarios";
 
 export const metadata = pageMetadata({
-  title: "Construction Financing in Arizona",
+  title: "Arizona Construction Loans and Financing",
   description:
-    "How construction-to-permanent financing works in Arizona, with a construction loan calculator to estimate payments and guidance on our preferred lender.",
+    "Arizona construction loans for a custom home: one-time and two-time close, owner-builder and lot loans, what lenders ask for, and a payment calculator.",
   canonical: "/financing",
 });
 
@@ -78,6 +78,16 @@ const pageFaqs = [
     question: "Does the interest rate change when the loan converts to a mortgage?",
     answer:
       "With a one-time-close construction-to-permanent loan you set the terms once at the original closing, and the construction-phase rate and the permanent rate are usually two different numbers agreed at that time. Some lenders offer a one-time float-down if rates fall before conversion. Ask your loan officer how theirs handles it.",
+  },
+  {
+    question: "What type of loan is best for building a house in Arizona?",
+    answer:
+      "For most people building a custom home with a licensed builder, a one-time-close construction-to-permanent loan is the simplest: one application, one closing, and a mortgage at the end. A two-time close suits you if you want to shop for the permanent mortgage later. Eligible Veterans should ask about a VA construction loan, and an owner-builder needs a lender that makes owner-builder loans.",
+  },
+  {
+    question: "How hard is it to get a construction-to-permanent loan?",
+    answer:
+      "Harder than a normal mortgage. Lenders look for stronger credit, more money down and cash in reserve, and they approve the builder, the plans and the budget as well as you. A low appraisal of the finished home is the most common snag. A licensed builder with a complete line-item budget and draw schedule makes the file easier to approve.",
   },
 ];
 
@@ -165,6 +175,17 @@ export default function Financing() {
 
       <section className="dt-section fin-page" style={{ paddingTop: "clamp(24px, 3vw, 40px)" }}>
         <div className="container">
+          <div className="fin-guide fin-guide-intro" data-testid="financing-intro">
+            <h2>Arizona construction loans for a custom home</h2>
+            <p>
+              An Arizona construction loan pays for building a home in stages as the work gets done, and it usually
+              turns into a regular mortgage once the house is finished. The main choices are a one-time-close
+              construction-to-permanent loan, a two-time-close loan, and loans made for owner-builders and for land.
+              Jematell Homes is a builder, not a lender: you can use any construction lender licensed in Arizona, and we
+              coordinate the draws, inspections and closing paperwork with them. Below is how each loan works, what
+              lenders ask for, and how to choose one, with a calculator to estimate your payment.
+            </p>
+          </div>
           <h2 className="fin-h2" style={{ textTransform: "uppercase", textAlign: "center", marginBottom: "clamp(24px, 3vw, 40px)" }}>How construction financing works</h2>
           <div className="fin-steps">
             {steps.map((step, i) => (
@@ -231,6 +252,97 @@ export default function Financing() {
               Property taxes use each city&apos;s average effective rate and insurance uses a planning estimate, so
               the all-in figure covers principal, interest, taxes, and insurance. HOA dues are not included.
               Estimates only, not a loan offer.
+            </p>
+          </div>
+
+          <div className="fin-guide" data-testid="financing-loan-types">
+            <h2>Types of construction loans in Arizona</h2>
+            <h3>One-time close (construction-to-permanent)</h3>
+            <p>
+              You apply and close once. The lender pays your builder in draws as each stage passes inspection, you pay
+              interest only on what has been drawn, and the loan converts to your permanent mortgage when the home is
+              done. Conventional lenders offer it, and so do FHA, VA and USDA programs for borrowers who qualify. See{" "}
+              <Link href="/faq/construction-to-permanent-loan-arizona">how a construction-to-permanent loan works in Arizona</Link>.
+            </p>
+            <h3>Two-time close (construction-only, then a mortgage)</h3>
+            <p>
+              A short construction loan pays for the build, then you close a second time on a new mortgage. That means
+              two sets of closing costs and qualifying again at the end, but it lets you shop for the permanent loan
+              separately. The trade-offs are laid out in{" "}
+              <Link href="/faq/single-close-vs-two-close-construction-loan-in-arizona">single-close vs two-close construction loans</Link>.
+            </p>
+            <h3>Owner-builder loans</h3>
+            <p>
+              Arizona lets you act as your own general contractor on a home you will live in, under the owner-builder
+              exemption in{" "}
+              <a href="https://www.azleg.gov/ars/32/01121.htm" target="_blank" rel="noopener noreferrer">A.R.S. 32-1121</a>.
+              Fewer lenders make these loans, and most ask for more money down and proof that you can run a build. See{" "}
+              <Link href="/faq/owner-builder-construction-loan-arizona">owner-builder construction loans in Arizona</Link>.
+            </p>
+            <h3>Lot and land loans</h3>
+            <p>
+              A lot loan buys the land before you build. Some lenders roll the lot and the build into one
+              land-and-construction loan, and land you already own can often count toward your down payment. See{" "}
+              <Link href="/faq/what-is-a-lot-loan-or-land-loan-and-how-is-it-different-from-a-construction-loan-in-arizona">lot loans vs construction loans</Link>{" "}
+              and{" "}
+              <Link href="/faq/can-i-use-my-land-equity-as-the-down-payment-on-a-construction-loan">using land equity as your down payment</Link>.
+            </p>
+
+            <h2>What Arizona construction lenders ask for</h2>
+            <p>
+              A construction loan funds a house that does not exist yet, so lenders screen harder than for a normal
+              purchase. Plan on showing:
+            </p>
+            <ul>
+              <li>Credit, income and cash reserves that meet the lender&apos;s construction minimums, which are usually higher than for a purchase loan.</li>
+              <li>A down payment, in cash or in equity in land you own.</li>
+              <li>A signed contract with a builder who holds an active Arizona Registrar of Contractors license.</li>
+              <li>A full set of plans, a line-item budget and a draw schedule tied to stages of work.</li>
+              <li>An appraisal of the finished home, made from the plans and the budget.</li>
+            </ul>
+            <p>
+              The numbers lenders use are in{" "}
+              <Link href="/faq/construction-loan-requirements-arizona">construction loan requirements in Arizona</Link>{" "}
+              and{" "}
+              <Link href="/faq/what-credit-score-and-down-payment-do-you-need-for-a-construction-loan-in-arizona">the credit score and down payment you need</Link>.
+              When the appraisal comes in under the cost, see{" "}
+              <Link href="/faq/what-is-an-appraisal-gap-on-a-construction-loan">what an appraisal gap is</Link>.
+            </p>
+
+            <h2>How to choose a construction lender in Arizona</h2>
+            <ul>
+              <li>
+                Check the license. Mortgage lenders and loan officers in Arizona are licensed by the{" "}
+                <a href="https://difi.az.gov/licensing/mortgage-lending" target="_blank" rel="noopener noreferrer">Department of Insurance and Financial Institutions</a>,
+                and you can look one up on{" "}
+                <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer">NMLS Consumer Access</a>.
+              </li>
+              <li>Ask how many construction loans they close in a year, and whether they lend on your kind of lot: a rural lot on a well or septic, a hillside lot, or land in unincorporated county.</li>
+              <li>Ask how draws work: who inspects, how soon money goes out after an inspection, and what is held back.</li>
+              <li>Ask how interest is paid during the build, by monthly payment or from an interest reserve.</li>
+              <li>Ask whether the permanent rate is set at closing and whether they offer a float-down.</li>
+              <li>
+                Ask what happens if the build runs long. See{" "}
+                <Link href="/faq/how-long-does-the-construction-phase-of-a-loan-last-in-arizona">how long the construction phase of a loan lasts</Link>.
+              </li>
+            </ul>
+            <p>
+              The{" "}
+              <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>{" "}
+              explains how construction loans are paid out in advances as the work goes on.
+            </p>
+
+            <h2>How we work with your lender</h2>
+            <p>
+              Your lender approves the builder, the plans and the budget, so the paperwork we hand over matters. On
+              cost-plus builds you get an itemized cost estimate before we break ground, and we share the actual
+              subcontractor bids. For our in-house plans or simpler custom homes, we can quote a flat-rate build cost up
+              front instead. You get the full draw schedule at the start and a written update every week of
+              construction. If you already own land, we{" "}
+              <Link href="/build-on-your-lot">build on your lot</Link>, starting with a check of its utilities,
+              access and grading. See how we build{" "}
+              <Link href="/custom-homes">custom homes</Link>, or{" "}
+              <Link href="/contact">tell us about your project</Link>.
             </p>
           </div>
 
