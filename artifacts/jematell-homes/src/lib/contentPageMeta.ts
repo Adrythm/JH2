@@ -6,7 +6,7 @@
  * client component keeps only the rendering. No JSX in this file.
  */
 import { pages, type PageData } from "../data/pages";
-import { serviceJsonLd, breadcrumbJsonLd, collectionJsonLd } from "../seo/jsonldBuilders";
+import { serviceJsonLd, breadcrumbJsonLd, collectionJsonLd, faqPageJsonLd } from "../seo/jsonldBuilders";
 import { absoluteUrl } from "../seo/siteMeta";
 import { locations } from "../config/siteConfig";
 import { cleanTitle } from "./cleanTitle";
@@ -108,6 +108,33 @@ export function contentPageMeta(opts: ContentPageMetaOpts): ContentPageMetaResul
 }
 
 /**
+ * A town page's local guide cards whose heading is a question (it ends in "?")
+ * are the questions the page answers on screen, so they also go out as
+ * FAQPage markup: the card heading as the question, its paragraphs as the
+ * answer. Pages with no question cards emit nothing new.
+ */
+function regionQuestions(data: PageData): Array<{ question: string; shortAnswer: string }> {
+  const out: Array<{ question: string; shortAnswer: string }> = [];
+  let current: { question: string; paras: string[] } | null = null;
+  const flush = () => {
+    if (current && current.paras.length) out.push({ question: current.question, shortAnswer: current.paras.join(" ") });
+    current = null;
+  };
+  for (const b of data.blocks) {
+    if (b.type === "h3" && b.text) {
+      flush();
+      if (b.text.trim().endsWith("?")) current = { question: b.text.trim(), paras: [] };
+    } else if (b.type === "p" && b.text && current) {
+      current.paras.push(b.text);
+    } else if (b.type === "h1" || b.type === "h2") {
+      flush();
+    }
+  }
+  flush();
+  return out;
+}
+
+/**
  * Ported verbatim from the old ContentPage buildPageJsonLd(). Returns [] for
  * keys that had no page-specific JSON-LD; wrappers render <JsonLd> only when
  * the array is non-empty (the old Seo received jsonLd={undefined} then).
@@ -122,7 +149,9 @@ export function contentPageJsonLd(opts: ContentPageMetaOpts): object[] {
     // obvious thing a search engine cannot otherwise infer: this company builds
     // custom homes in this specific place.
     const cityName = locations.find((l) => l.slug === opts.region)?.name ?? pageTitle;
+    const questions = regionQuestions(data);
     return [
+      ...(questions.length >= 2 ? [faqPageJsonLd({ url: path, items: questions })] : []),
       serviceJsonLd({
         name: `Custom Home Building in ${cityName}, Arizona`,
         description: data.description,
