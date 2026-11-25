@@ -208,6 +208,22 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     only: "paradise-valley",
   },
   { re: /casitas and guest houses/i, href: "/casitas-and-guest-houses", only: "paradise-valley" },
+  {
+    re: /Arizona Registrar of Contractors/i,
+    href: "/faq/how-to-verify-an-arizona-contractor-license-with-the-roc",
+    only: "paradise-valley",
+  },
+  {
+    re: /references and past work/i,
+    href: "/faq/how-do-i-check-a-custom-home-builders-references-and-past-work",
+    only: "paradise-valley",
+  },
+  {
+    re: /questions to ask a custom home builder/i,
+    href: "/blog/questions-to-ask-custom-home-builder-arizona",
+    only: "paradise-valley",
+  },
+  { re: /warranty page/i, href: "/warranty", only: "paradise-valley" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
   {
     re: /fence or site wall/i,
