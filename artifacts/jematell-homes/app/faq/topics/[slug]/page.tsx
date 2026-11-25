@@ -26,7 +26,7 @@ export async function generateMetadata({
   if (!topic) return {};
   return pageMetadata({
     title: topic.title,
-    description: topic.description,
+    description: topic.metaDescription || topic.description,
     canonical: `/faq/topics/${topic.slug}`,
   });
 }
