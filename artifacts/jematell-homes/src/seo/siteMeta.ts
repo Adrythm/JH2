@@ -22,6 +22,16 @@ export const DEFAULT_OG_IMAGE = "/opengraph.jpg";
 export const GOOGLE_MAPS_URL = "https://www.google.com/maps?cid=3907188539355189707";
 export const OFFICE_GEO = { latitude: 33.6189919, longitude: -111.8989709 };
 
+/**
+ * Days the office is closed that the regular hours would show as open, as the
+ * owner confirmed them (closed on Thanksgiving and Christmas Day, answered
+ * 2026-11-19). Each becomes an all-day-closed OpeningHoursSpecification
+ * (opens and closes 00:00, valid that one day), the form Google's
+ * LocalBusiness documentation gives for holiday hours. Add a day only once
+ * the owner has said which hours they keep on it; never a guessed one.
+ */
+export const HOLIDAY_CLOSURES: readonly string[] = ["2026-11-26", "2026-12-25"];
+
 /** Turn a site-relative path (or pass-through absolute URL) into an absolute URL. */
 export function absoluteUrl(pathOrUrl: string): string {
   if (!pathOrUrl) return SITE_URL;
@@ -121,6 +131,13 @@ export function buildSiteJsonLd(): object[] {
         opens: "08:00",
         closes: "17:00",
       },
+      ...HOLIDAY_CLOSURES.map((day) => ({
+        "@type": "OpeningHoursSpecification",
+        opens: "00:00",
+        closes: "00:00",
+        validFrom: day,
+        validThrough: day,
+      })),
     ],
     // Every town with a page under /where-we-build, so the business's
     // service area here matches the site's own town pages.
