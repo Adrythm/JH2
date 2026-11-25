@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { preload } from "react-dom";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/seo/metadata";
 import { serviceJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
@@ -41,10 +42,41 @@ const COST_RULES = [
 ];
 const READING = ["designing-a-custom-rv-garage", "why-adding-an-rv-garage-is-a-smart-investment-for-your-arizona-home"];
 
+/* The proof photo (the Rio Verde RV aerial) is the hero and the proof card's
+ * picture. Until 2026-11-25 both reached a phone as the one 2500px, 634KB
+ * desktop file (PageSpeed mobile: lab LCP 6.6 s). Its 768/1280/1920 rungs were
+ * made with `node scripts/gen-image-variants.mjs --from-lossy
+ * --dir=public/images/cdn 1733510981656__018_Aerial-View-1`; the untouched
+ * original stays the top rung and the src fallback. A photo with no rungs on
+ * this list keeps the single-file path. */
+const PHOTO_LADDERS: Record<string, { widths: number[]; width: number; height: number }> = {
+  "/images/cdn/1733510981656__018_Aerial-View-1.webp": { widths: [768, 1280, 1920], width: 2500, height: 1667 },
+};
+
+function photoSrcSet(src: string): string | undefined {
+  const ladder = PHOTO_LADDERS[src];
+  if (!ladder) return undefined;
+  const base = src.replace(/\.webp$/, "");
+  return ladder.widths.map((w) => `${base}-${w}.webp ${w}w`).join(", ") + `, ${src} ${ladder.width}w`;
+}
+
 export default function RvGaragesPage() {
   const proof = GALLERY_BY_SLUG[PROOF_SLUG];
   const proofImage = pages[`gallery_${PROOF_SLUG}`]?.ogImage;
   const heroImage = proofImage || pages["build-on-your-lot"]?.ogImage;
+  const heroSrcSet = heroImage ? photoSrcSet(heroImage) : undefined;
+  const heroLadder = heroImage ? PHOTO_LADDERS[heroImage] : undefined;
+  const proofSrcSet = proofImage ? photoSrcSet(proofImage) : undefined;
+  // The hero is the page's largest paint: preload exactly the rung the <img>
+  // will pick, so a phone neither waits for the CSS nor fetches two files.
+  if (heroImage) {
+    preload(
+      heroImage,
+      heroSrcSet
+        ? { as: "image", fetchPriority: "high", imageSrcSet: heroSrcSet, imageSizes: "100vw", type: "image/webp" }
+        : { as: "image", fetchPriority: "high" },
+    );
+  }
 
   const sections = [
     {
@@ -89,7 +121,16 @@ export default function RvGaragesPage() {
         {heroImage ? (
           // The RV garage home we built in Rio Verde, same photo as its gallery page.
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={heroImage} className="page-hero-bg" alt="" fetchPriority="high" />
+          <img
+            src={heroImage}
+            srcSet={heroSrcSet}
+            sizes={heroSrcSet ? "100vw" : undefined}
+            width={heroLadder?.width}
+            height={heroLadder?.height}
+            className="page-hero-bg"
+            alt=""
+            fetchPriority="high"
+          />
         ) : null}
         <div className="page-hero-overlay" style={{ background: "linear-gradient(180deg, rgba(10,12,14,0.25) 0%, rgba(10,12,14,0.55) 100%)" }} />
         <div className="container page-hero-content" style={{ textAlign: "center", maxWidth: "100%" }}>
@@ -221,7 +262,7 @@ export default function RvGaragesPage() {
             <Link href={`/gallery/${PROOF_SLUG}`} className="lib-card" data-testid="rv-proof" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: "20px" }}>
               {proofImage ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={proofImage} alt={`${proof.title}, an RV garage home Jematell Homes built in ${proof.location}, Arizona`} loading="lazy" style={{ width: "100%", height: "auto", display: "block", borderRadius: "4px" }} />
+                <img src={proofImage} srcSet={proofSrcSet} sizes={proofSrcSet ? "(min-width: 760px) 720px, 100vw" : undefined} alt={`${proof.title}, an RV garage home Jematell Homes built in ${proof.location}, Arizona`} loading="lazy" style={{ width: "100%", height: "auto", display: "block", borderRadius: "4px" }} />
               ) : null}
               <span className="lib-card-count">Built by Jematell Homes</span>
               <h2 className="lib-card-title">{proof.title}</h2>
