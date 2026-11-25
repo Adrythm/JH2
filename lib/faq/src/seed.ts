@@ -16416,7 +16416,7 @@ export const faqSeed: FaqSeed = {
       tags: ["adu", "casita", "hb-2720", "hb-2928", "ars-9-461-18", "ars-11-810-01", "research-phase"],
       relatedFaqSlugs: ["how-many-adus-per-property-arizona", "which-arizona-cities-are-required-to-allow-adus", "rural-residential-zoning-districts-in-maricopa-county"],
       relatedServiceSlugs: ["casitas-and-guest-houses", "where-we-build/rio-verde", "custom-homes", "floor-plans"],
-      pillarBlogSlug: "guest-house-casita-adu-scottsdale",
+      pillarBlogSlug: "guest-house-amp-adu-essentials-building-casitas-in-phoenix-under-new-laws",
       featured: false,
       sortOrder: 14,
     }),

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pageMetadata } from "@/seo/metadata";
-import { serviceJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
+import { serviceJsonLd, breadcrumbJsonLd, faqPageJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
 import { Interlink } from "@/components/Interlink";
 import { CTA } from "@/cta";
@@ -68,9 +68,25 @@ const LAW = [
 ];
 const LAW_FAQS = ["what-hb-2720-changed-for-adus-in-arizona", "which-arizona-cities-are-required-to-allow-adus"];
 const READING = [
-  "guest-house-casita-adu-scottsdale",
   "guest-house-amp-adu-essentials-building-casitas-in-phoenix-under-new-laws",
   "modern-casita-and-guest-house-design-trends",
+];
+
+const SCOTTSDALE_QA = [
+  {
+    question: "Do you build guest houses in Scottsdale?",
+    answer: `Yes. Jematell Homes designs and builds detached guest houses and casitas in Scottsdale, either with a new custom home or on a lot you already own. We are a licensed Arizona general contractor, ${siteConfig.contact.roc}.`,
+  },
+  {
+    question: "Can I rent out a guest house in Scottsdale?",
+    answer:
+      "No. A Scottsdale guest house may not be rented apart from the main home, and one built after January 1, 2025 carries a deed restriction that keeps it a guest house. To rent the space, build it as an ADU, and live on the property while you rent it.",
+  },
+  {
+    question: "How long do permits take for a Scottsdale guest house?",
+    answer:
+      "Allow 2 to 4 months for plan review and permitting. A guest house goes through a building permit review of the plans; an ADU starts with a pre-application and a meeting with city staff, then an administrative review, then the building permit.",
+  },
 ];
 
 export default function CasitasPage() {
@@ -126,6 +142,10 @@ export default function CasitasPage() {
             { name: "Home", url: "/" },
             { name: "Casitas and Guest Houses", url: PATH },
           ]),
+          faqPageJsonLd({
+            url: PATH,
+            items: SCOTTSDALE_QA.map((qa) => ({ question: qa.question, shortAnswer: qa.answer })),
+          }),
         ]}
       />
 
@@ -278,6 +298,76 @@ export default function CasitasPage() {
               Planning a casita or guest house in Scottsdale, Paradise Valley, Cave Creek or Rio Verde? Call{" "}
               <a href={siteConfig.contact.phone.href}>{siteConfig.contact.phone.display}</a> or <Link href="/contact">tell us about your lot</Link>.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="dt-section" style={{ paddingTop: 0 }}>
+        <div className="container container-narrow">
+          <div className="dt-prose" data-testid="casitas-layouts">
+            <h2>Guest house layouts, utilities and HOA review</h2>
+            <p>
+              Most guest houses and casitas we plan in Scottsdale take one of three layouts. Pick the one that fits how the space will be
+              used, then check it against what your lot and your city allow.
+            </p>
+            <ul>
+              <li>
+                <strong>Studio.</strong> One open room for living and sleeping, with a bathroom and a kitchenette. It makes the most of a
+                small footprint.
+              </li>
+              <li>
+                <strong>One bedroom.</strong> A separate bedroom and living room, which gives a longer-staying guest or a parent more
+                privacy.
+              </li>
+              <li>
+                <strong>Attached casita with its own entrance.</strong> Joined to the main home but entered from outside. It is common in
+                custom homes planned for more than one generation, and our{" "}
+                <Link href="/floor-plans">floor plans</Link> show where one fits.
+              </li>
+            </ul>
+            <h3>Settle the utilities first</h3>
+            <p>
+              Utilities are the part of a guest house people most often underestimate. Before the design is final we answer these with
+              you:
+            </p>
+            <ul>
+              <li>Does the building tie into the main home&apos;s water and sewer lines, and how far do they run?</li>
+              <li>Does the electrical service have room for the added load, and does the casita need its own subpanel?</li>
+              <li>
+                Does it get its own cooling, or a zone off the main system? See{" "}
+                <Link href="/faq/how-do-you-cool-a-casita-or-guest-suite-separately-from-the-main-house-in-arizona">
+                  how to cool a casita separately
+                </Link>
+                .
+              </li>
+              <li>Where do the trenches go, and what grading and hardscape has to be put back afterward?</li>
+            </ul>
+            <p>
+              The answers shape the site plan, and in Scottsdale they follow from the first choice: a guest house shares the main
+              home&apos;s service, while an ADU has its own electric and gas meters.
+            </p>
+            <h3>Your HOA reviews it too</h3>
+            <p>
+              Many Scottsdale neighborhoods have an HOA, and its rules can be stricter than city code. A detached building usually needs
+              the architectural committee&apos;s approval as well as the city permit, so we bring the committee&apos;s guidelines into the
+              design early. See <Link href="/faq/can-my-hoa-block-an-adu-if-the-city-allows-it-in-arizona">whether an HOA can block an ADU</Link>.
+            </p>
+            <h3>Plan where it sits</h3>
+            <p>
+              A guest house can be a suite for family, a home for a parent, a home office or a studio. Whichever it is, placement,
+              sightlines and the path between the two doors decide whether it feels private or like an afterthought, so we site it with
+              the main home&apos;s quiet rooms in mind. See{" "}
+              <Link href="/faq/where-should-you-place-a-casita-or-guest-suite-in-a-custom-home-layout">where to place a casita</Link> and{" "}
+              <Link href="/faq/does-an-adu-add-property-value-in-arizona">whether an ADU adds property value</Link>.
+            </p>
+
+            <h2>Questions about Scottsdale guest houses</h2>
+            {SCOTTSDALE_QA.map((qa) => (
+              <div key={qa.question}>
+                <h3>{qa.question}</h3>
+                <p>{qa.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
