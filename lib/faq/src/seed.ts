@@ -151,14 +151,14 @@ export const faqSeed: FaqSeed = {
       slug: "desert-build-essentials",
       title: "Desert Build Essentials",
       description: "How a home is built to thrive in the Sonoran Desert: climate-smart design, drainage that survives the monsoon, pool and solar requirements, and the build timeline.",
-      metaDescription: "Desert build essentials for an Arizona custom home: hot-dry energy design, grading and drainage, pool safety barriers, going solar, and how long the build takes.",
+      metaDescription: "Desert essentials for an Arizona custom home: hot-dry energy design, grading and drainage, pool safety barriers, going solar, and how long the build takes.",
       sortOrder: 6,
     },
     {
       slug: "choosing-a-custom-home-builder",
       title: "Choosing a Custom Home Builder",
       description: "Finding and hiring the right builder - verifying an Arizona contractor license, the questions to ask before you sign, red flags, and how the build process runs.",
-      metaDescription: "Choosing a custom home builder in Arizona: license verification, questions to ask, red flags, design-build vs design-bid-build, and the step-by-step build process.",
+      metaDescription: "Choosing a custom home builder in Arizona: license verification, questions to ask, red flags, design-build vs design-bid-build, and the build process.",
       sortOrder: 7,
     },
     {
