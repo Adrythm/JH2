@@ -5464,6 +5464,36 @@ a.dt-source-card:hover { transform: translateY(-2px); }
 .fin-lenders-link:hover { color: var(--color-dark); }
 .fin-lenders .fin-referral-note { margin-block: 14px 0; }
 
+/* Construction loan guide on /financing: wraps on phones (unlike .fin-h2). */
+.fin-guide {
+  max-width: 860px;
+  margin-inline: auto;
+  margin-block: 0 46px;
+  line-height: 1.7;
+}
+.fin-guide-intro { margin-block: 8px 34px; }
+.fin-guide h2 {
+  font-family: var(--font-serif, var(--font-heading));
+  font-weight: 400;
+  font-size: clamp(1.35rem, 3vw, 2.1rem);
+  line-height: 1.2;
+  margin-block: 34px 12px;
+}
+.fin-guide-intro h2 { margin-top: 0; text-align: center; }
+.fin-guide h3 {
+  font-size: 18px;
+  color: #3b617f;
+  margin-block: 22px 6px;
+}
+.fin-guide p { margin-block: 10px 0; }
+.fin-guide ul { margin-block: 10px 0; padding-left: 1.2em; }
+.fin-guide li { margin-block: 6px; }
+.fin-guide a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* ============================================
    Spec Homes (reworked): intro + coming-soon map
    ============================================ */
@@ -7349,34 +7379,4 @@ a.dt-source-card:hover { transform: translateY(-2px); }
    next section's top border is suppressed and ours is the single divider. */
 .why-build + section {
   border-top: 0;
-}
-
-/* Construction loan guide on /financing: wraps on phones (unlike .fin-h2). */
-.fin-guide {
-  max-width: 860px;
-  margin-inline: auto;
-  margin-block: 0 46px;
-  line-height: 1.7;
-}
-.fin-guide-intro { margin-block: 8px 34px; }
-.fin-guide h2 {
-  font-family: var(--font-serif, var(--font-heading));
-  font-weight: 400;
-  font-size: clamp(1.35rem, 3vw, 2.1rem);
-  line-height: 1.2;
-  margin-block: 34px 12px;
-}
-.fin-guide-intro h2 { margin-top: 0; text-align: center; }
-.fin-guide h3 {
-  font-size: 18px;
-  color: #3b617f;
-  margin-block: 22px 6px;
-}
-.fin-guide p { margin-block: 10px 0; }
-.fin-guide ul { margin-block: 10px 0; padding-left: 1.2em; }
-.fin-guide li { margin-block: 6px; }
-.fin-guide a {
-  color: var(--color-accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
