@@ -211,19 +211,19 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   {
     re: /Arizona Registrar of Contractors/i,
     href: "/faq/how-to-verify-an-arizona-contractor-license-with-the-roc",
-    only: "paradise-valley",
+    only: ["paradise-valley", "cave-creek"],
   },
   {
     re: /references and past work/i,
     href: "/faq/how-do-i-check-a-custom-home-builders-references-and-past-work",
-    only: "paradise-valley",
+    only: ["paradise-valley", "cave-creek"],
   },
   {
     re: /questions to ask a custom home builder/i,
     href: "/blog/questions-to-ask-custom-home-builder-arizona",
-    only: "paradise-valley",
+    only: ["paradise-valley", "cave-creek"],
   },
-  { re: /warranty page/i, href: "/warranty", only: "paradise-valley" },
+  { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek"] },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
   {
     re: /fence or site wall/i,
@@ -291,6 +291,12 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-cave-creek",
     only: "cave-creek",
   },
+  {
+    re: /Cave Creek permit requirements/i,
+    href: "/reference-library/building-codes/cave-creek-residential-building-permit-requirements",
+    only: "cave-creek",
+  },
+  { re: /Cave Creek spec home in our gallery/i, href: "/gallery/cave-creek", only: "cave-creek" },
   // ---- Internal: Carefree local guide ----
   { re: /licensed real estate agents/i, href: "/buy-a-lot-with-us", only: "carefree" },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "carefree" },
