@@ -33,13 +33,6 @@ const SERVICE_CALLOUTS: Record<string, Callout> = {
     body: "Jematell Homes handles site evaluation, permits, budget and financing on private lots across the Phoenix metro and Pinal County. The service page gathers every land, water, permit and financing answer in one place.",
     cta: "See how we build on your lot",
   },
-  "guest-house-casita-adu-scottsdale": {
-    href: "/casitas-and-guest-houses",
-    kicker: "Casitas and guest houses",
-    title: "Planning a casita or guest house?",
-    body: "What each city allows in 2026, what it costs, and how Jematell Homes builds them, with the rules for Scottsdale, Phoenix, Mesa and the small towns side by side.",
-    cta: "See our casita and guest house page",
-  },
   "guest-house-amp-adu-essentials-building-casitas-in-phoenix-under-new-laws": {
     href: "/casitas-and-guest-houses",
     kicker: "Casitas and guest houses",
