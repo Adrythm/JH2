@@ -211,7 +211,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   {
     re: /Arizona Registrar of Contractors/i,
     href: "/faq/how-to-verify-an-arizona-contractor-license-with-the-roc",
-    only: ["paradise-valley", "cave-creek"],
+    only: ["paradise-valley", "cave-creek", "phoenix"],
   },
   {
     re: /references and past work/i,
@@ -221,7 +221,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   {
     re: /questions to ask a custom home builder/i,
     href: "/blog/questions-to-ask-custom-home-builder-arizona",
-    only: ["paradise-valley", "cave-creek"],
+    only: ["paradise-valley", "cave-creek", "phoenix"],
   },
   { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek"] },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
@@ -632,6 +632,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-phoenix",
     only: "phoenix",
   },
+  { re: /in-house floor plans/i, href: "/floor-plans", only: "phoenix" },
   // ---- External: Cave Creek + Carefree ----
   { re: /local events/i, href: "https://www.cavecreekaz.gov/254/Tourist-Info", external: true, only: "cave-creek" },
   { re: /Cave Creek Unified School District/i, href: "https://www.ccusd93.org", external: true },
