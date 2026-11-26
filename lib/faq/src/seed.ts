@@ -1190,7 +1190,7 @@ export const faqSeed: FaqSeed = {
 <li><a href="https://www.srpnet.com/doing-business/builders-developers-contractors/construction-services/meter-spot" target="_blank" rel="noopener noreferrer">SRP: Meter spot request (construction services for builders and contractors)</a></li>
 <li><a href="https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Construction-Services/The-Construction-Process" target="_blank" rel="noopener noreferrer">APS: The Construction Process (apply for service, meter, inspection clearance)</a></li>
 <li><a href="https://www.aps.com/-/media/APS/APSCOM-PDFs/About/Construction-and-Power-Line-Siting/Construction-Services/Electric-Service-Requirements-Manual/300.pdf" target="_blank" rel="noopener noreferrer">APS: Electric Service Requirements Manual, Section 300 (Metering, job-site power)</a></li>
-<li><a href="https://www.maricopa.gov/1869/Electrical-Sewer-and-Water-Service" target="_blank" rel="noopener noreferrer">Maricopa County: Electrical, Sewer and Water Service (SRP and APS for new construction)</a></li>
+<li><a href="https://www.maricopa.gov/1869/Electrical-Sewer-Water-Service" target="_blank" rel="noopener noreferrer">Maricopa County: Electrical, Sewer and Water Service (SRP and APS for new construction)</a></li>
 </ul>`,
       shortAnswer: "Your builder requests a meter spot from the utility (SRP or APS) to mark where service will go, then sets a temporary power pole for construction. The utility only energizes the meter after your local building department inspects and clears the panel. Lead times run from days to months, so this starts early.",
       metaDescription: "Temporary construction power on a new Arizona home runs through an SRP or APS meter spot, a temp pole, and a city inspection clearance. Here is the sequence.",
@@ -12508,7 +12508,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.azwater.com/development/request-service/will-serve/" target="_blank" rel="noopener noreferrer">Arizona Water Company: Will Serve Letter Information Request</a></li>
 <li><a href="https://www.azwater.com/development/request-service/" target="_blank" rel="noopener noreferrer">Arizona Water Company: Water Service Information Request (will-serve vs cost estimate)</a></li>
-<li><a href="https://www.maricopa.gov/1869/Electrical-Sewer-and-Water-Service" target="_blank" rel="noopener noreferrer">Maricopa County: Electrical, Sewer and Water Service (utility service for new construction)</a></li>
+<li><a href="https://www.maricopa.gov/1869/Electrical-Sewer-Water-Service" target="_blank" rel="noopener noreferrer">Maricopa County: Electrical, Sewer and Water Service (utility service for new construction)</a></li>
 <li><a href="https://www.azwater.gov/aaws/aaws-overview" target="_blank" rel="noopener noreferrer">Arizona Department of Water Resources: Assured and Adequate Water Supply (100-year supply, provider commitment)</a></li>
 </ul>`,
       shortAnswer: "A will-serve letter is a written confirmation from your water or utility provider that it can and will serve your property. If your lot connects to a water company, you usually need one to get your meter and clear permitting. It confirms availability, not a full cost estimate, and can take weeks to issue.",
@@ -12995,7 +12995,7 @@ export const faqSeed: FaqSeed = {
 <ul>
 <li><a href="https://www.maricopa.gov/DocumentCenter/View/31723/Floodplain-Regulations-for-Maricopa-County-Final" target="_blank" rel="noopener noreferrer">Flood Control District of Maricopa County: Floodplain Regulations (Section 401, Floodplain Use Permit Required; floodway encroachment certification)</a></li>
 <li><a href="https://www.maricopa.gov/6412/Permits" target="_blank" rel="noopener noreferrer">Maricopa County: Floodplain Use Permits (application requirements; floodplain determination)</a></li>
-<li><a href="https://www.maricopa.gov/faq.aspx?TID=25" target="_blank" rel="noopener noreferrer">Maricopa County Planning &amp; Development: Drainage and floodplain FAQs (proximity to a wash; floodplain determination 602-506-2419)</a></li>
+<li><a href="https://www.maricopa.gov/m/faq?cat=25" target="_blank" rel="noopener noreferrer">Maricopa County Planning &amp; Development: Drainage and floodplain FAQs (proximity to a wash; floodplain determination 602-506-2419)</a></li>
 </ul>`,
       shortAnswer: "Yes, if any part of your project sits in a delineated floodplain. Maricopa County rules say no development can take place in a delineated floodplain without a Floodplain Use Permit. Building near a wash often means part of the lot is in that floodplain, so you get a determination first, then the permit.",
       metaDescription: "A Maricopa County floodplain use permit is required for development in a delineated floodplain. Building near a wash usually triggers it. Here is how it works.",
