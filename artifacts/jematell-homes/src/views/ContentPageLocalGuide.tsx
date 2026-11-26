@@ -181,6 +181,11 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/faq/what-are-the-green-flags-of-a-good-custom-home-builder",
     only: "scottsdale",
   },
+  {
+    re: /cheaper to buy or build a house in Arizona/i,
+    href: "/faq/is-it-cheaper-to-buy-or-build-a-house-in-arizona",
+    only: "scottsdale",
+  },
   // ---- Internal: Paradise Valley local guide ----
   {
     re: /R-43 district/i,
@@ -223,7 +228,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
     href: "/blog/questions-to-ask-custom-home-builder-arizona",
     only: ["paradise-valley", "cave-creek", "fountain-hills"],
   },
-  { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek", "fountain-hills"] },
+  { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek", "fountain-hills", "scottsdale"] },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
   {
     re: /fence or site wall/i,
@@ -732,7 +737,7 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   { re: /Certificate of Occupancy/i, href: "/reference-library/building-codes/casa-grande-building-inspections-process", only: "casa-grande" },
   { re: /Casa Grande building cost guide/i, href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-casa-grande", only: "casa-grande" },
   { re: /Casa Grande permit and impact fees/i, href: "/reference-library/building-codes/casa-grande-building-permit-and-impact-fees", only: "casa-grande" },
-  { re: /in-house floor plans/i, href: "/floor-plans", only: "casa-grande" },
+  { re: /in-house floor plans/i, href: "/floor-plans", only: ["casa-grande", "scottsdale"] },
   // ---- External: Apache Junction ----
   { re: /Lost Dutchman State Park/i, href: "https://azstateparks.com/lost-dutchman", external: true },
   { re: /Apache Junction Unified School District/i, href: "https://www.ajusd.org", external: true },
