@@ -211,19 +211,19 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   {
     re: /Arizona Registrar of Contractors/i,
     href: "/faq/how-to-verify-an-arizona-contractor-license-with-the-roc",
-    only: ["paradise-valley", "cave-creek"],
+    only: ["paradise-valley", "cave-creek", "fountain-hills"],
   },
   {
     re: /references and past work/i,
     href: "/faq/how-do-i-check-a-custom-home-builders-references-and-past-work",
-    only: ["paradise-valley", "cave-creek"],
+    only: ["paradise-valley", "cave-creek", "fountain-hills"],
   },
   {
     re: /questions to ask a custom home builder/i,
     href: "/blog/questions-to-ask-custom-home-builder-arizona",
-    only: ["paradise-valley", "cave-creek"],
+    only: ["paradise-valley", "cave-creek", "fountain-hills"],
   },
-  { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek"] },
+  { re: /warranty page/i, href: "/warranty", only: ["paradise-valley", "cave-creek", "fountain-hills"] },
   { re: /lot you already own/i, href: "/build-on-your-lot", only: "paradise-valley" },
   {
     re: /fence or site wall/i,
@@ -665,6 +665,11 @@ const LOCAL_GUIDE_LINKS: GuideLink[] = [
   {
     re: /Fountain Hills building cost guide/i,
     href: "/faq/how-much-does-it-cost-to-build-a-custom-home-in-fountain-hills",
+    only: "fountain-hills",
+  },
+  {
+    re: /Fountain Hills permit requirements/i,
+    href: "/reference-library/building-codes/fountain-hills-residential-building-permit-requirements",
     only: "fountain-hills",
   },
   // ---- Internal: Rio Verde local guide ----
