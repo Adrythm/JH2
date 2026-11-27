@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pages } from "@/data/pages";
 import { GALLERY_PROJECTS } from "@/data/galleryProjects";
@@ -19,12 +21,25 @@ function firstImage(key: string): string {
   return img?.src || p.ogImage || "";
 }
 
+/**
+ * The card's phone-sized copies: the 768w and 1280w WebP siblings of a thumb
+ * (made with scripts/gen-image-variants.mjs), read from public/ at build time.
+ * A card is at most a third of the screen on a computer and the full width on
+ * a phone, so 1280w covers both; without them every card loaded its 0.2 to
+ * 3.5MB original. A thumb with no siblings keeps its plain src.
+ */
+function thumbSrcSet(src: string): string | undefined {
+  const m = /^(\/images\/.+)\.(webp|jpe?g|png)$/i.exec(src);
+  if (!m) return undefined;
+  const rungs = [768, 1280].filter((w) => existsSync(join(process.cwd(), "public", `${m[1]}-${w}.webp`)));
+  return rungs.length ? rungs.map((w) => `${m[1]}-${w}.webp ${w}w`).join(", ") : undefined;
+}
+
 export default function Gallery() {
-  const projects = GALLERY_PROJECTS.map((proj) => ({
-    slug: proj.slug,
-    title: proj.title,
-    img: proj.thumb ?? firstImage(`gallery_${proj.slug}`),
-  }));
+  const projects = GALLERY_PROJECTS.map((proj) => {
+    const img = proj.thumb ?? firstImage(`gallery_${proj.slug}`);
+    return { slug: proj.slug, title: proj.title, img, srcSet: img ? thumbSrcSet(img) : undefined };
+  });
 
   return (
     <main className="page">
