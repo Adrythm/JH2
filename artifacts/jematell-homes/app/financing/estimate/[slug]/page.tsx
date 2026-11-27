@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -104,6 +106,20 @@ export async function generateMetadata({
   // One estimate per city is indexed; the rest stay for
   // readers and pass their links on (see isIndexedScenario).
   return isIndexedScenario(s) ? meta : { ...meta, robots: { index: false, follow: true } };
+}
+
+/**
+ * The city card's phone-sized copies: the 768w and 1280w WebP siblings of the
+ * town page's photo (scripts/gen-image-variants.mjs), read from public/ at
+ * build time as /gallery does. The card is 420px wide on a computer and the
+ * full width on a phone, so 1280w covers both; without them each card loaded
+ * its 0.1 to 0.6MB original. A photo with no siblings keeps its plain src.
+ */
+function cardSrcSet(src: string): string | undefined {
+  const m = /^(\/images\/.+)\.(webp|jpe?g|png)$/i.exec(src);
+  if (!m) return undefined;
+  const rungs = [768, 1280].filter((w) => existsSync(join(process.cwd(), "public", `${m[1]}-${w}.webp`)));
+  return rungs.length ? rungs.map((w) => `${m[1]}-${w}.webp ${w}w`).join(", ") : undefined;
 }
 
 export default async function EstimateScenarioPage({
@@ -405,6 +421,8 @@ export default async function EstimateScenarioPage({
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={cityCard.image}
+                  srcSet={cardSrcSet(cityCard.image)}
+                  sizes="(max-width: 820px) 100vw, 420px"
                   alt={`Custom homes built by Jematell Homes in ${cityCard.name}, Arizona`}
                   loading="lazy"
                   decoding="async"
