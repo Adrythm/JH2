@@ -6,6 +6,8 @@ export interface GalleryGridItem {
   slug: string;
   title: string;
   img: string;
+  /** WebP rungs of img (768w, 1280w) when they exist on disk. */
+  srcSet?: string;
 }
 
 /**
@@ -34,7 +36,15 @@ export default function GalleryGrid({ projects }: { projects: GalleryGridItem[] 
                 {/* Empty alt: the card's visible <h2> title is the accessible
                     name; repeating it here makes screen readers announce every
                     project twice (axe: image-redundant-alt). */}
-                {img && <img src={img} alt="" loading="lazy" />}
+                {img && (
+                  <img
+                    src={img}
+                    srcSet={proj.srcSet}
+                    sizes={proj.srcSet ? "(max-width: 600px) 100vw, (max-width: 900px) 50vw, 34vw" : undefined}
+                    alt=""
+                    loading="lazy"
+                  />
+                )}
                 <div className="gallery-card-overlay">
                   <h2 className="gallery-card-title">{proj.title}</h2>
                 </div>
