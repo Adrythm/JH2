@@ -13554,7 +13554,7 @@ export const faqSeed: FaqSeed = {
 <p>A typical Arizona permit record includes:</p>
 <ul><li><strong>Permit status.</strong> Whether the permit was issued, is active, expired, finaled, or never closed out. An open permit with no final inspection is a red flag on a home you are about to buy.</li><li><strong>Scope of work.</strong> What the permit covered, such as new single-family residence, addition, pool, or water heater. This tells you whether past work was done with a permit at all.</li><li><strong>Inspection history.</strong> The list of inspections and whether each passed. A finaled permit means the work cleared its final inspection.</li><li><strong>Contractor and dates.</strong> Who pulled the permit and when, which helps you match work to a licensed contractor.</li></ul>
 <p>For a homebuyer, this record is how you confirm that an addition, a casita, or a remodel was permitted and inspected. <strong>Unpermitted work</strong> can create insurance, resale, and safety problems, so a quick portal search before you buy is worth the few minutes it takes.</p>
-<p>Pay special attention to <strong>open or expired permits</strong>. A permit that was issued but never finaled means the work was started and the city never confirmed it was finished to code. That can leave you, the new owner, on the hook to close it out, sometimes by exposing finished work for a late inspection. An expired permit may need to be renewed and re-inspected before the city will sign off; see <a href="/faq/how-long-does-a-building-permit-last-in-arizona">how long a building permit lasts in Arizona</a> for when a permit expires and how it is renewed. If you spot an open permit on a home you want, ask the seller to close it out before closing, or price the cost of doing so into your offer.</p>
+<p>Pay special attention to <strong>open or expired permits</strong>. A permit that was issued but never finaled means the work was started and the city never confirmed it was finished to code. That can leave you, the new owner, on the hook to close it out, sometimes by exposing finished work for a late inspection. An expired permit may need to be renewed and re-inspected before the city will sign off. If you spot an open permit on a home you want, ask the seller to close it out before closing, or price the cost of doing so into your offer.</p>
 <h2>When you cannot find a permit online</h2>
 <p>If a permit does not appear in the portal, it does not always mean none exists, so a missing record is a reason to dig deeper rather than assume the worst. Older permits, recently migrated systems, and unincorporated records are the usual reasons a search comes up empty.</p>
 <p>Three things commonly hide a permit. First, <strong>older permits</strong> may predate the online system and live only in paper or microfilm archives. Scottsdale, for example, moved off legacy software that was 30 years old when SPUR launched, and some pre-2026 projects are still managed in the old eServices portal. Second, you may be searching the <strong>wrong jurisdiction</strong>, which is why confirming city-versus-county first matters so much. Third, the work may have been done <strong>without a permit</strong>, which is itself important information.</p>
@@ -13623,75 +13623,6 @@ export const faqSeed: FaqSeed = {
       pillarBlogSlug: null,
       featured: false,
       sortOrder: 376,
-    }),
-    item({
-      slug: "how-long-does-a-building-permit-last-in-arizona",
-      seoTitle: "How Long Does a Building Permit Last in AZ?",
-      question: "How long does a building permit last in Arizona?",
-      answerHtml: `<p>In most of Arizona a building permit stays valid as long as the work keeps moving. Scottsdale, Surprise and unincorporated Maricopa County all follow the same rule from the building code: a permit becomes invalid if work does not start within <strong>180 days</strong> after it is issued, or if <strong>180 days</strong> pass without work or a passed inspection once it has started. Phoenix and Surprise also set an outer limit: a permit expires <strong>24 months</strong> after it is issued unless the building official extends it. Extensions are asked for in writing, before the permit expires, with a reason.</p>
-<p>Below is the 180-day rule in the code's own words, how Phoenix, Scottsdale, Surprise and Maricopa County apply it, how to extend a permit, what happens when one expires, and how Jematell Homes keeps a custom home permit active from the first inspection to the final.</p>
-<h2>The 180-day rule in the building code</h2>
-<p>Arizona has no single statewide permit term. Each city, town and county adopts the International Building Code and International Residential Code with its own local amendments, and the expiration rule sits in Section 105.5 of those codes. Scottsdale publishes its version (Ordinance 4284) on its permit extension page:</p>
-<blockquote><p>Every permit issued shall become invalid unless the work on the site authorized by such permit is commenced within 180 days after its issuance, or if the work authorized on the site by such permit is suspended or abandoned for a period of 180 days after the time the work is commenced.</p></blockquote>
-<p>In practice the clock is measured by inspections. A passed inspection is the city's proof that work is happening, so a permit with no inspection for six months reads as abandoned. Surprise's residential code says it plainly: a permit becomes invalid "after commencement of work if more than 180 days pass between inspections." Maricopa County describes its rule the same way: permits "expire 180 days from the date issued or the last completed inspection."</p>
-<h2>How long a building permit lasts, city by city</h2>
-<p>Here is how four of the jurisdictions where we build set the permit term for a home:</p>
-<table>
-<thead><tr><th>Jurisdiction</th><th>Start and keep working</th><th>Outer limit</th><th>Extension</th><th>After it expires</th></tr></thead>
-<tbody>
-<tr><td>Scottsdale</td><td>Start within 180 days; no 180-day stop once started</td><td>None stated on the city's extension page</td><td>One or more, up to 180 days each, in writing with justifiable cause</td><td>Ask the city's Inspection Services</td></tr>
-<tr><td>Phoenix</td><td>Set by the Phoenix Building Construction Code</td><td>24 months from issue</td><td>Up to one year past the original expiration, one time unless the building official approves more; fee is 50% of the current permit fee</td><td>Reinstated for up to one year if the plans have not changed and it expired less than a year ago</td></tr>
-<tr><td>Surprise</td><td>Start within 180 days; no more than 180 days between inspections</td><td>24 months from issue, longer only if asked for before expiration</td><td>One or more, up to 180 days each, in writing with justifiable cause</td><td>Work stops until a new permit covers what is left</td></tr>
-<tr><td>Unincorporated Maricopa County</td><td>180 days from issue or the last completed inspection</td><td>None stated on the county's expired permits page</td><td>One free 180-day extension on prior written request</td><td>Renewed within 360 days for half the permit fee; past 360 days it cannot be renewed</td></tr>
-</tbody>
-</table>
-<p>Other towns set their own terms. Ask the building department that issues your permit, because the rules for remodels, demolition and pools can be shorter. Phoenix, for example, gives a demolition permit 60 days.</p>
-<h2>Can you extend a building permit?</h2>
-<p>Yes, in every jurisdiction above, as long as you ask before the permit runs out. The pattern is the same everywhere:</p>
-<ul>
-<li><strong>Ask in writing.</strong> Scottsdale and Surprise require the request in writing with "justifiable cause demonstrated," such as a lender delay, a design change under review or a weather stop.</li>
-<li><strong>Ask before it expires.</strong> Surprise only allows a term past 24 months when the permit holder shows, before expiration, that the size or complexity of the project makes 24 months unreasonable.</li>
-<li><strong>Expect a limit.</strong> Phoenix's first extension is one time, for up to a year past the original expiration. Maricopa County gives one free extension of 180 days.</li>
-<li><strong>Pass an inspection.</strong> In Maricopa County, passing or failing a field inspection with substantial progress made during the extension pushes the expiration out another 180 days on its own.</li>
-</ul>
-<h2>What happens if your building permit expires</h2>
-<p>An expired permit means the city no longer treats the work as approved. What you can do next depends on how long it has been expired:</p>
-<ul>
-<li><strong>Within a year, renew or reinstate it.</strong> Phoenix reinstates an expired permit for up to one year when no changes have been made to the original plans and it expired less than a year ago, for 50% of the current permit fee. Maricopa County renews a permit within 360 days of expiration for half the building permit fee, and the renewal runs another 180 days.</li>
-<li><strong>Past a year, start over.</strong> Maricopa County says a permit expired more than 360 days "CANNOT be extended or renewed." Phoenix requires a new permit to complete the work.</li>
-<li><strong>A new code cycle can mean new plans.</strong> In Phoenix, if the code edition changed since the original permit, the new submittal must show the completed work and the remaining work, and the new plans must meet current codes.</li>
-<li><strong>Work stops.</strong> Surprise requires all work to stop until a new permit is obtained for the unfinished work.</li>
-</ul>
-<p>An expired permit also follows the house. A permit that was issued and never finaled shows up in the property's permit history, and a buyer, an appraiser or a lender can find it. See <a href="/faq/how-to-look-up-a-building-permit-in-arizona">how to look up a building permit in Arizona</a> and <a href="/faq/what-happens-if-you-build-without-a-permit-in-arizona">what happens if you build without a permit</a>.</p>
-<h2>How long it takes to get a permit, and what it costs</h2>
-<p>The permit term starts when the permit is issued, not when you apply. For a new home, plan review and permitting typically take 2 to 4 months, depending on jurisdiction, so the 180-day clock begins after that. See <a href="/faq/how-long-does-it-take-to-get-a-building-permit-in-arizona">how long it takes to get a building permit in Arizona</a>. Fees are set by each city or county, usually on the home's size or valuation, and an extension or renewal adds a share of the permit fee on top. See <a href="/faq/building-permit-cost-arizona">what a building permit costs in Arizona</a>.</p>
-<h2>Questions people ask</h2>
-<p><strong>How long do permits last in Arizona?</strong> Usually 180 days from issue to get started, then 180 days at a time between inspections. Phoenix and Surprise add a 24-month limit from the day the permit is issued, and every jurisdiction lets you ask for an extension in writing before it runs out.</p>
-<p><strong>Does a building permit expire if work has started?</strong> It can. Starting the work is not enough; the work has to keep moving, and a passed inspection is how the city sees that. Six months without an inspection is the usual trigger.</p>
-<p><strong>How big of a shed can I build without a permit in Arizona?</strong> Under the International Residential Code, a one-story detached storage or tool shed of 200 square feet or less is exempt from a building permit, and Maricopa County exempts a non-habitable structure under 200 square feet. Your city may set its own limit, and zoning setbacks still apply. See <a href="/faq/do-i-need-a-permit-to-build-a-shed-or-detached-structure-in-arizona">whether you need a permit to build a shed in Arizona</a>.</p>
-<p><strong>What happens if you don't get a permit for a shed?</strong> A shed that needed a permit can be cited, and the city can make you apply for one after the fact, open the work for inspection or take the shed down. The same goes for any structure built without a permit.</p>
-<p><strong>Do I need to renew my building permit?</strong> Not while inspections keep passing on schedule. You need an extension only when a stop is coming, such as a long wait for materials, and a renewal or reinstatement only after a permit has expired.</p>
-<h2>How Jematell Homes keeps your permit active</h2>
-<p>On a <a href="/custom-homes">custom home</a> we build, we pull the permits and schedule every inspection, from the footing to the final, so the permit never sits long enough to lapse. You get a written update every week of construction, with what was finished, what is scheduled next and which inspection is coming. If a stop is coming, such as a change you are still deciding on, the time to ask for an extension is before the deadline, not after it.</p>
-<p>If you already own land, we can <a href="/build-on-your-lot">build on your lot</a>: we check it for utilities, access and grading first, then handle the permits, engineering, site prep and the build. Jematell Homes is a family-owned Arizona builder, ROC# 339367. Call <a href="tel:6024215576">(602) 421-5576</a> or <a href="/contact">tell us about your lot</a> and we will walk you through the permit steps where you are building.</p>
-<h2>Sources</h2>
-<ul>
-<li><a href="https://www.scottsdaleaz.gov/planning-development/inspection-services/permit-extension-request" target="_blank" rel="noopener noreferrer">City of Scottsdale: Requesting an Extension of a Building Permit (Ordinance 4284, 105.5 Expiration)</a></li>
-<li><a href="https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/trt/external/dsd_trt_pdf_00021p.pdf" target="_blank" rel="noopener noreferrer">City of Phoenix Planning &amp; Development: Permit Extensions and Reinstatement Process (TRT/DOC/00021P)</a></li>
-<li><a href="https://content.civicplus.com/api/assets/az-surprise/344d569f-02e5-4c61-a40d-31dbc21580a3" target="_blank" rel="noopener noreferrer">City of Surprise: Local Amendments to the 2024 International Codes (R105.5 and R105.5.1)</a></li>
-<li><a href="https://www.maricopa.gov/6492/Expired-Permits" target="_blank" rel="noopener noreferrer">Maricopa County Planning &amp; Development: Expired Permits</a></li>
-<li><a href="https://www.maricopa.gov/m/faq?cat=32" target="_blank" rel="noopener noreferrer">Maricopa County Planning &amp; Development: Building Permit FAQs</a></li>
-</ul>`,
-      shortAnswer: "In most of Arizona a building permit becomes invalid if work does not start within 180 days after it is issued, or if 180 days pass without a passed inspection once work has started. Phoenix and Surprise also expire a permit 24 months after issue unless it is extended. Extensions are requested in writing before the permit expires.",
-      metaDescription: "Most Arizona building permits expire if work does not start within 180 days or stalls 180 days between inspections. Extensions, renewals and city rules.",
-      categorySlug: "permits-and-codes",
-      topicSlugs: ["building-permits-arizona"],
-      tags: ["permits", "research-phase"],
-      relatedFaqSlugs: ["how-long-does-it-take-to-get-a-building-permit-in-arizona", "building-permit-cost-arizona", "how-to-look-up-a-building-permit-in-arizona", "what-inspections-are-required-when-building-a-house-in-arizona", "what-happens-if-you-build-without-a-permit-in-arizona", "do-i-need-a-permit-to-build-a-shed-or-detached-structure-in-arizona"],
-      relatedServiceSlugs: ["custom-homes", "build-on-your-lot"],
-      pillarBlogSlug: null,
-      featured: false,
-      sortOrder: 449,
     }),
     item({
       slug: "building-permit-cost-arizona",
