@@ -16,6 +16,7 @@ import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pageMetadata } from "@/seo/metadata";
 import { techArticleJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
+import { contentLastmod } from "@/seo/contentDates";
 import { annotateHeadings, readingTime, formatDate } from "@/lib/detail";
 import { DetailDisclaimer } from "@/components/DetailParts";
 import { Interlink } from "@/components/Interlink";
@@ -90,6 +91,9 @@ export default async function ReferenceDetailPage({
   const interlinks = buildInterlinkSections("reference", relationsForReference(entry));
 
   const path = `/reference-library/${entry.module}/${entry.slug}`;
+  // The day this entry last changed in git (the sitemap's lastmod), so the
+  // visible Updated date, the JSON-LD dateModified and the sitemap agree.
+  const updated = contentLastmod(`reference:${entry.module}/${entry.slug}`) ?? entry.updatedDate;
   const crumbs = [
     { name: "Home", url: "/" },
     { name: "Reference Library", url: "/reference-library" },
@@ -113,8 +117,8 @@ export default async function ReferenceDetailPage({
           <p className="faq-detail-lede" data-testid="reference-detail-lede">{entry.shortSummary}</p>
         ) : null}
         <div className="dt-hero-meta">
-          {entry.updatedDate ? (
-            <span><Calendar size={14} aria-hidden="true" /> Updated {formatDate(entry.updatedDate)}</span>
+          {updated ? (
+            <span><Calendar size={14} aria-hidden="true" /> Updated {formatDate(updated)}</span>
           ) : null}
           <span><Clock size={14} aria-hidden="true" /> {minutes} min read</span>
         </div>
@@ -145,10 +149,10 @@ export default async function ReferenceDetailPage({
           )}
         </span>
       </div>
-      {entry.updatedDate ? (
+      {updated ? (
         <div className="dt-facts-row">
           <span className="dt-facts-k">Updated</span>
-          <span className="dt-facts-v">{formatDate(entry.updatedDate)}</span>
+          <span className="dt-facts-v">{formatDate(updated)}</span>
         </div>
       ) : null}
     </div>
@@ -158,7 +162,7 @@ export default async function ReferenceDetailPage({
     <main className="page faq-page faq-detail reference-detail">
       <JsonLd
         data={[
-          techArticleJsonLd({ title: entry.title, description: entry.shortSummary, url: path, section: meta.title, dateModified: entry.updatedDate }),
+          techArticleJsonLd({ title: entry.title, description: entry.shortSummary, url: path, section: meta.title, dateModified: updated }),
           breadcrumbJsonLd(crumbs),
         ]}
       />

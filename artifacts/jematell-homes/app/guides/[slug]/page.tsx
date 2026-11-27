@@ -10,6 +10,7 @@ import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pageMetadata } from "@/seo/metadata";
 import { articleJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
 import { JsonLd } from "@/seo/JsonLd";
+import { contentLastmod } from "@/seo/contentDates";
 import { annotateHeadings, readingTime, formatDate, prepareGuideBody } from "@/lib/detail";
 import { enrichGuideBody } from "@/lib/guideEnrich";
 import { DetailShell } from "@/components/DetailShell";
@@ -83,6 +84,9 @@ export default async function GuideDetailPage({
     .slice(0, 6);
 
   const path = `/guides/${guide.slug}`;
+  // The day this guide last changed in git (the sitemap's lastmod), so the
+  // visible Updated date, the JSON-LD dateModified and the sitemap agree.
+  const updated = contentLastmod(`guide:${guide.slug}`) ?? guide.updatedDate;
   // "Rio Verde Foothills" belongs on the Rio Verde page; a city with no town page gets none.
   const townSlug = guide.city ? locations.find((l) => guide.city!.startsWith(l.name))?.slug ?? null : null;
   const crumbs = [
@@ -108,8 +112,8 @@ export default async function GuideDetailPage({
           <p className="faq-detail-lede" data-testid="guide-detail-lede">{guide.summary}</p>
         ) : null}
         <div className="dt-hero-meta">
-          {guide.updatedDate ? (
-            <span><Calendar size={14} aria-hidden="true" /> Updated {formatDate(guide.updatedDate)}</span>
+          {updated ? (
+            <span><Calendar size={14} aria-hidden="true" /> Updated {formatDate(updated)}</span>
           ) : null}
           <span><Clock size={14} aria-hidden="true" /> {minutes} min read</span>
           {guide.sources?.length ? (
@@ -124,7 +128,7 @@ export default async function GuideDetailPage({
     <main className="page faq-page faq-detail guide-detail">
       <JsonLd
         data={[
-          articleJsonLd({ title: guide.title, description: guide.summary, url: path, dateModified: guide.updatedDate }),
+          articleJsonLd({ title: guide.title, description: guide.summary, url: path, dateModified: updated }),
           breadcrumbJsonLd(crumbs),
         ]}
       />
