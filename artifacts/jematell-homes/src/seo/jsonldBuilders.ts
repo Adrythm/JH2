@@ -270,3 +270,41 @@ export function techArticleJsonLd(opts: {
     ...(opts.dateModified ? { dateModified: opts.dateModified } : {}),
   };
 }
+
+/**
+ * A floor plan detail page's subject: the plan's size, bedrooms, bathrooms,
+ * drawing and rendering, from the figures its stat bar shows
+ * (src/data/floorPlanFacts.ts). A figure left null there is left out here.
+ */
+export function floorPlanJsonLd(plan: {
+  planId: string;
+  name: string;
+  sqft: number;
+  bedrooms: number;
+  fullBathrooms: number | null;
+  halfBathrooms: number | null;
+  layoutImage: string;
+  image: string;
+}): object {
+  const url = absoluteUrl(`/floor-plans/${plan.planId}`);
+  const baths =
+    plan.fullBathrooms !== null && plan.halfBathrooms !== null
+      ? {
+          numberOfBathroomsTotal: plan.fullBathrooms + plan.halfBathrooms,
+          numberOfFullBathrooms: plan.fullBathrooms,
+          numberOfPartialBathrooms: plan.halfBathrooms,
+        }
+      : {};
+  return {
+    "@context": "https://schema.org",
+    "@type": "FloorPlan",
+    "@id": url + "#floorplan",
+    name: plan.name,
+    url,
+    floorSize: { "@type": "QuantitativeValue", value: plan.sqft, unitCode: "FTK", unitText: "sq ft" },
+    numberOfBedrooms: plan.bedrooms,
+    ...baths,
+    layoutImage: absoluteUrl(plan.layoutImage),
+    image: absoluteUrl(plan.image),
+  };
+}

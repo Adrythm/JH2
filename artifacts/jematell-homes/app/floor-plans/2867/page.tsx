@@ -1,5 +1,6 @@
 import { pageMetadata } from "@/seo/metadata";
-import { breadcrumbJsonLd } from "@/seo/jsonldBuilders";
+import { breadcrumbJsonLd, floorPlanJsonLd } from "@/seo/jsonldBuilders";
+import { FLOOR_PLAN_FACTS } from "@/data/floorPlanFacts";
 import { JsonLd } from "@/seo/JsonLd";
 import FloorPlanDetail from "@/views/FloorPlanDetail";
 import { CUSTOM_HOMES_SHOWCASE } from "@/lib/customHomesShowcase";
@@ -22,6 +23,7 @@ export default function Page() {
             { name: "Floor Plans", url: "/floor-plans" },
             { name: "2867 Floor Plan", url: "/floor-plans/2867" },
           ]),
+          floorPlanJsonLd(FLOOR_PLAN_FACTS["2867"]),
         ]}
       />
       <FloorPlanDetail
