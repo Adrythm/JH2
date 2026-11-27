@@ -5,6 +5,8 @@ import { m } from "framer-motion";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 import { locations, locationHref } from "../config/siteConfig";
 import { FADE_IN_UP_PROPS } from "../motion";
+import { cityHeroWidths } from "../data/cityHeroWidths";
+import cdnImageLadders from "../data/cdnImageLadders.json";
 
 /**
  * Premium, expanding image-accordion that leads the /where-we-build page.
@@ -36,6 +38,30 @@ const LOCAL_CITY_HERO: Record<string, string> = {
 
 function cityImage(slug: string, images?: Record<string, string>): string {
   return LOCAL_CITY_HERO[slug] || images?.[slug] || FALLBACK_IMAGE;
+}
+
+/* The card photos are the town heroes (226KB to 3.2MB JPGs) or, for the
+ * other towns, their cdn/ share photo (161 to 636KB). Both have WebP rungs on
+ * disk (the town heroes' and src/data/cdnImageLadders.json), so a phone takes
+ * the 768w copy. On desktop each image is a fixed 520px wide and up to 600px
+ * tall with object-fit: cover, so a landscape photo renders about 1000px wide.
+ * This component is code-split to /where-we-build, so the ladder list adds
+ * nothing to other routes. */
+const CARD_SIZES = "(min-width: 769px) 1000px, 100vw";
+const CDN_LADDERS = cdnImageLadders as Record<string, { widths: number[]; width: number }>;
+function cityImageSrcSet(slug: string, src: string): { srcSet: string; sizes: string } | Record<string, never> {
+  const heroWidths = LOCAL_CITY_HERO[slug] ? cityHeroWidths[slug] : undefined;
+  if (heroWidths) {
+    const base = `/images/city-hero-${slug}`;
+    return { srcSet: heroWidths.map((w) => `${base}-${w}.webp ${w}w`).join(", "), sizes: CARD_SIZES };
+  }
+  const ladder = CDN_LADDERS[src];
+  if (!ladder) return {};
+  const base = src.replace(/\.webp$/, "");
+  return {
+    srcSet: ladder.widths.map((w) => `${base}-${w}.webp ${w}w`).join(", ") + `, ${src} ${ladder.width}w`,
+    sizes: CARD_SIZES,
+  };
 }
 
 export function CityNavigator({ images }: { images?: Record<string, string> } = {}) {
@@ -85,6 +111,7 @@ export function CityNavigator({ images }: { images?: Record<string, string> } = 
                   <img
                     className="city-nav-img"
                     src={cityImage(loc.slug, images)}
+                    {...cityImageSrcSet(loc.slug, cityImage(loc.slug, images))}
                     alt=""
                     loading="eager"
                   />

@@ -56,6 +56,7 @@ const WhyBuild = dynamic(() =>
 import { ResponsiveImage } from "../components/ResponsiveImage";
 import { useContactForm } from "../contact-form";
 import { EASE_OUT_EXPO } from "../motion";
+import { cityHeroWidths } from "../data/cityHeroWidths";
 
 // SEO head + page JSON-LD moved to the server side: the app/ route wrappers
 // build metadata and <JsonLd> via src/lib/contentPageMeta.ts (the exact
@@ -194,17 +195,9 @@ function isLikelyCTA(text: string | undefined): boolean {
   return CTA_KEYWORDS.test(text);
 }
 
-const CITY_HERO_WIDTHS: Record<string, number[]> = {
-  "scottsdale":      [768, 1280, 1500],
-  "rio-verde":       [768, 1280, 1500],
-  "phoenix":         [768, 1280, 1920, 2500],
-  "cave-creek":      [768, 1280, 1500],
-  "fountain-hills":  [768, 1280, 1920, 2500],
-  "carefree":        [768, 1280, 1500],
-  "casa-grande":     [768, 1280, 1920, 2500],
-  "apache-junction": [768, 1280, 1500],
-  "surprise":        [768, 1280, 1920, 2500],
-};
+/* The town heroes' generated rungs, shared with the /where-we-build
+ * CityNavigator cards (src/data/cityHeroWidths.ts). */
+const CITY_HERO_WIDTHS: Record<string, number[]> = cityHeroWidths;
 
 function CityHeroPicture({ slug }: { slug: string }) {
   const widths = CITY_HERO_WIDTHS[slug];
@@ -862,8 +855,7 @@ function SplitSection({
   section: Section;
   index: number;
   forceReverse?: boolean;
-  /** srcset from cdnImageLadders.json; off on /where-we-build until its
-   * images trial (1697) ends its cool-down on 2026-11-27. */
+  /** srcset from cdnImageLadders.json (every caller since 2026-11-27). */
   responsive?: boolean;
 }) {
   // Generic alternating section: title + paragraphs (+ first image as media)
@@ -1253,7 +1245,7 @@ export default function ContentPage({ pageKey, isRegion, region, data, cityImage
               if (isLocationEditorialSection(s)) return <LocationEditorialSection key={i} section={s} />;
               if (isTierListSection(s))
                 return <TierListSection key={i} section={s} eyebrow={tierEyebrow} />;
-              return <SplitSection key={i} section={s} index={i} forceReverse={key === "where-we-build"} responsive={key !== "where-we-build"} />;
+              return <SplitSection key={i} section={s} index={i} forceReverse={key === "where-we-build"} />;
             })}
 
 
