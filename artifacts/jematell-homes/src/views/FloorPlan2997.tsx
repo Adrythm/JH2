@@ -14,7 +14,7 @@ const FADE_IN = {
 };
 
 const DRAWINGS = [
-  { label: "Floor Plan", src: "/images/plans/2997-1.png", alt: "2997 floor plan layout — 5 bedrooms, 3.5 baths, 2-car garage, two-story with bonus room" },
+  { label: "Floor Plan", src: "/images/plans/2997-1.png", alt: "2997 floor plan layout: 5 bedrooms, 3.5 baths, 2.5-car garage, two-story with bonus room" },
   { label: "Elevations", src: "/images/plans/2997-2.png", alt: "2997 plan — front, rear, left, and right exterior elevations" },
 ];
 

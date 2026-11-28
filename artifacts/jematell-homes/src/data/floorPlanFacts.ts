@@ -2,8 +2,7 @@
  * The figures each floor plan page's own stat bar shows, for its FloorPlan
  * structured data (src/seo/jsonldBuilders.ts floorPlanJsonLd). Keep these equal
  * to the page: a figure the page states two ways is left out (null) until the
- * page says one thing. 3610's stat bar says 3 bathrooms while its description
- * and drawing say 3.5, so its bathrooms are left out.
+ * page says one thing.
  *
  * Bathrooms as the stat bar counts them: 2.5 is two full and one half bath.
  */
@@ -34,7 +33,7 @@ export const FLOOR_PLAN_FACTS: Record<string, FloorPlanFacts> = {
   "2997": { planId: "2997", name: "2997 Floor Plan", sqft: 2997, bedrooms: 5, fullBathrooms: 3, halfBathrooms: 1, layoutImage: "/images/plans/2997-1.png", image: "/images/plans/2997-rendering.png" },
   "3094": { planId: "3094", name: "3094 Floor Plan", sqft: 3094, bedrooms: 3, fullBathrooms: 3, halfBathrooms: 0, layoutImage: "/images/plans/3094-1.png", image: "/images/plans/3094-rendering.png" },
   "3102": { planId: "3102", name: "3132 Floor Plan", sqft: 3132, bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, layoutImage: "/images/plans/3102-floor-plan-updated.png", image: "/images/plans/3102-rendering.png" },
-  "3610": { planId: "3610", name: "3610 Floor Plan", sqft: 3610, bedrooms: 4, fullBathrooms: null, halfBathrooms: null, layoutImage: "/images/plans/3610-1.png", image: "/images/plans/3610-rendering.png" },
+  "3610": { planId: "3610", name: "3610 Floor Plan", sqft: 3610, bedrooms: 4, fullBathrooms: 3, halfBathrooms: 0, layoutImage: "/images/plans/3610-1.png", image: "/images/plans/3610-rendering.png" },
   "3771": { planId: "3771", name: "3771 Floor Plan", sqft: 3771, bedrooms: 3, fullBathrooms: 4, halfBathrooms: 1, layoutImage: "/images/plans/3771-1.png", image: "/images/plans/3771-rendering.png" },
   "3970": { planId: "3970", name: "3970 Floor Plan", sqft: 3970, bedrooms: 4, fullBathrooms: 4, halfBathrooms: 1, layoutImage: "/images/plans/3970-1.png", image: "/images/plans/3970-rendering.png" },
   "4103": { planId: "4103", name: "4103 Floor Plan", sqft: 4103, bedrooms: 3, fullBathrooms: 4, halfBathrooms: 1, layoutImage: "/images/plans/4103-1.png", image: "/images/plans/4103-rendering.png" },
