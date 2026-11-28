@@ -172,6 +172,7 @@ export function definedTermJsonLd(opts: {
   return {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
+    "@id": absoluteUrl(opts.url) + "#term",
     name: opts.term,
     description: opts.definition,
     url: absoluteUrl(opts.url),
@@ -180,6 +181,32 @@ export function definedTermJsonLd(opts: {
       name: opts.termSetName ?? "Custom Home Building Glossary",
       url: absoluteUrl("/glossary"),
     },
+  };
+}
+
+/**
+ * The glossary page that holds one term: a WebPage whose mainEntity is the
+ * DefinedTerm above, so the page carries the date its definition last
+ * changed (dateModified, from lastmod.json like the sitemap) as the FAQ,
+ * blog, reference and guide pages already do.
+ */
+export function definedTermPageJsonLd(opts: {
+  term: string;
+  url: string;
+  dateModified?: string;
+}): object {
+  const pageUrl = absoluteUrl(opts.url);
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": pageUrl + "#webpage",
+    url: pageUrl,
+    name: opts.term,
+    inLanguage: "en-US",
+    isPartOf: { "@id": SITE_URL + "/#website" },
+    publisher: { "@id": SITE_URL + "/#organization" },
+    ...(opts.dateModified ? { dateModified: opts.dateModified } : {}),
+    mainEntity: { "@id": pageUrl + "#term" },
   };
 }
 
