@@ -321,16 +321,12 @@ export function relationsForReference(entry: ReferenceEntry): RelationSet {
     // The way back to the business from a code page. A Scottsdale setback
     // rule links to the Scottsdale city page; a statute or IRC section, which
     // has no city, links to the service pages instead.
-    services: dedupe(
-      [
-        ...(moduleIsPerCity(entry.module)
-          ? cityPagesForJurisdiction(jurisdictionSlugOf(entry.slug))
-          : []),
-        ...serviceItems(["build-on-your-lot", "custom-homes"]),
-      ],
-      self,
-      3,
-    ),
+    services: (() => {
+      const towns = moduleIsPerCity(entry.module)
+        ? cityPagesForJurisdiction(jurisdictionSlugOf(entry.slug), entry.slug)
+        : [];
+      return dedupe([...towns, ...serviceItems(["build-on-your-lot", "custom-homes"])], self, servicesCap(towns));
+    })(),
   };
 }
 
@@ -391,8 +387,39 @@ function serviceItems(keys: string[], derived = true): LinkItem[] {
     .map((s) => ({ to: s.href, label: s.label, kind: "service" as const, derived }));
 }
 
-function cityPagesForJurisdiction(jslug: string): LinkItem[] {
-  return serviceItems((JURISDICTION_CITIES[jslug] || []).map((c) => `where-we-build/${c}`));
+/**
+ * Town pages whose own text says some of their lots are county land, for the
+ * county's reference pages only. Gilbert and Chandler hold Maricopa County
+ * islands; Hidden Valley and Thunderbird Farms around Maricopa, and San Tan
+ * Valley beside Queen Creek, are unincorporated Pinal County. The same towns
+ * COUNTY_MENTIONS gives a county FAQ. Kept apart from CITY_JURISDICTIONS so
+ * the town pages' own Keep exploring block does not change with it.
+ */
+const COUNTY_LAND_TOWNS: Record<string, string[]> = {
+  "maricopa-county": ["gilbert", "chandler"],
+  "pinal-county": ["maricopa", "queen-creek"],
+};
+
+/**
+ * Reference entries whose links were changed in the last four weeks keep their
+ * town links as they were until that change has been measured (by merge time:
+ * the zoning entry from 2026-12-06 15:51, the permit requirements entry from
+ * 2026-12-18 09:53). Remove each slug once its date has passed.
+ */
+const COUNTY_LAND_HELD = new Set<string>([
+  "maricopa-county-residential-zoning-and-setbacks",
+  "maricopa-county-residential-building-permit-requirements",
+]);
+
+function cityPagesForJurisdiction(jslug: string, entrySlug?: string): LinkItem[] {
+  const towns = [...(JURISDICTION_CITIES[jslug] || [])];
+  if (!entrySlug || !COUNTY_LAND_HELD.has(entrySlug)) towns.push(...(COUNTY_LAND_TOWNS[jslug] || []));
+  return serviceItems(towns.map((c) => `where-we-build/${c}`));
+}
+
+/** Room for every town page and both service pages after them, so a town added never pushes one out. */
+function servicesCap(towns: LinkItem[]): number {
+  return Math.max(3, towns.length + 2);
 }
 
 /**
@@ -478,11 +505,10 @@ export function relationsForJurisdiction(j: JurisdictionMeta): RelationSet {
   const self = `/reference-library/${BUILDING_CODES}/${j.slug}`;
   const names = JURISDICTION_PLACE_NAMES[j.slug] || [j.name];
   return {
-    services: dedupe(
-      [...cityPagesForJurisdiction(j.slug), ...serviceItems(["build-on-your-lot", "where-we-build"])],
-      self,
-      3,
-    ),
+    services: (() => {
+      const towns = cityPagesForJurisdiction(j.slug);
+      return dedupe([...towns, ...serviceItems(["build-on-your-lot", "where-we-build"])], self, servicesCap(towns));
+    })(),
     guides: dedupe(guidesForPlaces(names), self, 2),
     faqs: dedupe(faqsForPlaces(names, 4), self, 4),
   };
