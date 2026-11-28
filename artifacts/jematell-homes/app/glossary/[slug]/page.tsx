@@ -6,7 +6,8 @@ import { glossaryTerms, getGlossaryTerm } from "@/data/glossary";
 import { faqDataset } from "@/data/faq";
 import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { pageMetadata } from "@/seo/metadata";
-import { definedTermJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
+import { definedTermJsonLd, definedTermPageJsonLd, breadcrumbJsonLd } from "@/seo/jsonldBuilders";
+import { contentLastmod } from "@/seo/contentDates";
 import { JsonLd } from "@/seo/JsonLd";
 import { annotateHeadings, readingTime } from "@/lib/detail";
 import { DetailDisclaimer } from "@/components/DetailParts";
@@ -62,6 +63,7 @@ export default async function GlossaryDetailPage({
       <JsonLd
         data={[
           definedTermJsonLd({ term: term.term, definition: term.shortDefinition, url: path }),
+          definedTermPageJsonLd({ term: term.term, url: path, dateModified: contentLastmod(`glossary:${term.slug}`) }),
           breadcrumbJsonLd(crumbs),
         ]}
       />
